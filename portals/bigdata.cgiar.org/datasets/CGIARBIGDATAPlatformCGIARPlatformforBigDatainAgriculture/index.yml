@@ -1,0 +1,44 @@
+'@context': https://schema.org
+'@graph':
+- '@id': https://bigdata.cgiar.org/#website
+  '@type': WebSite
+  description: Feeding the future. Byte by byte.
+  inLanguage: en-US
+  name: CGIAR Platform for Big Data in Agriculture
+  potentialAction:
+  - '@type': SearchAction
+    query-input: required name=search_term_string
+    target:
+      '@type': EntryPoint
+      urlTemplate: https://bigdata.cgiar.org/?s={search_term_string}
+  url: https://bigdata.cgiar.org/
+- '@id': https://bigdata.cgiar.org/#primaryimage
+  '@type': ImageObject
+  contentUrl: https://bigdata.cgiar.org/wp-content/uploads/2019/08/background-home2019-min.png
+  height: 389
+  inLanguage: en-US
+  url: https://bigdata.cgiar.org/wp-content/uploads/2019/08/background-home2019-min.png
+  width: 800
+- '@id': https://bigdata.cgiar.org/#webpage
+  '@type': WebPage
+  breadcrumb:
+    '@id': https://bigdata.cgiar.org/#breadcrumb
+  dateModified: '2020-12-10T15:01:19+00:00'
+  datePublished: '2019-08-14T10:10:40+00:00'
+  inLanguage: en-US
+  isPartOf:
+    '@id': https://bigdata.cgiar.org/#website
+  name: CGIAR BIG DATA Platform - CGIAR Platform for Big Data in Agriculture
+  potentialAction:
+  - '@type': ReadAction
+    target:
+    - https://bigdata.cgiar.org/
+  primaryImageOfPage:
+    '@id': https://bigdata.cgiar.org/#primaryimage
+  url: https://bigdata.cgiar.org/
+- '@id': https://bigdata.cgiar.org/#breadcrumb
+  '@type': BreadcrumbList
+  itemListElement:
+  - '@type': ListItem
+    name: Home
+    position: 1

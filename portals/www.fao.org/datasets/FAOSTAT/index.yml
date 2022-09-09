@@ -1,0 +1,9 @@
+abstract: '['
+contact:
+  email: ''
+  name: ''
+  organisation: ''
+identifier: FAOSTAT
+license: ''
+name: FAOSTAT
+url: https://www.fao.org/faostat/en/

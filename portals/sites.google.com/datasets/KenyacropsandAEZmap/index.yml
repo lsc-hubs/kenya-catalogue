@@ -1,0 +1,10 @@
+abstract: "Kenya Crops and AEZ app (playstore\_\_)"
+contact:
+  email: ''
+  name: ''
+  organisation: ''
+identifier: KenyacropsandAEZmap
+license: ''
+name: !!python/object/new:lxml.etree._ElementUnicodeResult
+- Kenya crops and AEZ map
+url: https://sites.google.com/view/kenyacrops

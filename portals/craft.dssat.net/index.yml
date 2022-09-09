@@ -1,0 +1,13 @@
+abstract: The CCAFS Regional Agricultural Forecasting Toolbox (CRAFT) is a software
+  platform designed for yield forecasting at spatial resolutions of either 5 or 30
+  arc-minutes using an ensemble modeling approach. Currently, the DSSAT, APSIM, and
+  SARRA-H crop simulation models have been implemented for nine important food and
+  feed crops using the AgMIP IT tools. CGIAR.
+contact:
+  email: ''
+  name: ''
+  organisation: ''
+identifier: craft.dssat.net
+license: ''
+name: CRAFT
+url: https://craft.dssat.net/
