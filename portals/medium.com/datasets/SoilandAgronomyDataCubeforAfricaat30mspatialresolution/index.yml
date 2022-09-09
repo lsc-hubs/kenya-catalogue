@@ -1,0 +1,30 @@
+'@context': http://schema.org
+'@type': NewsArticle
+author:
+  '@type': Person
+  name: OpenGeoHub
+  url: https://opengeohub.medium.com
+creator:
+- OpenGeoHub
+dateCreated: '2021-04-13T16:21:39.470Z'
+dateModified: '2022-02-09T17:51:54.405Z'
+datePublished: '2021-04-13T16:21:39.470Z'
+description: "Innovative Solutions for Decision Agriculture Ltd (iSDA) is a social\
+  \ enterprise with the mission to improve smallholder farmer profitability across\
+  \ Africa. iSDA has released in November 2020 a\u2026"
+headline: Soil and Agronomy Data Cube for Africa at 30-m spatial resolution
+identifier: 591e04bfc372
+image:
+- https://miro.medium.com/max/1200/0*tu0bZ7L95gxi-qWz
+mainEntityOfPage: https://medium.com/nerd-for-tech/soil-and-agronomy-data-cube-for-africa-at-30-m-spatial-resolution-591e04bfc372
+name: Soil and Agronomy Data Cube for Africa at 30-m spatial resolution
+publisher:
+  '@type': Organization
+  logo:
+    '@type': ImageObject
+    height: 60
+    url: https://miro.medium.com/max/120/1*53-lvCPnPV4sTOmvcITDxw.png
+    width: 60
+  name: Nerd For Tech
+  url: https://medium.com/nerd-for-tech
+url: https://medium.com/nerd-for-tech/soil-and-agronomy-data-cube-for-africa-at-30-m-spatial-resolution-591e04bfc372

@@ -1,0 +1,10 @@
+abstract: Global Facility for Disaster Reduction and Recovery; tools for data interpretation
+contact:
+  email: ''
+  name: ''
+  organisation: ''
+identifier: OnlineToolsGFDRR
+license: ''
+name: !!python/object/new:lxml.etree._ElementUnicodeResult
+- Online Tools | GFDRR
+url: https://www.gfdrr.org/en/onlinetools

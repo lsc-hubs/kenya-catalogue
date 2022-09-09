@@ -1,0 +1,15 @@
+'@context': https://schema.org/
+'@type': DataCatalog
+creator:
+  '@type': Organization
+  address:
+    '@type': PostalAddress
+    addressLocality: Wageningen, The Netherlands
+    postalCode: 6708 PB
+    streetAddress: Droevendaalsesteeg 3
+  legalName: ISRIC - World Soil Information
+description: Soil Metadata Catalogue (ISRIC - World Soil Information), data search
+  website
+keywords: soil, data, soilgrids, world, isric, gis, metadata
+name: Soil Metadata Catalogue
+url: https://data.isric.org/geonetwork/srv/eng/catalog.search#/home

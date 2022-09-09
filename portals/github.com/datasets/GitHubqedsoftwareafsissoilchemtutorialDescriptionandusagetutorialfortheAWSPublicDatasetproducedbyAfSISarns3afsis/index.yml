@@ -1,0 +1,11 @@
+abstract: .nan
+contact:
+  email: ''
+  name: ''
+  organisation: ''
+identifier: GitHubqedsoftwareafsissoilchemtutorialDescriptionandusagetutorialfortheAWSPublicDatasetproducedbyAfSISarns3afsis
+license: ''
+name: !!python/object/new:lxml.etree._ElementUnicodeResult
+- 'GitHub - qedsoftware/afsis-soil-chem-tutorial: Description and usage tutorial for
+  the AWS Public Dataset produced by AfSIS (arn s3:::afsis)'
+url: https://github.com/qedsoftware/afsis-soil-chem-tutorial
