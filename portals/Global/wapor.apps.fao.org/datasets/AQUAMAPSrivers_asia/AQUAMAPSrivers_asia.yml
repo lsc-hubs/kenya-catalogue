@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  AQUAMAPS:rivers_africa:
+    name: AQUAMAPS:rivers_asia
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 59.164583333333326
+      - -10.65208333333333
+      - 164.40833333333165
+      - 60.21041666666555
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - rivers_asia
+  name: AQUAMAPS:rivers_asia
+  title: Rivers in South and East Asia (Derived from HydroSHEDS)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:21.010342
+  hierarchylevel: dataset
+  identifier: AQUAMAPS:rivers_asia

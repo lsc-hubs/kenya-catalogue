@@ -1,0 +1,38 @@
+contact:
+  pointOfContact:
+    address: ' '
+    administrativearea: ' '
+    city: ' '
+    country: ' '
+    email: null
+    individualname: ' '
+    organization: ' '
+    positionname: ' '
+    postalcode: ' '
+    url: https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer
+distribution:
+  LR:AEZ Classification (57 Classes):
+    name: LR:Median Altitude
+    type: OGC:WMS
+    url: https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer
+identification:
+  abstract: WMS
+  accessconstraints: ''
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 180.0
+      - 90.0
+  fees: ''
+  keywords:
+    default:
+      keywords: []
+  name: LR:Median Altitude
+  title: LR:Median Altitude
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:04.672064
+  hierarchylevel: dataset
+  identifier: LR:Median Altitude

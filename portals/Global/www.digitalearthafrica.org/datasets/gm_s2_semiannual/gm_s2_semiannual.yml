@@ -1,0 +1,73 @@
+contact:
+  pointOfContact:
+    address: GPO Box 378
+    administrativearea: ACT
+    city: Canberra
+    country: Australia
+    email: null
+    individualname: Digital Earth Africa
+    organization: Digital Earth Africa
+    positionname: null
+    postalcode: '2609'
+    url: digitalearthafrica.org//
+distribution:
+  gm_ls5_ls7_annual:
+    name: gm_s2_semiannual
+    type: OGC:WMS
+    url: https://ows.digitalearth.africa/
+identification:
+  abstract: "Individual remote sensing images can be affected by noisy data, such\
+    \ as clouds, cloud shadows, and haze. To produce cleaner images that can be compared\
+    \ more easily across time, we can create 'summary' images or 'composites' that\
+    \ combine multiple images into one image to reveal the median or 'typical' appearance\
+    \ of the landscape for a certain time period.\n\nOne approach is to create a geomedian.\
+    \ A geomedian is based on a high-dimensional statistic called the 'geometric median'\
+    \ (Small 1990), which effectively trades a temporal stack of poor-quality observations\
+    \ for a single high-quality pixel composite with reduced spatial noise (Roberts\
+    \ et al. 2017). In contrast to a standard median, a geomedian maintains the relationship\
+    \ between spectral bands. This allows further analysis on the composite images,\
+    \ just as we would on the original satellite images (e.g. by allowing the calculation\
+    \ of common band indices like NDVI). An semiannual geomedian image is calculated\
+    \ from the surface reflectance values drawn from a 6 month period.\n\nIn addition,\
+    \ surface reflectance varabilities within the same time period can be measured\
+    \ to support characterization of the land surfaces. The median absolute deviation\
+    \ (MAD) is a robust measure (resilient to outliers) of the variability within\
+    \ a dataset. For multi-spectral Earth observation, deviation can be measured against\
+    \ the geomedian using a number of distance metrics.  Three of these metrics are\
+    \ adopted to highlight different types of changes in the landscape:\n- Euclidean\
+    \ distance (EMAD), which is more sensitive to changes in target brightness.\n\
+    - Cosine (spectral) distance (SMAD), which is more sensitive to changes in target\
+    \ spectral response.\n- Bray Curtis dissimilarity (BCMAD), which is more sensitive\
+    \ to the distribution of the observation values through time.\n\nMore techincal\
+    \ information about the GeoMAD product can be found in the User Guide (https://docs.digitalearthafrica.org/en/latest/data_specs/GeoMAD_specs.html)\n\
+    \nThis product has a spatial resolution of 10 m and is available semiannually\
+    \ for 2017 to 2021 in 6 month intervals: January\u2013June and July\u2013December.\n\
+    It is derived from Surface Reflectance Sentinel-2 data. This product contains\
+    \ modified Copernicus Sentinel data 2017-2021.\n\nSemiannual geomedian images\
+    \ and the MADs are useful for characterising landscapes with seasonal changes.\n\
+    \nFor more information on the algorithm, see https://doi.org/10.1109/TGRS.2017.2723896\
+    \ and https://doi.org/10.1109/IGARSS.2018.8518312"
+  accessconstraints: none
+  extents:
+    spatial:
+    - bbox: !!python/tuple
+      - -27.85888307654
+      - -48.3104217167035
+      - 65.6673672518444
+      - 38.9988828990037
+  fees: none
+  keywords:
+    default:
+      keywords:
+      - africa
+      - landsat
+      - WOfS
+      - time-series
+      - fractional-cover
+  name: gm_s2_semiannual
+  title: Semiannual GeoMAD (Sentinel-2)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 15:51:43.568273
+  hierarchylevel: dataset
+  identifier: gm_s2_semiannual

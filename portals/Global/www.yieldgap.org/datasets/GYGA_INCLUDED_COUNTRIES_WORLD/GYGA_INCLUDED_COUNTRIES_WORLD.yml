@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: Wageningen
+    country: Neteherlands
+    email: null
+    individualname: Alterra Centre for Geo-Information
+    organization: Alterra Centre for Geo-Information
+    positionname: Helpdesk
+    postalcode: null
+    url: http://geoserver.sourceforge.net/html/index.php
+distribution:
+  GYGA_INCLUDED_COUNTRIES_ASIA:
+    name: GYGA_INCLUDED_COUNTRIES_WORLD
+    type: OGC:WMS
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -178.564163
+      - -55.061314
+      - 179.102386
+      - 71.18811
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - GYGA_INCLUDED_COUNTRIES_WORLD
+      - features
+  name: GYGA_INCLUDED_COUNTRIES_WORLD
+  title: GYGA_INCLUDED_COUNTRIES_WORLD
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:05.372273
+  hierarchylevel: dataset
+  identifier: GYGA_INCLUDED_COUNTRIES_WORLD

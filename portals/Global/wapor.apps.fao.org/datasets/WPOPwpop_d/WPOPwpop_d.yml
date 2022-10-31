@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RSCROP:wheat_pdmf:
+    name: WPOP:wpop_d
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0012493
+      - -71.9920828
+      - 179.9987493
+      - 84.0079165
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - wpop_d
+      - WCS
+      - ImageMosaic
+  name: WPOP:wpop_d
+  title: Population Density
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:21.450553
+  hierarchylevel: dataset
+  identifier: WPOP:wpop_d

@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RICCAR:pispop:
+    name: AQUAMAPS:prc
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 179.999856
+      - 89.999928
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - prc
+      - WCS
+      - ImageMosaic
+  name: AQUAMAPS:prc
+  title: Global map of monthly precipitation
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:20.190577
+  hierarchylevel: dataset
+  identifier: AQUAMAPS:prc

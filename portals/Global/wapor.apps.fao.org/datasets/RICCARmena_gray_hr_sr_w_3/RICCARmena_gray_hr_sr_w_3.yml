@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RICCAR:mena_bluemarble_t_b:
+    name: RICCAR:mena_gray_hr_sr_w_3
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -27.0
+      - -7.016666666666666
+      - 76.01666666666667
+      - 45.0
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - mena_gray_hr_sr_w_3
+      - WCS
+      - GeoTIFF
+  name: RICCAR:mena_gray_hr_sr_w_3
+  title: mena_gray_hr_sr_w_3
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:19.693381
+  hierarchylevel: dataset
+  identifier: RICCAR:mena_gray_hr_sr_w_3

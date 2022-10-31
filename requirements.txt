@@ -1,0 +1,6 @@
+pandas
+pyyaml
+jsons 
+requests
+lxml
+owslib

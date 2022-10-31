@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WAPOR_2:l3_yan_tbp_s:
+    name: WAPOR_2:l3_zan_aeti_a
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 31.097017391355006
+      - 30.257963845537727
+      - 31.728453302229756
+      - 30.833819564573858
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - l3_zan_aeti_a
+      - WCS
+      - ImageMosaic
+  name: WAPOR_2:l3_zan_aeti_a
+  title: Actual EvapoTranspiration and Interception (Zankalon, Egypt - Annual)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:19.259000
+  hierarchylevel: dataset
+  identifier: WAPOR_2:l3_zan_aeti_a

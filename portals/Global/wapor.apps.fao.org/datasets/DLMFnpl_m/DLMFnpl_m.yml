@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WATER:nile_p_et:
+    name: DLMF:npl_m
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 79.28979855
+      - 24.8968080991
+      - 89.0544856883844
+      - 79.28979855
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - npl_m
+      - WCS
+      - ImageMosaic
+  name: DLMF:npl_m
+  title: Nepal
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:19.992140
+  hierarchylevel: dataset
+  identifier: DLMF:npl_m

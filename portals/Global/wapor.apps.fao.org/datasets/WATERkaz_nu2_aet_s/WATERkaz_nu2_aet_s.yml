@@ -1,0 +1,43 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WATER:kaz_nu1_rwd_s:
+    name: WATER:kaz_nu2_aet_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 70.3029017289179
+      - 49.5878371066089
+      - 71.697824099459
+      - 70.3029017289179
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - kaz_nu2_aet_s
+      - WCS
+      - ImageMosaic
+  name: WATER:kaz_nu2_aet_s
+  title: Actual EvapoTranspiration (Nura, Karaghandy region selected districts, Kazakhstan
+    - Seasonal - 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:15.959850
+  hierarchylevel: dataset
+  identifier: WATER:kaz_nu2_aet_s

@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  FROM_GLC:gci_qc_a:
+    name: AQUAMAPS:gmia_v5
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.00000000000003
+      - 179.99999999999852
+      - 89.99999999999926
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - gmia_v5
+      - WCS
+      - GeoTIFF
+  name: AQUAMAPS:gmia_v5
+  title: Global Map of Irrigation Areas - Version 5
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.669651
+  hierarchylevel: dataset
+  identifier: AQUAMAPS:gmia_v5

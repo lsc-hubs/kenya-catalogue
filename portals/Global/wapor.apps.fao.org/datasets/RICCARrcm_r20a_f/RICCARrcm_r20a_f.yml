@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RICCAR:rcm_r10a_rp:
+    name: RICCAR:rcm_r20a_f
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -26.62
+      - -6.82
+      - 75.46
+      - 45.1
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - rcm_r20a_f
+      - WCS
+      - ImageMosaic
+  name: RICCAR:rcm_r20a_f
+  title: RCM Ensemble - Very heavy precipitation days (Future)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:20.333407
+  hierarchylevel: dataset
+  identifier: RICCAR:rcm_r20a_f

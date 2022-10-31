@@ -1,5 +1,7 @@
+import datetime
+import numpy as np
 import pandas as pd
-import os, yaml, json, re 
+import os, yaml, json, re, owslib
 import requests as req
 from yaml.loader import SafeLoader
 from lxml import html
@@ -26,7 +28,7 @@ def create_initial(path,id,label,desc,author,url):
         with open(path, 'w') as f:
             yaml.dump(cnf, f)
     except Exception as e:
-        print('file '+ path +' can not be written, check it; '+ e)
+        print('file '+ path +' can not be written, check it; '+ str(e))
    
 
 myPortals = pd.read_csv(source+os.sep+'portals.csv',sep=';')
@@ -163,6 +165,64 @@ for index, row in myPortals.iterrows():
 
     elif row['api'] == "sitemap":
         print ("sitemap, not yet implemented")
+    elif row['api'] == "WMS": #WMS, WFS, WCS, WMTS ...
+        print("start WMS harvest: " + row['alt-url'])
+        from owslib.wms import WebMapService
+        try:
+            wms = WebMapService(row['alt-url'],version='1.3.0')
+        except:
+            try:
+                wms = WebMapService(row['alt-url'], version='1.1.1')
+            except Exception as e:
+                print("Harvest from WMS " + row['alt-url'] + " failed. " + str(e))
+        if (wms):
+            print ('version:',wms.identification.version)
+            idf = wms.identification
+            default = { 'title': idf.title,
+                      'abstract': idf.abstract,
+                      'keywords': idf.keywords,
+                      'accessconstraints': idf.accessconstraints,
+                      'fees': idf.fees }
+
+            contact = {
+                          'pointOfContact': {
+                             'organization': wms.provider.name,
+                             'url': wms.provider.url,
+                             'individualname': wms.provider.name,
+                             'email': wms.provider.contact.email,
+                             'address': wms.provider.contact.address,
+                             'city':wms.provider.contact.city,
+                             'administrativearea': wms.provider.contact.region,
+                             'postalcode': wms.provider.contact.postcode,
+                             'country':wms.provider.contact.country,
+                             'positionname': wms.provider.contact.position
+                          }}
+
+            for i, (k, layer) in enumerate(wms.contents.items()):
+                lyrmd = default.copy()
+
+                lyrmd['name'] = layer.name
+                lyrmd['abstract'] = layer.abstract or lyrmd['abstract']
+                lyrmd['title'] = layer.title or lyrmd['name']
+                lyrmd['keywords'] = {'default': {'keywords': layer.keywords}}
+                lyrmd['extents'] = {'spatial': [{'bbox': list(layer.boundingBoxWGS84) }]}
+                # todo: if 'metadataUrls', fetch metadata, get identifier
+                # todo: on owslib, extract identifier
+
+                distribution = { id : { 'url': row['alt-url'], 'type': 'OGC:WMS', 'name': layer.name } }
+
+                id = layer.name # (better use code, seems not on owslib)
+                # todd: fetch image from wms as thumbnail
+                # todo: fetch identifier, create folder
+                # todo: add wms url
+                if not os.path.isdir(ds_folder + id):
+                    os.makedirs(ds_folder + id)
+                with open(ds_folder + id + os.sep + id + ".yml", 'w') as f:
+                    yaml.dump({'mcf':1.0,
+                        'distribution': distribution,
+                        'metadata':{ 'identifier':id,'hierarchylevel':'dataset',
+                        'datestamp': datetime.datetime.now()
+                        }, 'contact':contact,'identification':lyrmd}, f)
     elif row['api'] == "OWS": #WMS, WFS, WCS, WMTS ...
         print ("ows, not yet implemented")
     else: # now loop though the various url's act as resources

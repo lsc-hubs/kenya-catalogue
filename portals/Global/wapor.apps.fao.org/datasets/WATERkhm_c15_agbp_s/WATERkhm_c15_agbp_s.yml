@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WATER:khm_c15_aet_s:
+    name: WATER:khm_c15_agbp_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 104.79193964113746
+      - 4.317959911258186
+      - 104.9723004913677
+      - 11.075366688321509
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - khm_c15_agbp_s
+      - WCS
+      - ImageMosaic
+  name: WATER:khm_c15_agbp_s
+  title: Above Ground Biomass Production (Canal 15, Cambodia - Seasonal)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:16.138073
+  hierarchylevel: dataset
+  identifier: WATER:khm_c15_agbp_s

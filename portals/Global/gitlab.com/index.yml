@@ -1,0 +1,9 @@
+abstract: Ref to 30 m data layers used by OpenGeoHub for ISDA soil
+contact:
+  email: ''
+  name: ''
+  organisation: ''
+identifier: Global/gitlab.com
+license: ''
+name: Soil and Agronomy Data Cube for Africa at 30-m spatial resolution
+url: https://gitlab.com/openlandmap/africa-soil-and-agronomy-data-cube/-/blob/master/csv/wasabi-africa-soil.csv

@@ -1,0 +1,43 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WATER:kaz_nu1_agbp_s:
+    name: WATER:kaz_nu1_gbwp_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 70.91217685408462
+      - 1.9160270540033795
+      - 72.90825903211505
+      - 50.82814540949639
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - kaz_nu1_gbwp_s
+      - WCS
+      - ImageMosaic
+  name: WATER:kaz_nu1_gbwp_s
+  title: Gross Biomass Water Productivity (Nura, Karaghandy region selected districts,
+    Kazakhstan - Seasonal - 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:15.937666
+  hierarchylevel: dataset
+  identifier: WATER:kaz_nu1_gbwp_s

@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: Wageningen
+    country: Neteherlands
+    email: null
+    individualname: Alterra Centre for Geo-Information
+    organization: Alterra Centre for Geo-Information
+    positionname: Helpdesk
+    postalcode: null
+    url: http://geoserver.sourceforge.net/html/index.php
+distribution:
+  Country_Border:
+    name: GLD_0_GYGAWORLD
+    type: OGC:WMS
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -62.2134696899857
+      - 180.0
+      - 90.0
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - GLD_0_GYGAWORLD
+      - features
+  name: GLD_0_GYGAWORLD
+  title: GLD_0_GYGAWORLD
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:05.330671
+  hierarchylevel: dataset
+  identifier: GLD_0_GYGAWORLD

@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: Wageningen
+    country: Neteherlands
+    email: null
+    individualname: Alterra Centre for Geo-Information
+    organization: Alterra Centre for Geo-Information
+    positionname: Helpdesk
+    postalcode: null
+    url: http://geoserver.sourceforge.net/html/index.php
+distribution:
+  GYGA_SELECTED_CLIMATEZONES_ASIA:
+    name: GYGA_SELECTED_CLIMATEZONES_EUROPE
+    type: OGC:WMS
+    url: https://46.19.32.32:8080/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -31.265747
+      - 27.675961
+      - 40.204616
+      - 71.173306
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - GYGA_SELECTED_CLIMATEZONES_EUROPE
+  name: GYGA_SELECTED_CLIMATEZONES_EUROPE
+  title: GYGA_SELECTED_CLIMATEZONES_EUROPE
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:10.813156
+  hierarchylevel: dataset
+  identifier: GYGA_SELECTED_CLIMATEZONES_EUROPE

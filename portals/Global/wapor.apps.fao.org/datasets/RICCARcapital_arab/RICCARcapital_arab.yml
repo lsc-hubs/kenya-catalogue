@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  UNMAP:bndl:
+    name: RICCAR:capital_arab
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -15.975340415327878
+      - 2.068627193090549
+      - 58.59331213304853
+      - 36.80277813650184
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - capital_arab
+  name: RICCAR:capital_arab
+  title: Capital Arab
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:13.844879
+  hierarchylevel: dataset
+  identifier: RICCAR:capital_arab

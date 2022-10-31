@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RICCAR:rcm_tmina_f:
+    name: RICCAR:rcm_tmina_rp
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -26.6199999
+      - -6.8199999
+      - 75.4600134
+      - 45.1000068
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - rcm_tmina_rp
+      - WCS
+      - ImageMosaic
+  name: RICCAR:rcm_tmina_rp
+  title: RCM Ensemble - Annual Minimum Temperature (Reference Period)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:20.500507
+  hierarchylevel: dataset
+  identifier: RICCAR:rcm_tmina_rp

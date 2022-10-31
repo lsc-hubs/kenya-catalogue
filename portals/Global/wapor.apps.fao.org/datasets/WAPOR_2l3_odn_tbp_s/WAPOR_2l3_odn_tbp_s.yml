@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WAPOR_2:l3_odn_t_d:
+    name: WAPOR_2:l3_odn_tbp_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -6.280939945537884
+      - 13.747357307650178
+      - -5.839572443032476
+      - 14.560298970033983
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - l3_odn_tbp_s
+      - WCS
+      - ImageMosaic
+  name: WAPOR_2:l3_odn_tbp_s
+  title: Total Biomass Production (Office du Niger, Mali - Seasonal, 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:18.770791
+  hierarchylevel: dataset
+  identifier: WAPOR_2:l3_odn_tbp_s

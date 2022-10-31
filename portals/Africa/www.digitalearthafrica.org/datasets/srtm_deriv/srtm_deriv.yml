@@ -1,0 +1,61 @@
+contact:
+  pointOfContact:
+    address: GPO Box 378
+    administrativearea: ACT
+    city: Canberra
+    country: Australia
+    email: null
+    individualname: Digital Earth Africa
+    organization: Digital Earth Africa
+    positionname: null
+    postalcode: '2609'
+    url: digitalearthafrica.org//
+distribution:
+  dem_cop_30:
+    name: srtm_deriv
+    type: OGC:WMS
+    url: https://ows.digitalearth.africa/
+identification:
+  abstract: "Derivative products of a Digital Elevation Model (DEM) can be used to\
+    \ better understand the Earth's topography and model illumination, geometry, and\
+    \ aspect. DE Africa provides three Shuttle Radar Topography Mission (SRTM) derivative\
+    \ products:\n\n - Slope: rate of elevation change, expressed as a percentage\n\
+    \ - Multi-resolution Valley Bottom Flatness (MrVBF): topographic index used to\
+    \ identify valley bottoms, which are useful for hydrological and sedimentation\
+    \ modelling. In this product, 0 indicates areas which are not valley bottom areas,\
+    \ while 1 - 7 indicate increasingly flatter and larger valley bottoms\n - Multi-resolution\
+    \ Ridge Top Flatness (MrRTF): topographic index used for landform classification.\
+    \ It uses a scale of 0 - 7 inclusive; 0 indicates steep or low locations while\
+    \ 1 - 7 indicate increasingly larger areas of high flat land\n\nThe latter two\
+    \ identify the dominant nature of the topography as either ridge-like or valley-like\
+    \ (Gallant and Dowling, 2003).\n\nThese derivative products have a spatial resolution\
+    \ of 30 m and are derived from data collected by NASA's Shuttle Radar Topography\
+    \ Mission in 2000.\n\nSRTM data is provided by NASA's Land Processes Distributed\
+    \ Active Archive Center (LP DAAC).\n\nFor more information on SRTM, see https://lpdaac.usgs.gov/products/srtmgl1v003/\n\
+    For more information on generating the derivative product, see https://github.com/digitalearthafrica/dem-derivative\n\
+    \nThis product is accessible through OGC Web Service (https://ows.digitalearth.africa/),\
+    \ for analysis in DE Africa Sandbox JupyterLab (https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/wiki)."
+  accessconstraints: none
+  extents:
+    spatial:
+    - bbox:
+      - -32.0004045339007
+      - -45.9999930449652
+      - 60.9997606363866
+      - 47.0003760740432
+  fees: none
+  keywords:
+    default:
+      keywords:
+      - time-series
+      - fractional-cover
+      - landsat
+      - africa
+      - WOfS
+  name: srtm_deriv
+  title: SRTM-derived Slope and Flatness Indices (30 m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:16:36.993356
+  hierarchylevel: dataset
+  identifier: srtm_deriv

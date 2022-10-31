@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RICCAR:exp_tmin_22:
+    name: RICCAR:expf
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -17.10153
+      - -1.67487
+      - 59.84847
+      - 37.3842934
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - expf
+      - WCS
+      - ImageMosaic
+  name: RICCAR:expf
+  title: Vulnerability Assessment Output Indicators - Exposure (Future)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.591643
+  hierarchylevel: dataset
+  identifier: RICCAR:expf

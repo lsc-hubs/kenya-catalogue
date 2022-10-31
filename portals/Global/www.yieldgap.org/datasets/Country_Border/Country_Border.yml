@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: Wageningen
+    country: Neteherlands
+    email: null
+    individualname: Alterra Centre for Geo-Information
+    organization: Alterra Centre for Geo-Information
+    positionname: Helpdesk
+    postalcode: null
+    url: http://geoserver.sourceforge.net/html/index.php
+distribution:
+  CZ_WRLDGYGACNTRY:
+    name: Country_Border
+    type: OGC:WMS
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -179.99999999999994
+      - -89.90000152587893
+      - 180.0
+      - 83.62741851806635
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - GLD_0_country
+  name: Country_Border
+  title: GLD_0_country
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:05.320331
+  hierarchylevel: dataset
+  identifier: Country_Border

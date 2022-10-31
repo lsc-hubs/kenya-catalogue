@@ -1,0 +1,43 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  GAEZ_V4:lr_mst_regime_class:
+    name: GAEZ_V4:lr_soi2
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -180.0
+      - 180.0
+      - 90.0
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - lr_soi2
+      - WCS
+      - ImageMosaic
+  name: GAEZ_V4:lr_soi2
+  title: Land and Water Resources - Soil suitability - Soil and terrain suitability,
+    rain-fed, inputs
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:19.652183
+  hierarchylevel: dataset
+  identifier: GAEZ_V4:lr_soi2

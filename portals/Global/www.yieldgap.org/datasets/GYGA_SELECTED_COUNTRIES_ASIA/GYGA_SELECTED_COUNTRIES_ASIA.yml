@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: Wageningen
+    country: Neteherlands
+    email: null
+    individualname: Alterra Centre for Geo-Information
+    organization: Alterra Centre for Geo-Information
+    positionname: Helpdesk
+    postalcode: null
+    url: http://geoserver.sourceforge.net/html/index.php
+distribution:
+  GYGA_SELECTED_CLIMATEZONES_WORLD:
+    name: GYGA_SELECTED_COUNTRIES_ASIA
+    type: OGC:WMS
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 44.047264
+      - -11.00485
+      - 141.021805
+      - 53.558499
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - GYGA_SELECTED_COUNTRIES_ASIA
+  name: GYGA_SELECTED_COUNTRIES_ASIA
+  title: GYGA_SELECTED_COUNTRIES_ASIA
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:05.414618
+  hierarchylevel: dataset
+  identifier: GYGA_SELECTED_COUNTRIES_ASIA

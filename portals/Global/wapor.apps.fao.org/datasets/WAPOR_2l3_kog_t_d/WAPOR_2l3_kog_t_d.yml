@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WAPOR_2:l3_kog_t_a:
+    name: WAPOR_2:l3_kog_t_d
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 36.94831457154345
+      - 11.274239961968261
+      - 37.3080561965306
+      - 11.599483845463604
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - l3_kog_t_d
+      - WCS
+      - ImageMosaic
+  name: WAPOR_2:l3_kog_t_d
+  title: Transpiration (Koga, Ethiopia - Dekadal)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:17.812608
+  hierarchylevel: dataset
+  identifier: WAPOR_2:l3_kog_t_d

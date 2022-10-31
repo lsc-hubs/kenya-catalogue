@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WATER:k2_p_et:
+    name: WATER:k2_perco
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 74.595299
+      - 15.7714691
+      - 77.287804
+      - 16.9514694
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - k2_perco
+      - WCS
+      - ImageMosaic
+  name: WATER:k2_perco
+  title: Percolation (K2, Karnataka, India - Monthly)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:15.282646
+  hierarchylevel: dataset
+  identifier: WATER:k2_perco

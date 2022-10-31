@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WAPOR_2:l3_yan_i_d:
+    name: WAPOR_2:l3_yan_lcc_d
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 29.916464100762557
+      - -1.9471009827895782
+      - 30.056877019816813
+      - -1.7435831353972318
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - l3_yan_lcc_d
+      - WCS
+      - ImageMosaic
+  name: WAPOR_2:l3_yan_lcc_d
+  title: Land Cover Classification (Yanze catchment, Rwanda - Seasonal, 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:19.145870
+  hierarchylevel: dataset
+  identifier: WAPOR_2:l3_yan_lcc_d

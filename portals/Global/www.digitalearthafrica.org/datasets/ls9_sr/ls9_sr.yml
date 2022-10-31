@@ -1,0 +1,60 @@
+contact:
+  pointOfContact:
+    address: GPO Box 378
+    administrativearea: ACT
+    city: Canberra
+    country: Australia
+    email: null
+    individualname: Digital Earth Africa
+    organization: Digital Earth Africa
+    positionname: null
+    postalcode: '2609'
+    url: digitalearthafrica.org//
+distribution:
+  s2_l2a:
+    name: ls9_sr
+    type: OGC:WMS
+    url: https://ows.digitalearth.africa/
+identification:
+  abstract: "Surface reflectance is the fraction of incoming solar radiation that\
+    \ is reflected from Earth's surface. Variations in satellite measured radiance\
+    \ due to atmospheric properties have been corrected for, so images acquired over\
+    \ the same area at different times are comparable and can be used readily to detect\
+    \ changes on Earth\u2019s surface.\n\nDE Africa provides access to Landsat Collection\
+    \ 2 Level-2 Surface Reflectance products over Africa. USGS Landsat Collection\
+    \ 2 offers improved processing, geometric accuracy, and radiometric calibration\
+    \ compared to previous Collection 1 products. The Level-2 products are endorsed\
+    \ by the Committee on Earth Observation Satellites (CEOS) to be Analysis Ready\
+    \ Data for Land (CARD4L)-compliant.\n\nMore techincal information about the Landsat\
+    \ Surface Reflectance product can be found in the User Guide (https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html).\n\
+    \nLandsat 9 product has a spatial resolution of 30 m and a temporal coverage of\
+    \ 2021 to present.\n\nLandsat Level- 2 Surface Reflectance Science Product courtesy\
+    \ of the U.S. Geological Survey.\n\nFor more information on Landsat products,\
+    \ see https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-2-science-products.\n\
+    \nThis product is accessible through OGC Web Service (https://ows.digitalearth.africa/),\
+    \ for analysis in DE Africa Sandbox JupyterLab (https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/wiki)\
+    \ and for direct download from AWS S3 (https://data.digitalearth.africa/)."
+  accessconstraints: none
+  extents:
+    spatial:
+    - bbox: !!python/tuple
+      - -28.2004884162194
+      - -48.5135365560382
+      - 65.0237243210835
+      - 39.9520888691539
+  fees: none
+  keywords:
+    default:
+      keywords:
+      - africa
+      - landsat
+      - WOfS
+      - time-series
+      - fractional-cover
+  name: ls9_sr
+  title: Surface reflectance (Landsat 9)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 15:51:43.432841
+  hierarchylevel: dataset
+  identifier: ls9_sr

@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  NATURAL_EARTH:gray_hr_sr_w_3:
+    name: RICCAR:gray_hr_sr_w_3
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -17.116666666666674
+      - -1.6833333333333371
+      - 59.849999999999994
+      - 37.4
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - gray_hr_sr_w_3
+      - WCS
+      - GeoTIFF
+  name: RICCAR:gray_hr_sr_w_3
+  title: gray_hr_sr_w_3
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.700987
+  hierarchylevel: dataset
+  identifier: RICCAR:gray_hr_sr_w_3

@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  NASA:bluemarble_t_b:
+    name: RICCAR:bluemarble_t_b
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -17.104166666666657
+      - -1.6749999999999972
+      - 59.85000000000001
+      - 37.3875
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - bluemarble_t_b
+      - WCS
+      - GeoTIFF
+  name: RICCAR:bluemarble_t_b
+  title: bluemarble_t_b
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:13.814847
+  hierarchylevel: dataset
+  identifier: RICCAR:bluemarble_t_b

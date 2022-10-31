@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WAPOR_2:l3_bka_t_d:
+    name: WAPOR_2:l3_bka_tbp_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 35.612240286000116
+      - 33.438554156401345
+      - 36.50123068547581
+      - 34.30039513900849
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - l3_bka_tbp_s
+      - WCS
+      - ImageMosaic
+  name: WAPOR_2:l3_bka_tbp_s
+  title: Total Biomass Production (Bekaa, Lebanon - Seasonal, 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:17.225571
+  hierarchylevel: dataset
+  identifier: WAPOR_2:l3_bka_tbp_s

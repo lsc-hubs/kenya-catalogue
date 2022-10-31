@@ -1,4 +1,5 @@
 url;label;country;api;description;alt-url
+https://www.digitalearthafrica.org/;Digital Earth;Africa;WMS;Nothing much useful. Lots of EO data though.;https://ows.digitalearth.africa/
 https://tamasa.cimmyt.org/tamasa-data;Tamasa;Africa;OAI;"Soil and agronomic data;fertiliser response";https://data.cimmyt.org/oai?verb=ListSets
 http://www.igad.int/about/;IGAD;Global;CSW;The IGAD 2021-2025 Strategy sets the strategic framework for priority interventions over the first five year for the implementation of IGAD Vision 2050. It builds on a number of on-going Programmes established to develop resilient ecosystems and economic growth. The programmes include IGAD Drought Disaster Resilience and Sustainability Initiative (IDDRSI), regional CAADP Compact, Institutional Strengthening Action Programme (ISAP), Agriculture, Livestock, Fisheries and Food Security, Natural Resources and Environmental Protection, Regional Economic Cooperation and Integration, Social Development, Peace and Security, Gender Affairs, and other strategies and policy papers which underpin the IGAD regional programmes.;https://geonode.igad.int/catalogue/csw?request=GetCapabilities&service=CSW&version=2.0.2
 https://wle.cgiar.org/news/new-ethiopian-ministry-agriculture-data-sharing-policy-supported-wle-ciat-and-giz-improve-food;CIAT;ET;;The inventory lists and describes 23 major soil and agronomic data hosting initiatives and institutions in ET.;
@@ -22,14 +23,13 @@ https://www.isric.org/projects/capacity-building-scaling-evidence-based-best-pra
 https://www.isric.org/projects/realise-survey-and-mapping-soil-resources;BENEFIT-REALISE;Africa;;Soil class maps. Plus a number of 50m layers;
 https://www.worldbank.org/en/results/2017/12/01/hydromet;HYDROMET (WB);Africa;;Climate risks;https://www.gfdrr.org/en/africa-hydromet-program
 https://www.gfdrr.org/en/onlinetools;GFDRR;Global;;"Global Facility for Disaster Reduction and Recovery;tools for data interpretation";
-https://www.gaez.iiasa.ac.at/;GAEZ;Global;;Global AEZ incl. Climate, suitability, potential and actual yields;
-http://www.yieldgap.org/atlas-advanced-users;GYGA;Global;;Global Yield Gap Atlas;
+https://www.gaez.iiasa.ac.at/;GAEZ;Global;WMS;Global AEZ incl. Climate, suitability, potential and actual yields;https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer
+https://www.yieldgap.org/atlas-advanced-users;GYGA;Global;WMS;Global Yield Gap Atlas;https://www.yieldgap.org/geoserver/gyga/wms
 https://bigdata.cgiar.org/;CG big data;Global;;;
 https://www.minagri.gov.rw/services;Minagri;RW;;MoA agricultural information services;
 https://dataverse.harvard.edu/dataverse/harvard;Harvard Dataverse;Global;OAI;;https://dataverse.harvard.edu/oai?verb=ListSets
-https://www.digitalearthafrica.org/;Digital Earth;Global;WMS;Nothing much useful. Lots of EO data though.;https://ows.digitalearth.africa/
-http://www.tiger.esa.int/page_eoservices.php;ESA;Global;;Water;
-https://wapor.apps.fao.org/home/WAPOR_2/1;FAO WAPOR;Global;;Water productivity;
+https://www.tiger.esa.int/page_eoservices.php;ESA;Global;WMS;Water;https://46.19.32.32:8080/geoserver/wms
+https://wapor.apps.fao.org;FAO WAPOR;Global;WMS;Water productivity;https://io.apps.fao.org/geoserver/wms
 https://agrofims.org/experiments;Agrofims;Global;;Standardised interoperable data on mainly trials and incl. soil;
 https://labs.scio.systems;CGlabs;Global;;Much data layers;
 https://www.yara.com/crop-nutrition/digital-farming/;Yara;Global;;;
@@ -69,7 +69,6 @@ http://acp.int/sites/acpsec.waw.be/files/acpdoc/public-documents/Compendium_CC_1
 https://www.twiga-h2020.eu/;TWIGA;Global;;Provide currently unavailable geo-information on weather, water and climate for sub-Saharan Africa by enhancing satellite-based geo-data with innovative in situ sensors and developing related information services that answer needs of African stakeholders and the GEOSS community.;
 https://gaez-data-portal-hqfao.hub.arcgis.com/pages/data-access-download;GAEZ v4;Global;ESRI;Attainable crop yields, soil suitability;
 https://www.isimip.org;ISIMIP;Global;;Climate [change] data;
-https://wapor.apps.fao.org;WAPOR;Global;;Climate and water productivity data;
 https://www.africageoportal.com/;Africa geoportal;Africa;;Includes soil data;
 https://github.com/mgwalsh?tab=repositories;AfSIS ltd;Global;;R scripts, data (soil, crop);
 https://osf.io/bjtcq/;AfSIS ltd;Global;;"R scripts, data (soil, crop);Markus";

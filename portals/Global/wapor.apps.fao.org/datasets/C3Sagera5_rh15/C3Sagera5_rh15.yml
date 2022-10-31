@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  C3S:agera5_rh12:
+    name: C3S:agera5_rh15
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 180.0
+      - 90.0
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - agera5_rh15
+      - WCS
+      - ImageMosaic
+  name: C3S:agera5_rh15
+  title: Relative Humidity (at 15h LT)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:13.620003
+  hierarchylevel: dataset
+  identifier: C3S:agera5_rh15

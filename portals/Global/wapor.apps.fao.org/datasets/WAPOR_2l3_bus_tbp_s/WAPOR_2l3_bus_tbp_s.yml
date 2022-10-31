@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WAPOR_2:l3_bus_t_d:
+    name: WAPOR_2:l3_bus_tbp_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 34.08285207800128
+      - 0.2912299864333323
+      - 34.44684463984961
+      - 0.7797377373914701
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - l3_bus_tbp_s
+      - WCS
+      - ImageMosaic
+  name: WAPOR_2:l3_bus_tbp_s
+  title: Total Biomass Production (Busia, Kenya - Seasonal, 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:17.391764
+  hierarchylevel: dataset
+  identifier: WAPOR_2:l3_bus_tbp_s

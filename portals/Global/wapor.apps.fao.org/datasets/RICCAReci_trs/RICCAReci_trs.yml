@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  RICCAR:eci_tra:
+    name: RICCAR:eci_trs
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -26.62
+      - -6.82
+      - 75.46
+      - 45.1
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - eci_trs
+      - WCS
+      - ImageMosaic
+  name: RICCAR:eci_trs
+  title: RCM Extreme Climate Indices - Tropical Nights (Seasonal)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.275939
+  hierarchylevel: dataset
+  identifier: RICCAR:eci_trs

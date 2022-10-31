@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: Wageningen
+    country: Neteherlands
+    email: null
+    individualname: Alterra Centre for Geo-Information
+    organization: Alterra Centre for Geo-Information
+    positionname: Helpdesk
+    postalcode: null
+    url: http://geoserver.sourceforge.net/html/index.php
+distribution:
+  frac_irsunflower:
+    name: frac_rfbarley
+    type: OGC:WMS
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -179.99999999999986
+      - -64.416666666055
+      - 179.99999999998576
+      - 90.0000000006055
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - WCS
+      - GeoTIFF
+      - frac_rfbarley
+  name: frac_rfbarley
+  title: frac_rfbarley
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:05.902740
+  hierarchylevel: dataset
+  identifier: frac_rfbarley

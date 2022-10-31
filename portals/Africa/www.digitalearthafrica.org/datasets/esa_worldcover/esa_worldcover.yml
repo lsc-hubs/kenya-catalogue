@@ -1,0 +1,51 @@
+contact:
+  pointOfContact:
+    address: GPO Box 378
+    administrativearea: ACT
+    city: Canberra
+    country: Australia
+    email: null
+    individualname: Digital Earth Africa
+    organization: Digital Earth Africa
+    positionname: null
+    postalcode: '2609'
+    url: digitalearthafrica.org//
+distribution:
+  io_lulc:
+    name: esa_worldcover
+    type: OGC:WMS
+    url: https://ows.digitalearth.africa/
+identification:
+  abstract: 'The ESA WorldCover 2020 product is a global, 10 m resolution land cover
+    product, which Digital Earth Africa is making accessible over Africa.
+
+
+    The product uses Sentinel-1 and Sentinel-2 data to produce 11 land cover classes,
+    according to the GAO LCCS schema.
+
+
+    For more information, see https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf'
+  accessconstraints: none
+  extents:
+    spatial:
+    - bbox:
+      - -27.0
+      - -48.0
+      - 66.0
+      - 39.0
+  fees: none
+  keywords:
+    default:
+      keywords:
+      - time-series
+      - fractional-cover
+      - landsat
+      - africa
+      - WOfS
+  name: esa_worldcover
+  title: ESA WorldCover 2020
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:16:36.932155
+  hierarchylevel: dataset
+  identifier: esa_worldcover

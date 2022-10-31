@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  GAEZ_V4:lr_thz_regime_class:
+    name: AQUASTAT:major_hydrobasins
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -181.800003051758
+      - -90.7676467895508
+      - 181.800018310547
+      - 84.4968185424805
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - major_hydrobasins
+  name: AQUASTAT:major_hydrobasins
+  title: Major Hydrological Basins of the World - derived from HydroSHEDS
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:19.671426
+  hierarchylevel: dataset
+  identifier: AQUASTAT:major_hydrobasins

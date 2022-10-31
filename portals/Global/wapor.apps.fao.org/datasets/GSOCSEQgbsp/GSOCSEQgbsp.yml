@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  GSOCSEQ:gbsd:
+    name: GSOCSEQ:gbsp
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -180.0
+      - 179.99999856
+      - 83.616081247
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - gbsp
+      - WCS
+      - ImageMosaic
+  name: GSOCSEQ:gbsp
+  title: Probability map of black soil distribution
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.638691
+  hierarchylevel: dataset
+  identifier: GSOCSEQ:gbsp

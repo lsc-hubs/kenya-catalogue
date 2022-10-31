@@ -1,0 +1,53 @@
+contact:
+  pointOfContact:
+    address: GPO Box 378
+    administrativearea: ACT
+    city: Canberra
+    country: Australia
+    email: null
+    individualname: Digital Earth Africa
+    organization: Digital Earth Africa
+    positionname: null
+    postalcode: '2609'
+    url: digitalearthafrica.org//
+distribution:
+  rainfall_chirps_monthly:
+    name: dem_srtm
+    type: OGC:WMS
+    url: https://ows.digitalearth.africa/
+identification:
+  abstract: "A Digital Elevation Model (DEM) is a digital representation of Earth\u2019\
+    s topography. It helps to understand the land surface characteristics in the height\
+    \ dimension. It is also used as an ancillary dataset to calculate illumination\
+    \ and viewing geometry of a satellite imagery. DE Africa provides access to the\
+    \ Shuttle Radar Topography Mission (SRTM) v 3.0 (SRTMGL1) product.\n\nThis elevation\
+    \ model has a spatial resolution of 30 m and is derived from data collected by\
+    \ NASA's Shuttle Radar Topography Mission in 2000.\n\nIt is provided by NASA's\
+    \ Land Processes Distributed Active Archive Center (LP DAAC).\n\nFor more information,\
+    \ see https://lpdaac.usgs.gov/products/srtmgl1v003/\n\nThis product is accessible\
+    \ through OGC Web Service (https://ows.digitalearth.africa/), for analysis in\
+    \ DE Africa Sandbox JupyterLab (https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/wiki)."
+  accessconstraints: none
+  extents:
+    spatial:
+    - bbox: !!python/tuple
+      - -32.0001388888889
+      - -46.0001388888955
+      - 61.0001388888955
+      - 47.0001388888889
+  fees: none
+  keywords:
+    default:
+      keywords:
+      - africa
+      - landsat
+      - WOfS
+      - time-series
+      - fractional-cover
+  name: dem_srtm
+  title: Shuttle Radar Topography Mission Digital Elevation Model (30 m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 15:51:44.052182
+  hierarchylevel: dataset
+  identifier: dem_srtm

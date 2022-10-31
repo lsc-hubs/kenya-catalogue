@@ -1,0 +1,43 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  GAEZ_V4:res01_mc2:
+    name: GAEZ_V4:res01_mc3
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -180.0
+      - 180.0
+      - 90.0
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - res01_mc3
+      - WCS
+      - ImageMosaic
+  name: GAEZ_V4:res01_mc3
+  title: Agro-climatic Resources - Climate Classification - Classification by Thermal
+    Climates and Thermal Zones
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:20.636827
+  hierarchylevel: dataset
+  identifier: GAEZ_V4:res01_mc3

@@ -1,0 +1,41 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  AQUAMAPS:hydrobasins_neareast:
+    name: AQUAMAPS:hydrobasins_northam
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -179.14583333333272
+      - 24.52083333333334
+      - -11.312318801879883
+      - 83.6274185180664
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - features
+      - hydrobasins_northam
+  name: AQUAMAPS:hydrobasins_northam
+  title: Hydrological basins in North America (Derived from HydroSHEDS)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.870590
+  hierarchylevel: dataset
+  identifier: AQUAMAPS:hydrobasins_northam

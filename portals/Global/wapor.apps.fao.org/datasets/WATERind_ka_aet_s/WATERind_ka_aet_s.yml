@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  NATURAL_EARTH:hyp_hr_sr_w_dr:
+    name: WATER:ind_ka_aet_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 75.59475281593785
+      - 5.116120270505224
+      - 77.30255760388664
+      - 17.47255601206308
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - ind_ka_aet_s
+      - WCS
+      - ImageMosaic
+  name: WATER:ind_ka_aet_s
+  title: Actual EvapoTranspiration (NLBC, Karnataka, India, Seasonal - 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:14.911035
+  hierarchylevel: dataset
+  identifier: WATER:ind_ka_aet_s

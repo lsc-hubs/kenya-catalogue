@@ -1,0 +1,42 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  GAEZ_V4:res05_yldl:
+    name: GAEZ_V4:res06_har
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -180.0
+      - 180.0
+      - 90.0
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - res06_har
+      - WCS
+      - ImageMosaic
+  name: GAEZ_V4:res06_har
+  title: Actual Yields and Production - Area, Yield and Production - Harvested area
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:20.868065
+  hierarchylevel: dataset
+  identifier: GAEZ_V4:res06_har

@@ -1,0 +1,43 @@
+contact:
+  pointOfContact:
+    address: null
+    administrativearea: null
+    city: null
+    country: null
+    email: null
+    individualname: null
+    organization: null
+    positionname: null
+    postalcode: null
+    url: http://geoserver.org
+distribution:
+  WATER:kaz_os_agbp_s:
+    name: WATER:kaz_os_gbwp_s
+    type: OGC:WMS
+    url: https://io.apps.fao.org/geoserver/wms
+identification:
+  abstract: A compliant implementation of WMS plus most of the SLD extension (dynamic
+    styling). Can also generate PDF, SVG, KML, GeoRSS
+  accessconstraints: NONE
+  extents:
+    spatial:
+    - bbox:
+      - 71.58692383498696
+      - 2.356016170219528
+      - 74.24593185439718
+      - 51.05573946584071
+  fees: NONE
+  keywords:
+    default:
+      keywords:
+      - kaz_os_gbwp_s
+      - WCS
+      - ImageMosaic
+  name: WATER:kaz_os_gbwp_s
+  title: Gross Biomass Water Productivity (Osakarov, Karaghandy region selected districts,
+    Kazakhstan - Seasonal - 30m)
+mcf: 1.0
+metadata:
+  datestamp: 2022-10-31 16:17:16.059603
+  hierarchylevel: dataset
+  identifier: WATER:kaz_os_gbwp_s
