@@ -1,106 +1,104 @@
-﻿url;label;description
-https://wle.cgiar.org/news/new-ethiopian-ministry-agriculture-data-sharing-policy-supported-wle-ciat-and-giz-improve-food ;CIAT;The inventory lists and describes 23 major soil and agronomic data hosting initiatives and institutions in ET.
-https://marlo.cgiar.org/projects/WLE/studySummary.do?studyID=3257&cycle=Reporting&year=2019;;
-https://www.researchgate.net/publication/347927460_Identifying_Cataloguing_and_Mapping_Soil_and_Agronomic_Data_in_Ethiopia  ;;Report on Identifying, Cataloguing, and Mapping Soil and Agronomic Data in Ethiopia
-http://www.ata.gov.et/programs/highlighted-deliverables/ethiosis/ ;ATA;EthioSIS data not availed
-http://publication.eiar.gov.et:8080/xmlui/;EIAR;DSpace repository  of EIAR, RDM repository
-http://walris.wlrc-eth.org/  ;WLRC;Water and Land Resource
-https://agronomy.unl.edu/OFRA ;OFRA;"Soil and agronomic data; fertiliser response"
-https://tamasa.cimmyt.org/tamasa-data/ ;TAMASA (CIMMYT);"Soil and agronomic data; fertiliser response"
-http://hdl.handle.net/10568/82996 ;CIAT-EIAR;Response to fertilisers
-https://cgspace.cgiar.org/handle/10568/82824;;
-https://www.saa-safe.org/www/ethiopia.html;SASAKAWA;Response to fertilisers
-https://landscapeportal.org;ICRAF;
-https://www.growerstech.com/axiom ;ICL-AXIOM;Ag Research data integration for AI
-https://sites.google.com/view/kenyacrops;KE-APP;Kenya Crops and AEZ app (playstore  )
-https://qed.ai/afsisdb/;QED-AFSIS;Amazon: arn:aws:s3:::afsis , AfSIS soil DB
-https://github.com/qedsoftware/afsis-soil-chem-tutorial;QED-AFSIS;
-https://cropnuts.com/service_type/agviza-pro/;CROPNUTS;Yield Enhancing Farming platform app
-https://cropnuts.com/service/soil-mapping/;CROPNUTS;Soil mapping for smart fertiliser blending portal
-https://mapping.cropnuts.com/projects/home/;CROPNUTS-IFDC;Kenya soil fertility map
-https://www.isric.org/projects/capacity-building-scaling-evidence-based-best-practices-agricultural-production-ethiopia;BENEFIT-CASCAPE;Soil class maps
-https://www.isric.org/projects/realise-survey-and-mapping-soil-resources;BENEFIT-REALISE;Soil class maps. Plus a number of 50m layers
-https://www.worldbank.org/en/results/2017/12/01/hydromet;HYDROMET (WB);Climate risks
-https://www.gfdrr.org/en/onlinetools;GFDRR;"Global Facility for Disaster Reduction and Recovery; tools for data interpretation"
-https://www.gaez.iiasa.ac.at/;GAEZ;Global AEZ incl. Climate, suitability, potential and actual yields
-http://www.yieldgap.org/atlas-advanced-users;GYGA;Global Yield Gap Atlas
-https://bigdata.cgiar.org/  ;CG big data;
-https://www.minagri.gov.rw/services;Minagri;MoA agricultural information services
-https://dataverse.harvard.edu/dataverse/harvard;Dataverse;
-https://www.digitalearthafrica.org/  ;Digital Earth;Nothing much useful. Lots of EO data though.
-http://www.tiger.esa.int/page_eoservices.php;ESA;Water
-https://wapor.apps.fao.org/home/WAPOR_2/1;FAO WAPOR;Water productivity
-https://agrofims.org/experiments;Agrofims;Standardised interoperable data on mainly trials and incl. soil
-https://labs.scio.systems/index.php/user/auth/login;CGlabs;Much data layers
-https://www.yara.com/crop-nutrition/digital-farming/;Yara;
-http://www.fao.org/farmingsystems/regions_en.htm;FAO;Farming systems
-https://landportal.org/book/datasets;LandPortal;Mainly stats per country and few granular maps.
-https://library.wur.nl/WebQuery/leap4fnssa-projects?record-status=complete;FNSSA (EU-AU);No real data but included as possible entry point
-http://down2earthproject.org/;Down2Earth;Climate and water data for dss, EU-H2020
-http://geonode.igad.int/;IGAD;Slow, not much data
-http://aims.fao.org/areas-of-interests/data;AIMS;Agricultural Information Management Standards Portal
-http://aims.fao.org/agroportal;AIMS;
-https://zenodo.org/search?page=1&size=20&q=iSDAsoil;iSDA;ISDA soil
-https://www.isda-africa.com/isdasoil/;iSDA;
-https://www.cialca.org/akilimo-introduced-in-rwanda-for-best-cassava-and-potato-fertilizer-recommendations/;iSDA;
-https://www.cialca.org/akilimo-introduced-in-rwanda-for-best-cassava-and-potato-fertilizer-recommendations/;iSDA;
-https://www.akilimo.org/;IITA;Cassava data and mobile advisory services
-https://envirometrix.nl/;Envirometrix;Open spatial data
-https://opengeohub.org/;Envirometrix;
-https://openlandmap.org/;Envirometrix;
-https://www.godan.info/organizations/api-agro;GODAN;Open global ag data (no data)
-https://onesoil.ai/en/;OneSOIL;Field level
-https://agromonitoring.com/;Agro API;API for natural integration of satellite images to agricultural applications and machine learning
-https://www.appsforagri.com/;Apps for Agri;
-https://doi.org/10.17605/OSF.IO/Y9ZUT;RwaSIS;Rwanda soil information service data
-https://www.globalforestwatch.org/map/;GlobalForestWatch;Forest and other data
-https://soilsrevealed.org/;SoilsRevealed;Soc data
-https://data.worldbank.org/;World bank;stats
-https://agrodatacube.wur.nl/;WUR;A Big Open Data collection for Agri-Food Applications
-https://www.farmhack.nl/;;
-https://edepot.wur.nl/441969;WUR;Lessons learnt open data for ag
-https://www.kalro.org/e-resources;KALRO;Docs
-https://www.plantwise.org/;CABI;P&D
-http://geoportal.icpac.net/;IPAC;Number of intersting (vector) layers in East Africa, contains also env data ( mostly RS), agri watch (https://agriculturehotspots.icpac.net/)
-https://landportal.org/book/datasets;Landportal;The Land Portal looks link to many data sources, not nessary in KE, ET or RW, tends ot be on global scale. There are only 16 spatail layers (https://landportal.org/book/layers) . Interesting is LandVoc 2.0 integrated with AgroVoc
-https://www.kaop.co.ke/;Kenia Ag Observatory platform;Implemented by KALRO: Climate, Ag advisory and insights
-https://www.dsmt-e.com/;Decision Support Modeling Tools for Ethiopia (DSMT-E) ;Suite of decision support tools for food security and development planning in Ethiopia. Hihg profile partners, difficult to get inot the platform. 
-https://github.com/Sen2Agri/Sen2Agri-System/blob/master/FAQ.md;Sen2Agri;Near real-time agriculture monitoring at national scale at parcel resolution: Performance assessment of the Sen2-Agri automated system in various cropping systems around the world. Here is an example of implmentation: , https://eodc.eu/services/sen2agri/
-https://www.agrisim.com/;Agrism;Basded in SA? Looks like neat tool tuned for crop management
-http://acp.int/sites/acpsec.waw.be/files/acpdoc/public-documents/Compendium_CC_190228_final.pdf;ACADIA;"Agroindustry market orientation curricula, accessibility of education (distance learning), agricultural productivity, fostering entrepreneurship and cooperative work on agroindustry sector. PDF file is compilation of studies that can be found in publications online; might be interesting?"
-https://www.twiga-h2020.eu/;TWIGA;Provide currently unavailable geo-information on weather, water and climate for sub-Saharan Africa by enhancing satellite-based geo-data with innovative in situ sensors and developing related information services that answer needs of African stakeholders and the GEOSS community.
-https://gaez-data-portal-hqfao.hub.arcgis.com/pages/data-access-download;GAEZ v4;Attainable crop yields, soil suitability
-https://www.isimip.org;ISIMIP;Climate [change] data
-https://wapor.apps.fao.org;WAPOR;Climate and water productivity data
-https://www.africageoportal.com/;Africa geoportal;Includes soil data
-https://github.com/mgwalsh?tab=repositories;AfSIS ltd;R scripts, data (soil, crop)
-https://osf.io/bjtcq/;AfSIS ltd;"R scripts, data (soil, crop); Markus"
-https://osf.io/ht63e/;RwaSIS;R scripts, data (soil, crop)
-https://rab.gov.rw;RAB;
-http://www.eiar.gov.et/;EIAR;
-https://www.ata.gov.et/programs/highlighted-deliverables/agrihub/;ATA;Refers to data (doesn't include)
-https://medium.com/nerd-for-tech/soil-and-agronomy-data-cube-for-africa-at-30-m-spatial-resolution-591e04bfc372;Soil and Agronomy Data Cube for Africa at 30-m spatial resolution;Ref to 30m data layers incl. ISDA soil
-https://gitlab.com/openlandmap/africa-soil-and-agronomy-data-cube/-/blob/master/csv/wasabi-africa-soil.csv;Soil and Agronomy Data Cube for Africa at 30-m spatial resolution;Ref to 30 m data layers used by OpenGeoHub for ISDA soil
-https://gitlab.com/openlandmap/global-layers/-/blob/master/tables/openlandmap_wasabi_files.csv;Soil and Agronomy Data Cube for Africa at 30-m spatial resolution;Ref to 100m-10km data layers 
-https://data.humdata.org/dataset/dbd7b22d-7426-4eb0-b3c4-faa29a87f44b;CIESIN;High res population density 
-https://afrialliance.org/;Africa-EU innovation alliance;aims at providing climatic/meteorological and hydrological information
-https://africa-knowledge-platform.ec.europa.eu/;EU science hub;A gateway to data and information on Africa's social, economic, territorial and environmental development, developed by the Joint Research Centre
-https://www.mapspam.info/data/;MapSPAM, IFPRI;"Spatial Production Allocation Model; crop area distributions"
-https://www.yieldgap.org/technology-extrapolation-domains;GYGA;Technology extrapolation domains
-https://maps.qed.ai/map/browse;QED;Maps
-https://data.isric.org;ISRIC;World soil information, africa soil information
-https://data.oecd.org/agriculture.htm;OECD;Agricultural statistics
-https://www.fao.org/faostat/en/;FAOSTAT;Agricultural statistics
-https://ethioagroclimate.net/;EDACaP (EIAR);EDACaP is an innovative digital web-platform for decision-support and learning, providing interactive AgroClimate information and advisory to improve crop management decisions and reduce production risks associated with climate variability and change
-https://aiccra.cgiar.org/;AICCRA;AICCRA makes climate information services and climate-smart agriculture more accessible to smallholder farmers across Africa with better access to technology and advisory services—linked to information about effective response measures—farmers can better anticipate climate-related events to take preventative action.
-https://www.servirglobal.net/;SERVIR (NASA);SERVIR connects space to village...by helping developing countries use satellite data to address critical challenges in food security, water resources, weather and climate, land use, and disasters. (Other link: www.nasa.gov/mission_pages/servir/index.html).
-https://www2.helsinki.fi/en/projects/climate-smart-agropastoral-ecosystem-transformation-in-east-africa;ESSA;Earth observation and environmental sensing for climate-smart sustainable agropastoral ecosystem transformation in East Africa - ESSA project aims to contribute to the pastoralist households’ transition towards climate-smart agropastoral systems in Ethiopia and Kenya.
-https://snv.org/project/icsiapl;ICSIAPI;The Integrated & Climate Smart Innovations for Agro-pastoralist Economies and Landscapes in Kenya's ASAL (ICSIAPL) project 
-https://europa.eu/capacity4dev/desira/wiki/prosilience;ProSilience;ProSilience: Enhancing soils and agroecology for resilient agri-food systems in Sub-Saharan Africa
-https://craft.dssat.net/;CRAFT;The CCAFS Regional Agricultural Forecasting Toolbox (CRAFT) is a software platform designed for yield forecasting at spatial resolutions of either 5 or 30 arc-minutes using an ensemble modeling approach. Currently, the DSSAT, APSIM, and SARRA-H crop simulation models have been implemented for nine important food and feed crops using the AgMIP IT tools. CGIAR.
-https://boost.cirad.fr/en/7_108/5c332f1507c805cd14cf5232/AGRHYMET%20Regional%20Centre.html;AGRHYMET;Specialized agency of the Permanent Inter-State Committee against Drought in the Sahel (CILSS). (www.agrhymet.ne is broken link)
-https://www.climateadaptationservices.com/en/projecten/climate-services-for-smallholder-farmers-in-kenya/;Climate Adaptation Services (CAS) ;Interactive agricultural climate atlas for two counties. (https://www.climate-atlas.ke/)
-https://digitalagrihub.org/;DigitalAgriHub;The Digital Agri Hub tracks the development of the digital agriculture (D4Ag) sector in low- and middle- income countries. Acting as a multi-actor knowledge broker and matchmaking platform, the Hub focuses on leveraging inclusive digital solutions for development and provides a unique perspective for scaling up and investing in digital agricultural innovations
-https://data.worldagroforestry.org/;World Agroforestry - Research Data Repository;Data incl. soil data
-https://www.mapspam.info/;SPAM; IFPRI's Spatial Production Allocation Model (SPAM, also known as MapSPAM) uses a cross-entropy approach to make plausible estimates of crop distribution within disaggregated units.
-https://cropnutrientdata.net/;CPCN;Soil fertility and crop nutrition data (crop nutrient uptake)
+url;label;country;api;description;alt-url
+https://tamasa.cimmyt.org/tamasa-data;Tamasa;Africa;OAI;"Soil and agronomic data;fertiliser response";https://data.cimmyt.org/oai?verb=ListSets
+http://www.igad.int/about/;IGAD;Global;CSW;The IGAD 2021-2025 Strategy sets the strategic framework for priority interventions over the first five year for the implementation of IGAD Vision 2050. It builds on a number of on-going Programmes established to develop resilient ecosystems and economic growth. The programmes include IGAD Drought Disaster Resilience and Sustainability Initiative (IDDRSI), regional CAADP Compact, Institutional Strengthening Action Programme (ISAP), Agriculture, Livestock, Fisheries and Food Security, Natural Resources and Environmental Protection, Regional Economic Cooperation and Integration, Social Development, Peace and Security, Gender Affairs, and other strategies and policy papers which underpin the IGAD regional programmes.;https://geonode.igad.int/catalogue/csw?request=GetCapabilities&service=CSW&version=2.0.2
+https://wle.cgiar.org/news/new-ethiopian-ministry-agriculture-data-sharing-policy-supported-wle-ciat-and-giz-improve-food;CIAT;ET;;The inventory lists and describes 23 major soil and agronomic data hosting initiatives and institutions in ET.;
+https://marlo.cgiar.org/projects/WLE/studySummary.do?studyID=3257&cycle=Reporting&year=2019;MARLO;ET;;New Ethiopian Ministry of Agriculture data sharing policy supported by WLE/CIAT and GIZ to improve food production while building landscape health Short outcome/impact statement: WLE/CIAT, Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) and partners supported the Ethiopian Ministry of Agriculture to adopt a comprehensive data sharing policy. Currently, data sets, for example fertility trials, are scattered among many scientists and institutions, severely limiting the ability to target fertilizer recommendations to farmers. This will now change as the Ministry is working with stakeholders to collate datasets to develop national fertilizer recommendations. This policy will undoubtedly support the agricultural transformation agenda;
+https://www.researchgate.net/publication/347927460_Identifying_Cataloguing_and_Mapping_Soil_and_Agronomic_Data_in_Ethiopia;alliancebioversityciat;Global;;Report on Identifying, Cataloguing, and Mapping Soil and Agronomic Data in Ethiopia;https://alliancebioversityciat.org/
+http://www.ata.gov.et/programs/highlighted-deliverables/ethiosis/;ATA;ET;;EthioSIS data not availed;
+http://publication.eiar.gov.et:8080/xmlui/;EIAR;ET;OAI;DSpace repository  of EIAR, RDM repository;http://publication.eiar.gov.et:8080/oai/request?verb=ListSets
+http://walris.wlrc-eth.org/;WLRC;ET;;Water and Land Resource;
+https://agronomy.unl.edu/OFRA;OFRA;Africa;;"Soil and agronomic data;fertiliser response";https://uofnelincoln.sharepoint.com/sites/UNL-IANRAgandHort-Office/Shared%20Documents/Forms/AllItems.aspx?ga=1&id=%2Fsites%2FUNL%2DIANRAgandHort%2DOffice%2FShared%20Documents%2FAgronomy%20%26%20Horticulture%2FAgHort%20AV%20Assets%2FDepartment%2FWebsite%20Content%2FOFRA%2FMaps%20EMF%2FEthiopia%2Eemf&parent=%2Fsites%2FUNL%2DIANRAgandHort%2DOffice%2FShared%20Documents%2FAgronomy%20%26%20Horticulture%2FAgHort%20AV%20Assets%2FDepartment%2FWebsite%20Content%2FOFRA%2FMaps%20EMF
+http://hdl.handle.net/10568/82996;A review of soil fertility management and crop response to fertilizer application in Ethiopia: towards development of site- and context-specific fertilizer recommendation;ET;;"Tamene L;Amede T;Kihara J;Tibebe D;Schulz S. (eds.). 2017. A review of soil fertility management and crop response to fertilizer application in Ethiopia: towards development of site- and context-specific fertilizer recommendation. International Center for Tropical Agriculture (CIAT), Addis Ababa, Ethiopia. 86 p (CIAT Publication No. 443).";
+https://cgspace.cgiar.org/handle/10568/82824;Towards understanding fertilizer responses in Ethiopia;ET;;This is a comprehensive dataset specifically on crop response to fertilizers and is obtained from published journal articles, thesis and proceedings spanning at least 5 decades. It represents all the agriculturally productive regions of Ethiopia. The data contains information on region, crop type and soil type under which experiments were conducted, as well as application rates of nutrients (N, P, K, and other nutrients) as well as yields of the control and fertilized treatment on which crop response ratios are derived.;
+https://www.saa-safe.org/www/ethiopia.html;SASAKAWA;ET;;Ethiopia's agriculture is still characterized, for the most part, as low-input/low-output subsistence agriculture. The level of technology is generally basic, and productivity per hectare is perhaps one of the lowest in the world. Even in high agricultural potential areas of the country, in which crop-based systems predominate and population densities are highest, productivity is constrained by lack of knowledge, lack of finance, poor postharvest handling and poorly developed markets.From 1979/80 to 1991/92, annual food crop production ranged between 4.87 and 7.81 million tons, whereas per capita food production for the same years declined from 174 kg/year in 1979/80 to 92 kg/year in 1991/92.;
+https://landscapeportal.org;ICRAF;Africa;;The Landscape Portal is ICRAF's interactive online spatial data storage and visualization platform. It comes with a rich set of features to store, document, search and retrieve, and visualize spatial data and maps.;https://web.archive.org/web/20220119023203/http://landscapeportal.org/
+https://www.growerstech.com/axiom;ICL-AXIOM;Africa;;Ag Research data integration for AI;https://web.archive.org/web/20201209030806/https://www.growerstech.com/axiom
+https://sites.google.com/view/kenyacrops;KE-APP;KE;;Kenya Crops and AEZ app (playstore  );https://sites.google.com/view/kenyacrops
+https://qed.ai/afsisdb/;QED-AFSIS;Africa;;Amazon: arn:aws:s3:::afsis , AfSIS soil DB;"https://registry.opendata.aws/afsis/;https://github.com/qedsoftware/afsis-soil-chem-tutorial"
+https://cropnuts.com/service_type/agviza-pro/;CROPNUTS;Africa;;Yield Enhancing Farming platform app;
+https://cropnuts.com/service/soil-mapping/;CROPNUTS;Africa;;Soil mapping for smart fertiliser blending portal;
+https://mapping.cropnuts.com/projects/home/;CROPNUTS-IFDC;Africa;;Kenya soil fertility map;
+https://www.isric.org/projects/capacity-building-scaling-evidence-based-best-practices-agricultural-production-ethiopia;BENEFIT-CASCAPE;ET;;Soil class maps;
+https://www.isric.org/projects/realise-survey-and-mapping-soil-resources;BENEFIT-REALISE;Africa;;Soil class maps. Plus a number of 50m layers;
+https://www.worldbank.org/en/results/2017/12/01/hydromet;HYDROMET (WB);Africa;;Climate risks;https://www.gfdrr.org/en/africa-hydromet-program
+https://www.gfdrr.org/en/onlinetools;GFDRR;Global;;"Global Facility for Disaster Reduction and Recovery;tools for data interpretation";
+https://www.gaez.iiasa.ac.at/;GAEZ;Global;;Global AEZ incl. Climate, suitability, potential and actual yields;
+http://www.yieldgap.org/atlas-advanced-users;GYGA;Global;;Global Yield Gap Atlas;
+https://bigdata.cgiar.org/;CG big data;Global;;;
+https://www.minagri.gov.rw/services;Minagri;RW;;MoA agricultural information services;
+https://dataverse.harvard.edu/dataverse/harvard;Harvard Dataverse;Global;OAI;;https://dataverse.harvard.edu/oai?verb=ListSets
+https://www.digitalearthafrica.org/;Digital Earth;Global;WMS;Nothing much useful. Lots of EO data though.;https://ows.digitalearth.africa/
+http://www.tiger.esa.int/page_eoservices.php;ESA;Global;;Water;
+https://wapor.apps.fao.org/home/WAPOR_2/1;FAO WAPOR;Global;;Water productivity;
+https://agrofims.org/experiments;Agrofims;Global;;Standardised interoperable data on mainly trials and incl. soil;
+https://labs.scio.systems;CGlabs;Global;;Much data layers;
+https://www.yara.com/crop-nutrition/digital-farming/;Yara;Global;;;
+http://www.fao.org/farmingsystems/regions_en.htm;FAO;Global;;Farming systems;
+https://landportal.org/book/datasets;LandPortal;Global;;Mainly stats per country and few granular maps.;
+https://library.wur.nl/WebQuery/leap4fnssa-projects?record-status=complete;FNSSA (EU-AU);Global;;No real data but included as possible entry point;
+http://down2earthproject.org/;Down2Earth;Global;;Climate and water data for dss, EU-H2020;
+http://aims.fao.org/areas-of-interests/data;AIMS;Global;;Agricultural Information Management Standards Portal;
+http://aims.fao.org/agroportal;AIMS;Global;;;
+https://zenodo.org/search?page=1&size=20&q=iSDAsoil;iSDA;Global;;ISDA soil;
+https://www.isda-africa.com/isdasoil/;iSDA;Africa;;;
+https://www.cialca.org/akilimo-introduced-in-rwanda-for-best-cassava-and-potato-fertilizer-recommendations/;iSDA;RW;;;
+https://www.akilimo.org/;IITA;Global;;Cassava data and mobile advisory services;
+https://envirometrix.nl/;Envirometrix;Global;;Open spatial data;
+https://opengeohub.org/;Envirometrix;Global;;;https://maps.opengeohub.org/
+https://openlandmap.org/;Envirometrix;Global;;;
+https://www.godan.info/organizations/api-agro;GODAN;Global;;Open global ag data (no data);
+https://onesoil.ai/en/;OneSOIL;Global;;Field level;
+https://agromonitoring.com/;Agro API;Global;;API for natural integration of satellite images to agricultural applications and machine learning;
+https://www.appsforagri.com/;Apps for Agri;Global;;;
+https://doi.org/10.17605/OSF.IO/Y9ZUT;RwaSIS;Global;;Rwanda soil information service data;
+https://www.globalforestwatch.org/map/;GlobalForestWatch;Global;;Forest and other data;
+https://soilsrevealed.org/;SoilsRevealed;Global;;Soc data;
+https://data.worldbank.org/;World bank;Global;;stats;
+https://agrodatacube.wur.nl/;WUR;Global;;A Big Open Data collection for Agri-Food Applications;
+https://www.farmhack.nl/;Farm hack;Global;;;
+https://edepot.wur.nl/441969;WUR;Global;;Lessons learnt open data for ag;
+https://www.kalro.org/e-resources;KALRO;KE;;Docs;
+https://www.plantwise.org/;CABI;Global;;P&D;
+http://geoportal.icpac.net/;IPAC;Global;CSW;Number of intersting (vector) layers in East Africa, contains also env data ( mostly RS), agri watch (https://agriculturehotspots.icpac.net/);https://geoportal.icpac.net/catalogue/csw?request=GetCapabilities&service=CSW&version=2.0.1
+https://landportal.org/book/datasets;Landportal;Global;;The Land Portal looks link to many data sources, not nessary in KE, ET or RW, tends ot be on global scale. There are only 16 spatail layers (https://landportal.org/book/layers) . Interesting is LandVoc 2.0 integrated with AgroVoc;
+https://www.kaop.co.ke/;Kenia Ag Observatory platform;KE;;Implemented by KALRO: Climate, Ag advisory and insights;
+https://www.dsmt-e.com/;Decision Support Modeling Tools for Ethiopia (DSMT-E);ET;;Suite of decision support tools for food security and development planning in Ethiopia. Hihg profile partners, difficult to get inot the platform.;
+https://github.com/Sen2Agri/Sen2Agri-System/blob/master/FAQ.md;Sen2Agri;Global;;Near real-time agriculture monitoring at national scale at parcel resolution: Performance assessment of the Sen2-Agri automated system in various cropping systems around the world. Here is an example of implmentation: , https://eodc.eu/services/sen2agri/;
+https://www.agrisim.com/;Agrism;Global;;Basded in SA? Looks like neat tool tuned for crop management;
+http://acp.int/sites/acpsec.waw.be/files/acpdoc/public-documents/Compendium_CC_190228_final.pdf;ACADIA;Global;;"Agroindustry market orientation curricula, accessibility of education (distance learning), agricultural productivity, fostering entrepreneurship and cooperative work on agroindustry sector. PDF file is compilation of studies that can be found in publications online;might be interesting?";
+https://www.twiga-h2020.eu/;TWIGA;Global;;Provide currently unavailable geo-information on weather, water and climate for sub-Saharan Africa by enhancing satellite-based geo-data with innovative in situ sensors and developing related information services that answer needs of African stakeholders and the GEOSS community.;
+https://gaez-data-portal-hqfao.hub.arcgis.com/pages/data-access-download;GAEZ v4;Global;ESRI;Attainable crop yields, soil suitability;
+https://www.isimip.org;ISIMIP;Global;;Climate [change] data;
+https://wapor.apps.fao.org;WAPOR;Global;;Climate and water productivity data;
+https://www.africageoportal.com/;Africa geoportal;Africa;;Includes soil data;
+https://github.com/mgwalsh?tab=repositories;AfSIS ltd;Global;;R scripts, data (soil, crop);
+https://osf.io/bjtcq/;AfSIS ltd;Global;;"R scripts, data (soil, crop);Markus";
+https://osf.io/ht63e/;RwaSIS;RW;;R scripts, data (soil, crop);
+https://rab.gov.rw/index.php?id=158;RAB;RW;;;
+http://www.eiar.gov.et/;EIAR;ET;;;
+https://www.ata.gov.et/programs/highlighted-deliverables/agrihub/;ATA;ET;;Refers to data (doesn't include);
+https://medium.com/nerd-for-tech/soil-and-agronomy-data-cube-for-africa-at-30-m-spatial-resolution-591e04bfc372;Soil and Agronomy Data Cube for Africa at 30-m spatial resolution;Global;;Ref to 30m data layers incl. ISDA soil;
+https://gitlab.com/openlandmap/africa-soil-and-agronomy-data-cube/-/blob/master/csv/wasabi-africa-soil.csv;Soil and Agronomy Data Cube for Africa at 30-m spatial resolution;Global;;Ref to 30 m data layers used by OpenGeoHub for ISDA soil;
+https://gitlab.com/openlandmap/global-layers/-/blob/master/tables/openlandmap_wasabi_files.csv;Soil and Agronomy Data Cube for Africa at 30-m spatial resolution;Global;;Ref to 100m-10km data layers;
+https://data.humdata.org/dataset/dbd7b22d-7426-4eb0-b3c4-faa29a87f44b;CIESIN;Global;;High res population density;
+https://afrialliance.org/;Africa-EU innovation alliance;Global;;aims at providing climatic/meteorological and hydrological information;
+https://africa-knowledge-platform.ec.europa.eu/;EU science hub;Global;;A gateway to data and information on Africa's social, economic, territorial and environmental development, developed by the Joint Research Centre;
+https://www.mapspam.info/data/;MapSPAM, IFPRI;Global;;"Spatial Production Allocation Model;crop area distributions";
+https://www.yieldgap.org/technology-extrapolation-domains;GYGA;Global;;Technology extrapolation domains;
+https://maps.qed.ai/map/browse;QED;Global;;Maps;
+https://data.isric.org;ISRIC;Global;CSW;World soil information, africa soil information;https://data.isric.org/geonetwork/srv/eng/csw
+https://data.oecd.org/agriculture.htm;OECD;Global;;Agricultural statistics;
+https://www.fao.org/faostat/en/;FAOSTAT;Global;;Agricultural statistics;
+https://ethioagroclimate.net/;EDACaP (EIAR);ET;;EDACaP is an innovative digital web-platform for decision-support and learning, providing interactive AgroClimate information and advisory to improve crop management decisions and reduce production risks associated with climate variability and change;
+https://aiccra.cgiar.org/;AICCRA;Global;;AICCRA makes climate information services and climate-smart agriculture more accessible to smallholder farmers across Africa with better access to technology and advisory services—linked to information about effective response measures—farmers can better anticipate climate-related events to take preventative action.;
+https://www.servirglobal.net/;SERVIR (NASA);Global;;SERVIR connects space to village...by helping developing countries use satellite data to address critical challenges in food security, water resources, weather and climate, land use, and disasters. (Other link: www.nasa.gov/mission_pages/servir/index.html).;
+https://www2.helsinki.fi/en/projects/climate-smart-agropastoral-ecosystem-transformation-in-east-africa;ESSA;Global;;Earth observation and environmental sensing for climate-smart sustainable agropastoral ecosystem transformation in East Africa - ESSA project aims to contribute to the pastoralist households' transition towards climate-smart agropastoral systems in Ethiopia and Kenya.;
+https://snv.org/project/icsiapl;ICSIAPI;Global;;The Integrated & Climate Smart Innovations for Agro-pastoralist Economies and Landscapes in Kenya's ASAL (ICSIAPL) project;
+https://europa.eu/capacity4dev/desira/wiki/prosilience;ProSilience;Global;;ProSilience: Enhancing soils and agroecology for resilient agri-food systems in Sub-Saharan Africa;
+https://craft.dssat.net/;CRAFT;Global;;The CCAFS Regional Agricultural Forecasting Toolbox (CRAFT) is a software platform designed for yield forecasting at spatial resolutions of either 5 or 30 arc-minutes using an ensemble modeling approach. Currently, the DSSAT, APSIM, and SARRA-H crop simulation models have been implemented for nine important food and feed crops using the AgMIP IT tools. CGIAR.;
+https://boost.cirad.fr/en/7_108/5c332f1507c805cd14cf5232/AGRHYMET%20Regional%20Centre.html;AGRHYMET;Global;;Specialized agency of the Permanent Inter-State Committee against Drought in the Sahel (CILSS). (www.agrhymet.ne is broken link);
+https://www.climateadaptationservices.com/en/projecten/climate-services-for-smallholder-farmers-in-kenya/;Climate Adaptation Services (CAS);Global;;Interactive agricultural climate atlas for two counties. (https://www.climate-atlas.ke/);
+https://digitalagrihub.org/;DigitalAgriHub;Global;;The Digital Agri Hub tracks the development of the digital agriculture (D4Ag) sector in low- and middle- income countries. Acting as a multi-actor knowledge broker and matchmaking platform, the Hub focuses on leveraging inclusive digital solutions for development and provides a unique perspective for scaling up and investing in digital agricultural innovations;
+https://data.worldagroforestry.org/;World Agroforestry - Research Data Repository;Global;;Data incl. soil data;
+https://www.mapspam.info/;SPAM;Global;;IFPRI's Spatial Production Allocation Model (SPAM, also known as MapSPAM) uses a cross-entropy approach to make plausible estimates of crop distribution within disaggregated units.;
+https://cropnutrientdata.net/;CPCN;Global;;Soil fertility and crop nutrition data (crop nutrient uptake);

@@ -4,7 +4,6 @@ import requests as req
 from yaml.loader import SafeLoader
 from lxml import html
 
-
 source = "."
 target = "./portals"
 
@@ -17,7 +16,8 @@ def create_initial(path,id,label,desc,author,url):
         "contact": {
             "name": "",
             "organisation": author,
-            "email": ""},
+            "email": ""
+        },
         "license": ""
     }
     if 'doi' in url:
@@ -33,12 +33,11 @@ myPortals = pd.read_csv(source+os.sep+'portals.csv',sep=';')
 for index, row in myPortals.iterrows():
     print(row['url'], row['label'])
     
-    headers = {'Accept':'application/json, text/xml, text/html', 
-               'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Python/3.9 pgdc/1.1' }
+    headers = {"Accept":"application/json, text/xml, text/html", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Python/3.9 pgdc/1.1" }
 
     # we should check the url, maybe the url is forwarded (from doi, or no longer existing location)
     try:
-        resp = req.get(row['url'],headers=headers)
+        resp = req.get(row['url'],headers=headers,verify=False)
     except Exception as e:
         print('request to ' + row['url'] + ' failed');
         continue
@@ -48,10 +47,10 @@ for index, row in myPortals.iterrows():
 
     # then check resp.url
     # get domain as identifier for the catalogue (if multiple catalogues live in a domain, they are merged)
-    domain = resp.url.split('//')[1].split('/')[0]
+    domain = row['country'] +os.sep+ resp.url.split('//')[1].split('/')[0]
 
     # check if domain-folder exists, else create it
-    if os.path.isdir(target+os.sep+domain):
+    if os.path.isdir(target+os.sep + domain):
         # already exits; update metadata
         print(target+os.sep+domain+' already exits')
         try:
@@ -116,24 +115,78 @@ for index, row in myPortals.iterrows():
             ttl = row.get('label')
         print('other: '+ content_type)
     
-    # create safe folder name (or use identifier, if we know it)
+    ## Parse the datasets in this portal
 
-    fldrnm = "".join([c for c in ttl if re.match(r'\w', c)])
-    fldr = target+os.sep+domain+os.sep+'datasets'+os.sep+fldrnm
+    ds_folder = target+os.sep+domain+os.sep+'datasets'+os.sep
 
-    if os.path.isdir(fldr):
-        print('folder '+ fldr +' exists')
-    else:
-        os.makedirs(fldr)
-        if (schemaorg):
-            with open(os.path.join(fldr+os.sep, 'index.yml'), 'w') as f:
-                yaml.dump(schemaorg, f)
+    # what is the portal type, act accordingly
+    # portal endpoint is in row['alt-url'], api type is in row['api']
+
+    if row['api'] == "CSW":
+        print("start CSW harvest: " + row['alt-url'])
+        from owslib.csw import CatalogueServiceWeb
+        from owslib.fes import PropertyIsEqualTo, PropertyIsLike, BBox
+        try:
+            csw = CatalogueServiceWeb(row['alt-url'])
+            qry = PropertyIsEqualTo('csw:AnyText', 'dataset')
+            csw.getrecords2(constraints=[qry], outputschema='http://www.isotc211.org/2005/gmd', maxrecords=20)
+            for r in csw.records:
+                rec=csw.records[r]
+                if len(rec.identifier) > 0:
+                    if not os.path.isdir(ds_folder+rec.identifier):
+                        os.makedirs(ds_folder+rec.identifier)
+                    with open(ds_folder + rec.identifier + os.sep + rec.identifier + ".xml", 'w') as f:
+                        try:
+                            f.write(str(rec.xml.decode("utf8")))
+                        except:
+                            f.write(str(rec.xml))
+        except Exception as e:
+            print("Harvest from CSW " + row['alt-url'] + " failed. " + str(e))
+            
+    elif row['api'] == "OAI":
+        print ("harvest oai")
+        try:
+            from oaipmh.client import Client
+            from oaipmh.metadata import MetadataRegistry, oai_dc_reader
+            registry = MetadataRegistry()
+            registry.registerReader('oai_dc', oai_dc_reader)
+            client = Client(row['alt-url'].split('?')[0], registry)
+            for record in client.listRecords(metadataPrefix='oai_dc'): #set=xxx to filter on set
+                id=record[1]._map.get('identifier',[''])[0].replace("https://","").replace("/","_").replace("www.","")
+                if len(id) > 0:
+                    if not os.path.isdir(ds_folder+id):
+                        os.makedirs(ds_folder+id)
+                    with open(ds_folder + id + os.sep + id + ".yml", 'w') as f:
+                        yaml.dump(record[1]._map,f)
+        except Exception as e:
+            print("Harvest from OAI " + row['alt-url'] + " failed. " + str(e))
+
+    elif row['api'] == "sitemap":
+        print ("sitemap, not yet implemented")
+    elif row['api'] == "OWS": #WMS, WFS, WCS, WMTS ...
+        print ("ows, not yet implemented")
+    else: # now loop though the various url's act as resources
+
+        # create safe folder name (or use identifier, if we know it)
+
+        fldrnm = "".join([c for c in ttl if re.match(r'\w', c)])
+        fldr = ds_folder+os.sep+fldrnm
+
+        if os.path.isdir(fldr):
+            print('folder '+ fldr +' exists')
         else:
-            create_initial(os.path.join(fldr+os.sep, 'index.yml'),fldrnm,ttl,abs,author,row['url'])
+            os.makedirs(fldr)
+            if (schemaorg):
+                with open(os.path.join(fldr+os.sep, 'index.yml'), 'w') as f:
+                    yaml.dump(schemaorg, f)
+            else:
+                create_initial(os.path.join(fldr+os.sep, 'index.yml'),fldrnm,ttl,abs,author,row['url'])
 
-        # see if the row includes a doi, if so fetch the doi metadata (datacite)
+            # see if the row includes a doi, if so fetch the doi metadata (datacite)
 
-        ## Maybe the row has a dataset on an existing portal, always add a dataset folder, initially and next for second, third
+            ## Maybe the row has a dataset on an existing portal, always add a dataset folder, initially and next for second, third
+
+        
 
     #except Exception as e:
     #        print(e)

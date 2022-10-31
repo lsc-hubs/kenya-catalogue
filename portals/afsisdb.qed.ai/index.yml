@@ -1,9 +1,0 @@
-abstract: 'Amazon: arn:aws:s3:::afsis , AfSIS soil DB'
-contact:
-  email: ''
-  name: ''
-  organisation: ''
-identifier: afsisdb.qed.ai
-license: ''
-name: QED-AFSIS
-url: https://qed.ai/afsisdb/
