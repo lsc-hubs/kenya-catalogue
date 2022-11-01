@@ -16,7 +16,7 @@ metadata:
     - cd /pyGeoDataCrawler
     - poetry run crawl-metadata --dir=$CI_PROJECT_DIR/portals --mode=export --dir-out=/tmp
     # upload iso to pycsw (remove first, only changed?)
-    - pycsw-admin.py -c load-records -f $CI_PROJECT_DIR/pycsw.cfg -p /tmp -r
+    - pycsw-admin.py -c load_records -f $CI_PROJECT_DIR/pycsw.cfg -p /tmp -r
   when: on_success
   only:
     - main
