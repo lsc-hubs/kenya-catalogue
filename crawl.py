@@ -205,13 +205,14 @@ for index, row in myPortals.iterrows():
                 lyrmd['abstract'] = layer.abstract or lyrmd['abstract']
                 lyrmd['title'] = layer.title or lyrmd['name']
                 lyrmd['keywords'] = {'default': {'keywords': layer.keywords}}
-                lyrmd['extents'] = {'spatial': [{'bbox': list(layer.boundingBoxWGS84) }]}
+                lyrmd['extents'] = {'spatial': [{'bbox': list(layer.boundingBoxWGS84),'crs':'4326' }]}
                 # todo: if 'metadataUrls', fetch metadata, get identifier
                 # todo: on owslib, extract identifier
 
+                id = layer.name # (better use code, seems not on owslib)
+
                 distribution = { id : { 'url': row['alt-url'], 'type': 'OGC:WMS', 'name': layer.name } }
 
-                id = layer.name # (better use code, seems not on owslib)
                 # todd: fetch image from wms as thumbnail
                 # todo: fetch identifier, create folder
                 # todo: add wms url
