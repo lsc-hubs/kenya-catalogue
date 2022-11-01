@@ -5,7 +5,7 @@ stages:
 
 # metadata
 metadata:
-  image: harbor.containers.wurnet.nl/isric/pygeodatacrawler:1.0.2
+  image: harbor.containers.wurnet.nl/isric/pygeodatacrawler:1.0.3
   stage: metadata
   script:
     # init database if it does not exist
@@ -14,11 +14,7 @@ metadata:
     # covert yml to iso (only changed?)
     - export pgdc_schema_path=/pyGeoDataCrawler/geodatacrawler/schemas
     - cd /pyGeoDataCrawler
-    - pwd
-    - ls /builds
-    - echo "$CI_JOB_TOKEN $CI_COMMIT_TAG $CI_COMMIT_SHORT_SHA $CI_PROJECT_DIR"
     - poetry run crawl-metadata --dir=$CI_PROJECT_DIR/portals --mode=export --dir-out=/tmp
-   
     # upload iso to pycsw (remove first, only changed?)
     - pycsw-admin.py -c load-records -f $CI_PROJECT_DIR/pycsw.cfg -p /tmp -r
   when: on_success
