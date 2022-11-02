@@ -34,7 +34,8 @@ identification:
       - rivers_asia
   name: AQUAMAPS:rivers_asia
   title: Rivers in South and East Asia (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.010342
   hierarchylevel: dataset

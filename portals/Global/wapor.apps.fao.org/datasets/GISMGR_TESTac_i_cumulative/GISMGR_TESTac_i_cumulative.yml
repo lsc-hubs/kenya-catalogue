@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GISMGR_TEST:ac_i_cumulative
   title: Adaptive Capacity Cumulative
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.407342
   hierarchylevel: dataset

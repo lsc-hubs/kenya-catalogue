@@ -81,7 +81,8 @@ identification:
       - WOfS
   name: crop_mask_indian_ocean
   title: Cropland extent 2019 - Indian Ocean Africa
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.835967
   hierarchylevel: dataset

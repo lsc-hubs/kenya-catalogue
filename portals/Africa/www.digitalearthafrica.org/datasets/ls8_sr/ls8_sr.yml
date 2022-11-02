@@ -53,7 +53,8 @@ identification:
       - WOfS
   name: ls8_sr
   title: Surface reflectance (Landsat 8)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.478260
   hierarchylevel: dataset

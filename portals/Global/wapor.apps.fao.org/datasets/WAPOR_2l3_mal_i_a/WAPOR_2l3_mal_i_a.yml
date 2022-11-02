@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_mal_i_a
   title: Interception (Malwathu Oya West Sub Catchment, Sri Lanka - Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.247094
   hierarchylevel: dataset

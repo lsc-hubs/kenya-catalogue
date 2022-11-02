@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_odn_aeti_a
   title: Actual EvapoTranspiration and Interception (Office du Niger, Mali - Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.585728
   hierarchylevel: dataset

@@ -2,6 +2,7 @@ default:
   interruptible: false
 stages:
   - metadata
+  - upload
 
 # metadata
 metadata:
@@ -9,14 +10,28 @@ metadata:
   stage: metadata
   script:
     # init database if it does not exist
-    - pip install sqlalchemy
+    #- pip install sqlalchemy
     #- pycsw-admin.py -c setup_db -f ./pycsw.cfg
     # covert yml to iso (only changed?)
     - export pgdc_schema_path=/pyGeoDataCrawler/geodatacrawler/schemas
     - cd /pyGeoDataCrawler
-    - poetry run crawl-metadata --dir=$CI_PROJECT_DIR/portals --mode=export --dir-out=/tmp
+    - poetry run crawl-metadata --dir=$CI_PROJECT_DIR/portals --mode=export --dir-out=$CI_PROJECT_DIR/tmp
     # upload iso to pycsw (remove first, only changed?)
-    - pycsw-admin.py -c load_records -f $CI_PROJECT_DIR/pycsw.cfg -p /tmp -r
+    #- pycsw-admin.py -c load_records -f $CI_PROJECT_DIR/pycsw.cfg -p /tmp -r
+  when: on_success
+  only:
+    - main
+
+# upload
+upload:
+  image: harbor.containers.wurnet.nl/proxy-cache/geopython/pycsw@sha256:f6c80ea3e5a2aa6f6047e052817e148b12ff77078466873f15c80a930f2db1c6
+  stage: upload
+  script:
+    # init database if it does not exist
+    #- pycsw-admin.py -c setup_db -f ./pycsw.cfg
+    - pycsw-admin.py -c delete_records -f ./pycsw.cfg 
+    # upload iso to pycsw (remove first, only changed?)
+    - pycsw-admin.py -c load_records -f ./pycsw.cfg -p ./tmp -r
   when: on_success
   only:
     - main

@@ -56,7 +56,8 @@ identification:
       - fractional-cover
   name: alos_palsar_mosaic
   title: Annual mosaic (ALOS/PALSAR)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.674141
   hierarchylevel: dataset

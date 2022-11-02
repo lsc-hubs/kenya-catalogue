@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_ts2
   title: "Agro-climatic Resources - Thermal Regime - Annual temperature sum for days\
     \ with Ta>5 \uFFFDC (degree-days)"
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.798819
   hierarchylevel: dataset

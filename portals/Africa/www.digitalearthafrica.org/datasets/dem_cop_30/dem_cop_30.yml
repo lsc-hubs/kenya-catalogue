@@ -52,7 +52,8 @@ identification:
       - WOfS
   name: dem_cop_30
   title: Copernicus Digital Elevation Model (30 m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.983321
   hierarchylevel: dataset

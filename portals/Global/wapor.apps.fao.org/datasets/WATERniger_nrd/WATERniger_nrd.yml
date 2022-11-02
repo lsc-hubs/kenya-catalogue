@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:niger_nrd
   title: Number of rainy days in a month (Niger River Basin - Monthly - 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.914757
   hierarchylevel: dataset

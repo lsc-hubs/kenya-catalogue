@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:rhmof
   title: Vulnerability Assessment Indicators - RHM Output (Future)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.919386
   hierarchylevel: dataset

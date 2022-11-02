@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_san_npp_d
   title: Net Primary Production (Sanaa basin, Yemen - Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.821474
   hierarchylevel: dataset

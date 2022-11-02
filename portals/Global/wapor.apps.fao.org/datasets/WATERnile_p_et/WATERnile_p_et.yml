@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:nile_p_et
   title: Preicipitation minus evapotranspiration (Nile River Basin- Monthly - 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.981625
   hierarchylevel: dataset

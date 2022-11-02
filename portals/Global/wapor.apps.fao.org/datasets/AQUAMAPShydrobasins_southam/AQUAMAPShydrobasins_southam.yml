@@ -34,7 +34,8 @@ identification:
       - hydrobasins_southam
   name: AQUAMAPS:hydrobasins_southam
   title: Hydrological basins in South America (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.879644
   hierarchylevel: dataset

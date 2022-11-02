@@ -34,7 +34,8 @@ identification:
       - features
   name: CZ_WRLDGYGACNTRY
   title: CZ_WRLDGYGACNTRY
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.308021
   hierarchylevel: dataset

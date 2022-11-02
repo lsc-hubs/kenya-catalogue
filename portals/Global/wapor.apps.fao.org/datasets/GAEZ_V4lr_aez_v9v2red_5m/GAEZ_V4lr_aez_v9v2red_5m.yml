@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:lr_aez_v9v2red_5m
   title: Land and Water Resources - Agro-ecological Zones - Dominant AEZ class (33
     classes) at 5 arc-minutes
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.630556
   hierarchylevel: dataset

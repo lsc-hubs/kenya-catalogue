@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_td2
   title: "Agro-climatic Resources - Thermal Regime - Annual temperature amplitude\
     \ (\uFFFDC)"
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.778112
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: ASIS:mvhi_a
   title: Mean Vegetation Health Index (Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.857543
   hierarchylevel: dataset

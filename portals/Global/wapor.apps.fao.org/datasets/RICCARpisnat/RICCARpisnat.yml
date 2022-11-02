@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:pisnat
   title: Vulnerability Assessment Indicators - Natural
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.171336
   hierarchylevel: dataset

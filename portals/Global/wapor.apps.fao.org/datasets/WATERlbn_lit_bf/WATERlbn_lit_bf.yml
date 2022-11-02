@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:lbn_lit_bf
   title: Base flow (Litani, Lebanon - Monthly - 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.457988
   hierarchylevel: dataset

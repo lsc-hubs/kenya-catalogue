@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR_2:vao
   title: Vulnerability Assessment Outputs
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.302486
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:eci_cdds
   title: RCM Extreme Climate Indices - Maximum length of dry spell (Seasonal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.139559
   hierarchylevel: dataset

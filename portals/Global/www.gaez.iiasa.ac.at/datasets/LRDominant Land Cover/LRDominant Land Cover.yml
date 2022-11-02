@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: LR:Dominant Land Cover
   title: LR:Dominant Land Cover
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.715448
   hierarchylevel: dataset

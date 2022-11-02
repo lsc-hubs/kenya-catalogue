@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:jor_p_et
   title: Preicipitation minus evapotranspiration (Jordan River Basin- Monthly - 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.136155
   hierarchylevel: dataset

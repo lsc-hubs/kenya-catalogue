@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_lt2
   title: "Agro-climatic Resources - Thermal Regime - Temperature growing period (LGPt=5);\
     \ number of days with Ta > 5 \uFFFDC"
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.606567
   hierarchylevel: dataset

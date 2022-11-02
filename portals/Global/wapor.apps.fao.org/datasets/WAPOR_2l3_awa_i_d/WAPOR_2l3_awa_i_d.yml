@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_awa_i_d
   title: Interception (Awash, Ethiopia - Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.921840
   hierarchylevel: dataset

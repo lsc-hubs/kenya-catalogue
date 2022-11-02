@@ -54,7 +54,8 @@ identification:
       - WOfS
   name: srtm_deriv
   title: SRTM-derived Slope and Flatness Indices (30 m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.993356
   hierarchylevel: dataset

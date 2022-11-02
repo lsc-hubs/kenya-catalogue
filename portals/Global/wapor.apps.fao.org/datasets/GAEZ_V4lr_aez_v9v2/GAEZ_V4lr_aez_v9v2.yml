@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GAEZ_V4:lr_aez_v9v2
   title: AEZ classification by climate/soil/terrain/LC (57 classes)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.610121
   hierarchylevel: dataset

@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_eta
   title: Agro-climatic Resources - Moisture Regime - Reference actual evapotranspiration
     (using AWC=100 mm/m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.556553
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: IWMI:sswgw
   title: Suitability for solar irrigation using surface water and ground water
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.253678
   hierarchylevel: dataset

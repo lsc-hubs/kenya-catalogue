@@ -34,7 +34,8 @@ identification:
       - coasts
   name: GAEZ:coasts
   title: coasts
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.854954
   hierarchylevel: dataset

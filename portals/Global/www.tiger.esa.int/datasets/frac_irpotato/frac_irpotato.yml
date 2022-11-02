@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: frac_irpotato
   title: frac_irpotato
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:11.340993
   hierarchylevel: dataset

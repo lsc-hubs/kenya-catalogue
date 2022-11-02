@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res05_yldc
   title: Suitability and Attainable Yield - Attainable Yield - Average attainable
     yield of current cultivated land
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.848743
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:ind_tn_agbp_s
   title: Seasonal biomass production, Samba (India, Tamil Nadu, Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.023593
   hierarchylevel: dataset

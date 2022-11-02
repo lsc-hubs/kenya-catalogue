@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: frac_rfcotton
   title: frac_rfcotton
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.925120
   hierarchylevel: dataset

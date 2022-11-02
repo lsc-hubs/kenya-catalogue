@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GAEZ_V4:lr_mst_regime_class
   title: Land and Water Resources - Agro-ecological Zones - Moisture regime class
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.640963
   hierarchylevel: dataset

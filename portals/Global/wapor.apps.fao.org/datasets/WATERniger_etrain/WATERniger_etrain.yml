@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:niger_etrain
   title: Rainfall evapotranspiration (Niger River Basin,  Monthly - 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.893673
   hierarchylevel: dataset

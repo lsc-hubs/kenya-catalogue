@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_mal_phe_s
   title: Phenology (Malwathu Oya West Sub Catchment, Sri Lanka - Seasonal, 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.316206
   hierarchylevel: dataset

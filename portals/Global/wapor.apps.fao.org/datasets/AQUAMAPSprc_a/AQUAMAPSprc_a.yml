@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: AQUAMAPS:prc_a
   title: Global map of annual precipitation
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.200737
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - GYGA_USA_coarseTED_WGS84_cornmask2013_2016
   name: GYGA_USA_coarseTED_WGS84_cornmask
   title: GYGA_USA_coarseTED_WGS84_cornmask2013_2016
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.467872
   hierarchylevel: dataset

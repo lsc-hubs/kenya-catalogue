@@ -38,7 +38,8 @@ identification:
       - frac_rfsoybean
   name: RainfedSoybeanMask
   title: frac_rfsoybean
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.685029
   hierarchylevel: dataset

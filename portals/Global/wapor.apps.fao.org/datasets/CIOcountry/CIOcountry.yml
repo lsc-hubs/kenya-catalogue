@@ -34,7 +34,8 @@ identification:
       - country
   name: CIO:country
   title: Countries
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.875137
   hierarchylevel: dataset

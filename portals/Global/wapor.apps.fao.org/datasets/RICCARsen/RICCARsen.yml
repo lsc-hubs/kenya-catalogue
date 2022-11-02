@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:sen
   title: Vulnerability Assessment Output Indicators - Sensitivity
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.196725
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_awa_e_d
   title: Evaporation (Awash, Ethiopia - Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.889832
   hierarchylevel: dataset

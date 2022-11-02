@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GSOCSEQ:gbsp
   title: Probability map of black soil distribution
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.638691
   hierarchylevel: dataset

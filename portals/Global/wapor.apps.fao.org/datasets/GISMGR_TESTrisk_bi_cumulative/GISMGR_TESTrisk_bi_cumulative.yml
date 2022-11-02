@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GISMGR_TEST:risk_bi_cumulative
   title: Risk Baseline Cumulative
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.948970
   hierarchylevel: dataset

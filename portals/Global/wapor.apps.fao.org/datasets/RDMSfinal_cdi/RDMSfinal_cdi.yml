@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RDMS:final_cdi
   title: Composite Drought Index
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.611167
   hierarchylevel: dataset

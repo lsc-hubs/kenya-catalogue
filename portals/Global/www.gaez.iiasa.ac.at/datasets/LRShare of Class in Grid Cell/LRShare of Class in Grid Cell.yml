@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: LR:Share of Class in Grid Cell
   title: LR:Share of Class in Grid Cell
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.724998
   hierarchylevel: dataset

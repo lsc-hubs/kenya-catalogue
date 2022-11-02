@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RSCROP:rice_pdmf
   title: Rice pest and disease monitoring and forecasting
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.939340
   hierarchylevel: dataset

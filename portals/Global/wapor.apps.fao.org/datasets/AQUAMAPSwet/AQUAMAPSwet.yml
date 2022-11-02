@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: AQUAMAPS:wet
   title: Global map of rain days per month
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.428828
   hierarchylevel: dataset

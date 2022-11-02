@@ -14,6 +14,8 @@ distribution:
   ls8_sr:
     name: ls7_sr
     type: OGC:WMS
+    format: WMS
+    format_version: 1.1.1
     url: https://ows.digitalearth.africa/
 identification:
   abstract: "Surface reflectance is the fraction of incoming solar radiation that\
@@ -53,7 +55,8 @@ identification:
       - WOfS
   name: ls7_sr
   title: Surface reflectance (Landsat 7)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.490892
   hierarchylevel: dataset

@@ -53,7 +53,8 @@ identification:
       - WOfS
   name: ndvi_climatology_ls
   title: NDVI Climatology
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.909553
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_bus_tbp_s
   title: Total Biomass Production (Busia, Kenya - Seasonal, 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.391764
   hierarchylevel: dataset

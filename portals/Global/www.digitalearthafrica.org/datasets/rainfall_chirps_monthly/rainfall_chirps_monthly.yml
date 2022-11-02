@@ -43,7 +43,8 @@ identification:
       - fractional-cover
   name: rainfall_chirps_monthly
   title: Rainfall (monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:44.036848
   hierarchylevel: dataset

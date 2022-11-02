@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:k2_et
   title: Actual EvapoTranspiration (K2, Karnataka, India - Monthly - 250m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.180221
   hierarchylevel: dataset

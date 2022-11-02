@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:rcm_mna_44
   title: Regional Climate Modelling (50 Km)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.265657
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_muv_npp_m
   title: Net Primary Production (Muvumba catchment, Rwanda - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.501170
   hierarchylevel: dataset

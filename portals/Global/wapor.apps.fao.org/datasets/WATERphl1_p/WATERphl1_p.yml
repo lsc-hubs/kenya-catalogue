@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:phl1_p
   title: Precipitation (Mindanao, Philippines - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.113177
   hierarchylevel: dataset

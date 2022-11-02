@@ -58,7 +58,8 @@ identification:
       - fractional-cover
   name: ndvi_anomaly
   title: NDVI Anomaly
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.931699
   hierarchylevel: dataset

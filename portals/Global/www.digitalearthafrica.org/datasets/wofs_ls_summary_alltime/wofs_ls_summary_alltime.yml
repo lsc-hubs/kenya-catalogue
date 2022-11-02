@@ -64,7 +64,8 @@ identification:
       - fractional-cover
   name: wofs_ls_summary_alltime
   title: Water Observations from Space all-time summary
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.733215
   hierarchylevel: dataset

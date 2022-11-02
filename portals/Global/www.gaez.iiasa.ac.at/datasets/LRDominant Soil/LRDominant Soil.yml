@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: LR:Dominant Soil
   title: LR:Dominant Soil
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.694881
   hierarchylevel: dataset

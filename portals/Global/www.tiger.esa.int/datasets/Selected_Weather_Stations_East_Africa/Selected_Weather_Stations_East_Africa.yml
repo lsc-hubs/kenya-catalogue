@@ -34,7 +34,8 @@ identification:
       - features
   name: Selected_Weather_Stations_East_Africa
   title: Selected_Weather_Stations_East_Africa
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:11.205615
   hierarchylevel: dataset

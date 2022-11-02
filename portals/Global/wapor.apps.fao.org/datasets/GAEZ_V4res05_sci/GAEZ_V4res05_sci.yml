@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res05_sci
   title: Suitability and Attainable Yield - Suitability Class - Crop suitability index
     in classes; all land in grid cell
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.837835
   hierarchylevel: dataset

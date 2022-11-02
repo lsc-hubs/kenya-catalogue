@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: CRTB:risk_fi_cumulative
   title: Risk Near and Mid term Cumulative
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.979988
   hierarchylevel: dataset

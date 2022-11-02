@@ -36,7 +36,8 @@ identification:
   name: WATER:lka_md_agbp_s
   title: Above Ground Biomass Production, Maha and Yala season (Mi and Deduru, Sri
     Lanka, Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.589121
   hierarchylevel: dataset

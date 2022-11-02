@@ -34,7 +34,8 @@ identification:
       - hydrobasins_austpacific
   name: AQUAMAPS:hydrobasins_austpacific
   title: Hydrological basins in Australia and New Zealand (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.831401
   hierarchylevel: dataset

@@ -13,6 +13,8 @@ contact:
 distribution:
   ls7_sr:
     name: ls5_sr
+    format: WMS
+    format_version: 1.1.1
     type: OGC:WMS
     url: https://ows.digitalearth.africa/
 identification:
@@ -53,7 +55,8 @@ identification:
       - WOfS
   name: ls5_sr
   title: Surface reflectance (Landsat 5)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.502322
   hierarchylevel: dataset

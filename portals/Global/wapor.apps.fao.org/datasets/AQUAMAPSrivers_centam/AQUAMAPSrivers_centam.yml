@@ -34,7 +34,8 @@ identification:
       - rivers_centam
   name: AQUAMAPS:rivers_centam
   title: Rivers in Central America (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.038258
   hierarchylevel: dataset

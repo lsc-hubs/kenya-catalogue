@@ -34,7 +34,8 @@ identification:
       - GYGA_SELECTED_COUNTRIES_EUROPE
   name: GYGA_SELECTED_COUNTRIES_EUROPE
   title: GYGA_SELECTED_COUNTRIES_EUROPE
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.425071
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:ind_ka_cwp_s
   title: Crop Water Productivity - (NLBC, Karnataka, India, Seasonal 2019 - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.941995
   hierarchylevel: dataset

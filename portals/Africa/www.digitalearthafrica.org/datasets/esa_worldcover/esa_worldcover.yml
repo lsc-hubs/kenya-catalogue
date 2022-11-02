@@ -44,7 +44,8 @@ identification:
       - WOfS
   name: esa_worldcover
   title: ESA WorldCover 2020
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.932155
   hierarchylevel: dataset

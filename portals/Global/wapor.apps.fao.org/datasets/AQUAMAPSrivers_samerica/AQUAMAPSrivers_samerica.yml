@@ -34,7 +34,8 @@ identification:
       - rivers_samerica
   name: AQUAMAPS:rivers_samerica
   title: Rivers in South America (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.089209
   hierarchylevel: dataset

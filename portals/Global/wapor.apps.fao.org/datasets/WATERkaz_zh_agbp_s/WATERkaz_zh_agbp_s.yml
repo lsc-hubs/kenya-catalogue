@@ -36,7 +36,8 @@ identification:
   name: WATER:kaz_zh_agbp_s
   title: Above Ground Biomass Production (hanaarka, Karaghandy region selected districts,
     Kazakhstan - Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.088896
   hierarchylevel: dataset

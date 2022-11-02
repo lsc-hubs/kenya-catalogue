@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: frac_rfchickpea
   title: frac_rfchickpea
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.913904
   hierarchylevel: dataset

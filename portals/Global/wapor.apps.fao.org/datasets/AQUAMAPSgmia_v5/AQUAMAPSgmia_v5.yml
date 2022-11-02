@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: AQUAMAPS:gmia_v5
   title: Global Map of Irrigation Areas - Version 5
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.669651
   hierarchylevel: dataset

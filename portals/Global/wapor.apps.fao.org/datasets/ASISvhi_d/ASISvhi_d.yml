@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: ASIS:vhi_d
   title: Vegetation Health Index (Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.360088
   hierarchylevel: dataset

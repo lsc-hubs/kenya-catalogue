@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_bka_gbwp_s
   title: Gross Biomass Water Productivity (Bekaa, Lebanon - Seasonal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.095677
   hierarchylevel: dataset

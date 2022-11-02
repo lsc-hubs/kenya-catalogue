@@ -34,7 +34,8 @@ identification:
       - rvf_boundaries
   name: RVF:rvf_boundaries
   title: rvf_boundaries
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.167999
   hierarchylevel: dataset

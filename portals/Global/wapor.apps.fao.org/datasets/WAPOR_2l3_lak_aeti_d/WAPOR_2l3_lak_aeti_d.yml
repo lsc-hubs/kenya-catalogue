@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_lak_aeti_d
   title: Actual EvapoTranspiration and Interception (Lower Akagera, Rwanda - Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.842054
   hierarchylevel: dataset

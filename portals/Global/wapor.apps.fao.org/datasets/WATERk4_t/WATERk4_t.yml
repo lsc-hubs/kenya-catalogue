@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:k4_t
   title: Transpiration (K4, Karnataka, India - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.721379
   hierarchylevel: dataset

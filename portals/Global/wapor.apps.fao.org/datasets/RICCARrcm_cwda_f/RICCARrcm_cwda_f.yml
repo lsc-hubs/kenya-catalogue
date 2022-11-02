@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:rcm_cwda_f
   title: RCM Ensemble - Maximum length of wet spell (Future)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.246018
   hierarchylevel: dataset

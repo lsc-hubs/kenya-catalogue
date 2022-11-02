@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_mcl
   title: Agro-climatic Resources - Climate Classification - Thermal Climates (temperatures
     reduced to sea level)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.657888
   hierarchylevel: dataset

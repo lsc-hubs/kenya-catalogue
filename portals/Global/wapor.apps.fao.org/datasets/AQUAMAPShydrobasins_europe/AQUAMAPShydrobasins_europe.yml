@@ -34,7 +34,8 @@ identification:
       - hydrobasins_europe
   name: AQUAMAPS:hydrobasins_europe
   title: Hydrological basins in Europe (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.852208
   hierarchylevel: dataset

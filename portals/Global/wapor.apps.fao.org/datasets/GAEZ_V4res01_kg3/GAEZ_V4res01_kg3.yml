@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_kg3
   title: Agro-climatic Resources - Climate Classification - Koeppen-Geiger (3-character)
     classification
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.586036
   hierarchylevel: dataset

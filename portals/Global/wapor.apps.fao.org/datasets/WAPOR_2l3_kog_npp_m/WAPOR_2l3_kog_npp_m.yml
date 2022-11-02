@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_kog_npp_m
   title: Net Primary Production (Koga, Ethiopia - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.753865
   hierarchylevel: dataset

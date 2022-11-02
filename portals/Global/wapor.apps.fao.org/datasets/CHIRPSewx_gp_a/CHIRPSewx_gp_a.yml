@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: CHIRPS:ewx_gp_a
   title: Precipitation Anomaly (Global, Pentad)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.466864
   hierarchylevel: dataset

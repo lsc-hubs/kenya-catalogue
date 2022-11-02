@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:ind_tn_aet_s
   title: Actual EvapoTranspirationp Samba (India, Tamil Nadu, Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.013319
   hierarchylevel: dataset

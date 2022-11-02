@@ -36,7 +36,8 @@ identification:
   name: WATER:ind_ka_ndvi_s
   title: Normalized Difference Vegetation Index (NLBC, Karnataka, India, Seasonal
     - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.960398
   hierarchylevel: dataset

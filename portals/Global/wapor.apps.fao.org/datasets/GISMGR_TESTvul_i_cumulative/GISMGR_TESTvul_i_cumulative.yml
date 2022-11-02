@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GISMGR_TEST:vul_i_cumulative
   title: Vulnerability Cumulative Indicator
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.407997
   hierarchylevel: dataset

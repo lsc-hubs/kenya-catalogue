@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: C3S:agera5_ws
   title: Wind Speed
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.673455
   hierarchylevel: dataset

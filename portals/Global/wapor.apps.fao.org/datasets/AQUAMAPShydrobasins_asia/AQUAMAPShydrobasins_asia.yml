@@ -34,7 +34,8 @@ identification:
       - hydrobasins_asia
   name: AQUAMAPS:hydrobasins_asia
   title: Hydrological basins in Southeast Asia (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.819879
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - frac_rfbarley
   name: frac_rfbarley
   title: frac_rfbarley
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:11.379387
   hierarchylevel: dataset

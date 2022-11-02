@@ -65,7 +65,8 @@ identification:
       - WOfS
   name: wofs_ls_summary_annual
   title: Water Observations from Space annual summary
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.693016
   hierarchylevel: dataset

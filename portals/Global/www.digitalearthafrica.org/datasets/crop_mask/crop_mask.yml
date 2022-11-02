@@ -81,7 +81,8 @@ identification:
       - fractional-cover
   name: crop_mask
   title: Cropland extent 2019
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.748751
   hierarchylevel: dataset

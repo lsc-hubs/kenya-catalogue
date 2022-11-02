@@ -34,7 +34,8 @@ identification:
       - major_hydrobasins
   name: AQUASTAT:major_hydrobasins
   title: Major Hydrological Basins of the World - derived from HydroSHEDS
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.671426
   hierarchylevel: dataset

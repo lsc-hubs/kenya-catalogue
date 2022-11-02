@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RDMS:perc_ndvi
   title: Normalized Difference Vegetation Index
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.022268
   hierarchylevel: dataset

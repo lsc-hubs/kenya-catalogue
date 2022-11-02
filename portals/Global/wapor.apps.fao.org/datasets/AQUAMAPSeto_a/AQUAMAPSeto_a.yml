@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: AQUAMAPS:eto_a
   title: Global map of annual reference EvapoTranspiration
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.387972
   hierarchylevel: dataset

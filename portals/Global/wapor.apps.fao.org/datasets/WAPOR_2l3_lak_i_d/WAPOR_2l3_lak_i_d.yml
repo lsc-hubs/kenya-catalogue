@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_lak_i_d
   title: Interception (Lower Akagera, Rwanda - Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.891668
   hierarchylevel: dataset

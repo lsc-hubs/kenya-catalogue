@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: CRTB:haz_bi
   title: Hazards Indicator (Baseline)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.730012
   hierarchylevel: dataset

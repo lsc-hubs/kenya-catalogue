@@ -11,8 +11,8 @@ contact:
     postalcode: '2609'
     url: digitalearthafrica.org//
 distribution:
-  ? !!python/name:builtins.id ''
-  : name: s2_l2a
+  foo:
+    name: s2_l2a
     type: OGC:WMS
     url: https://ows.digitalearth.africa/
 identification:
@@ -58,7 +58,8 @@ identification:
       - WOfS
   name: s2_l2a
   title: Surface reflectance (Sentinel-2)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.455565
   hierarchylevel: dataset

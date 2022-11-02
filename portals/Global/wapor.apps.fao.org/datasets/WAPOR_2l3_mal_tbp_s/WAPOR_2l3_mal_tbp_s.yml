@@ -36,7 +36,8 @@ identification:
   name: WAPOR_2:l3_mal_tbp_s
   title: Total Biomass Production (Malwathu Oya West Sub Catchment, Sri Lanka - Seasonal,
     30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.373917
   hierarchylevel: dataset

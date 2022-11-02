@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RVF:vax
   title: "RVF Vector Amplification Forecast (Monthly) \u2013 Large extent"
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.312378
   hierarchylevel: dataset

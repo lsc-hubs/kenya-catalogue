@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:khm_etincr
   title: "Incremental EvapoTranspiration (Tonl\xE9 Sap, Cambodia - Monthly)"
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.177557
   hierarchylevel: dataset

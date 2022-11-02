@@ -34,7 +34,8 @@ identification:
       - RVF_outbreaks_confirmed_2018
   name: RVF:RVF_outbreaks_confirmed_2018
   title: RVF_outbreaks_confirmed_2018
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.365053
   hierarchylevel: dataset

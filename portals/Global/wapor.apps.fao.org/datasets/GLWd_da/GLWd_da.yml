@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GLW:d_da
   title: Dasymetric (Density)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.973899
   hierarchylevel: dataset

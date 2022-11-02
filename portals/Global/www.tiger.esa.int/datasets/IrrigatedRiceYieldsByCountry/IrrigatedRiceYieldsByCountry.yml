@@ -40,7 +40,8 @@ identification:
       - V_CNTRY_IRRIGATEDRICEYIELD
   name: IrrigatedRiceYieldsByCountry
   title: Irrigated Rice Yields By Country
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:10.911377
   hierarchylevel: dataset

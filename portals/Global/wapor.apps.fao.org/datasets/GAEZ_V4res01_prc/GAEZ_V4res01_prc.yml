@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GAEZ_V4:res01_prc
   title: Agro-climatic Resources - Moisture Regime - Annual precipitation (mm)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.705130
   hierarchylevel: dataset

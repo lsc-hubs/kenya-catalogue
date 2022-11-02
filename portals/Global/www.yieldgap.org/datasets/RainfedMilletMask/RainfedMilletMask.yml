@@ -38,7 +38,8 @@ identification:
       - frac_rfmillet
   name: RainfedMilletMask
   title: Rainfed millet mask
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.575189
   hierarchylevel: dataset

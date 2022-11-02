@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:eef
   title: Vulnerability Assessment Indicators - Extreme Events ((Future)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.286484
   hierarchylevel: dataset

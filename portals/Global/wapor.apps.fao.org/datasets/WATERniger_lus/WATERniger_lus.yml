@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:niger_lus
   title: Land Use Map (Niger River Baisn - Monthly - 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.904821
   hierarchylevel: dataset

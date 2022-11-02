@@ -34,7 +34,8 @@ identification:
       - arab_domain_merge
   name: RICCAR:arab_domain_merge
   title: Arab Domain
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.684900
   hierarchylevel: dataset

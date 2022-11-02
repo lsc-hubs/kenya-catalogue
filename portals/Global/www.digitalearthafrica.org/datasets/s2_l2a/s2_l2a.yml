@@ -58,7 +58,8 @@ identification:
       - fractional-cover
   name: s2_l2a
   title: Surface reflectance (Sentinel-2)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.417196
   hierarchylevel: dataset

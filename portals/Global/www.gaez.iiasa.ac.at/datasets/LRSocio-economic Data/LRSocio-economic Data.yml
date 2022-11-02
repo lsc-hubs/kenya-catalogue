@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: LR:Socio-economic Data
   title: LR:Socio-economic Data
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.745817
   hierarchylevel: dataset

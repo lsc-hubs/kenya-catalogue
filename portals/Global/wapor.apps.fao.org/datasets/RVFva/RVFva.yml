@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RVF:va
   title: Vector Amplification
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.281956
   hierarchylevel: dataset

@@ -49,7 +49,8 @@ identification:
       - fractional-cover
   name: io_lulc
   title: Impact Observatory Land Use/Land Cover
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.991259
   hierarchylevel: dataset

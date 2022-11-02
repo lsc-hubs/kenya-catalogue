@@ -34,7 +34,8 @@ identification:
       - features
   name: AQUAMAPS:rivers_europe
   title: Rivers in Europe (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.052417
   hierarchylevel: dataset

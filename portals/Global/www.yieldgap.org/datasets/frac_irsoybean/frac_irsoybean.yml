@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: frac_irsoybean
   title: frac_irsoybean
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.872500
   hierarchylevel: dataset

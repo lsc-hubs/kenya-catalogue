@@ -36,7 +36,8 @@ identification:
       - frac_rfmillet
   name: RainfedMilletArea
   title: Rainfed Millet Area
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.560526
   hierarchylevel: dataset

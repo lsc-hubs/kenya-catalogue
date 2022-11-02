@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:mng1_et
   title: Actual EvapoTranspiration (Selenge and Naushky, Mongolia - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.706862
   hierarchylevel: dataset

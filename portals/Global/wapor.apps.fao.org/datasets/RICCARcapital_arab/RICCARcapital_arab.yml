@@ -34,7 +34,8 @@ identification:
       - capital_arab
   name: RICCAR:capital_arab
   title: Capital Arab
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.844879
   hierarchylevel: dataset

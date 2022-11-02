@@ -36,7 +36,8 @@ identification:
   name: WAPOR_2:l3_kog_qual_ndvi_lt
   title: Quality of Normalized Difference Vegetation Index (Koga, Ethiopia - Long
     Term, 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.793937
   hierarchylevel: dataset

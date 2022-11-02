@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l2_i_a
   title: Interception (Annual, 100m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.717394
   hierarchylevel: dataset

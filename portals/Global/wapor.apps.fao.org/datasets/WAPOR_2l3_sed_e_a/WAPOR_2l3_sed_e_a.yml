@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_sed_e_a
   title: Evaporation (Senegal Delta, Senegal - Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.891407
   hierarchylevel: dataset

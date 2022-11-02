@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_awa_tbp_s
   title: Total Biomass Production (Awash, Ethiopia - Seasonal, 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:17.034740
   hierarchylevel: dataset

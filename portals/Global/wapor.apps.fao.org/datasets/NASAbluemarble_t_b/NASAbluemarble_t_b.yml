@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: NASA:bluemarble_t_b
   title: Blue Marble with Topography and Bathymetry
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.804631
   hierarchylevel: dataset

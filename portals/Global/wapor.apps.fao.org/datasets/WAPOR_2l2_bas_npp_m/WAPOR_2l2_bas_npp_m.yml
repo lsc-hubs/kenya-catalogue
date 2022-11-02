@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l2_bas_npp_m
   title: Net Primary Production (100m, Monthly clipped by basin)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.663687
   hierarchylevel: dataset

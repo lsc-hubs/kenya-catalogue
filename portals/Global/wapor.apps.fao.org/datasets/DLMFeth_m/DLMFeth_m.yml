@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: DLMF:eth_m
   title: Ethiopia
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.350478
   hierarchylevel: dataset

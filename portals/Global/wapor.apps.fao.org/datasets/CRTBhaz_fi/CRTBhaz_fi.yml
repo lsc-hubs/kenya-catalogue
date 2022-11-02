@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: CRTB:haz_fi
   title: Hazards Indicator (Near and Mid term)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.760371
   hierarchylevel: dataset

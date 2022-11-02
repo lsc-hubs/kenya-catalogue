@@ -36,7 +36,8 @@ identification:
   name: WATER:ind_tn_rwd_30_s
   title: Relative Water Deficit (30%) in Samba season (India, Tamil Nadu, Seasonal
     - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.063363
   hierarchylevel: dataset

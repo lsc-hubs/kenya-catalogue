@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: DLMF:ind_m
   title: India
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.001282
   hierarchylevel: dataset

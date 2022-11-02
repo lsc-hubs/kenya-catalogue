@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:eci_tra
   title: RCM Extreme Climate Indices - Tropical Nights (Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.266185
   hierarchylevel: dataset

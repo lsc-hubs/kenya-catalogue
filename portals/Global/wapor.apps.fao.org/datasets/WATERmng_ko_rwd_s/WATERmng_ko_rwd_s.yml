@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:mng_ko_rwd_s
   title: Relative Water Deficit (Khongor, Mongolia, Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.846530
   hierarchylevel: dataset

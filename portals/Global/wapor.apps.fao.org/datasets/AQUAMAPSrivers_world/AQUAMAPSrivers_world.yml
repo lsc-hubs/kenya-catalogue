@@ -34,7 +34,8 @@ identification:
       - rivers_world
   name: AQUAMAPS:rivers_world
   title: Major rivers of the world (Derived from HydroSHEDS)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.099318
   hierarchylevel: dataset

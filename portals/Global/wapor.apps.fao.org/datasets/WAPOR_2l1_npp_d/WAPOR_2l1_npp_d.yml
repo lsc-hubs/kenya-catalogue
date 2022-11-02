@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l1_npp_d
   title: Net Primary Production (Dekadal, 250m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:16.473835
   hierarchylevel: dataset

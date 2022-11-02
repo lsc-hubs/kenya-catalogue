@@ -80,7 +80,8 @@ identification:
       - fractional-cover
   name: crop_mask_northern
   title: Cropland extent 2019 - Northern Africa
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.901241
   hierarchylevel: dataset

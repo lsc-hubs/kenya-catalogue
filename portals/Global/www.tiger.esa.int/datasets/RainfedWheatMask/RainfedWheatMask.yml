@@ -38,7 +38,8 @@ identification:
       - frac_rfwheat
   name: RainfedWheatMask
   title: Rainfed wheat mask
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:11.168296
   hierarchylevel: dataset

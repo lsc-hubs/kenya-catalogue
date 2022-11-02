@@ -40,7 +40,8 @@ identification:
       - features
   name: RainfedRiceYieldsByCountry
   title: Rainfed Rice Yields By Country
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.644668
   hierarchylevel: dataset

@@ -66,7 +66,8 @@ identification:
       - WOfS
   name: gm_s2_semiannual
   title: Semiannual GeoMAD (Sentinel-2)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.569006
   hierarchylevel: dataset

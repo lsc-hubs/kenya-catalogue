@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_muv_e_d
   title: Evaporation (Muvumba catchment, Rwanda - Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.426375
   hierarchylevel: dataset

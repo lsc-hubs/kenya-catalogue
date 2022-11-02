@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GAEZ_2015:crop_yld
   title: CROPS 2015 - Yield
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.941081
   hierarchylevel: dataset

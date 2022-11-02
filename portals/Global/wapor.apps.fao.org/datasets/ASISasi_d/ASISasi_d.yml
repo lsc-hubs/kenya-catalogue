@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: ASIS:asi_d
   title: Agricultural Stress Index (Near Real Time, Dekadal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.705344
   hierarchylevel: dataset

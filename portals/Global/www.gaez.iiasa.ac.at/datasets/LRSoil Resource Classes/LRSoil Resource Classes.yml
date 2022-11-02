@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: LR:Soil Resource Classes
   title: LR:Soil Resource Classes
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.795217
   hierarchylevel: dataset

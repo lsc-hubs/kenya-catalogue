@@ -34,7 +34,8 @@ identification:
       - zone_boundaries_WGS84
   name: ethiopia_zones
   title: ethiopia_zones shape zone_boundaries_WGS84
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:11.251177
   hierarchylevel: dataset

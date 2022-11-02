@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GAEZ_2015:crop_har
   title: CROPS 2015 - Harvest Area
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.914515
   hierarchylevel: dataset

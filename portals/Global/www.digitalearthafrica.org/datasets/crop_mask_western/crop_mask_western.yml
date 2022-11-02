@@ -81,7 +81,8 @@ identification:
       - fractional-cover
   name: crop_mask_western
   title: Cropland extent 2019 - Western Africa
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.786875
   hierarchylevel: dataset

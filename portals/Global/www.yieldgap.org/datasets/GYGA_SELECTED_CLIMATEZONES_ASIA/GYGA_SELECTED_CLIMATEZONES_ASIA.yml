@@ -34,7 +34,8 @@ identification:
       - GYGA_SELECTED_CLIMATEZONES_ASIA
   name: GYGA_SELECTED_CLIMATEZONES_ASIA
   title: GYGA_SELECTED_CLIMATEZONES_ASIA
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.381921
   hierarchylevel: dataset

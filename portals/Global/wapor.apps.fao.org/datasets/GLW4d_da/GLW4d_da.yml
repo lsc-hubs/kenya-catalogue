@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GLW4:d_da
   title: Animal Density (GLW4)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.994759
   hierarchylevel: dataset

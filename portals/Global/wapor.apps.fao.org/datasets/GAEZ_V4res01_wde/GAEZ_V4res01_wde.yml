@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_wde
   title: Agro-climatic Resources - Moisture Regime - Reference evapotranspiration
     deficit (mm; AWC=100 mm)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.819338
   hierarchylevel: dataset

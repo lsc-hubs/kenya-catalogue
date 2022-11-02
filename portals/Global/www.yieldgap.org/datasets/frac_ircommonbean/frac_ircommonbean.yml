@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: frac_ircommonbean
   title: frac_ircommonbean
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.796823
   hierarchylevel: dataset

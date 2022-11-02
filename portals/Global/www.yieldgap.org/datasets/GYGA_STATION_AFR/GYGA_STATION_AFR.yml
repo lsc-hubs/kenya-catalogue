@@ -34,7 +34,8 @@ identification:
       - features
   name: GYGA_STATION_AFR
   title: GYGA_STATION_AFR
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:05.446582
   hierarchylevel: dataset

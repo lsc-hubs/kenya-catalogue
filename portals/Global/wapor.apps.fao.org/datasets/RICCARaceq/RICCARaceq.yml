@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:aceq
   title: Vulnerability Assessment Indicators - Equity
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.429080
   hierarchylevel: dataset

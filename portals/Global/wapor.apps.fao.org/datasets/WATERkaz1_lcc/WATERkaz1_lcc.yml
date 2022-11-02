@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:kaz1_lcc
   title: Land Cover Classification (Nura-Sarysu, Kazakhstan - Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.788693
   hierarchylevel: dataset

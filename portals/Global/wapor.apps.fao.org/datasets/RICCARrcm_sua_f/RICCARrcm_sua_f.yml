@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:rcm_sua_f
   title: RCM Ensemble - Annual Summer Days (Future)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.412102
   hierarchylevel: dataset

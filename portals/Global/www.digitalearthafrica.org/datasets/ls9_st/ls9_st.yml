@@ -53,7 +53,8 @@ identification:
       - fractional-cover
   name: ls9_st
   title: Surface temperature (Landsat 9)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.588780
   hierarchylevel: dataset

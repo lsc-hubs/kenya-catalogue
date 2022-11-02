@@ -34,7 +34,8 @@ identification:
       - country_boundaries
   name: CIO:country_boundaries
   title: Country Boundaries
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.885871
   hierarchylevel: dataset

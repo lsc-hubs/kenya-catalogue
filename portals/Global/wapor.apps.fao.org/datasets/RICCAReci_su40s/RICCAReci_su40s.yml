@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:eci_su40s
   title: RCM Extreme Climate Indices - Very Hot Days (Seasonal)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.236741
   hierarchylevel: dataset

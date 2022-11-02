@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: C2ATLAS:rfp_t
   title: CMIP5 Temperature Change (Reference Future Periods)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.909129
   hierarchylevel: dataset

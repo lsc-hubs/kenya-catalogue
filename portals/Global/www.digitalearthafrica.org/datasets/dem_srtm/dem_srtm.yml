@@ -46,7 +46,8 @@ identification:
       - fractional-cover
   name: dem_srtm
   title: Shuttle Radar Topography Mission Digital Elevation Model (30 m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:44.052182
   hierarchylevel: dataset

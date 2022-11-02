@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:mng1_nrd
   title: Number of Rainy Days (Selenge and Naushky, Mongolia - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.760616
   hierarchylevel: dataset

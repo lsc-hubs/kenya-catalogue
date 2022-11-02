@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: C3S:agera5_rh15
   title: Relative Humidity (at 15h LT)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.620003
   hierarchylevel: dataset

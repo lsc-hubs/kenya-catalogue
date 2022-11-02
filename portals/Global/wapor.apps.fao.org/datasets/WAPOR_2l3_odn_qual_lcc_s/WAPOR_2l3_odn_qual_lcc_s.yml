@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WAPOR_2:l3_odn_qual_lcc_s
   title: Quality of Land Cover Classification (Office du Niger, Mali - Seasonal, 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:18.725295
   hierarchylevel: dataset

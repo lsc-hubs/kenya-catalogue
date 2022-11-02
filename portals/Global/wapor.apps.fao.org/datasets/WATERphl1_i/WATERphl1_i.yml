@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:phl1_i
   title: Interception (Mindanao, Philippines - Monthly)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.094482
   hierarchylevel: dataset

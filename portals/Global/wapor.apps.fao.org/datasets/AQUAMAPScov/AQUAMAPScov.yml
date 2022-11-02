@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: AQUAMAPS:cov
   title: Global map of monthly coefficient of variation of precipitation
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:13.899295
   hierarchylevel: dataset

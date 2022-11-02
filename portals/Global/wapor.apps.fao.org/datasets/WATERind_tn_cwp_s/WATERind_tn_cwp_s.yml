@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:ind_tn_cwp_s
   title: Seasonal crop water productivity, Samba (India, Tamil Nadu, Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.042755
   hierarchylevel: dataset

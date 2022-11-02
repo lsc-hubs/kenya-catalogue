@@ -80,7 +80,8 @@ identification:
       - WOfS
   name: crop_mask_southern
   title: Cropland extent 2019 - Southern Africa
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.785915
   hierarchylevel: dataset

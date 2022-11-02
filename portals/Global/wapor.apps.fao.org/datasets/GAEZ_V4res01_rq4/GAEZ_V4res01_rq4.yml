@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: GAEZ_V4:res01_rq4
   title: Agro-climatic Resources - Moisture Regime - Quarterly P/PET ratio (October-December)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.766545
   hierarchylevel: dataset

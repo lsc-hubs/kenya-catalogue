@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: '0'
   title: LR
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.620664
   hierarchylevel: dataset

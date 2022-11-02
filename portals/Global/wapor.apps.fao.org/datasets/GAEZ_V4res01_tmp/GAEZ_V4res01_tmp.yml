@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_tmp
   title: "Agro-climatic Resources - Thermal Regime - Mean annual temperature (\uFFFD\
     C)"
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.788361
   hierarchylevel: dataset

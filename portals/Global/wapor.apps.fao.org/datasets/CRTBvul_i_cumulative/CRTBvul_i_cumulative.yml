@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: CRTB:vul_i_cumulative
   title: Vulnerability Cumulative
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:21.418539
   hierarchylevel: dataset

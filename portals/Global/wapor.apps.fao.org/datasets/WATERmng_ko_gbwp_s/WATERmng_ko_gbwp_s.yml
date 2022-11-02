@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: WATER:mng_ko_gbwp_s
   title: Biomass Water Productivity (Khongor, Mongolia, Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:19.813451
   hierarchylevel: dataset

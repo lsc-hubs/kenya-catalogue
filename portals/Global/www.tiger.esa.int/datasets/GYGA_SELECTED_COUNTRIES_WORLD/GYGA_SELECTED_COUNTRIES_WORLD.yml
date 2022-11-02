@@ -34,7 +34,8 @@ identification:
       - GYGA_SELECTED_COUNTRIES_WORLD
   name: GYGA_SELECTED_COUNTRIES_WORLD
   title: GYGA_SELECTED_COUNTRIES_WORLD
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:10.855193
   hierarchylevel: dataset

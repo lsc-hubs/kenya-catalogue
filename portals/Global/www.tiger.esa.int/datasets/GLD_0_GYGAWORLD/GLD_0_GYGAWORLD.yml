@@ -34,7 +34,8 @@ identification:
       - features
   name: GLD_0_GYGAWORLD
   title: GLD_0_GYGAWORLD
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:10.752327
   hierarchylevel: dataset

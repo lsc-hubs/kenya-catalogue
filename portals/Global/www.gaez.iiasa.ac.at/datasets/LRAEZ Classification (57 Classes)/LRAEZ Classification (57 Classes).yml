@@ -31,7 +31,8 @@ identification:
       keywords: []
   name: LR:AEZ Classification (57 Classes)
   title: LR:AEZ Classification (57 Classes)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:04.661816
   hierarchylevel: dataset

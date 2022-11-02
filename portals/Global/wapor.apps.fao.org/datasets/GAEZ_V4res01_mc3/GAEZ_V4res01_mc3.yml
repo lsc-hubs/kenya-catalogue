@@ -36,7 +36,8 @@ identification:
   name: GAEZ_V4:res01_mc3
   title: Agro-climatic Resources - Climate Classification - Classification by Thermal
     Climates and Thermal Zones
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.636827
   hierarchylevel: dataset

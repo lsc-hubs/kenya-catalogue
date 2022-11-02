@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:exp_pcp_44
   title: RCM Exposure - Precipitation (50 km)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.548266
   hierarchylevel: dataset

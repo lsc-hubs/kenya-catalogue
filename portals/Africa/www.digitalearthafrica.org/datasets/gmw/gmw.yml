@@ -51,7 +51,8 @@ identification:
       - WOfS
   name: gmw
   title: Global Mangrove Watch
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:16:36.899621
   hierarchylevel: dataset

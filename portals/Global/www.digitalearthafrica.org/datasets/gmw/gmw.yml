@@ -51,7 +51,8 @@ identification:
       - fractional-cover
   name: gmw
   title: Global Mangrove Watch
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 15:51:43.961278
   hierarchylevel: dataset

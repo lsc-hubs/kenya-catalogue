@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: RICCAR:exp_tmax_22
   title: RCM Exposure - Max Temperature (25 km)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.571285
   hierarchylevel: dataset

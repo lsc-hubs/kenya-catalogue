@@ -35,7 +35,8 @@ identification:
       - GeoTIFF
   name: AQUAMAPS:hwsd_smax
   title: Maximum available soil moisture
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.799662
   hierarchylevel: dataset

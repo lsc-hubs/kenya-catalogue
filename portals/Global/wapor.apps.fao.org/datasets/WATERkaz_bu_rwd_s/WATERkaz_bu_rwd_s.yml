@@ -36,7 +36,8 @@ identification:
   name: WATER:kaz_bu_rwd_s
   title: Relative Water Deficit (Bukhar, Karaghandy region selected districts, Kazakhstan
     - Seasonal - 30m)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:15.904617
   hierarchylevel: dataset

@@ -36,7 +36,8 @@ identification:
       - frac_rfwheat
   name: RainfedWheatArea
   title: Rainfed Wheat Area
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:11.153404
   hierarchylevel: dataset

@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: FAOSTAT:drosa_a
   title: Drained Organic Soils Area (Annual)
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:14.106592
   hierarchylevel: dataset

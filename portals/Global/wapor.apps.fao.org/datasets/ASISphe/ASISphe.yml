@@ -35,7 +35,8 @@ identification:
       - ImageMosaic
   name: ASIS:phe
   title: Crop-growing Season
-mcf: 1.0
+mcf:
+   version: 1.0
 metadata:
   datestamp: 2022-10-31 16:17:20.051820
   hierarchylevel: dataset
