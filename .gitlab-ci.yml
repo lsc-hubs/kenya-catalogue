@@ -10,7 +10,7 @@ metadata:
   script:
     # init database if it does not exist
     - pip install sqlalchemy
-    #- pycsw-admin.py -c setup_db -f ./pycsw.cfg
+    - pycsw-admin.py setup-db -c ./pycsw.cfg
     # covert yml to iso (only changed?)
     - export pgdc_schema_path=/pyGeoDataCrawler/geodatacrawler/schemas
     - cd /pyGeoDataCrawler
