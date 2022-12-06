@@ -1,0 +1,12 @@
+url;label;country;api-protocol;api-url;filter;description
+https://sites.google.com/view/kenyacrops;KE-APP;KE;;https://sites.google.com/view/kenyacrops;;Kenya Crops and AEZ app (playstore  )
+https://www.kalro.org/e-resources;KALRO;KE;;;;Docs
+https://www.kaop.co.ke/;Kenia Ag Observatory platform;KE;;;;Implemented by KALRO: Climate, Ag advisory and insights
+https://data.isric.org;ISRIC;KE;CSW;https://data.isric.org/geonetwork/srv/eng/csw;"uuid in [""e2af1672-ab22-4fdf-909f-81fb586268dc"",""73e27136-9efe-49e4-af35-fd98b841d467"",""4648929a-8031-49cc-9d56-9f3aeff2f8d9""]";
+https://mapping.cropnuts.com/projects/home/;CROPNUTS-IFDC;KE;;;;Kenya soil fertility map
+https://www.africageoportal.com/;Africa geoportal;;;;;Includes soil data
+https://cropnuts.com/service_type/agviza-pro/;CROPNUTS;ET;;;;Yield Enhancing Farming platform app
+https://mapping.cropnuts.com/projects/home/;CROPNUTS-IFDC;KE;;;;Kenya soil fertility map
+https://www.twiga-h2020.eu/;TWIGA;KE;;;;Provide currently unavailable geo-information on weather, water and climate for sub-Saharan Africa by enhancing satellite-based geo-data with innovative in situ sensors and developing related information services that answer needs of African stakeholders and the GEOSS community.
+https://snv.org/project/icsiapl;;KE;;;;The Integrated & Climate Smart Innovations for Agro-pastoralist Economies and Landscapes in Kenya's ASAL (ICSIAPL) project 
+;Project;KE;;;;
