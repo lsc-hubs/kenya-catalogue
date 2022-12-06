@@ -1,0 +1,13 @@
+url;label;country;api-protocol;api-url;Filter;description
+https://www.digitalearthafrica.org/;Digital Earth;Africa;WMS;https://ows.digitalearth.africa/;;Nothing much useful. Lots of EO data though.
+https://tamasa.cimmyt.org/tamasa-data;Tamasa;Africa;OAI;https://data.cimmyt.org/oai?verb=ListSets;;"Soil and agronomic data;fertiliser response"
+https://agronomy.unl.edu/OFRA;OFRA;Africa;;https://uofnelincoln.sharepoint.com/sites/UNL-IANRAgandHort-Office/Shared%20Documents/Forms/AllItems.aspx?ga=1&id=%2Fsites%2FUNL%2DIANRAgandHort%2DOffice%2FShared%20Documents%2FAgronomy%20%26%20Horticulture%2FAgHort%20AV%20Assets%2FDepartment%2FWebsite%20Content%2FOFRA%2FMaps%20EMF%2FEthiopia%2Eemf&parent=%2Fsites%2FUNL%2DIANRAgandHort%2DOffice%2FShared%20Documents%2FAgronomy%20%26%20Horticulture%2FAgHort%20AV%20Assets%2FDepartment%2FWebsite%20Content%2FOFRA%2FMaps%20EMF;;"Soil and agronomic data;fertiliser response"
+https://landscapeportal.org;ICRAF;Africa;;https://web.archive.org/web/20220119023203/http://landscapeportal.org/;;The Landscape Portal is ICRAF's interactive online spatial data storage and visualization platform. It comes with a rich set of features to store, document, search and retrieve, and visualize spatial data and maps.
+https://www.growerstech.com/axiom;ICL-AXIOM;Africa;;https://web.archive.org/web/20201209030806/https://www.growerstech.com/axiom;;Ag Research data integration for AI
+https://qed.ai/afsisdb/;QED-AFSIS;Africa;;"https://registry.opendata.aws/afsis/;https://github.com/qedsoftware/afsis-soil-chem-tutorial";;Amazon: arn:aws:s3:::afsis , AfSIS soil DB
+https://cropnuts.com/service_type/agviza-pro/;CROPNUTS;Africa;;;;Yield Enhancing Farming platform app
+https://cropnuts.com/service/soil-mapping/;CROPNUTS;Africa;;;;Soil mapping for smart fertiliser blending portal
+https://www.isric.org/projects/realise-survey-and-mapping-soil-resources;BENEFIT-REALISE;Africa;;;;Soil class maps. Plus a number of 50m layers
+https://www.worldbank.org/en/results/2017/12/01/hydromet;HYDROMET (WB);Africa;;https://www.gfdrr.org/en/africa-hydromet-program;;Climate risks
+https://www.isda-africa.com/isdasoil/;iSDA;Africa;;;;
+https://www.africageoportal.com/;Africa geoportal;Africa;;;;Includes soil data

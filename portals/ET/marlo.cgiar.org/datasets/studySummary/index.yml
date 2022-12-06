@@ -1,8 +1,0 @@
-'@context': http://schema.org
-'@type': BreadcrumbList
-itemListElement:
-- '@type': ListItem
-  item:
-    '@id': https://wle.cgiar.org/impact
-    name: Impact
-  position: 1
