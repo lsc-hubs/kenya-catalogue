@@ -1,0 +1,110 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 2f99e10a-183c-11e9-aba8-a0481ca9e724
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/2f99e10a-183c-11e9-aba8-a0481ca9e724/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2022-06-28T12:52:44'
+distribution:
+  link-0:
+    url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
+    type: OGC:WFS
+    name: :wosis_latest_wg0100
+    description: WoSIS latest - Water retention gravimetric - 100 kPa
+    function: download
+  link-1:
+    url: https://doi.org/10.5194/essd-9-1-2017
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
+  link-2:
+    url: https://isric.org/explore/wosis
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-3:
+    url: https://www.isric.online/sites/default/files/isric_report_2018_01.pdf#page=57
+    type: WWW:LINK-1.0-http--related
+    name: Procedures manual 2018
+    description: null
+    function: information
+  link-4:
+    url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
+    type: OGC:WMS
+    name: wosis_latest_wg0100
+    description: WoSIS latest - Water retention gravimetric - 100 kPa
+    function: null
+identification:
+  title: WoSIS latest - Water retention gravimetric - 100 kPa
+  abstract: "Soil moisture content by weight, at tension 100 kPa (pF 3.0) (g/100g).\n\
+    \nISRIC is developing a centralized and user\u2013focused server database, known\
+    \ as ISRIC World Soil Information Service (WoSIS). The aims are to: \n\u2022 Safeguard\
+    \ world soil data \"as is\" \n\u2022 Share soil point (i.e. profile) data upon\
+    \ their standardization, and ultimately harmonization \n\u2022 Provide quality-assessed,\
+    \ geo-referenced soil data for a growing range of environmental applications (e.g.\
+    \ SoilGrids250m). \n\nAt present, wosis_latest contains standardized data for\
+    \ 217,000 profiles. The number of measured data for each property varies between\
+    \ pro\uFB01les and with depth, generally depending on the purpose of the initial\
+    \ studies. Further, in most source data sets, there are fewer data for soil physical\
+    \ as opposed to soil chemical attributes and there are fewer measurements for\
+    \ deeper than for superficial horizons. Generally, limited quality information\
+    \ is associated with the various source data. \n\nFurther information is provided\
+    \ in a https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf."
+  dates:
+    publication: '2020-05-01'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - water retention
+      - soil profiles
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+      crs: '4326'
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
+  accessconstraints: license
+  status: On going
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
+  ? ''
+  : organization: ISRIC - World Soil Information
+    individualname: null
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: null

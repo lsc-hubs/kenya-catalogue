@@ -1,0 +1,85 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: fa637b47-2d45-4539-978e-20a2efc83412
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/fa637b47-2d45-4539-978e-20a2efc83412/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2021-07-14T11:52:29'
+distribution:
+  link-0:
+    url: https://files.isric.org/public/afsis250m/af_EALKCL_T__M_xd1_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 1
+    description: null
+    function: download
+  link-1:
+    url: https://files.isric.org/public/afsis250m/af_EALKCL_T__M_xd2_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 2
+    description: null
+    function: download
+  link-2:
+    url: https://isric.org/projects/soil-property-maps-africa-250-m-resolution
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-3:
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125814
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
+identification:
+  title: Africa SoilGrids - Exchangeable aluminium (Al3+)
+  abstract: 'Exchangeable aluminium (Al3+ measured in 1M KCl solution) in cmolc/kg
+    (fine earth) at two depth intervals (0-20 cm and 20-50 cm) predicted using two
+    sets of Africa soil profiles data. For details see published paper here below
+    (Hengl T., G.B.M. Heuvelink, B. Kempen, J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd,
+    A. Sila, R.A. MacMillan, J. Mendes de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping
+    Soil Properties of Africa at 250 m Resolution: Random Forests Significantly Improve
+    Current Predictions. PLoS ONE 10(6)'
+  dates:
+    publication: '2015-02-10'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - aluminium
+      - digital soil mapping
+      - nutrients
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1960-01-01'
+      end: '2015-12-31'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org

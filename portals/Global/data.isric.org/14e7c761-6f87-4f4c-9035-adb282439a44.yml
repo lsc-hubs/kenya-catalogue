@@ -1,0 +1,219 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 14e7c761-6f87-4f4c-9035-adb282439a44
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/14e7c761-6f87-4f4c-9035-adb282439a44/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2022-11-18T17:02:34'
+distribution:
+  link-0:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_0-5cm_mean.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 0-5cm mean Download (Cloud Bucket)
+    description: null
+    function: information
+  link-1:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_0-5cm_Q0.05.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 0-5cm Q05 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-2:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_0-5cm_Q0.5.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 0-5cm median Download (Cloud Bucket)
+    description: null
+    function: information
+  link-3:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_0-5cm_Q0.95.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 0-5cm Q95 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-4:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_5-15cm_mean.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 5-15cm mean Download (Cloud Bucket)
+    description: null
+    function: information
+  link-5:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_5-15cm_Q0.05.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 0-5cm Q05 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-6:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_5-15cm_Q0.5.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 5-15cm median Download (Cloud Bucket)
+    description: null
+    function: information
+  link-7:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_5-15cm_Q0.95.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 5-15cm Q95 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-8:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_15-30cm_mean.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 15-30cm mean Download (Cloud Bucket)
+    description: null
+    function: information
+  link-9:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_15-30cm_Q0.05.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 15-30cm Q05 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-10:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_15-30cm_Q0.5.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 15-30cm median Download (Cloud Bucket)
+    description: null
+    function: information
+  link-11:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_15-30cm_Q0.95.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 15-30cm Q95 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-12:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_30-60cm_mean.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 30-60cm mean Download (Cloud Bucket)
+    description: null
+    function: information
+  link-13:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_30-60cm_Q0.05.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 30-60cm Q05 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-14:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_30-60cm_Q0.5.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 30-60cm median Download (Cloud Bucket)
+    description: null
+    function: information
+  link-15:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_30-60cm_Q0.95.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 30-60cm Q95 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-16:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_60-100cm_mean.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 60-100cm mean Download (Cloud Bucket)
+    description: null
+    function: information
+  link-17:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_60-100cm_Q0.05.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 60-100cm Q05 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-18:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_60-100cm_Q0.5.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 60-100cm median Download (Cloud Bucket)
+    description: null
+    function: information
+  link-19:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_60-100cm_Q0.95.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 60-100cm Q95 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-20:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_100-200cm_mean.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 100-200cm mean Download (Cloud Bucket)
+    description: null
+    function: information
+  link-21:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_100-200cm_Q0.05.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 100-200cm Q05 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-22:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_100-200cm_Q0.5.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 100-200cm median Download (Cloud Bucket)
+    description: null
+    function: information
+  link-23:
+    url: https://storage.googleapis.com/isric-share-soilgrids/pre-release/wv0033/wv0033_100-200cm_Q0.95.tif
+    type: WWW:LINK-1.0-http--related
+    name: WV0033 100-200cm Q95 Download (Cloud Bucket)
+    description: null
+    function: information
+  link-24:
+    url: https://isric.org/explore/soilgrids
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-25:
+    url: https://www.isric.org/explore/soilgrids/faq-soilgrids
+    type: WWW:LINK-1.0-http--related
+    name: FAQ
+    description: null
+    function: information
+  link-26:
+    url: https://doi.org/10.1016/j.iswcr.2022.08.001
+    type: WWW:LINK-1.0-http--related
+    name: Scientific Paper
+    description: null
+    function: null
+identification:
+  title: SoilGrids250m 2.0 - Volumetric Water Content at 33kPa
+  abstract: Volumetric Water Content at 33kPa in 10-3 cm3cm-3 (0.1 v% or 1 mm/m) at
+    6 standard depths. Predictions were derived using a digital soil mapping approach
+    based on Quantile Random Forest, drawing on a global compilation of soil profile
+    data and environmental layers.
+  dates:
+    publication: '2021-11-05'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - Volumetric Water Content
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -56.0
+      - 180.0
+      - 84.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2016-07-05'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org

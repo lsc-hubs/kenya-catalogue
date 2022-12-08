@@ -1,0 +1,94 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: bebc6ad0-9b98-4328-99d3-36abe63c20df
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/bebc6ad0-9b98-4328-99d3-36abe63c20df/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2022-03-04T08:38:48'
+distribution:
+  link-0:
+    url: https://files.isric.org/soilgrids/latest/data_aggregated/
+    type: WWW:LINK-1.0-http--related
+    name: Download (WebDAV)
+    description: null
+    function: information
+  link-1:
+    url: https://isric.org/explore/soilgrids
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-2:
+    url: https://www.isric.org/explore/soilgrids/faq-soilgrids
+    type: WWW:LINK-1.0-http--related
+    name: FAQ
+    description: null
+    function: information
+  link-3:
+    url: https://doi.org/10.5194/soil-7-217-2021
+    type: WWW:LINK-1.0-http--related
+    name: Scientific Paper
+    description: null
+    function: null
+identification:
+  title: SoilGrids250m 2.0 - Cation exchange capacity at ph7 aggregated 1000m
+  abstract: Cation exchange capacity (buffered at pH 7) of fine earth fraction in
+    mmol(c)/kg at 6 standard depths. Predictions were derived using a digital soil
+    mapping approach based on Quantile Random Forest, drawing on a global compilation
+    of soil profile data and environmental layers. This map is the result of resampling
+    the mean SoilGrids 250 m predictions (Poggio et al. 2021) for each 1000 m cell.
+  dates:
+    publication: '2020-05-04'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - cation exchange capacity
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -56.0
+      - 180.0
+      - 84.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2016-07-05'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
+  publisher:
+    organization: ISRIC - World Soil Information
+    individualname: null
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: soilgrids@isric.org

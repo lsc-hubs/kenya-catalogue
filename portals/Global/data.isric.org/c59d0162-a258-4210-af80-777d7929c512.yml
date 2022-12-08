@@ -1,0 +1,131 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: c59d0162-a258-4210-af80-777d7929c512
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/c59d0162-a258-4210-af80-777d7929c512/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2022-02-08T10:51:27'
+distribution:
+  link-0:
+    url: https://doi.org/10.1016/j.rse.2019.111260
+    type: DOI
+    name: Article
+    description: null
+    function: download
+  link-1:
+    url: https://files.isric.org/public/global_soil_salinity/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download VRT files (all years)
+    description: null
+    function: download
+  link-2:
+    url: https://files.isric.org/public/global_soil_salinity/salmap1986/
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: Download GeoTIFF (1986)
+    description: null
+    function: download
+  link-3:
+    url: https://files.isric.org/public/global_soil_salinity/salmap1992/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF (1992)
+    description: null
+    function: download
+  link-4:
+    url: https://files.isric.org/public/global_soil_salinity/salmap2000/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF (2000)
+    description: null
+    function: download
+  link-5:
+    url: https://files.isric.org/public/global_soil_salinity/salmap2002/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF (2002)
+    description: null
+    function: null
+  link-6:
+    url: https://files.isric.org/public/global_soil_salinity/salmap2005/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF (2005)
+    description: null
+    function: null
+  link-7:
+    url: https://files.isric.org/public/global_soil_salinity/salmap2009/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF (2009)
+    description: null
+    function: null
+  link-8:
+    url: https://files.isric.org/public/global_soil_salinity/salmap2016/
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF (2016)
+    description: null
+    function: null
+  link-9:
+    url: https://code.earthengine.google.com/d43e5a92ae1deed32a0929f57b572756
+    type: WWW:LINK-1.0-http--related
+    name: Code on Earth Engine
+    description: null
+    function: null
+identification:
+  title: Global Soil Salinity Map
+  abstract: "This dataset includes global soil salinity layers for the years 1986,\
+    \ 1992, 2000, 2002, 2005, 2009 and 2016. The maps were generated with a random\
+    \ forest classifier that was trained using seven soil properties maps, thermal\
+    \ infrared imagery and the ECe point data from the WoSIS database. The validation\
+    \ accuracy of the resulting maps was in the range of 67\u201370%. The total area\
+    \ of salt affected lands by our assessment is around 1 billion hectares, with\
+    \ a clear increasing trend. Further details are provided in a peer-reviewed journal\
+    \ article (https://doi.org/10.1016/j.rse.2019.111260). The code and data used\
+    \ to produce the global soil salinity maps can be accessed by registered Google\
+    \ Earth Engine users at https://code.earthengine.google.com/d43e5a92ae1deed32a0929f57b572756."
+  dates:
+    creation: '2019-01-01'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - salinity
+      - digital soil mapping
+      - electrical conductivy
+      - global map
+      - soilgrids
+      - wosis
+      - landsat
+      - thermal
+      - salinisation
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  topiccategory:
+  - geoscientificInformation
+  - environment
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 180.0
+      - 90.0
+    temporal:
+    - begin: '1986-01-01'
+      end: '2016-12-31'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: Wageningen University
+    individualname: Harm Bartholomeus
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: harm.bartholomeus@wur.nl

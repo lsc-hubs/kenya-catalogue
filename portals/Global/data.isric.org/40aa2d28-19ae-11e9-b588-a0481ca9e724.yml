@@ -1,0 +1,81 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 40aa2d28-19ae-11e9-b588-a0481ca9e724
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/40aa2d28-19ae-11e9-b588-a0481ca9e724/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2021-07-14T11:52:09'
+distribution:
+  link-0:
+    url: http://iscn.fluxdata.org/
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-1:
+    url: http://iscn.fluxdata.org/about-iscn/
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-2:
+    url: http://iscn.fluxdata.org/data/access-data/
+    type: WWW:LINK-1.0-http--related
+    name: Download data
+    description: null
+    function: information
+  link-3:
+    url: https://doi.org/10.1111/gcb.13896
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
+identification:
+  title: International Soil Carbon Network (ISCN)
+  abstract: The International Soil Carbon Network (ISCN) is a science-based network
+    that facilitates data sharing, assembles databases, identifies gaps in data coverage,
+    and enables spatially explicit assessments of soil carbon in context of landscape,
+    climate, land use, and biotic variables.
+  dates:
+    publication: '2017-12-04'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - soil profiles
+      - carbon
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 180.0
+      - 90.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2013-09-09'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org

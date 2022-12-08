@@ -1,0 +1,100 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 145ee3ba-76e0-4a0f-88e2-6b2df3957dab
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/145ee3ba-76e0-4a0f-88e2-6b2df3957dab/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2022-11-18T16:58:43'
+distribution:
+  link-0:
+    url: https://isric.org/explore/soilgrids
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: null
+  link-1:
+    url: https://www.isric.org/explore/soilgrids/faq-soilgrids
+    type: WWW:LINK-1.0-http--related
+    name: FAQ
+    description: null
+    function: null
+  link-2:
+    url: https://meetingorganizer.copernicus.org/EGU21/EGU21-15548.html
+    type: WWW:LINK-1.0-http--related
+    name: Scientific publication (Turek et al. 2021)
+    description: null
+    function: null
+  link-3:
+    url: https://files.isric.org/soilgrids/latest/data_aggregated/
+    type: WWW:LINK-1.0-http--related
+    name: Download (WebDAV)
+    description: null
+    function: information
+  link-4:
+    url: https://doi.org/10.1016/j.iswcr.2022.08.001
+    type: WWW:LINK-1.0-http--related
+    name: Scientific Paper
+    description: null
+    function: null
+identification:
+  title: SoilGrids250m 2.0 - Volumetric Water Content at 1500kPa aggregated 1000m
+  abstract: Volumetric Water Content at 1500kPa in 10-3 cm3cm-3 (0.1 v% or 1 mm/m)
+    at 6 standard depths. Predictions were derived using a digital soil mapping approach
+    based on Quantile Random Forest, drawing on a global compilation of soil profile
+    data and environmental layers. This map is the result of resampling the mean SoilGrids
+    250 m predictions (Turek et al. 2021) for each 1000 m cell.
+  dates:
+    publication: '2021-11-05'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - Volumetric Water Content
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -56.0
+      - 180.0
+      - 84.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2016-07-05'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
+  publisher:
+    organization: ISRIC - World Soil Information
+    individualname: null
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: soilgrids@isric.org

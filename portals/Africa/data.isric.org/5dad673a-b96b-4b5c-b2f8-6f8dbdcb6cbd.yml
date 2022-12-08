@@ -1,0 +1,82 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 5dad673a-b96b-4b5c-b2f8-6f8dbdcb6cbd
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/5dad673a-b96b-4b5c-b2f8-6f8dbdcb6cbd/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2021-07-14T11:51:45'
+distribution:
+  link-0:
+    url: https://files.isric.org/public/gyga/GYGA_Results/gyga_af_agg_30cm_crfvol__m_1km.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at aggregated 30 cm depth
+    description: null
+    function: download
+  link-1:
+    url: https://maps.isric.org/mapserv?map=/map/gyga.map
+    type: OGC:WMS
+    name: gyga_af_agg_30cm_crfvol__m_1km
+    description: null
+    function: information
+  link-2:
+    url: https://doi.org/10.1016/j.geoderma.2018.02.046
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
+  link-3:
+    url: https://isric.org/projects/afsis-gyga-functional-soil-information-sub-saharan-africa-rz-pawhc-ssa
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+identification:
+  title: Africa SoilGrids - Root zone coarse fragments content aggregated at top 30
+    cm
+  abstract: Volumetric coarse fragments content (v%) of the soil whole earth, aggregated
+    over rootable depth and the top 30 cm, mapped at 1km resolution
+  dates:
+    publication: '2017-02-28'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - coarse fragments
+      - root zone
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -23.2077
+      - -34.8438
+      - 56.8956
+      - 37.5395
+      crs: '4326'
+    temporal:
+    - begin: '1950-01-01'
+      end: '2015-12-01'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
