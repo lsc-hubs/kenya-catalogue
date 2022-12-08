@@ -1,0 +1,91 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 73e27136-9efe-49e4-af35-fd98b841d467
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/73e27136-9efe-49e4-af35-fd98b841d467/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2021-07-14T11:52:39'
+distribution:
+  link-0:
+    url: https://files.isric.org/public/soter/KE-SOTER.zip
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download
+    description: null
+    function: download
+  link-1:
+    url: https://isric.org/projects/soil-and-terrain-soter-database-programme
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-2:
+    url: https://isric.org/sites/default/files/isric_report_2004_01.pdf
+    type: WWW:LINK-1.0-http--related
+    name: Report
+    description: null
+    function: information
+identification:
+  title: Soil and Terrain Database for Kenya (KENSOTER), version 2.0
+  abstract: The Soil and Terrain database for Kenya (KENSOTER), version 2.0, at scale
+    1:1 million, replaces version 1.0 . The update include changes in the GIS file
+    and in the attribute database. The topographic base of KENSOTER was adapted to
+    a version congruent to the Digital Chart of the World. The KENSOTER attribute
+    database has changed with respect to the number of pedons stored and pedon attributes.
+    The KENSOTER version 2.0 database contains a number of measured soil moisture
+    contents at various tensions.
+  dates:
+    publication: '2004-02-01'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - calcium
+      - carbon
+      - cation exchange capacity
+      - electrical conductivity
+      - nitrogen
+      - organic matter
+      - bulk density
+      - soil profiles
+      - pH
+      - salinity
+      - texture
+      - water holding capacity
+      - nutrients
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      - East-Africa
+      - Kenya
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.9
+      - -4.7
+      - 41.9
+      - 5.4
+    temporal:
+    - begin: '1972-01-01'
+      end: '2003-04-01'
+  accessconstraints: license
+  status: Completed
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
