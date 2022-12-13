@@ -1,0 +1,42 @@
+metadata:
+  identifier: WAPORReferenceEvapotranspirationDekadal
+identification:
+  title: WAPOR Reference Evapotranspiration (Dekadal)
+  abstract: The FAO Water Productivity Open-access portal (WaPOR) uses remote sensing
+    technologies to monitor and report on agricultural water productivity over Africa
+  keywords:
+    default:
+      keywords: &id001
+        default:
+          keywords:
+          - l1_ret_d
+          - WCS
+          - ImageMosaic
+  extents:
+    spatial:
+    - &id002
+      bbox:
+      - -30.0044643
+      - -39.9953437
+      - 64.9953077
+      - 40.0044643
+      crs: '4326'
+distribution:
+  wms:
+    name: WAPOR_2:l1_ret_d
+    description: null
+    url: https://io.apps.fao.org/geoserver/wms?layers=WAPOR_2%3Al1_ret_d
+    type: OGC:WMS
+  WAPOR_2:l1_ret_d:
+    name: WAPOR_2:l1_ret_d
+    abstract: null
+    title: Reference EvapoTranspiration (Dekadal, 20Km)
+    keywords: *id001
+    extent: *id002
+    metadataUrls: []
+  docs:
+    type: www:link
+    description: Documentation
+    url: https://wapor.apps.fao.org/catalog/WAPOR_2/1
+mcf:
+  version: 1.0

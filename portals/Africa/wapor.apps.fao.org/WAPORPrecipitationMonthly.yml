@@ -1,0 +1,42 @@
+metadata:
+  identifier: WAPORPrecipitationMonthly
+identification:
+  title: WAPOR Precipitation (Monthly)
+  abstract: The FAO Water Productivity Open-access portal (WaPOR) uses remote sensing
+    technologies to monitor and report on agricultural water productivity over Africa
+  keywords:
+    default:
+      keywords: &id001
+        default:
+          keywords:
+          - l1_pcp_m
+          - WCS
+          - ImageMosaic
+  extents:
+    spatial:
+    - &id002
+      bbox:
+      - -30.05
+      - -40.05
+      - 65.05
+      - 40.05
+      crs: '4326'
+distribution:
+  wms:
+    name: WAPOR_2:l1_pcp_m
+    description: null
+    url: https://io.apps.fao.org/geoserver/wms?layers=WAPOR_2%3Al1_pcp_m
+    type: OGC:WMS
+  WAPOR_2:l1_pcp_m:
+    name: WAPOR_2:l1_pcp_m
+    abstract: null
+    title: Precipitation (Monthly, 5km)
+    keywords: *id001
+    extent: *id002
+    metadataUrls: []
+  docs:
+    type: www:link
+    description: Documentation
+    url: https://wapor.apps.fao.org/catalog/WAPOR_2/1
+mcf:
+  version: 1.0
