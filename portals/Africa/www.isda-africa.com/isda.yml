@@ -1,0 +1,65 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: isda-soil
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2022-12-13
+
+spatial:
+  datatype: Grid
+
+identification:
+  language: english
+  charset: utf8
+  title: ISDA field-level soil map for Africa
+  abstract: field-level soil map for Africa, with 20+ soil properties predicted at 30m resolution for the entire continent. The development process applies predictive machine learning technology using data from over 130,000 soil samples, much of it based on years of research by the African Soil Information Service (AfSIS) and other soil data resources.
+  dates:
+    creation: 2021-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Soil
+      vocabulary:
+        name: Land voc
+        url: http://landvoc.org/landvoc
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 18
+      - 36
+      - 60
+      - 36
+      crs: 4326
+contact:
+  email: info@isda-africa.com
+  url: https://www.isda-africa.com
+  phone: +44 (0)7877 699541
+  city: Harpenden
+  country: UK
+
+distribution:
+  isda:
+    name: Google API for Soil data
+    description: API requires a API key
+    url: https://api.isda-africa.com/v1/layers/?key=AIzaSyCruMPt43aekqITCooCNWGombhbcor3cf4
+    type: API
+  docs:
+    name: API documentation
+    description: Developer documentation
+    url: https://www.isda-africa.com/isdasoil/developer
+    type: WWW:Link
+  web:
+    name: Project website
+    description:
+    url: https://www.isda-africa.com/isdasoil
+    type: WWW:Link
+  citation:
+    name: iSDAsoil: The first continent-scale soil property map at 30 m resolution provides a soil information revolution for Africa. 
+    description: Miller, M.A.E., Shepherd, K.D., Kisitu, B., Collinson, J. 2021.  PLOS Biology 19: e3001441.
+    url: https://doi.org/10.1371/journal.pbio.3001441
+    type: citation

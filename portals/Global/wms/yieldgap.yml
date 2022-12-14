@@ -1,0 +1,9 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: yieldgap
+distribution:
+  wms:
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+    type: OGC:WMS
+    name: ALL
