@@ -1,0 +1,169 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: de811536-eaf8-11ec-80b2-0242ac170007
+  dataseturi: https://geoportal.icpac.net/catalogue/csw?service=CSW&version=2.0.2&request=GetRepositoryItem&outputschema=http://www.isotc211.org/2005/gmd&elementsetname=full&id=de811536-eaf8-11ec-80b2-0242ac170007
+  hierarchylevel: dataset
+  datestamp: '2022-08-03T13:05:22Z'
+distribution:
+  link-0:
+    url: https://geoportal.icpac.net/layers/icpac_geoportal_data:geonode:GHOA_Admin1_Season1
+    type: WWW:LINK-1.0-http--link
+    name: null
+    description: 'Online link to the ''FLOOD: Percentage of AAL at admin1 level for
+      March_ April and May'' description on GeoNode'
+    function: null
+  link-1:
+    url: https://geoportal.icpac.net/download/1605
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.zip
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (Original Dataset Format)'
+    function: null
+  link-2:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3AGHOA_Admin1_Season1&format=image%2Fjpeg&height=550&width=466&srs=EPSG%3A4326&bbox=21.81368001500016%2C-11.74569511%2C51.41551330000024%2C23.142871801000183
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.jpg
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (JPEG Format)'
+    function: null
+  link-3:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3AGHOA_Admin1_Season1&format=application%2Fpdf&height=550&width=466&srs=EPSG%3A4326&bbox=21.81368001500016%2C-11.74569511%2C51.41551330000024%2C23.142871801000183
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.pdf
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (PDF Format)'
+    function: null
+  link-4:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3AGHOA_Admin1_Season1&format=image%2Fpng&height=550&width=466&srs=EPSG%3A4326&bbox=21.81368001500016%2C-11.74569511%2C51.41551330000024%2C23.142871801000183
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.png
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (PNG Format)'
+    function: null
+  link-5:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3AGHOA_Admin1_Season1&outputFormat=gml2&srs=EPSG%3A4326
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.gml
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (GML 2.0 Format)'
+    function: null
+  link-6:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3AGHOA_Admin1_Season1&outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&srs=EPSG%3A4326
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.gml
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (GML 3.1.1 Format)'
+    function: null
+  link-7:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3AGHOA_Admin1_Season1&outputFormat=csv&srs=EPSG%3A4326
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.csv
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (CSV Format)'
+    function: null
+  link-8:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3AGHOA_Admin1_Season1&outputFormat=excel&srs=EPSG%3A4326
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.excel
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (Excel Format)'
+    function: null
+  link-9:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3AGHOA_Admin1_Season1&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.json
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (GeoJSON Format)'
+    function: null
+  link-10:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3AGHOA_Admin1_Season1&outputFormat=SHAPE-ZIP&srs=EPSG%3A4326&format_options=charset%3AUTF-8
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.zip
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (Zipped Shapefile Format)'
+    function: null
+  link-11:
+    url: https://geoportal.icpac.net/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:GHOA_Admin1_Season1&STYLE=GHOA_Admin1_Season1&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.png
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (Legend Format)'
+    function: null
+  link-12:
+    url: http://geoportal.icpac.net/uploaded/thumbs/layer-de811536-eaf8-11ec-80b2-0242ac170007-thumb-c76e8a53-b2d7-40d3-a083-4c509eae4554.png?v=edb294a5
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: GHOA_Admin1_Season1.png
+    description: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May
+      (Thumbnail Format)'
+    function: null
+  link-13:
+    url: https://geoportal.icpac.net/geoserver/ows
+    type: OGC:WMS
+    name: geonode:GHOA_Admin1_Season1
+    description: 'geonode Service - Provides Layer: FLOOD: Percentage of AAL at admin1
+      level for March_ April and May'
+    function: null
+  link-14:
+    url: https://geoportal.icpac.net/geoserver/ows
+    type: OGC:WFS
+    name: geonode:GHOA_Admin1_Season1
+    description: 'geonode Service - Provides Layer: FLOOD: Percentage of AAL at admin1
+      level for March_ April and May'
+    function: null
+identification:
+  title: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May'
+  abstract: Percentage of annual AAL at admin1 level for March, April and May. This
+    estimation is part of the results of a probabilistic regional flood risk assessment
+    developed for the Horn of Africa Partnership for Early Warning and Early Action
+    (developed by CIMA Foundation in cooperation with ICPAC, WFP, UNDRR, March 2022)
+  dates:
+    publication: '2022-06-13T09:11:00Z'
+  keywords:
+    keywords-0:
+      type: theme
+      keywords:
+      - HoA Partnership
+      - Regional Risk Profile
+      - Risk
+    keywords-1:
+      type: place
+      keywords:
+      - Africa
+  topiccategory:
+  - planningCadastre
+  extents:
+    spatial:
+    - bbox:
+      - 21.81368001500016
+      - -11.74569511
+      - 51.41551330000024
+      - 23.142871801000183
+    temporal:
+    - {}
+  status: completed
+contact:
+  pointOfContact:
+    organization: ICPAC External Partners
+    individualname: null
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: null
+  author:
+    organization: ICPAC External Partners
+    individualname: null
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: null
