@@ -5,6 +5,55 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/9cce26c0-456d-4519-aeac-cb3ab7d616ed/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:52:04'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil water content
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - moisture
+      - root zone
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids - Root zone moisture content at wilting point aggregated
+    at top 30 cm
+  abstract: Volumetric moisture content (v%) of the soil fine earth fraction at permanent
+    wilting point (at h=15,000 cm or pF 4.2), aggregated over rootable depth and the
+    top 30 cm, mapped at 1km resolution
+  dates:
+    publication: '2017-02-28'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1950-01-01'
+      end: '2015-12-01'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://files.isric.org/public/gyga/GYGA_Results/gyga_af_agg_30cm_pwp__m_1km.tif
@@ -30,44 +79,6 @@ distribution:
     name: Project webpage
     description: null
     function: information
-identification:
-  title: Africa SoilGrids - Root zone moisture content at wilting point aggregated
-    at top 30 cm
-  abstract: Volumetric moisture content (v%) of the soil fine earth fraction at permanent
-    wilting point (at h=15,000 cm or pF 4.2), aggregated over rootable depth and the
-    top 30 cm, mapped at 1km resolution
-  dates:
-    publication: '2017-02-28'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - moisture
-      - root zone
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -23.2077
-      - -34.8438
-      - 56.8956
-      - 37.5395
-      crs: '4326'
-    temporal:
-    - begin: '1950-01-01'
-      end: '2015-12-01'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

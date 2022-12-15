@@ -5,6 +5,57 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/59455180-29b7-4e9c-95ab-4d6c03ca19c7/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:51:48'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - electrical conductivity
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids - Electrical conductivity (EC)
+  abstract: 'Electrical conductivity (measured in 1: x soil: water solution) in dS/m
+    at 6 standard depths predicted using two sets of Africa soil profiles data. For
+    details see published paper here below (Hengl T., G.B.M. Heuvelink, B. Kempen,
+    J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila, R.A. MacMillan, J. Mendes
+    de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil Properties of Africa at
+    250 m Resolution: Random Forests Significantly Improve Current Predictions. PLoS
+    ONE 10(6)'
+  dates:
+    publication: '2015-02-10'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1960-01-01'
+      end: '2015-12-31'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://files.isric.org/public/afsis250m/af_ECN_T__M_sd1_250m.tif
@@ -54,45 +105,6 @@ distribution:
     name: Scientific paper
     description: null
     function: information
-identification:
-  title: Africa SoilGrids - Electrical conductivity (EC)
-  abstract: 'Electrical conductivity (measured in 1: x soil: water solution) in dS/m
-    at 6 standard depths predicted using two sets of Africa soil profiles data. For
-    details see published paper here below (Hengl T., G.B.M. Heuvelink, B. Kempen,
-    J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila, R.A. MacMillan, J. Mendes
-    de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil Properties of Africa at
-    250 m Resolution: Random Forests Significantly Improve Current Predictions. PLoS
-    ONE 10(6)'
-  dates:
-    publication: '2015-02-10'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - electrical conductivity
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -18.0
-      - -35.0
-      - 51.0
-      - 37.0
-    temporal:
-    - begin: '1960-01-01'
-      end: '2015-12-31'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

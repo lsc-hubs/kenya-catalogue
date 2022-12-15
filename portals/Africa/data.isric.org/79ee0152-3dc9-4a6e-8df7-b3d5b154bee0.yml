@@ -5,6 +5,52 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/79ee0152-3dc9-4a6e-8df7-b3d5b154bee0/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:51:45'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil suitability
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - root zone
+      - soil depth
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids - Root zone depth limiting soil factor
+  abstract: Rootable depth limiting soil factor for maize, mapped at 1km resolution
+  dates:
+    publication: '2017-02-28'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1950-01-01'
+      end: '2015-12-01'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://files.isric.org/public/gyga/GYGA_Results/gyga_af_erzd_limfactor__m_1km.tif
@@ -30,41 +76,6 @@ distribution:
     name: Project webpage
     description: null
     function: information
-identification:
-  title: Africa SoilGrids - Root zone depth limiting soil factor
-  abstract: Rootable depth limiting soil factor for maize, mapped at 1km resolution
-  dates:
-    publication: '2017-02-28'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - root zone
-      - soil depth
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -23.2077
-      - -34.8438
-      - 56.8956
-      - 37.5395
-      crs: '4326'
-    temporal:
-    - begin: '1950-01-01'
-      end: '2015-12-01'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

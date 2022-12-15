@@ -5,32 +5,33 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/0df2947b-e8b8-42e5-a52d-16cf5ded1cf2/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:52:13'
-distribution:
-  link-0:
-    url: https://files.isric.org/public/af250m_nutrient/af250m_nutrient_ncluster_m.tif
-    type: WWW:DOWNLOAD-1.0-ftp--download
-    name: Download GeoTIFF at depth
-    description: null
-    function: download
-  link-1:
-    url: https://maps.isric.org/mapserv?map=/map/af250m_nutrient.map
-    type: OGC:WMS
-    name: af250m_nutrient_ncluster_m
-    description: null
-    function: information
-  link-2:
-    url: https://isric.org/projects/africa-soilgrids-soil-nutrient-maps-sub-saharan-africa-250-m-resolution
-    type: WWW:LINK-1.0-http--related
-    name: Project webpage
-    description: null
-    function: information
-  link-3:
-    url: https://link.springer.com/article/10.1007/s10705-017-9870-x
-    type: WWW:LINK-1.0-http--related
-    name: Scientific paper
-    description: null
-    function: information
 identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - nutrients
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
   title: Africa SoilGrids nutrients - Nutrient clusters based on fuzzy k-means
   abstract: "Nutrient clusters based on fuzzy k-means of the soil fine earth fraction\
     \ and spatially predicted at 250 m spatial resolution across sub-Saharan Africa\
@@ -50,35 +51,45 @@ identification:
     \ Vital Signs projects."
   dates:
     publication: '2016-12-05'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - nutrients
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
   topiccategory:
   - geoscientificInformation
   extents:
     spatial:
     - bbox:
-      - -29.7296
-      - -34.9046
-      - 55.4245
-      - 28.6829
-      crs: '4326'
+      - -29.7
+      - -34.9
+      - 55.4
+      - 28.7
     temporal:
     - begin: '1980-01-01'
       end: '2016-12-31'
   accessconstraints: license
   status: Completed
+distribution:
+  link-0:
+    url: https://files.isric.org/public/af250m_nutrient/af250m_nutrient_ncluster_m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth
+    description: null
+    function: download
+  link-1:
+    url: https://maps.isric.org/mapserv?map=/map/af250m_nutrient.map
+    type: OGC:WMS
+    name: Add layer to map
+    description: null
+    function: information
+  link-2:
+    url: https://isric.org/projects/africa-soilgrids-soil-nutrient-maps-sub-saharan-africa-250-m-resolution
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-3:
+    url: https://link.springer.com/article/10.1007/s10705-017-9870-x
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

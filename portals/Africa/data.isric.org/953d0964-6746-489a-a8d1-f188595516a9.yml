@@ -5,6 +5,58 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/953d0964-6746-489a-a8d1-f188595516a9/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:52:02'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - "soil permeability\_"
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - drainage
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids - Drainage classes
+  abstract: 'Drainage classes, defined according to the Guidelines for Soil Description
+    (FAO, 2006) predicted using the Africa Soil Profiles Database (AfSP) v1.2. LEGEND
+    = 1:Very poor, 2:Poor, 3:Imperfect, 4:Moderate, 5:Well, 6:Somewhat excessive,
+    7:Excessive, 255:NODATA. For details see published paper here below (Hengl T.,
+    G.B.M. Heuvelink, B. Kempen, J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila,
+    R.A. MacMillan, J. Mendes de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil
+    Properties of Africa at 250 m Resolution: Random Forests Significantly Improve
+    Current Predictions. PLoS ONE 10(6)'
+  dates:
+    publication: '2015-02-10'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1960-01-01'
+      end: '2015-12-31'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://files.isric.org/public/afsis250m/af_DRAINFAO_T__M_250m.tif
@@ -24,46 +76,6 @@ distribution:
     name: Scientific paper
     description: null
     function: information
-identification:
-  title: Africa SoilGrids - Drainage classes
-  abstract: 'Drainage classes, defined according to the Guidelines for Soil Description
-    (FAO, 2006) predicted using the Africa Soil Profiles Database (AfSP) v1.2. LEGEND
-    = 1:Very poor, 2:Poor, 3:Imperfect, 4:Moderate, 5:Well, 6:Somewhat excessive,
-    7:Excessive, 255:NODATA. For details see published paper here below (Hengl T.,
-    G.B.M. Heuvelink, B. Kempen, J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila,
-    R.A. MacMillan, J. Mendes de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil
-    Properties of Africa at 250 m Resolution: Random Forests Significantly Improve
-    Current Predictions. PLoS ONE 10(6)'
-  dates:
-    publication: '2015-02-10'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - drainage
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -18.0
-      - -35.0
-      - 51.0
-      - 37.0
-    temporal:
-    - begin: '1960-01-01'
-      end: '2015-12-31'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

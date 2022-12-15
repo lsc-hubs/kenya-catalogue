@@ -5,6 +5,59 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/cd1aee58-bb92-44b4-ad3a-a5bc2dc6db7e/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:52:13'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - magnesium
+      - digital soil mapping
+      - nutrients
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids - Exchangeable magnesium (Mg2+)
+  abstract: 'Exchangeable magnesium (Mg2+ measured in 1M NH4OAc buffered at pH 7 with
+    part of the data converted from data measured according to Mehlich 3) in cmolc/kg
+    (fine earth) at 2 depth intervals (0-20 cm and 20-50 cm) predicted using two Africa
+    soil profiles datasets. For details see published paper here below (Hengl T.,
+    G.B.M. Heuvelink, B. Kempen, J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila,
+    R.A. MacMillan, J. Mendes de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil
+    Properties of Africa at 250 m Resolution: Random Forests Significantly Improve
+    Current Predictions. PLoS ONE 10(6)'
+  dates:
+    publication: '2015-02-10'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1960-01-01'
+      end: '2015-12-31'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://files.isric.org/public/afsis250m/af_EMGX_T__M_xd1_250m.tif
@@ -30,47 +83,6 @@ distribution:
     name: Scientific paper
     description: null
     function: information
-identification:
-  title: Africa SoilGrids - Exchangeable magnesium (Mg2+)
-  abstract: 'Exchangeable magnesium (Mg2+ measured in 1M NH4OAc buffered at pH 7 with
-    part of the data converted from data measured according to Mehlich 3) in cmolc/kg
-    (fine earth) at 2 depth intervals (0-20 cm and 20-50 cm) predicted using two Africa
-    soil profiles datasets. For details see published paper here below (Hengl T.,
-    G.B.M. Heuvelink, B. Kempen, J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila,
-    R.A. MacMillan, J. Mendes de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil
-    Properties of Africa at 250 m Resolution: Random Forests Significantly Improve
-    Current Predictions. PLoS ONE 10(6)'
-  dates:
-    publication: '2015-02-10'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - magnesium
-      - digital soil mapping
-      - nutrients
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -18.0
-      - -35.0
-      - 51.0
-      - 37.0
-    temporal:
-    - begin: '1960-01-01'
-      end: '2015-12-31'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

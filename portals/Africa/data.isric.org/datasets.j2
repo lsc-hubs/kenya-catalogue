@@ -4,3 +4,18 @@ mcf:
 metadata:
     identifier: {{ md['identifier'] }}
     dataseturi: https://data.isric.org/geonetwork/srv/metadata/{{ md['identifier'] }}/formatters/xml
+
+identification:
+    keywords:
+      lsc:
+        keywords:
+        - {{ md['LSC category'] | lower }}
+        vocabulary:
+            name: LSC categories
+            url: https://lsc-hubs.org/categories/
+      tags:
+        keywords:
+        - {{ md['Data category'] | lower }}
+        vocabulary:
+            name: LSC categories
+            url: https://lsc-hubs.org/tags/
