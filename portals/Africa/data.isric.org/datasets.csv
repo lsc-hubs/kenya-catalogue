@@ -1,52 +1,52 @@
-identifier
-290d3e5d-e173-4f6b-8831-053b819d75fc
-ebe57bd7-f3ba-45a8-87ff-ba664627247e
-e0d921ff-5f7b-48e5-ae27-7c1515055e3b
-59455180-29b7-4e9c-95ab-4d6c03ca19c7
-31d3e559-051a-48be-854b-9bcb1b4bc5c3
-10aa9aa3-1433-11e9-a8fa-a0481ca9e724
-4727602b-d0f2-4a6d-bb2f-d50c0ee24298
-09da4e4e-dd3f-4e5a-8ee8-a7e484ee5640
-10aa9ac9-1433-11e9-a8fa-a0481ca9e724
-5ac0b40e-a45f-4a9c-bbf9-3d1946a448c3
-9a66a37e-8a4e-463b-b83a-fd49049c323a
-6f418905-226b-4c87-b10a-a44511487b53
-c77d1209-56e9-4cac-b76e-bbf6c7e3a617
-fa637b47-2d45-4539-978e-20a2efc83412
-b88870b4-6af8-4e78-a3ac-38871d757525
-10aa9a83-1433-11e9-a8fa-a0481ca9e724
-24236b32-ab5d-4fc2-ac4c-350d69ed8a4e
-e4869de3-eb72-49fe-8b66-d3546a07ac99
-b3df7f8d-aa90-4206-a11c-5d95b4dd2327
-d601201d-5d88-4f7a-9676-5c2ace45f7c6
-a21e3629-69a0-4e02-8eb2-3436e7a26f2e
-b14f76c6-2655-4aa1-92c2-d9875fde2cb3
-48d2e636-6bda-4fa3-93c0-fb689fcf3340
-4f0daec9-4c10-4906-a778-43a8fa2251c3
-0df2947b-e8b8-42e5-a52d-16cf5ded1cf2
-cd1aee58-bb92-44b4-ad3a-a5bc2dc6db7e
-10aa9a77-1433-11e9-a8fa-a0481ca9e724
-c5cb0f71-a627-40b9-8acb-5be42e4d5914
-a36f7919-0d6e-4044-902c-64a74feade6b
-2a7d2fb8-e0db-4a4b-9661-4809865aaccf
-87d11829-ae5e-4e5a-9b4a-c090c723e7c3
-8dd1d18f-b735-40e6-abe8-943ecda83fa4
-5cd5336c-2f45-4430-a9a8-312aa2095cb6
-4e970a98-149d-4103-a7da-a6e8f974aad3
-df2c4602-03c4-4130-b7e5-2439e68bf415
-d559a21a-4ef1-43ee-94da-798ac267747e
-9ab49037-8827-456f-b819-8e4c84aa22ca
-fea2e778-b41d-4faa-8947-613c669b24b7
-baba993a-1df0-4a34-8f70-628dfa010504
-c824bc78-2c6a-42b5-bfc8-9555a1c7b11c
-10aa9a8f-1433-11e9-a8fa-a0481ca9e724
-4ef1fe75-44f2-4f12-b0a4-dad9d90a61b9
-5dad673a-b96b-4b5c-b2f8-6f8dbdcb6cbd
-953d0964-6746-489a-a8d1-f188595516a9
-79ee0152-3dc9-4a6e-8df7-b3d5b154bee0
-10aa9a99-1433-11e9-a8fa-a0481ca9e724
-f72f5698-4a3d-4af2-ae12-a4b1cf151cec
-a3364e47-9229-4a6d-aed2-487fd7e4dccc
-e3051b48-3005-46a1-a0ec-1726c2bbd3e2
-c78659a0-4c74-4ab2-99db-adb426a54c66
-9cce26c0-456d-4519-aeac-cb3ab7d616ed
+identifier,Title,LSC category,Data category
+290d3e5d-e173-4f6b-8831-053b819d75fc,Africa SoilGrids nutrients - Extractable Sodium (Na),Soil,soil chemicophysical properties
+ebe57bd7-f3ba-45a8-87ff-ba664627247e,Africa SoilGrids - Exchangeable calcium (Ca2+),Soil,soil chemicophysical properties
+e0d921ff-5f7b-48e5-ae27-7c1515055e3b,Africa SoilGrids - Cation exchange capacity (CEC),Soil,soil chemicophysical properties
+59455180-29b7-4e9c-95ab-4d6c03ca19c7,Africa SoilGrids - Electrical conductivity (EC),Soil,soil chemicophysical properties
+31d3e559-051a-48be-854b-9bcb1b4bc5c3,Africa SoilGrids - Exchangeable acidity (H+Al),Soil,soil chemicophysical properties
+10aa9aa3-1433-11e9-a8fa-a0481ca9e724,Africa SoilGrids - Root zone total plant available water holding capacity aggregated at ERZD,Soil,soil water content
+4727602b-d0f2-4a6d-bb2f-d50c0ee24298,Africa SoilGrids - Sand content,Soil,soil chemicophysical properties
+09da4e4e-dd3f-4e5a-8ee8-a7e484ee5640,Africa SoilGrids - Root zone plant available water holding capacity aggregated at top 30 cm,Soil,soil water content
+10aa9ac9-1433-11e9-a8fa-a0481ca9e724,Africa SoilGrids - Root zone plant available water holding capacity aggregated at ERZD,Soil,soil water content
+5ac0b40e-a45f-4a9c-bbf9-3d1946a448c3,Africa SoilGrids - Root zone total plant available water holding capacity aggregated at top 30 cm,Soil,soil water content
+9a66a37e-8a4e-463b-b83a-fd49049c323a,Africa SoilGrids - Soil organic carbon (SOC),Soil,soil chemicophysical properties
+6f418905-226b-4c87-b10a-a44511487b53,Africa SoilGrids nutrients - Extractable Manganese (Mn),Soil,soil chemicophysical properties
+c77d1209-56e9-4cac-b76e-bbf6c7e3a617,Africa SoilGrids - Root zone depth (cm),Soil,
+fa637b47-2d45-4539-978e-20a2efc83412,Africa SoilGrids - Exchangeable aluminium (Al3+),Soil,soil chemicophysical properties
+b88870b4-6af8-4e78-a3ac-38871d757525,"Africa Soil Profiles Database, version 1.2",Soil,
+10aa9a83-1433-11e9-a8fa-a0481ca9e724,Africa SoilGrids - Root zone coarse fragments content aggregated at ERZD,Soil,soil chemicophysical properties
+24236b32-ab5d-4fc2-ac4c-350d69ed8a4e,Africa SoilGrids nutrients - Extractable Potassium (K),Soil,soil chemicophysical properties
+e4869de3-eb72-49fe-8b66-d3546a07ac99,Africa SoilGrids - Bulk density (BD),Soil,soil porosity
+b3df7f8d-aa90-4206-a11c-5d95b4dd2327,"Africa Soil Profiles Database, version 1.1",Soil,
+d601201d-5d88-4f7a-9676-5c2ace45f7c6,Africa SoilGrids nutrients - Extractable Magnesium (Mg),Soil,soil chemicophysical properties
+a21e3629-69a0-4e02-8eb2-3436e7a26f2e,Africa SoilGrids - Extractable aluminium (Al),Soil,soil chemicophysical properties
+b14f76c6-2655-4aa1-92c2-d9875fde2cb3,Africa SoilGrids - Depth to bedrock,Soil,soil accumulation (depth)
+48d2e636-6bda-4fa3-93c0-fb689fcf3340,Africa SoilGrids - Exchangeable potassium (K+),Soil,soil chemicophysical properties
+4f0daec9-4c10-4906-a778-43a8fa2251c3,Africa SoilGrids - Textural class aggregated at top 30 cm,Soil,soil chemicophysical properties
+0df2947b-e8b8-42e5-a52d-16cf5ded1cf2,Africa SoilGrids nutrients - Nutrient clusters based on fuzzy k-means,Soil,soil chemicophysical properties
+cd1aee58-bb92-44b4-ad3a-a5bc2dc6db7e,Africa SoilGrids - Exchangeable magnesium (Mg2+),Soil,soil chemicophysical properties
+10aa9a77-1433-11e9-a8fa-a0481ca9e724,Africa SoilGrids - Root zone moisture content at saturation aggregated at ERZD,Soil,soil water content
+c5cb0f71-a627-40b9-8acb-5be42e4d5914,Africa SoilGrids nutrients - Total Nitrogen (N),Soil,soil chemicophysical properties
+a36f7919-0d6e-4044-902c-64a74feade6b,Africa SoilGrids nutrients - Extractable Aluminium (Al),Soil,soil chemicophysical properties
+2a7d2fb8-e0db-4a4b-9661-4809865aaccf,Africa SoilGrids - Texture,Soil,soil chemicophysical properties
+87d11829-ae5e-4e5a-9b4a-c090c723e7c3,Africa SoilGrids - Root zone moisture content at saturation aggregated at top 30 cm,Soil,soil water content
+8dd1d18f-b735-40e6-abe8-943ecda83fa4,Africa SoilGrids nutrients - Extractable Copper (Cu),Soil,soil chemicophysical properties
+5cd5336c-2f45-4430-a9a8-312aa2095cb6,Africa SoilGrids nutrients - Extractable Iron (Fe),Soil,soil chemicophysical properties
+4e970a98-149d-4103-a7da-a6e8f974aad3,Africa SoilGrids nutrients - Extractable Zinc (Zn),Soil,soil chemicophysical properties
+df2c4602-03c4-4130-b7e5-2439e68bf415,Africa SoilGrids - Exchangeable sodium (Na+),Soil,soil chemicophysical properties
+d559a21a-4ef1-43ee-94da-798ac267747e,Africa SoilGrids - Clay content,Soil,soil chemicophysical properties
+9ab49037-8827-456f-b819-8e4c84aa22ca,Africa SoilGrids nutrients - Extractable Phosphorus (P),Soil,soil chemicophysical properties
+fea2e778-b41d-4faa-8947-613c669b24b7,Africa SoilGrids nutrients - Extractable Boron (B),Soil,soil chemicophysical properties
+baba993a-1df0-4a34-8f70-628dfa010504,Africa SoilGrids nutrients - Extractable Calcium (Ca),Soil,soil chemicophysical properties
+c824bc78-2c6a-42b5-bfc8-9555a1c7b11c,Africa SoilGrids nutrients - Extractable Calcium (Ca),Soil,soil chemicophysical properties
+10aa9a8f-1433-11e9-a8fa-a0481ca9e724,Africa SoilGrids - Root zone moisture content at wilting point aggregated at ERZD,Soil,soil water content
+4ef1fe75-44f2-4f12-b0a4-dad9d90a61b9,Africa SoilGrids - Coarse fragments,Soil,soil chemicophysical properties
+5dad673a-b96b-4b5c-b2f8-6f8dbdcb6cbd,Africa SoilGrids - Root zone coarse fragments content aggregated at top 30 cm,Soil,soil chemicophysical properties
+953d0964-6746-489a-a8d1-f188595516a9,Africa SoilGrids - Drainage classes,Soil,soil permeability 
+79ee0152-3dc9-4a6e-8df7-b3d5b154bee0,Africa SoilGrids - Root zone depth limiting soil factor,Soil,soil suitability
+10aa9a99-1433-11e9-a8fa-a0481ca9e724,Africa SoilGrids - Textural class aggregated at ERZD,Soil,soil chemicophysical properties
+f72f5698-4a3d-4af2-ae12-a4b1cf151cec,Africa SoilGrids nutrients - Total Phosphorus (P),Soil,soil chemicophysical properties
+a3364e47-9229-4a6d-aed2-487fd7e4dccc,Africa SoilGrids - Soil pH in H2O,Soil,soil chemicophysical properties
+e3051b48-3005-46a1-a0ec-1726c2bbd3e2,Africa SoilGrids - Silt content,Soil,soil chemicophysical properties
+c78659a0-4c74-4ab2-99db-adb426a54c66,Africa SoilGrids - Sum of exchangeable bases,Soil,soil chemicophysical properties
+9cce26c0-456d-4519-aeac-cb3ab7d616ed,Africa SoilGrids - Root zone moisture content at wilting point aggregated at top 30 cm,Soil,soil water content
