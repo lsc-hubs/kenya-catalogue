@@ -5,6 +5,65 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/44e9cac5-2cb7-41c3-9fbc-0bc8b716e993/formatters/xml
   hierarchylevel: dataset
   datestamp: '2022-06-28T12:52:10'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - pH
+      - soil profiles
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  title: WoSIS latest - pH H2O
+  abstract: "A measure of the acidity or alkalinity in soils, defined as the negative\
+    \ logarithm (base 10) of the activity of hydronium ions (H+) in water.\n     \
+    \  \nISRIC is developing a centralized and user\u2013focused server database,\
+    \ known as ISRIC World Soil Information Service (WoSIS). The aims are to: \n\u2022\
+    \ Safeguard world soil data \"as is\" \n\u2022 Share soil point (i.e. profile)\
+    \ data upon their standardization, and ultimately harmonization \n\u2022 Provide\
+    \ quality-assessed, geo-referenced soil data for a growing range of environmental\
+    \ applications (e.g. SoilGrids250m). \n\nAt present, wosis_latest contains standardized\
+    \ data for 217,000 profiles. The number of measured data for each property varies\
+    \ between pro\uFB01les and with depth, generally depending on the purpose of the\
+    \ initial studies. Further, in most source data sets, there are fewer data for\
+    \ soil physical as opposed to soil chemical attributes and there are fewer measurements\
+    \ for deeper than for superficial horizons. Generally, limited quality information\
+    \ is associated with the various source data. \n\nFurther information is provided\
+    \ in a https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf."
+  dates:
+    publication: '2020-05-01'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
+  accessconstraints: license
+  status: On going
 distribution:
   link-0:
     url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
@@ -36,54 +95,6 @@ distribution:
     name: wosis_latest_phaq
     description: WoSIS latest - pH H2O
     function: null
-identification:
-  title: WoSIS latest - pH H2O
-  abstract: "A measure of the acidity or alkalinity in soils, defined as the negative\
-    \ logarithm (base 10) of the activity of hydronium ions (H+) in water.\n     \
-    \  \nISRIC is developing a centralized and user\u2013focused server database,\
-    \ known as ISRIC World Soil Information Service (WoSIS). The aims are to: \n\u2022\
-    \ Safeguard world soil data \"as is\" \n\u2022 Share soil point (i.e. profile)\
-    \ data upon their standardization, and ultimately harmonization \n\u2022 Provide\
-    \ quality-assessed, geo-referenced soil data for a growing range of environmental\
-    \ applications (e.g. SoilGrids250m). \n\nAt present, wosis_latest contains standardized\
-    \ data for 217,000 profiles. The number of measured data for each property varies\
-    \ between pro\uFB01les and with depth, generally depending on the purpose of the\
-    \ initial studies. Further, in most source data sets, there are fewer data for\
-    \ soil physical as opposed to soil chemical attributes and there are fewer measurements\
-    \ for deeper than for superficial horizons. Generally, limited quality information\
-    \ is associated with the various source data. \n\nFurther information is provided\
-    \ in a https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf."
-  dates:
-    publication: '2020-05-01'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - pH
-      - soil profiles
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Global
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-      crs: '4326'
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
-  accessconstraints: license
-  status: On going
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

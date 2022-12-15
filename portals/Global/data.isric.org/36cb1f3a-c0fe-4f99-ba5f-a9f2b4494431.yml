@@ -5,26 +5,33 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/36cb1f3a-c0fe-4f99-ba5f-a9f2b4494431/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-07-14T11:51:42'
-distribution:
-  link-0:
-    url: https://files.isric.org/public/other/Global_distribution_of_soil_phosphorus_retention_potential.zip
-    type: WWW:DOWNLOAD-1.0-ftp--download
-    name: Download
-    description: null
-    function: download
-  link-1:
-    url: https://isric.org/projects/global-assessment-soil-phosphorus-retention-potential
-    type: WWW:LINK-1.0-http--related
-    name: Project webpage
-    description: null
-    function: information
-  link-2:
-    url: https://isric.org/sites/default/files/isric_report_2011_06.pdf
-    type: WWW:LINK-1.0-http--related
-    name: Report
-    description: null
-    function: information
 identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - phosphorus
+      - nutrients
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
   title: Global distribution of soil phosphorus retention potential
   abstract: "Limited availability of P in soils to crops may be due to deficiency\
     \ and/or severe P retention. Earlier studies that drew on large soil profile databases\
@@ -51,20 +58,6 @@ identification:
     \ retention potential."
   dates:
     publication: '2011-06-01'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - phosphorus
-      - nutrients
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Global
   topiccategory:
   - geoscientificInformation
   extents:
@@ -79,6 +72,25 @@ identification:
       end: '2011-06-01'
   accessconstraints: license
   status: Completed
+distribution:
+  link-0:
+    url: https://files.isric.org/public/other/Global_distribution_of_soil_phosphorus_retention_potential.zip
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download
+    description: null
+    function: download
+  link-1:
+    url: https://isric.org/projects/global-assessment-soil-phosphorus-retention-potential
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-2:
+    url: https://isric.org/sites/default/files/isric_report_2011_06.pdf
+    type: WWW:LINK-1.0-http--related
+    name: Report
+    description: null
+    function: information
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

@@ -5,6 +5,59 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/c4dc161c-d62d-11ea-a1a3-292680b15169/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-11-18T15:16:17'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil types
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - wrb
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  title: SoilGrids250m 2.0 - WRB classes and probabilites
+  abstract: "WRB classes and probabilites. Predictions were derived using a digital\
+    \ soil mapping approach based on Random Forest, drawing on a global compilation\
+    \ of soil profile data and environmental layers. To visualize these layers please\
+    \ use www.soilgrids.org.\n\nLegend: \n0 = Acrisols\n1 = Albeluvisols\n2 = Alisols\n\
+    3 = Andosols\n4 = Arenosols\n5 = Calcisols\n6 = Cambisols\n7 = Chernozems\n8 =\
+    \ Cryosols\n9 = Durisols\n10 = Ferralsols\n11 = Fluvisols\n12 = Gleysols\n13 =\
+    \ Gypsisols\n14 = Histosols\n15 = Kastanozems\n16 = Leptosols\n17 = Lixisols\n\
+    18 = Luvisols\n19 = Nitisols\n20 = Phaeozems\n21 = Planosols\n22 = Plinthosols\n\
+    23 = Podzols\n24 = Regosols\n25 = Solonchaks\n26 = Solonetz\n27 = Stagnosols\n\
+    28 = Umbrisols\n29 = Vertisols"
+  dates:
+    publication: '2020-05-04'
+  topiccategory: []
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -56.0
+      - 180.0
+      - 84.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2016-07-05'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://maps.isric.org/mapserv?map=/map/wrb.map
@@ -216,48 +269,6 @@ distribution:
     name: Scientific paper
     description: null
     function: information
-identification:
-  title: SoilGrids250m 2.0 - WRB classes and probabilites
-  abstract: "WRB classes and probabilites. Predictions were derived using a digital\
-    \ soil mapping approach based on Random Forest, drawing on a global compilation\
-    \ of soil profile data and environmental layers. To visualize these layers please\
-    \ use www.soilgrids.org.\n\nLegend: \n0 = Acrisols\n1 = Albeluvisols\n2 = Alisols\n\
-    3 = Andosols\n4 = Arenosols\n5 = Calcisols\n6 = Cambisols\n7 = Chernozems\n8 =\
-    \ Cryosols\n9 = Durisols\n10 = Ferralsols\n11 = Fluvisols\n12 = Gleysols\n13 =\
-    \ Gypsisols\n14 = Histosols\n15 = Kastanozems\n16 = Leptosols\n17 = Lixisols\n\
-    18 = Luvisols\n19 = Nitisols\n20 = Phaeozems\n21 = Planosols\n22 = Plinthosols\n\
-    23 = Podzols\n24 = Regosols\n25 = Solonchaks\n26 = Solonetz\n27 = Stagnosols\n\
-    28 = Umbrisols\n29 = Vertisols"
-  dates:
-    publication: '2020-05-04'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - wrb
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Global
-  topiccategory: []
-  extents:
-    spatial:
-    - bbox:
-      - -180.0
-      - -56.0008
-      - 180.0
-      - 83.9992
-      crs: '4326'
-    temporal:
-    - begin: '1905-04-01'
-      end: '2016-07-05'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

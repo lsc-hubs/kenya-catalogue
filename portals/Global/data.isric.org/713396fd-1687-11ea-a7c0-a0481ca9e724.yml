@@ -5,6 +5,53 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/713396fd-1687-11ea-a7c0-a0481ca9e724/formatters/xml
   hierarchylevel: dataset
   datestamp: '2021-11-18T15:05:38'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - pH
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  title: SoilGrids250m 2.0 - Soil pH in H2O
+  abstract: Soil pH x 10 in H2O at 6 standard depths (to convert to pH values divide
+    by 10). Predictions were derived using a digital soil mapping approach based on
+    Quantile Random Forest, drawing on a global compilation of soil profile data and
+    environmental layers. To visualize these layers please use www.soilgrids.org.
+  dates:
+    publication: '2020-05-04'
+  topiccategory: []
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -56.0
+      - 180.0
+      - 84.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2016-07-05'
+  accessconstraints: license
+  status: Completed
 distribution:
   link-0:
     url: https://maps.isric.org/mapserv?map=/map/phh2o.map
@@ -174,42 +221,6 @@ distribution:
     name: Scientific paper
     description: null
     function: information
-identification:
-  title: SoilGrids250m 2.0 - Soil pH in H2O
-  abstract: Soil pH x 10 in H2O at 6 standard depths (to convert to pH values divide
-    by 10). Predictions were derived using a digital soil mapping approach based on
-    Quantile Random Forest, drawing on a global compilation of soil profile data and
-    environmental layers. To visualize these layers please use www.soilgrids.org.
-  dates:
-    publication: '2020-05-04'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - pH
-      - digital soil mapping
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Global
-  topiccategory: []
-  extents:
-    spatial:
-    - bbox:
-      - -179.998
-      - -55.9773
-      - 179.994
-      - 82.7193
-      crs: '4326'
-    temporal:
-    - begin: '1905-04-01'
-      end: '2016-07-05'
-  accessconstraints: license
-  status: Completed
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

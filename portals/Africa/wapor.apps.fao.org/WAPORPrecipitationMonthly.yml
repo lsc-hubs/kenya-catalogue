@@ -12,6 +12,8 @@ identification:
           - l1_pcp_m
           - WCS
           - ImageMosaic
+        lsc:
+          - Soil  
   extents:
     spatial:
     - &id002

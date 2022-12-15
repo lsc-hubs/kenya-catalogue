@@ -23,8 +23,8 @@ identification:
       keywords:
       - Soil
       vocabulary:
-        name: Land voc
-        url: http://landvoc.org/landvoc
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
   topiccategory:
   - geoscientificInformation
   extents:

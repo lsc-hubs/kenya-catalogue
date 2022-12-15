@@ -5,6 +5,68 @@ metadata:
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/1a8f1290-f75a-4c86-bf7a-7b44d03089c3/formatters/xml
   hierarchylevel: dataset
   datestamp: '2022-06-28T12:54:09'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - silt
+      - soil profiles
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+  title: WoSIS latest - Silt total
+  abstract: "X to Y mm fraction of the fine earth fraction*; Y as specified in the\
+    \ analytical method description (e.g. Y = 0.05 mm) (g/100g).\n       \nISRIC is\
+    \ developing a centralized and user\u2013focused server database, known as ISRIC\
+    \ World Soil Information Service (WoSIS). The aims are to: \n\u2022 Safeguard\
+    \ world soil data \"as is\" \n\u2022 Share soil point (i.e. profile) data upon\
+    \ their standardization, and ultimately harmonization \n\u2022 Provide quality-assessed,\
+    \ geo-referenced soil data for a growing range of environmental applications (e.g.\
+    \ SoilGrids250m). \n\nAt present, wosis_latest contains standardized data for\
+    \ 217,000 profiles. The number of measured data for each property varies between\
+    \ pro\uFB01les and with depth, generally depending on the purpose of the initial\
+    \ studies. Further, in most source data sets, there are fewer data for soil physical\
+    \ as opposed to soil chemical attributes and there are fewer measurements for\
+    \ deeper than for superficial horizons. Generally, limited quality information\
+    \ is associated with the various source data. \n\nFurther information is provided\
+    \ in a https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf.\n\
+    \n\n* The fine earth fraction is generally defined as being less than 2 mm. However,\
+    \ an upper limit of 1 mm was used in the former Soviet Union  and its sattelite\
+    \ states (Katchynsky scheme). This has been indicated in the database."
+  dates:
+    publication: '2020-05-01'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
+  accessconstraints: license
+  status: On going
 distribution:
   link-0:
     url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
@@ -36,57 +98,6 @@ distribution:
     name: wosis_latest_silt
     description: WoSIS latest - Silt total
     function: null
-identification:
-  title: WoSIS latest - Silt total
-  abstract: "X to Y mm fraction of the fine earth fraction*; Y as specified in the\
-    \ analytical method description (e.g. Y = 0.05 mm) (g/100g).\n       \nISRIC is\
-    \ developing a centralized and user\u2013focused server database, known as ISRIC\
-    \ World Soil Information Service (WoSIS). The aims are to: \n\u2022 Safeguard\
-    \ world soil data \"as is\" \n\u2022 Share soil point (i.e. profile) data upon\
-    \ their standardization, and ultimately harmonization \n\u2022 Provide quality-assessed,\
-    \ geo-referenced soil data for a growing range of environmental applications (e.g.\
-    \ SoilGrids250m). \n\nAt present, wosis_latest contains standardized data for\
-    \ 217,000 profiles. The number of measured data for each property varies between\
-    \ pro\uFB01les and with depth, generally depending on the purpose of the initial\
-    \ studies. Further, in most source data sets, there are fewer data for soil physical\
-    \ as opposed to soil chemical attributes and there are fewer measurements for\
-    \ deeper than for superficial horizons. Generally, limited quality information\
-    \ is associated with the various source data. \n\nFurther information is provided\
-    \ in a https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf.\n\
-    \n\n* The fine earth fraction is generally defined as being less than 2 mm. However,\
-    \ an upper limit of 1 mm was used in the former Soviet Union  and its sattelite\
-    \ states (Katchynsky scheme). This has been indicated in the database."
-  dates:
-    publication: '2020-05-01'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - silt
-      - soil profiles
-    keywords-1:
-      type: stratum
-      keywords:
-      - Soil science
-    keywords-2:
-      type: place
-      keywords:
-      - Global
-  topiccategory:
-  - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-      crs: '4326'
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
-  accessconstraints: license
-  status: On going
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information
