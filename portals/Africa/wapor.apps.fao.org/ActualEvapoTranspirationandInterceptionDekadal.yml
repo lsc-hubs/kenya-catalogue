@@ -6,16 +6,25 @@ identification:
     technologies to monitor and report on agricultural water productivity over Africa
   keywords:
     default:
-      keywords: &id001
-        default:
-          keywords:
-          - l1_aeti_d
-          - WCS
-          - ImageMosaic
+      keywords:
+      - l1_aeti_d
+      - WCS
+      - ImageMosaic
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - evapotranspiration
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   extents:
     spatial:
-    - &id002
-      bbox:
+    - bbox:
       - -30.0044643
       - -40.0044644
       - 65.0044644
@@ -27,13 +36,6 @@ distribution:
     description: null
     url: https://io.apps.fao.org/geoserver/wms?layers=WAPOR_2%3Al1_aeti_d
     type: OGC:WMS
-  WAPOR_2:l1_aeti_d:
-    name: WAPOR_2:l1_aeti_d
-    abstract: null
-    title: Actual EvapoTranspiration and Interception (Dekadal, 250m)
-    keywords: *id001
-    extent: *id002
-    metadataUrls: []
   docs:
     type: www:link
     description: Documentation

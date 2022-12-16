@@ -4,7 +4,19 @@ mcf:
 identification:
     title: {{ md['title'] }}
     abstract: {{ md['description'] }}
-
+    keywords:
+      lsc:
+        keywords:
+        - {{ md['LSC category'] | lower }}
+        vocabulary:
+            name: LSC categories
+            url: https://lsc-hubs.org/categories/
+      tags:
+        keywords:
+        - {{ md['Data category'] | lower }}
+        vocabulary:
+            name: LSC tags
+            url: https://lsc-hubs.org/tags/
 distribution:
     wms: 
         type: OGC:WMS
