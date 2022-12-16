@@ -1,6 +1,19 @@
 mcf:
     version: 1.0
-
+identification:
+    keywords:
+      lsc:
+        keywords:
+        - {{ md['LSC category'] | lower }}
+        vocabulary:
+            name: LSC categories
+            url: https://lsc-hubs.org/categories/
+      tags:
+        keywords:
+        - {{ md['Data category'] | lower }}
+        vocabulary:
+            name: LSC tags
+            url: https://lsc-hubs.org/tags/
 metadata:
     identifier: {{ md['identifier'] }}
     dataseturi: {{ md['externalID'] }}
