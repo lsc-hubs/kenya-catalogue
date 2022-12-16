@@ -1,5 +1,48 @@
 mcf:
   version: '1.0'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil quality
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - HoA Partnership
+      - Regional Risk Profile
+      - Risk
+    keywords-1:
+      type: place
+      keywords:
+      - Africa
+  title: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May'
+  abstract: Percentage of annual AAL at admin1 level for March, April and May. This
+    estimation is part of the results of a probabilistic regional flood risk assessment
+    developed for the Horn of Africa Partnership for Early Warning and Early Action
+    (developed by CIMA Foundation in cooperation with ICPAC, WFP, UNDRR, March 2022)
+  dates:
+    publication: '2022-06-13T09:11:00Z'
+  topiccategory:
+  - planningCadastre
+  extents:
+    spatial:
+    - bbox:
+      - 21.81368001500016
+      - -11.74569511
+      - 51.41551330000024
+      - 23.142871801000183
+    temporal:
+    - {}
+  status: completed
 metadata:
   identifier: de811536-eaf8-11ec-80b2-0242ac170007
   dataseturi: https://geoportal.icpac.net/catalogue/csw?service=CSW&version=2.0.2&request=GetRepositoryItem&outputschema=http://www.isotc211.org/2005/gmd&elementsetname=full&id=de811536-eaf8-11ec-80b2-0242ac170007
@@ -111,37 +154,6 @@ distribution:
     description: 'geonode Service - Provides Layer: FLOOD: Percentage of AAL at admin1
       level for March_ April and May'
     function: null
-identification:
-  title: 'FLOOD: Percentage of AAL at admin1 level for March_ April and May'
-  abstract: Percentage of annual AAL at admin1 level for March, April and May. This
-    estimation is part of the results of a probabilistic regional flood risk assessment
-    developed for the Horn of Africa Partnership for Early Warning and Early Action
-    (developed by CIMA Foundation in cooperation with ICPAC, WFP, UNDRR, March 2022)
-  dates:
-    publication: '2022-06-13T09:11:00Z'
-  keywords:
-    keywords-0:
-      type: theme
-      keywords:
-      - HoA Partnership
-      - Regional Risk Profile
-      - Risk
-    keywords-1:
-      type: place
-      keywords:
-      - Africa
-  topiccategory:
-  - planningCadastre
-  extents:
-    spatial:
-    - bbox:
-      - 21.81368001500016
-      - -11.74569511
-      - 51.41551330000024
-      - 23.142871801000183
-    temporal:
-    - {}
-  status: completed
 contact:
   pointOfContact:
     organization: ICPAC External Partners
