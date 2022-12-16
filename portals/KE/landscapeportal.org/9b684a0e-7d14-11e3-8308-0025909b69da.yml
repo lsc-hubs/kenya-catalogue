@@ -1,0 +1,132 @@
+mcf:
+  version: '1.0'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - soil mapping
+      - Kenya
+      - SOC
+      - soil organic carbon
+    keywords-1:
+      type: place
+      keywords:
+      - Kenya
+  title: Soil Organic Carbon, Central Kenya (2011)
+  abstract: Predicted soil organic carbon (SOC) for central Kenya using MODIS imagery
+    for 2011.
+  dates:
+    publication: '2014-01-14T06:08:41Z'
+  topiccategory:
+  - imageryBaseMapsEarthCover
+  extents:
+    spatial:
+    - bbox:
+      - 34.796772743
+      - -1.225308328
+      - 38.738407303
+      - 1.888011723
+    temporal:
+    - begin: Jan. 1, 2011
+      end: Dec. 31, 2011
+  status: completed
+metadata:
+  identifier: 9b684a0e-7d14-11e3-8308-0025909b69da
+  dataseturi: http://landscapeportal.org/catalogue/csw?service=CSW&version=2.0.2&request=GetRepositoryItem&outputschema=http://www.isotc211.org/2005/gmd&elementsetname=full&id=9b684a0e-7d14-11e3-8308-0025909b69da
+  hierarchylevel: dataset
+  datestamp: '2014-01-14T06:08:41Z'
+distribution:
+  link-0:
+    url: http://landscapeportal.org/layers/geonode:modissoc_20
+    type: WWW:LINK-1.0-http--link
+    name: null
+    description: Online link to the 'Soil Organic Carbon, Central Kenya (2011)' description
+      on GeoNode
+    function: null
+  link-1:
+    url: http://landscapeportal.org/geoserver/wms?layers=geonode%3Amodissoc_20&width=696&bbox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&service=WMS&format=application%2Fpdf&srs=EPSG%3A4326&request=GetMap&height=550
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.pdf
+    description: Soil Organic Carbon, Central Kenya (2011) (PDF Format)
+    function: null
+  link-2:
+    url: http://landscapeportal.org/geoserver/wms?layers=geonode%3Amodissoc_20&width=696&bbox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&service=WMS&format=image%2Fpng&srs=EPSG%3A4326&request=GetMap&height=550
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.png
+    description: Soil Organic Carbon, Central Kenya (2011) (PNG Format)
+    function: null
+  link-3:
+    url: http://landscapeportal.org:80/geoserver/wcs?crs=EPSG%3A4326&service=WCS&format=ArcGrid&request=GetCoverage&height=550&width=696&version=1.0.0&BBox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&Coverage=geonode%3Amodissoc_20
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.ArcGrid
+    description: Soil Organic Carbon, Central Kenya (2011) (ArcGrid Format)
+    function: null
+  link-4:
+    url: http://landscapeportal.org:80/geoserver/wcs?crs=EPSG%3A4326&service=WCS&format=GeoTIFF&request=GetCoverage&height=550&width=696&version=1.0.0&BBox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&Coverage=geonode%3Amodissoc_20
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.GeoTIFF
+    description: Soil Organic Carbon, Central Kenya (2011) (GeoTIFF Format)
+    function: null
+  link-5:
+    url: http://landscapeportal.org:80/geoserver/wcs?crs=EPSG%3A4326&service=WCS&format=Gtopo30&request=GetCoverage&height=550&width=696&version=1.0.0&BBox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&Coverage=geonode%3Amodissoc_20
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.Gtopo30
+    description: Soil Organic Carbon, Central Kenya (2011) (Gtopo30 Format)
+    function: null
+  link-6:
+    url: http://landscapeportal.org:80/geoserver/wcs?crs=EPSG%3A4326&service=WCS&format=ImageMosaic&request=GetCoverage&height=550&width=696&version=1.0.0&BBox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&Coverage=geonode%3Amodissoc_20
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.ImageMosaic
+    description: Soil Organic Carbon, Central Kenya (2011) (ImageMosaic Format)
+    function: null
+  link-7:
+    url: http://landscapeportal.org/geoserver/wms/kml?layers=geonode%3Amodissoc_20&mode=download
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.kml
+    description: Soil Organic Carbon, Central Kenya (2011) (KML Format)
+    function: null
+  link-8:
+    url: http://landscapeportal.org/geoserver/wms/kml?layers=geonode%3Amodissoc_20&mode=refresh
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.kml
+    description: Soil Organic Carbon, Central Kenya (2011) (View in Google Earth Format)
+    function: null
+  link-9:
+    url: http://landscapeportal.org/geoserver/gwc/service/gmaps?layers=geonode:modissoc_20&zoom={z}&x={x}&y={y}&format=image/png8
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.tiles
+    description: Soil Organic Carbon, Central Kenya (2011) (Tiles Format)
+    function: null
+  link-10:
+    url: http://landscapeportal.org/geoserver/wms?layers=geonode%3Amodissoc_20&width=696&bbox=34.796772743%2C-1.2253083279999997%2C38.738407303%2C1.888011723&service=WMS&format=image%2Fjpeg&srs=EPSG%3A4326&request=GetMap&height=550
+    type: WWW:DOWNLOAD-1.0-http--download
+    name: modissoc_20.jpg
+    description: Soil Organic Carbon, Central Kenya (2011) (JPEG Format)
+    function: null
+contact:
+  pointOfContact:
+    organization: World Agroforestry Centre (ICRAF)
+    individualname: tor
+    positionname: Senior Scientist
+    phone: null
+    fax: null
+    address: null
+    city: Nairobi
+    administrativearea: null
+    postalcode: null
+    country: KEN
+    email: tvagen@gmail.com
+    url: http://landscapeportal.org/people/profile/tor/
