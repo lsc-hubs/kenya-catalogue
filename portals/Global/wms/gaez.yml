@@ -1,13 +1,23 @@
-mcf:
-  version: 1.0
 metadata:
   identifier: gaez
-distribution:
-  wms:
-    url: https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer
-    type: OGC:WMS
-    name: LR:AEZ Classification (33 Classes)
 identification:
+  title: LR:AEZ Classification (33 Classes)
+  abstract: ''
+  keywords:
+    default:
+      keywords: []
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - null
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   extents:
     spatial:
     - bbox:
@@ -16,3 +26,13 @@ identification:
       - 180.0
       - 90.0
       crs: '4326'
+  rights: ''
+  fees: ''
+distribution:
+  wms:
+    name: LR:AEZ Classification (33 Classes)
+    description: null
+    url: https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer
+    type: OGC:WMS
+mcf:
+  version: 1.0

@@ -1,13 +1,26 @@
-mcf:
-  version: 1.0
 metadata:
   identifier: aquamaps
-distribution:
-  wms:
-    url: https://io.apps.fao.org/geoserver/wms
-    type: OGC:WMS
-    name: AQUAMAPS:gmia_v5
 identification:
+  title: AQUAMAPS:gmia_v5
+  abstract: ''
+  keywords:
+    default:
+      keywords:
+      - gmia_v5
+      - WCS
+      - GeoTIFF
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - null
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   extents:
     spatial:
     - bbox:
@@ -16,3 +29,13 @@ identification:
       - 179.99999999999852
       - 89.99999999999926
       crs: '4326'
+  rights: ''
+  fees: ''
+distribution:
+  wms:
+    name: AQUAMAPS:gmia_v5
+    description: null
+    url: https://io.apps.fao.org/geoserver/wms
+    type: OGC:WMS
+mcf:
+  version: 1.0
