@@ -1,0 +1,54 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: yieldgap-IrrigatedRiceYieldsByClimateZone
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - crop yield
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    default:
+      keywords:
+      - V_CZ_IRRIGATEDRICEYIELD
+      - features
+  title: IrrigatedRiceYieldsByClimateZone
+  abstract: 'Yield gap analysis results at climate zone level for irrigated rice,
+    as determined by the Global Yield Gap Atlas project. Four yield indicators are
+    available: Absolute Yg, Relative Yg, Ya and Yw. For irrigated crops the yield
+    gap (Yg) is defined as the difference between the actual yield (Ya) and the simulated
+    potential yield (Yp). So Yp - Ya. The default style is ''AbsoluteYieldGap'', ''RelativeYieldGap''
+    is offered as an alternative. Yp can be viewed by choosing the style ''PotentialYield''.
+    And for Ya please select the style ''ActualYield''. More information is available
+    at  the website www.yieldgap.org.'
+  extents:
+    spatial:
+    - bbox:
+      - -12.233265
+      - 6.000003
+      - 92.67366
+      - 26.631954
+      crs: '4326'
+  rights: ''
+  fees: ''
+distribution:
+  wms:
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+    type: OGC:WMS
+    name: IrrigatedRiceYieldsByClimateZone
+    description: 'Yield gap analysis results at climate zone level for irrigated rice,
+      as determined by the Global Yield Gap Atlas project. Four yield indicators are
+      available: Absolute Yg, Relative Yg, Ya and Yw. For irrigated crops the yield
+      gap (Yg) is defined as the difference between the actual yield (Ya) and the
+      simulated potential yield (Yp). So Yp - Ya. The default style is ''AbsoluteYieldGap'',
+      ''RelativeYieldGap'' is offered as an alternative. Yp can be viewed by choosing
+      the style ''PotentialYield''. And for Ya please select the style ''ActualYield''.
+      More information is available at  the website www.yieldgap.org.'

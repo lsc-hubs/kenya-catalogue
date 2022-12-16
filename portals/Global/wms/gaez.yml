@@ -2,19 +2,19 @@ metadata:
   identifier: gaez
 identification:
   title: LR:AEZ Classification (33 Classes)
-  abstract: ''
+  abstract: null
   keywords:
     default:
       keywords: []
     lsc:
       keywords:
-      - soil
+      - land
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - null
+      - land suitability
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/

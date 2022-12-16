@@ -2,7 +2,7 @@ metadata:
   identifier: aquamaps
 identification:
   title: AQUAMAPS:gmia_v5
-  abstract: ''
+  abstract: null
   keywords:
     default:
       keywords:
@@ -17,7 +17,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - null
+      - land management
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
