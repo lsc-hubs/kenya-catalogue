@@ -1,0 +1,38 @@
+mcf:
+  version: 1.0
+metadata:
+  language: eng
+  identifier: datasets
+  datestamp: 2022-12-15
+identification:
+  language: eng
+  title: datasets
+  abstract: ''
+  keywords:
+    default:
+      keywords:
+      - ''
+  fees: None
+  accessconstraints: otherRestrictions
+  rights: ''
+  topiccategory:
+  - geoscientificInformation
+  dates:
+    creation: Thu Dec 15 13:06:37 2022
+  extents:
+    spatial:
+    - bbox: []
+      crs: '4326'
+contact:
+  pointOfContact:
+    organization: ''
+    email: ''
+spatial:
+  datatype: ''
+  geomtype: ''
+distribution:
+  local:
+    url: /mnt/c/Users/genuc003/Projects/desira/dataset-inventarisation/portals/Africa/data.isric.org/datasets.csv
+    type: WWW:LINK
+    name: datasets.csv
+content_info: {}

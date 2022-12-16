@@ -17,7 +17,7 @@ identification:
       keywords:
       - soil water content
       vocabulary:
-        name: LSC categories
+        name: LSC tags
         url: https://lsc-hubs.org/tags/
     keywords-0:
       type: theme

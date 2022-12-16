@@ -6,14 +6,12 @@ identification:
     technologies to monitor and report on agricultural water productivity over Africa
   keywords:
     default:
-      keywords: &id001
-        default:
-          keywords:
-          - l1_pcp_m
-          - WCS
-          - ImageMosaic
-        lsc:
-          - Soil  
+      keywords: 
+        - l1_pcp_m
+        - WCS
+        - ImageMosaic
+    lsc:
+      - Soil  
   extents:
     spatial:
     - &id002
