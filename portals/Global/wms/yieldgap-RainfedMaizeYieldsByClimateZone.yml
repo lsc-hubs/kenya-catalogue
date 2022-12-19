@@ -1,0 +1,55 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: yieldgap-RainfedMaizeYieldsByClimateZone
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - crop yield
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    default:
+      keywords:
+      - V_CZ_RAINFEDMAIZEYIELD
+      - features
+  title: RainfedMaizeYieldsByClimateZone
+  abstract: 'Yield gap analysis results at climate zone level for rainfed maize, as
+    determined by the Global Yield Gap Atlas project. Four yield indicators are available:
+    Absolute Yg, Relative Yg, Ya and Yw. For rainfed crops the yield gap (Yg) is defined
+    as the difference between the actual yield (Ya) and the simulated water limited
+    yield potential (Yw). So Yw - Ya. The default style is ''AbsoluteYieldGap'', ''RelativeYieldGap''
+    is offered as an alternative. Yw can be viewed by choosing the style ''WaterLimitedYieldPotential''.
+    And for Ya please select the style ''ActualYield''. More information is available
+    at  the website www.yieldgap.org.'
+  extents:
+    spatial:
+    - bbox:
+      - -73.679001
+      - -38.905655
+      - 43.333345
+      - 54.750006
+      crs: '4326'
+  rights: ''
+  fees: ''
+distribution:
+  wms:
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+    type: OGC:WMS
+    name: RainfedMaizeYieldsByClimateZone
+    description: 'Yield gap analysis results at climate zone level for rainfed maize,
+      as determined by the Global Yield Gap Atlas project. Four yield indicators are
+      available: Absolute Yg, Relative Yg, Ya and Yw. For rainfed crops the yield
+      gap (Yg) is defined as the difference between the actual yield (Ya) and the
+      simulated water limited yield potential (Yw). So Yw - Ya. The default style
+      is ''AbsoluteYieldGap'', ''RelativeYieldGap'' is offered as an alternative.
+      Yw can be viewed by choosing the style ''WaterLimitedYieldPotential''. And for
+      Ya please select the style ''ActualYield''. More information is available at  the
+      website www.yieldgap.org.'

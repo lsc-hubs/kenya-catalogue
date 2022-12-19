@@ -1,0 +1,45 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: yieldgap-RainfedMilletArea
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - crop yield
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    default:
+      keywords:
+      - WCS
+      - GeoTIFF
+      - frac_rfmillet
+  title: RainfedMilletArea
+  abstract: 'Area where rainfed millet is grown according to SPAM2005. The threshold
+    used is 1%: the harvested area should be at least 1% of the area in a grid cell
+    in order to visualize it as a millet area.'
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -89.99999999928
+      - 179.9999999999999
+      - 90.00000000071994
+      crs: '4326'
+  rights: ''
+  fees: ''
+distribution:
+  wms:
+    url: https://www.yieldgap.org/geoserver/gyga/wms
+    type: OGC:WMS
+    name: RainfedMilletArea
+    description: 'Area where rainfed millet is grown according to SPAM2005. The threshold
+      used is 1%: the harvested area should be at least 1% of the area in a grid cell
+      in order to visualize it as a millet area.'

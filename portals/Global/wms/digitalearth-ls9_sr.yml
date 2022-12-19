@@ -12,16 +12,16 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - null
+      - remote sensing
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     default:
       keywords:
-      - fractional-cover
+      - time-series
       - africa
       - landsat
-      - time-series
+      - fractional-cover
       - WOfS
   title: ls9_sr
   abstract: "Surface reflectance is the fraction of incoming solar radiation that\

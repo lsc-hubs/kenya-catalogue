@@ -1,0 +1,120 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: e4869de3-eb72-49fe-8b66-d3546a07ac99
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/e4869de3-eb72-49fe-8b66-d3546a07ac99/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2021-07-14T11:51:37'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil porosity
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - bulk density
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids - Bulk density (BD)
+  abstract: 'Bulk density of the soil fine earth (measured by core method) in kg /
+    cubic-meter (kg/m3) at 6 standard depths predicted using the Africa Soil Profiles
+    Database (AfSP) v1.2. For details see published paper here below (Hengl T., G.B.M.
+    Heuvelink, B. Kempen, J.G.B. Leenaars, M.G. Walsh, K.D. Shepherd, A. Sila, R.A.
+    MacMillan, J. Mendes de Jesus, L.T. Desta, J.E. Tondoh, 2015. Mapping Soil Properties
+    of Africa at 250 m Resolution: Random Forests Significantly Improve Current Predictions.
+    PLoS ONE 10(6)'
+  dates:
+    publication: '2015-02-10'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -18.0
+      - -35.0
+      - 51.0
+      - 37.0
+    temporal:
+    - begin: '1960-01-01'
+      end: '2015-12-31'
+  accessconstraints: license
+  status: Completed
+distribution:
+  link-0:
+    url: https://files.isric.org/public/afsis250m/af_BLD_T__M_sd1_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 0-5 cm
+    description: null
+    function: download
+  link-1:
+    url: https://files.isric.org/public/afsis250m/af_BLD_T__M_sd2_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 5-15 cm
+    description: null
+    function: download
+  link-2:
+    url: https://files.isric.org/public/afsis250m/af_BLD_T__M_sd3_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 15-30 cm
+    description: null
+    function: download
+  link-3:
+    url: https://files.isric.org/public/afsis250m/af_BLD_T__M_sd4_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 30-60 cm
+    description: null
+    function: download
+  link-4:
+    url: https://files.isric.org/public/afsis250m/af_BLD_T__M_sd5_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 60-100 cm
+    description: null
+    function: download
+  link-5:
+    url: https://files.isric.org/public/afsis250m/af_BLD_T__M_sd6_250m.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 100-200 cm
+    description: null
+    function: download
+  link-6:
+    url: https://isric.org/projects/soil-property-maps-africa-250-m-resolution
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-7:
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125814
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
