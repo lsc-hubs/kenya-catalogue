@@ -1,0 +1,8 @@
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - Global
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope

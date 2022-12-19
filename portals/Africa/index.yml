@@ -1,0 +1,8 @@
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
