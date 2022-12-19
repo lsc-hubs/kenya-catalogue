@@ -1,0 +1,107 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: 5cd5336c-2f45-4430-a9a8-312aa2095cb6
+  dataseturi: https://data.isric.org/geonetwork/srv/metadata/5cd5336c-2f45-4430-a9a8-312aa2095cb6/formatters/xml
+  hierarchylevel: dataset
+  datestamp: '2021-07-14T11:51:42'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - nutrients
+      - iron
+      - digital soil mapping
+    keywords-1:
+      type: stratum
+      keywords:
+      - Soil science
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+  title: Africa SoilGrids nutrients - Extractable Iron (Fe)
+  abstract: "Extractable Iron (Fe) content of the soil fine earth fraction in mg/kg\
+    \ (ppm) as measured according to the soil analytical procedure of Mehlich 3 and\
+    \ spatially predicted for 0-30 cm depth interval at 250 m spatial resolution across\
+    \ sub-Saharan Africa using Machine Learning (ensemble between random forest and\
+    \ gradient boosting) using soil data from the Africa Soil Profiles database (AfSP)\
+    \ compiled by AfSIS and recent soil data newly collected by AfSIS in partnership\
+    \ with EthioSIS (Ethiopia), GhaSIS (Ghana) and NiSIS (Nigeria as made possible\
+    \ by OCP Africa and IITA), combined with soil data as made available by Wageningen\
+    \ University and Research, IFDC, VitalSigns, University of California and the\
+    \ OneAcreFund. [Values M = mean value predicted]. For details see below for peer\
+    \ reviewed paper (T. Hengl, J.G.B. Leenaars, K.D. Shepherd, M.G. Walsh, G.B.M.\
+    \ Heuvelink, Tekalign Mamo, H. Tilahun, E. Berkhout, M. Cooper, E. Fegraus, I.\
+    \ Wheeler, N.A. Kwabena, 2017. Soil nutrient maps of Sub-Saharan Africa: assessment\
+    \ of soil nutrient content at 250 m spatial resolution using machine learning.\
+    \ Nutri\xEBnt Cycling in Agroecosystems 109(1): 77-102). Maps produced for the\
+    \ Environmental Assessment Agency (PBL), funded by the Netherlands government,\
+    \ in collaboration with the AfSIS and the Vital Signs projects."
+  dates:
+    publication: '2016-12-05'
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -29.7
+      - -34.9
+      - 55.4
+      - 28.7
+    temporal:
+    - begin: '1980-01-01'
+      end: '2016-12-31'
+  accessconstraints: license
+  status: Completed
+distribution:
+  link-0:
+    url: https://files.isric.org/public/af250m_nutrient/af250m_nutrient_fe_m_agg30cm.tif
+    type: WWW:DOWNLOAD-1.0-ftp--download
+    name: Download GeoTIFF at depth 30 cm
+    description: null
+    function: download
+  link-1:
+    url: https://maps.isric.org/mapserv?map=/map/af250m_nutrient.map
+    type: OGC:WMS
+    name: af250m_nutrient_fe_m_agg30cm
+    description: null
+    function: information
+  link-2:
+    url: https://isric.org/projects/africa-soilgrids-soil-nutrient-maps-sub-saharan-africa-250-m-resolution
+    type: WWW:LINK-1.0-http--related
+    name: Project webpage
+    description: null
+    function: information
+  link-3:
+    url: https://link.springer.com/article/10.1007/s10705-017-9870-x
+    type: WWW:LINK-1.0-http--related
+    name: Scientific paper
+    description: null
+    function: information
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    individualname: Ulan Turdukulov
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: ulan.turdukulov@isric.org
