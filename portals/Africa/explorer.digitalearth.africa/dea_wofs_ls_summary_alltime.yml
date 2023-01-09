@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_wofs_ls_summary_alltime
+  dataseturi: https://explorer.digitalearth.africa/products/wofs_ls_summary_alltime
+identification:
+  title: wofs_ls_summary_alltime
+  abstract: Water Observations from Space Alltime Statistics
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_alltime
+    type: stac
+    name: wofs_ls_summary_alltime
+    description: description in English

@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_s2_l2a
+  dataseturi: https://explorer.digitalearth.africa/products/s2_l2a
+identification:
+  title: s2_l2a
+  abstract: Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface Reflectance)
+    and converted to Cloud Optimized GeoTIFFs
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/s2_l2a
+    type: stac
+    name: s2_l2a
+    description: description in English

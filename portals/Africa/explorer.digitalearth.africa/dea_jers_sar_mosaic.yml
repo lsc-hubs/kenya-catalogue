@@ -1,0 +1,16 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_jers_sar_mosaic
+  dataseturi: https://explorer.digitalearth.africa/products/jers_sar_mosaic
+identification:
+  title: jers_sar_mosaic
+  abstract: JERS-1 SAR annual mosaic tiles generated for use in the Data Cube 25m
+    pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with
+    conversion to GeoTIFF.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/jers_sar_mosaic
+    type: stac
+    name: jers_sar_mosaic
+    description: description in English

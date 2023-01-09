@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_ndvi_climatology_ls
+  dataseturi: https://explorer.digitalearth.africa/products/ndvi_climatology_ls
+identification:
+  title: ndvi_climatology_ls
+  abstract: Monthly NDVI Climatologies produced by Digital Earth Africa.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/ndvi_climatology_ls
+    type: stac
+    name: ndvi_climatology_ls
+    description: description in English

@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_crop_mask_sahel
+  dataseturi: https://explorer.digitalearth.africa/products/crop_mask_sahel
+identification:
+  title: crop_mask_sahel
+  abstract: Annual cropland extent map for Sahel Africa produced by Digital Earth
+    Africa.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/crop_mask_sahel
+    type: stac
+    name: crop_mask_sahel
+    description: description in English

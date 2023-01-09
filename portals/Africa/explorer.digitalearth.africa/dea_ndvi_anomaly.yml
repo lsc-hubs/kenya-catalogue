@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_ndvi_anomaly
+  dataseturi: https://explorer.digitalearth.africa/products/ndvi_anomaly
+identification:
+  title: ndvi_anomaly
+  abstract: Monthly NDVI Anomalies produced by Digital Earth Africa.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/ndvi_anomaly
+    type: stac
+    name: ndvi_anomaly
+    description: description in English

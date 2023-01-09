@@ -1,0 +1,17 @@
+mcf:
+    version: 1.0
+
+metadata:
+    identifier: dea_{{ md['name'] }}
+    dataseturi: https://explorer.digitalearth.africa/products/{{ md['name'] }}
+
+identification:
+    title: {{ md['name'] }}
+    abstract: {{ md['description'] }}
+
+distribution:
+    stac:
+        url: https://explorer.digitalearth.africa/stac/collections/{{ md['name'] }}
+        type: stac
+        name: {{ md['name'] }}
+        description: description in English

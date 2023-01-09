@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_gm_s2_annual_lowres
+  dataseturi: https://explorer.digitalearth.africa/products/gm_s2_annual_lowres
+identification:
+  title: gm_s2_annual_lowres
+  abstract: Annual Geometric Median, Sentinel-2 - Low Resolution mosaic
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/gm_s2_annual_lowres
+    type: stac
+    name: gm_s2_annual_lowres
+    description: description in English

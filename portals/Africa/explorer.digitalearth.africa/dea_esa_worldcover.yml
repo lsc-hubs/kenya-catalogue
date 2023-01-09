@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_esa_worldcover
+  dataseturi: https://explorer.digitalearth.africa/products/esa_worldcover
+identification:
+  title: esa_worldcover
+  abstract: ESA World Cover, global 10 m land use/land cover data from 2020.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/esa_worldcover
+    type: stac
+    name: esa_worldcover
+    description: description in English

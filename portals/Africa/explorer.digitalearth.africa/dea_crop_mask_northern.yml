@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_crop_mask_northern
+  dataseturi: https://explorer.digitalearth.africa/products/crop_mask_northern
+identification:
+  title: crop_mask_northern
+  abstract: Annual cropland extent map for Northern Africa produced by Digital Earth
+    Africa.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/crop_mask_northern
+    type: stac
+    name: crop_mask_northern
+    description: description in English

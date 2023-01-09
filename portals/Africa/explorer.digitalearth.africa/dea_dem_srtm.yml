@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_dem_srtm
+  dataseturi: https://explorer.digitalearth.africa/products/dem_srtm
+identification:
+  title: dem_srtm
+  abstract: 1 second elevation model
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/dem_srtm
+    type: stac
+    name: dem_srtm
+    description: description in English

@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_dem_cop_30
+  dataseturi: https://explorer.digitalearth.africa/products/dem_cop_30
+identification:
+  title: dem_cop_30
+  abstract: Copernicus DEM 30 m
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/dem_cop_30
+    type: stac
+    name: dem_cop_30
+    description: description in English
