@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_wofs_ls
+  dataseturi: https://explorer.digitalearth.africa/products/wofs_ls
+identification:
+  title: wofs_ls
+  abstract: Historic Flood Mapping Water Observations from Space
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/wofs_ls
+    type: stac
+    name: wofs_ls
+    description: description in English

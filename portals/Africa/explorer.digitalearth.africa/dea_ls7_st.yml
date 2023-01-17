@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_ls7_st
+  dataseturi: https://explorer.digitalearth.africa/products/ls7_st
+identification:
+  title: ls7_st
+  abstract: USGS Landsat 7 Collection 2 Level-2 Surface Temperature
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/ls7_st
+    type: stac
+    name: ls7_st
+    description: description in English

@@ -1,0 +1,43 @@
+metadata:
+  identifier: gaez
+  datasetuuid: "doi:10.7910/DVN/HJYYTI"
+identification:
+  title: Agro-ecological Zones of Africa
+  abstract: "Agroecological zones (AEZs) are geographical areas exhibiting similar climatic conditions that determine their ability to support rainfed agriculture. At a regional scale, AEZs are influenced by latitude, elevation, and temperature, as well as seasonality, and rainfall amounts and distribution during the growing season. The resulting AEZ classifications for Africa have three dimensions: major climate zone (tropics or subtropics), moisture zones (water availability) and highland/lowland (warm or cool based on elevation)."
+  keywords:
+    default:
+      keywords: [Climate, Altitude, Rainfall, Temperature, Agroecology, Agriculture, Suitability, Agroecological zones]
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 180.0
+      - 90.0
+      crs: '4326'
+  rights: ''
+  fees: ''
+contact:
+  pointOfContact: 
+    organization: International Food Policy Research Institute (IFPRI)
+    name: Sebastian, Kate
+distribution:
+  wms:
+    name: LR:AEZ Classification (33 Classes)
+    description: null
+    url: https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer
+    type: OGC:WMS
+mcf:
+  version: 1.0

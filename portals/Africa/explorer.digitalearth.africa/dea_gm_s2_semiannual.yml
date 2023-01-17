@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_gm_s2_semiannual
+  dataseturi: https://explorer.digitalearth.africa/products/gm_s2_semiannual
+identification:
+  title: gm_s2_semiannual
+  abstract: Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations,
+    Sentinel-2
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/gm_s2_semiannual
+    type: stac
+    name: gm_s2_semiannual
+    description: description in English

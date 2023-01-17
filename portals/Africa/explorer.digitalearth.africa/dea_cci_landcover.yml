@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_cci_landcover
+  dataseturi: https://explorer.digitalearth.africa/products/cci_landcover
+identification:
+  title: cci_landcover
+  abstract: ESA Climate Change Initiative Land Cover
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/cci_landcover
+    type: stac
+    name: cci_landcover
+    description: description in English

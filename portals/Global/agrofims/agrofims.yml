@@ -36,7 +36,7 @@ identification:
       - 36
       crs: 4326
 contact:
-  pointOfContact:
+  pointOfContact: 
     email: info@isda-africa.com
     url: https://www.isda-africa.com
     phone: +44 (0)7877 699541

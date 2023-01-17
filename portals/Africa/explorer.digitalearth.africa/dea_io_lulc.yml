@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_io_lulc
+  dataseturi: https://explorer.digitalearth.africa/products/io_lulc
+identification:
+  title: io_lulc
+  abstract: Impact Observatory (ESRI) Landcover Classification 9 Class
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/io_lulc
+    type: stac
+    name: io_lulc
+    description: description in English

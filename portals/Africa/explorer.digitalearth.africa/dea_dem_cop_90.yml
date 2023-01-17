@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_dem_cop_90
+  dataseturi: https://explorer.digitalearth.africa/products/dem_cop_90
+identification:
+  title: dem_cop_90
+  abstract: Copernicus DEM 90 m
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/dem_cop_90
+    type: stac
+    name: dem_cop_90
+    description: description in English

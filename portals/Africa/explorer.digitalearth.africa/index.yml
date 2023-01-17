@@ -1,0 +1,25 @@
+mcf:
+  version: 1.0
+
+identification:
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+        -20
+        -35
+        55
+        40
+      crs: 4326
+
+contact:
+  pointOfContact: 
+    email: info@digitalearthafrica.org
+    organization: Digital Earth Africa PMO
+    address: PO Box 484
+    postalcode: "0127"
+    city: Silverton
+    administrativearea: Gauteng
+    country: South Africa
+    url: https://www.digitalearthafrica.org/

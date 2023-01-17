@@ -1,0 +1,52 @@
+name;description
+alos_palsar_mosaic;ALOS/PALSAR and ALOS-2/PALSAR-2 annual mosaic tiles generated for use in the Data Cube - 25m pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with conversion to GeoTIFF.
+cci_landcover;ESA Climate Change Initiative Land Cover
+cgls_landcover;Copernicus Global Land Service, Land Use/Land Cover at 100 m
+crop_mask;Annual cropland extent map produced by Digital Earth Africa.
+crop_mask_central;Annual cropland extent map for Central Africa produced by Digital Earth Africa.
+crop_mask_eastern;Annual cropland extent map for Eastern Africa produced by Digital Earth Africa.
+crop_mask_indian_ocean;Annual cropland extent map for Indian Ocean Africa produced by Digital Earth Africa.
+crop_mask_northern;Annual cropland extent map for Northern Africa produced by Digital Earth Africa.
+crop_mask_sahel;Annual cropland extent map for Sahel Africa produced by Digital Earth Africa.
+crop_mask_southeast;Annual cropland extent map for Southeast Africa produced by Digital Earth Africa.
+crop_mask_southern;Annual cropland extent map for Southern Africa produced by Digital Earth Africa.
+crop_mask_western;Annual cropland extent map for Western Africa produced by Digital Earth Africa.
+dem_cop_30;Copernicus DEM 30 m
+dem_cop_90;Copernicus DEM 90 m
+dem_srtm;1 second elevation model
+dem_srtm_deriv;1 second elevation model derivatives
+esa_worldcover;ESA World Cover, global 10 m land use/land cover data from 2020.
+fc_ls;Landsat Fractional Cover Observations from Space
+fc_ls_summary_annual;DE Africa Landsat Fractional Cover Percentiles
+gm_ls5_ls7_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7
+gm_ls5_ls7_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7. Low resolution version used for visualisations.
+gm_ls8_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8
+gm_ls8_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8. Low resolution version used for visualisations.
+gm_ls8_ls9_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9
+gm_ls8_ls9_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9. Low resolution version used for visualisations.
+gm_s2_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Sentinel-2
+gm_s2_annual_lowres;Annual Geometric Median, Sentinel-2 - Low Resolution mosaic
+gm_s2_semiannual;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations, Sentinel-2
+gm_s2_semiannual_lowres;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations, Sentinel-2. Low resolution version used for visualisations.
+gmw;Global Mangrove Watch data sourced from the UN Environment Program at https://data.unep-wcmc.org/datasets/45
+io_lulc;Impact Observatory (ESRI) Landcover Classification 9 Class
+jers_sar_mosaic;JERS-1 SAR annual mosaic tiles generated for use in the Data Cube 25m pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with conversion to GeoTIFF.
+ls5_sr;USGS Landsat 5 Collection 2 Level-2 Surface Reflectance
+ls5_st;USGS Landsat 5 Collection 2 Level-2 Surface Temperature
+ls7_sr;USGS Landsat 7 Collection 2 Level-2 Surface Reflectance
+ls7_st;USGS Landsat 7 Collection 2 Level-2 Surface Temperature
+ls8_sr;USGS Landsat 8 Collection 2 Level-2 Surface Reflectance
+ls8_st;USGS Landsat 8 Collection 2 Level-2 Surface Temperature
+ls9_sr;USGS Landsat 9 Collection 2 Level-2 Surface Reflectance
+ls9_st;USGS Landsat 9 Collection 2 Level-2 Surface Temperature
+nasadem;NASADEM from Microsoft's Planetary Computer
+ndvi_anomaly;Monthly NDVI Anomalies produced by Digital Earth Africa.
+ndvi_climatology_ls;Monthly NDVI Climatologies produced by Digital Earth Africa.
+pc_s2_annual;Surface Reflectance Annual Clear Pixel Count, Sentinel-2
+rainfall_chirps_daily;Rainfall Estimates from Rain Gauge and Satellite Observations
+rainfall_chirps_monthly;Rainfall Estimates from Rain Gauge and Satellite Observations
+s1_rtc;Sentinel 1 Gamma0 normalised radar backscatter
+s2_l2a;Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface Reflectance) and converted to Cloud Optimized GeoTIFFs
+wofs_ls;Historic Flood Mapping Water Observations from Space
+wofs_ls_summary_alltime;Water Observations from Space Alltime Statistics
+wofs_ls_summary_annual;Water Observations from Space Annual Statistics

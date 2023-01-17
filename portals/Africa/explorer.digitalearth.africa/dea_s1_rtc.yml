@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_s1_rtc
+  dataseturi: https://explorer.digitalearth.africa/products/s1_rtc
+identification:
+  title: s1_rtc
+  abstract: Sentinel 1 Gamma0 normalised radar backscatter
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/s1_rtc
+    type: stac
+    name: s1_rtc
+    description: description in English

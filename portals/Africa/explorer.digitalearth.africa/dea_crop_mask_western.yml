@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_crop_mask_western
+  dataseturi: https://explorer.digitalearth.africa/products/crop_mask_western
+identification:
+  title: crop_mask_western
+  abstract: Annual cropland extent map for Western Africa produced by Digital Earth
+    Africa.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/crop_mask_western
+    type: stac
+    name: crop_mask_western
+    description: description in English

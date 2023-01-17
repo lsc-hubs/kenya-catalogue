@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_crop_mask_southern
+  dataseturi: https://explorer.digitalearth.africa/products/crop_mask_southern
+identification:
+  title: crop_mask_southern
+  abstract: Annual cropland extent map for Southern Africa produced by Digital Earth
+    Africa.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/crop_mask_southern
+    type: stac
+    name: crop_mask_southern
+    description: description in English

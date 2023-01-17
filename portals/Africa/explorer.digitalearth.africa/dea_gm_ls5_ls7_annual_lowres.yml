@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_gm_ls5_ls7_annual_lowres
+  dataseturi: https://explorer.digitalearth.africa/products/gm_ls5_ls7_annual_lowres
+identification:
+  title: gm_ls5_ls7_annual_lowres
+  abstract: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
+    Landsat 5 and Landsat 7. Low resolution version used for visualisations.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/gm_ls5_ls7_annual_lowres
+    type: stac
+    name: gm_ls5_ls7_annual_lowres
+    description: description in English

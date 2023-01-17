@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_gm_s2_semiannual_lowres
+  dataseturi: https://explorer.digitalearth.africa/products/gm_s2_semiannual_lowres
+identification:
+  title: gm_s2_semiannual_lowres
+  abstract: Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations,
+    Sentinel-2. Low resolution version used for visualisations.
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/gm_s2_semiannual_lowres
+    type: stac
+    name: gm_s2_semiannual_lowres
+    description: description in English

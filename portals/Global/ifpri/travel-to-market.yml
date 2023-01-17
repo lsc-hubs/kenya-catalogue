@@ -1,0 +1,57 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: 10.7910/DVN/YKDWJD,
+  datasetuuid: https://doi.org/10.7910/DVN/YKDWJD,
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2016-01-29
+
+spatial:
+  datatype: Grid
+
+identification:
+  language: english
+  charset: utf8
+  title: Travel Time to Markets in Africa South of the Sahara
+  abstract: "Using a variety of inputs, IFPRI's Spatial Production Allocation Model (SPAM, also known as MapSPAM) uses a cross-entropy approach to make plausible estimates of crop distribution within disaggregated units. Moving the data from coarser units such as countries and sub-national provinces, to finer units such as grid cells, reveals spatial patterns of crop performance, creating Africa South of the Sahara-wide grid-scape at the confluence between geography and agricultural production systems. Improving spatial understanding of crop production systems allows policymakers and donors to better target agricultural and rural development policies and investments, increasing food security and growth with minimal environmental impacts. (2020-12-21)"
+  dates:
+    creation: 2021-01-01
+  keywords:
+    default:
+      keywords: 
+      - market access
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 18
+      - 36
+      - 60
+      - 36
+      crs: 4326
+contact:
+  pointOfContact: 
+    name: Guo, Zhe
+    organization: International Food Policy Research Institute (IFPRI)
+
+distribution:
+  tiff:
+    name: Tiff
+    url: https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/YKDWJD/UFOGZS&version=2.2
+    type: image/tiff
+  dbf:
+    name: Dbf
+    url: https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/YKDWJD/FIFAXW&version=2.2
+    type: application/dbf
+
+

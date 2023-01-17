@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_ls7_sr
+  dataseturi: https://explorer.digitalearth.africa/products/ls7_sr
+identification:
+  title: ls7_sr
+  abstract: USGS Landsat 7 Collection 2 Level-2 Surface Reflectance
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/ls7_sr
+    type: stac
+    name: ls7_sr
+    description: description in English

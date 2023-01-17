@@ -1,0 +1,14 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_nasadem
+  dataseturi: https://explorer.digitalearth.africa/products/nasadem
+identification:
+  title: nasadem
+  abstract: NASADEM from Microsoft's Planetary Computer
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/nasadem
+    type: stac
+    name: nasadem
+    description: description in English

@@ -1,0 +1,15 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: dea_gmw
+  dataseturi: https://explorer.digitalearth.africa/products/gmw
+identification:
+  title: gmw
+  abstract: Global Mangrove Watch data sourced from the UN Environment Program at
+    https://data.unep-wcmc.org/datasets/45
+distribution:
+  stac:
+    url: https://explorer.digitalearth.africa/stac/collections/gmw
+    type: stac
+    name: gmw
+    description: description in English
