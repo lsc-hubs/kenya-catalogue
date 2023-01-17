@@ -1,0 +1,51 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: twiga
+  language: english
+  charset: utf8
+  hierarchylevel: project
+  datestamp: 2022-12-13
+
+identification:
+  language: english
+  charset: utf8
+  title: Integrated & Climate Smart Innovation for Agropastoralist Economies and Landscapes In Kenya’s ASALs
+  abstract: "To address these challenges, SNV partnered with KALRO to implement this project whose main objective is to enhance the livelihoods of agro-pastoralist communities through improved forage production and livestock husbandry, building on the commercialisation of climate-smart innovations and sustainable landscape management in the three counties. To achieve this goal, the project takes a holistic approach focusing on three interlinked outcomes or pathways to ensure long-term change."
+  dates:
+    creation: 2021-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.8935689697
+      - -5.506
+      - 41.8550830926
+      - -4.67677
+      crs: 4326
+contact:
+  pointOfContact: 
+    email: jrono@snv.org
+    name: Julius Rono
+    organization: SNV
+    address: Parkstraat 83
+    postalcode: 2514 JG 
+    url: https://snv.org
+    city: The Hague
+    country: Netherlands
+
+distribution:
+  icsiapl:
+    name: icsiapl
+    url: https://snv.org/project/icsiapl
+    type: www
+

@@ -1,0 +1,54 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: KenyaSoilFertilityMap2020
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2022-12-13
+
+spatial:
+  datatype: Grid
+
+identification:
+  language: english
+  charset: utf8
+  title: Kenya Soil Fertility Map 2020
+  abstract: "While a great deal of soil analysis has been collected in Kenya, it has never been brought together and converted into maps. Understanding the regions of various nutrient deficiencies and soil acidity constraints enables blenders to customize and target their products and is key to maximizing returns on fertilizer investments. The production of such maps is very influential at a policy level to increase awareness of deficiencies besides N, P, and K, and can be used to target fertilizer types and liming initiatives."
+  dates:
+    creation: 2021-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.8935689697
+      - -5.506
+      - 41.8550830926
+      - -4.67677
+      crs: 4326
+contact:
+  pointOfContact: 
+    email: support@cropnuts.com
+    organization: Crop Nutrition Laboratory Services
+    address: Limuru, off Limuru road, P.O. Box 66437-00800
+    url: https://cropnuts.com
+    phone: +254 711 094 444
+    city: Nairobi
+    country: Kenya
+
+distribution:
+  cropnuts:
+    name: cropnuts
+    description: soil chemical properties of kenya
+    url: https://mapping.cropnuts.com/
+    type: www
+
