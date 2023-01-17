@@ -1,0 +1,52 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: twiga
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2022-12-13
+
+identification:
+  language: english
+  charset: utf8
+  title: Twiga project
+  abstract: "The aim of the TWIGA project was  to provide currently unavailable geo-information on weather, water, and climate for sub-Saharan Africa by enhancing satellite-based geo-data with innovative in-situ sensors and developing related information services that answer needs of African stakeholders and the GEOSS community."
+  dates:
+    creation: 2021-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -24
+      - -35
+      - 52
+      - 36
+      crs: 4326
+contact:
+  pointOfContact: 
+    email: marcel.alderlieste@hydrologic.com
+    name: Marcel Alderlieste
+    organization: hydrologic
+    address: Stadsring 57
+    url: https://hydrologic.com
+    phone: +31 33 4753535
+    city: Amersfoort
+    country: Netherlands
+
+distribution:
+  twiga:
+    name: twiga portal
+    description: login details at https://website.twiga-h2020.eu/twiga-portal-2/
+    url: https://twiga.hydronet.com/
+    type: www
+

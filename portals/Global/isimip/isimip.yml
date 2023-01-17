@@ -1,0 +1,51 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: isimip
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 
+
+identification:
+  language: english
+  charset: utf8
+  title: The Inter-Sectoral Impact Model Intercomparison Project
+  abstract: "Here you will find data relating to the Inter-Sectoral Impact Model Intercomparison Project (ISIMIP). Use of these data are subject to the ISIMIP terms of use. Documentation of the impact models that provided impact simulations for this archive can be found in the ISIMIP Impact Model Database."
+  dates:
+    creation: 2021-01-01
+  keywords:
+    default:
+      keywords: 
+      - land
+    lsc:
+      keywords:
+      - Wheater
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 18
+      - 36
+      - 60
+      - 36
+      crs: 4326
+  license: CC0 1.0 Universal Public Domain Dedication (CC0 1.0)
+contact:
+  pointOfContact: 
+    email: info@isimip.org
+    organization: Potsdam Institute for Climate Impact Research (PIK).
+
+distribution:
+  catalog:
+    name: Catalogue
+    url: https://data.isimip.org
+    type: www
+
+
+

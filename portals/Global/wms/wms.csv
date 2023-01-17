@@ -1,5 +1,4 @@
 id;url;layers;protocol;LSC category;Data category
-gaez;https://gaez-services.fao.org/server/services/LR/ImageServer/WMSServer;LR:AEZ Classification (33 Classes);OGC:WMS;land;land suitability
 yieldgap;https://www.yieldgap.org/geoserver/gyga/wms;IrrigatedRiceYieldsByClimateZone,RainfedMaizeYieldsByClimateZone,WaterLimitedYieldPotential,RainfedMilletArea;OGC:WMS;crop;crop yield
 aquamaps;https://io.apps.fao.org/geoserver/wms;AQUAMAPS:gmia_v5;OGC:WMS;land;land management
 digitalearth;https://ows.digitalearth.africa/;ls9_sr,s2_l2a,gm_s2_annual;OGC:WMS;land;remote sensing
