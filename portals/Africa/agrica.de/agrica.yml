@@ -1,0 +1,56 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: agrica
+  language: english
+  charset: utf8
+  hierarchylevel: project
+  datestamp: 2018-09-01
+
+identification:
+  language: english
+  charset: utf8
+  title: AGRICA – Climate risk analyses for adaptation planning in sub-Saharan Africa
+  abstract: "While most countries recognise the importance of adaptation to climate change, there is limited access to reliable information on climate impacts and risks which should inform the selection of adaptation strategies. This is also true for the operationalisation of adaptation goals which are defined in Nationally Determined Contributions (NDCs) and National Adaptation Plans (NAPs): How to translate adaptation goals into concrete actions? Hence, there is a need for science-based adaptation planning which requires sound climate risk analyses and assessment of potential adaptation strategies. To address this issue, the AGRICA project provides comprehensive climate risk analyses for the agricultural sector in selected countries in sub-Saharan Africa. The findings are meant to inform national and sub-national adaptation planning including NDC and NAP development and review processes but will also provide useful information and evidence to decision makers at other planning and implementation levels. AGRICA currently focuses on the development of two publication formats: in-depth climate risk analyses and shorter climate risk profiles. Climate risk analyses are detailed scientific reports accompanied by a summary for policy makers and a methods factsheet, while the climate risk profiles are short briefs including a methods factsheet. The climate risk analyses are intended to inform decision makers from governments, international institutions, civil society, academia and the private sector regarding the risks of climate change impacts and provide guidance in effective adaptation planning at national and sub-national level. The climate risk profiles focus on climate impacts and risks, providing an easy to read snapshot."
+  dates:
+    creation: "2018-09-01"
+  keywords:
+    lsc:
+      keywords:
+      - Climate
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -24
+      - -35
+      - 52
+      - 36
+      crs: 4326
+    temporal:
+    - begin: 2018-09-01
+      end: 2023-12-31
+contact:
+  pointOfContact: 
+    email: gornott@pik-potsdam.de
+    name: Dr. Christoph Gornott (Project Lead at PIK)
+    organization: PIK Pottsdam
+    address: P.O. Box 60 12 03
+    url: https://www.pik-potsdam.de/en
+    phone: +49 (0)331 288 2655
+    city: Potsdam
+    postalcode: "14412"
+    country: Germany
+
+distribution:
+  twiga:
+    name: Agrica results
+    description: Agrica publications
+    url: https://agrica.de/results/
+    type: www
+
