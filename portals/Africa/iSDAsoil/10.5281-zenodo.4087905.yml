@@ -1,0 +1,76 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.5281/zenodo.4087905
+  dataseturi: https://doi.org/10.5281/zenodo.4087905
+  dates:
+    creation: '2020-10-15T06:14:01.000Z'
+    publication: '2020'
+distribution:
+  10.5281/zenodo.4087904:
+    url: https://doi.org/10.5281/zenodo.4087904
+    type: IsVersionOf
+identification:
+  title: 'iSDAsoil: soil fine-earth bulk density for Africa predicted at 30 m resolution
+    at 0-20 and 20-50 cm depths'
+  abstract: "iSDAsoil dataset soil fine-earth bulk density in 10\xD7kg/m3 predicted\
+    \ at 30 m resolution for 0\u201320 and 20\u201350 cm depth intervals. Data has\
+    \ been projected in WGS84 coordinate system and compiled as COG. Predictions have\
+    \ been generated using multi-scale Ensemble Machine Learning with 250 m (MODIS,\
+    \ PROBA-V, climatic variables and similar) and 30 m (DTM derivatives, Landsat,\
+    \ Sentinel-2 and similar) resolution covariates. For model training we use a pan-African\
+    \ compilations of soil samples and profiles (iSDA points, AfSPDB, LandPKS, and\
+    \ other national and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E.,\
+    \ Kri\u017Ean, J. <em>et al.</em> African soil properties and nutrients mapped\
+    \ at 30 m spatial resolution using two-scale ensemble machine learning. <em>Sci\
+    \ Rep</em> <strong>11, </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y\
+    \ To open the maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized\
+    \ GeoTIFF version</strong>. Layer description: sol_db_od_m_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil bulk density mean value, sol_db_od_md_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil bulk density model (prediction) errors, Model errors were derived\
+    \ using bootstrapping: md is derived as standard deviation of individual learners\
+    \ from 5-fold cross-validation (using spatial blocking). The model 5-fold cross-validation\
+    \ (mlr::makeStackedLearner) for this variable indicates: <pre><code>Variable:\
+    \ db_od R-square: 0.819 Fitted values sd: 0.269 RMSE: 0.126 Random forest model:\
+    \ Call: stats::lm(formula = f, data = d) Residuals: Min 1Q Median 3Q Max -1.06778\
+    \ -0.06450 0.00215 0.06585 0.90016 Coefficients: Estimate Std. Error t value Pr(&gt;|t|)\
+    \ (Intercept) -0.05538 0.04860 -1.140 0.25451 regr.ranger 0.86305 0.01577 54.733\
+    \ &lt; 2e-16 *** regr.xgboost 0.15383 0.01651 9.315 &lt; 2e-16 *** regr.cubist\
+    \ 0.02039 0.01113 1.832 0.06695 . regr.nnet 0.03465 0.03710 0.934 0.35036 regr.cvglmnet\
+    \ -0.03021 0.01032 -2.927 0.00343 ** --- Signif. codes: 0 '***' 0.001 '**' 0.01\
+    \ '*' 0.05 '.' 0.1 ' ' 1 Residual standard error: 0.1263 on 13565 degrees of freedom\
+    \ Multiple R-squared: 0.8194, Adjusted R-squared: 0.8193 F-statistic: 1.231e+04\
+    \ on 5 and 13565 DF, p-value: &lt; 2.2e-16</code></pre> To back-transform values\
+    \ (y) to kg/m-cubic use: <pre><code>kg/m3 = y * 10</code></pre> To submit an issue\
+    \ or request support please visit <strong>https://isda-africa.com/isdasoil</strong>"
+contact:
+  Hengl-Tomislav:
+    individualname: Hengl, Tomislav
+    role: ''
+    organization: EnvirometriX
+    url: https://orcid.org/0000-0002-9921-5129
+  Miller-Matt:
+    individualname: Miller, Matt
+    role: ''
+    organization: Innovative Solutions for Decision Agriculture Ltd (iSDA)
+    url: https://orcid.org/0000-0002-1643-3076
+  "Kri\u017Ean-Josip":
+    individualname: "Kri\u017Ean, Josip"
+    role: ''
+    organization: MultiOne
+    url: https://orcid.org/0000-0002-4557-3537
+  Kilibarda-Milan:
+    individualname: Kilibarda, Milan
+    role: ''
+    organization: University of Belgrade
+    url: https://orcid.org/0000-0002-2930-3596
+  Acquah-Gifty:
+    individualname: Acquah, Gifty
+    role: ''
+    organization: Rothamsted Research
+    url: https://orcid.org/0000-0003-4269-0903
+  Sila-Andrew-M.:
+    individualname: Sila, Andrew M.
+    role: ''
+    organization: World Agroforestry (ICRAF)
+    url: https://orcid.org/0000-0002-3991-8770

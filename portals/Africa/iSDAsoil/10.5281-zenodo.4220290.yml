@@ -1,0 +1,82 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.5281/zenodo.4220290
+  dataseturi: https://doi.org/10.5281/zenodo.4220290
+  dates:
+    creation: '2020-11-03T07:55:22.000Z'
+    publication: '2020'
+distribution:
+  10.5281/zenodo.4090926:
+    url: https://doi.org/10.5281/zenodo.4090926
+    type: IsSupplementedBy
+  10.5281/zenodo.4088112:
+    url: https://doi.org/10.5281/zenodo.4088112
+    type: IsSupplementedBy
+  10.5281/zenodo.4073236:
+    url: https://doi.org/10.5281/zenodo.4073236
+    type: IsVersionOf
+identification:
+  title: 'iSDAsoil: soil pH for Africa predicted at 30 m resolution at 0-20 and 20-50
+    cm depths'
+  abstract: "iSDAsoil dataset soil pH (1:1 Soil-Water Suspension) predicted at 30\
+    \ m resolution for 0\u201320 and 20\u201350 cm depth intervals. Data has been\
+    \ projected in WGS84 coordinate system and compiled as COG. Predictions have been\
+    \ generated using multi-scale Ensemble Machine Learning with 250 m (MODIS, PROBA-V,\
+    \ climatic variables and similar) and 30 m (DTM derivatives, Landsat, Sentinel-2\
+    \ and similar) resolution covariates. For model training we use a pan-African\
+    \ compilations of soil samples and profiles (iSDA points, AfSPDB, and other national\
+    \ and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Kri\u017Ean,\
+    \ J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial\
+    \ resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11,\
+    \ </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the\
+    \ maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized\
+    \ GeoTIFF version</strong>. Layer description: sol_ph_h2o_m_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil pH mean value, sol_ph_h2o_md_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil pH model (prediction) errors, Model errors were derived using\
+    \ bootstrapping: md is derived as standard deviation of individual learners from\
+    \ 5-fold cross-validation (using spatial blocking). The model 5-fold cross-validation\
+    \ (mlr::makeStackedLearner) for this variable indicates: <pre><code>Variable:\
+    \ ph_h2o R-square: 0.818 Fitted values sd: 0.972 RMSE: 0.459 Random forest model:\
+    \ Call: stats::lm(formula = f, data = d) Residuals: Min 1Q Median 3Q Max -5.5939\
+    \ -0.2328 -0.0066 0.2222 4.7477 Coefficients: Estimate Std. Error t value Pr(&gt;|t|)\
+    \ (Intercept) 1.113440 1.164473 0.956 0.338986 regr.ranger 1.032918 0.003138 329.116\
+    \ &lt; 2e-16 *** regr.xgboost -0.014201 0.004185 -3.393 0.000691 *** regr.cubist\
+    \ 0.049667 0.003709 13.392 &lt; 2e-16 *** regr.nnet -0.188570 0.188214 -1.002\
+    \ 0.316398 regr.cvglmnet -0.059763 0.003636 -16.438 &lt; 2e-16 *** --- Signif.\
+    \ codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 Residual standard error:\
+    \ 0.4591 on 133378 degrees of freedom Multiple R-squared: 0.8176, Adjusted R-squared:\
+    \ 0.8176 F-statistic: 1.195e+05 on 5 and 133378 DF, p-value: &lt; 2.2e-16</code></pre>\
+    \ To back-transform values (y) to index use: <pre><code>index = y / 10</code></pre>\
+    \ To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>"
+contact:
+  Hengl-Tomislav:
+    individualname: Hengl, Tomislav
+    role: ''
+    organization: EnvirometriX
+    url: https://orcid.org/0000-0002-9921-5129
+  Miller-Matt:
+    individualname: Miller, Matt
+    role: ''
+    organization: Innovative Solutions for Decision Agriculture Ltd (iSDA)
+    url: https://orcid.org/0000-0002-1643-3076
+  "Kri\u017Ean-Josip":
+    individualname: "Kri\u017Ean, Josip"
+    role: ''
+    organization: MultiOne
+    url: https://orcid.org/0000-0002-4557-3537
+  Kilibarda-Milan:
+    individualname: Kilibarda, Milan
+    role: ''
+    organization: University of Belgrade
+    url: https://orcid.org/0000-0002-2930-3596
+  Acquah-Gifty:
+    individualname: Acquah, Gifty
+    role: ''
+    organization: Rothamsted Research
+    url: https://orcid.org/0000-0003-4269-0903
+  Sila-Andrew-M.:
+    individualname: Sila, Andrew M.
+    role: ''
+    organization: World Agroforestry (ICRAF)
+    url: https://orcid.org/0000-0002-3991-8770

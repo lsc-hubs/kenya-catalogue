@@ -1,0 +1,53 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: down2earth
+  language: english
+  charset: utf8
+  hierarchylevel: project
+  datestamp: 2023-03-06
+
+identification:
+  language: english
+  title: down2earth
+  abstract: The DOWN2EARTH project addresses the multi-faceted challenges of water scarcity and food insecurity under climate change within increasingly vulnerable rural populations in Horn of Africa Drylands. The Horn of Africa drylands (HAD) depend on seasonal rainfall for subsistence (primarily rainfed) agriculture and pastoralism, so they are extremely vulnerable to water scarcity and food insecurity during droughts. DOWN2EARTH is examining the links between key seasonal climate, water scarcity, food insecurity, and the consequential impacts to livelihoods and well-being for rural communities in HAD. We are facilitating community-centered adaptation and resilience to climate change impacts through the delivery of community-relevant climate services that focus on water scarcity and its consequences at or near the Earth’s surface (hence DOWN2EARTH). The DOWN2EARTH project is inherently focused on impacts to people, institutions, and policy within and beyond the affected communities of HAD. Our project activities are aimed at improving regional climate services delivery and promoting adaptation to climate change for HAD through new and enhanced decision-support tools, capacity building, citizen science, information dissemination to improve multi-level decision making, expansion of data networks, and climate change adaptation policy implementation.
+  dates:
+    creation: 2021-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -24
+      - -35
+      - 52
+      - 36
+      crs: 4326
+contact:
+  pointOfContact: 
+    email: bliss@eri.ucsb.edu
+    name: Michael Bliss Singer
+    organization: Cardiff University
+    address: CF10 3AT
+    url: https://www.cardiff.ac.uk/
+    region: Wales
+    city: Cardiff
+    country: UK
+
+distribution:
+  website:
+    name: Website
+    url: http://down2earthproject.org/
+    type: www-link
+  DMP:
+    name: Data management plan
+    url: http://down2earthproject.org/assets/files/D5_1.pdf
+    type: www-link

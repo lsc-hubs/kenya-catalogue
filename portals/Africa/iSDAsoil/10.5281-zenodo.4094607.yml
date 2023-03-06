@@ -1,0 +1,87 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.5281/zenodo.4094607
+  dataseturi: https://doi.org/10.5281/zenodo.4094607
+  dates:
+    creation: '2020-10-18T19:13:52.000Z'
+    publication: '2020'
+distribution:
+  10.5281/zenodo.4085159:
+    url: https://doi.org/10.5281/zenodo.4085159
+    type: IsSupplementedBy
+  10.5281/zenodo.4094609:
+    url: https://doi.org/10.5281/zenodo.4094609
+    type: IsSupplementedBy
+  10.5281/zenodo.4094615:
+    url: https://doi.org/10.5281/zenodo.4094615
+    type: IsSupplementedBy
+  10.5281/zenodo.4091153:
+    url: https://doi.org/10.5281/zenodo.4091153
+    type: IsSupplementedBy
+  10.5281/zenodo.4094606:
+    url: https://doi.org/10.5281/zenodo.4094606
+    type: IsVersionOf
+identification:
+  title: 'iSDAsoil: soil sand content (USDA system) for Africa predicted at 30 m resolution
+    at 0-20 and 20-50 cm depths'
+  abstract: "iSDAsoil dataset soil sand content in % predicted at 30 m resolution\
+    \ for 0\u201320 and 20\u201350 cm depth intervals. Data has been projected in\
+    \ WGS84 coordinate system and compiled as COG. Predictions have been generated\
+    \ using multi-scale Ensemble Machine Learning with 250 m (MODIS, PROBA-V, climatic\
+    \ variables and similar) and 30 m (DTM derivatives, Landsat, Sentinel-2 and similar)\
+    \ resolution covariates. For model training we use a pan-African compilations\
+    \ of soil samples and profiles (iSDA points, AfSPDB, LandPKS, and other national\
+    \ and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Kri\u017Ean,\
+    \ J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial\
+    \ resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11,\
+    \ </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the\
+    \ maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized\
+    \ GeoTIFF version</strong>. Layer description: sol_sand_tot_psa_m_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil sand content mean value, sol_sand_tot_psa_md_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil sand content model (prediction) errors, Model errors were derived\
+    \ using bootstrapping: md is derived as standard deviation of individual learners\
+    \ from 5-fold cross-validation (using spatial blocking). The model 5-fold cross-validation\
+    \ (mlr::makeStackedLearner) for this variable indicates: <pre><code>Variable:\
+    \ sand_tot_psa R-square: 0.736 Fitted values sd: 22.8 RMSE: 13.7 Random forest\
+    \ model: Call: stats::lm(formula = f, data = d) Residuals: Min 1Q Median 3Q Max\
+    \ -80.626 -5.321 0.221 6.071 88.686 Coefficients: Estimate Std. Error t value\
+    \ Pr(&gt;|t|) (Intercept) 6.687471 24.022001 0.278 0.780714 regr.ranger 1.060521\
+    \ 0.003503 302.742 &lt; 2e-16 *** regr.xgboost -0.018718 0.004910 -3.812 0.000138\
+    \ *** regr.cubist 0.031749 0.003922 8.096 5.73e-16 *** regr.nnet -0.161127 0.422746\
+    \ -0.381 0.703098 regr.cvglmnet -0.028217 0.004462 -6.323 2.57e-10 *** --- Signif.\
+    \ codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 Residual standard error:\
+    \ 13.65 on 122261 degrees of freedom Multiple R-squared: 0.736, Adjusted R-squared:\
+    \ 0.736 F-statistic: 6.818e+04 on 5 and 122261 DF, p-value: &lt; 2.2e-16</code></pre>\
+    \ To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>"
+contact:
+  Hengl-Tomislav:
+    individualname: Hengl, Tomislav
+    role: ''
+    organization: EnvirometriX
+    url: https://orcid.org/0000-0002-9921-5129
+  Miller-Matt:
+    individualname: Miller, Matt
+    role: ''
+    organization: Innovative Solutions for Decision Agriculture Ltd (iSDA)
+    url: https://orcid.org/0000-0002-1643-3076
+  "Kri\u017Ean-Josip":
+    individualname: "Kri\u017Ean, Josip"
+    role: ''
+    organization: MultiOne
+    url: https://orcid.org/0000-0002-4557-3537
+  Kilibarda-Milan:
+    individualname: Kilibarda, Milan
+    role: ''
+    organization: University of Belgrade
+    url: https://orcid.org/0000-0002-2930-3596
+  Acquah-Gifty:
+    individualname: Acquah, Gifty
+    role: ''
+    organization: Rothamsted Research
+    url: https://orcid.org/0000-0003-4269-0903
+  Sila-Andrew-M.:
+    individualname: Sila, Andrew M.
+    role: ''
+    organization: World Agroforestry (ICRAF)
+    url: https://orcid.org/0000-0002-3991-8770
