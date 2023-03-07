@@ -1,14 +1,12 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.7910/DVN/FSSKBW
+  identifier: 10.7910-DVN-FSSKBW
   dataseturi: https://doi.org/10.7910/DVN/FSSKBW
   dates:
     creation: '2020-07-14T02:39:50.000Z'
     publication: '2020'
 distribution:
-  data:
-    url: null
   10.7910/dvn/fsskbw/a0r4iw:
     url: https://doi.org/10.7910/dvn/fsskbw/a0r4iw
     type: HasPart

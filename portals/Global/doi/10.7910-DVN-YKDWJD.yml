@@ -1,14 +1,12 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.7910/DVN/YKDWJD
+  identifier: 10.7910-DVN-YKDWJD
   dataseturi: https://doi.org/10.7910/DVN/YKDWJD
   dates:
     creation: '2016-01-29T21:35:37.000Z'
     publication: '2016'
-distribution:
-  data:
-    url: null
+distribution: {}
 identification:
   title: Travel Time to Markets in Africa South of the Sahara
   abstract: ''

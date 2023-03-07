@@ -1,14 +1,12 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.7910/DVN/HJYYTI
+  identifier: 10.7910-DVN-HJYYTI
   dataseturi: https://doi.org/10.7910/DVN/HJYYTI
   dates:
     creation: '2019-02-13T04:13:42.000Z'
     publication: '2013'
-distribution:
-  data:
-    url: []
+distribution: {}
 identification:
   title: Agro-ecological Zones of Africa
   abstract: 'Agroecological zones (AEZs) are geographical areas exhibiting similar

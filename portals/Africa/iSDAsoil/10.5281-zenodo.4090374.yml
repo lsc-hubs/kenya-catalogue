@@ -1,7 +1,7 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.5281/zenodo.4090374
+  identifier: 10.5281-zenodo.4090374
   dataseturi: https://doi.org/10.5281/zenodo.4090374
   dates:
     creation: '2020-10-16T07:16:55.000Z'

@@ -1,14 +1,12 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.17605/OSF.IO/Y9ZUT
+  identifier: 10.17605-OSF.IO-Y9ZUT
   dataseturi: https://doi.org/10.17605/OSF.IO/Y9ZUT
   dates:
     creation: '2020-07-11T14:28:25.000Z'
     publication: '2022'
-distribution:
-  data:
-    url: null
+distribution: {}
 identification:
   title: Rwanda Soil Information Service
   abstract: This project develops soil and cropland information and the associated
