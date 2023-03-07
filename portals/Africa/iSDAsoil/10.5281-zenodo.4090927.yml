@@ -1,0 +1,85 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.5281-zenodo.4090927
+  dataseturi: https://doi.org/10.5281/zenodo.4090927
+  dates:
+    creation: '2020-10-16T07:12:25.000Z'
+    publication: '2020'
+distribution:
+  10.5281/zenodo.4088063:
+    url: https://doi.org/10.5281/zenodo.4088063
+    type: IsSupplementedBy
+  10.5281/zenodo.4073236:
+    url: https://doi.org/10.5281/zenodo.4073236
+    type: IsSupplementedBy
+  10.5281/zenodo.4090385:
+    url: https://doi.org/10.5281/zenodo.4090385
+    type: IsSupplementedBy
+  10.5281/zenodo.4090926:
+    url: https://doi.org/10.5281/zenodo.4090926
+    type: IsVersionOf
+identification:
+  title: 'iSDAsoil: soil organic carbon for Africa predicted at 30 m resolution at
+    0-20 and 20-50 cm depths'
+  abstract: "iSDAsoil dataset soil organic carbon (C) log-transformed predicted at\
+    \ 30 m resolution for 0\u201320 and 20\u201350 cm depth intervals. Data has been\
+    \ projected in WGS84 coordinate system and compiled as COG. Predictions have been\
+    \ generated using multi-scale Ensemble Machine Learning with 250 m (MODIS, PROBA-V,\
+    \ climatic variables and similar) and 30 m (DTM derivatives, Landsat, Sentinel-2\
+    \ and similar) resolution covariates. For model training we use a pan-African\
+    \ compilations of soil samples and profiles (iSDA points, AfSPDB, and other national\
+    \ and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Kri\u017Ean,\
+    \ J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial\
+    \ resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11,\
+    \ </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the\
+    \ maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized\
+    \ GeoTIFF version</strong>. Layer description: sol_log.oc_mehlich3_m_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil organic Carbon mean value, sol_log.oc_mehlich3_md_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = predicted soil organic Carbon model (prediction) errors, Model errors were\
+    \ derived using bootstrapping: md is derived as standard deviation of individual\
+    \ learners from 5-fold cross-validation (using spatial blocking). The model 5-fold\
+    \ cross-validation (mlr::makeStackedLearner) for this variable indicates: <pre><code>Variable:\
+    \ log.oc R-square: 0.791 Fitted values sd: 0.716 RMSE: 0.369 Random forest model:\
+    \ Call: stats::lm(formula = f, data = d) Residuals: Min 1Q Median 3Q Max -3.1517\
+    \ -0.1900 -0.0060 0.1793 4.2621 Coefficients: Estimate Std. Error t value Pr(&gt;|t|)\
+    \ (Intercept) 1.821657 0.794000 2.294 0.0218 * regr.ranger 1.047507 0.005146 203.571\
+    \ &lt;2e-16 *** regr.xgboost -0.005943 0.005340 -1.113 0.2657 regr.cubist 0.052084\
+    \ 0.004884 10.664 &lt;2e-16 *** regr.nnet -0.867384 0.359213 -2.415 0.0158 * regr.cvglmnet\
+    \ -0.050157 0.003863 -12.984 &lt;2e-16 *** --- Signif. codes: 0 '***' 0.001 '**'\
+    \ 0.01 '*' 0.05 '.' 0.1 ' ' 1 Residual standard error: 0.3687 on 122457 degrees\
+    \ of freedom Multiple R-squared: 0.7906, Adjusted R-squared: 0.7906 F-statistic:\
+    \ 9.248e+04 on 5 and 122457 DF, p-value: &lt; 2.2e-16 </code></pre> To back-transform\
+    \ values (y) to g/kg use the following formula: <pre><code>g/kg = expm1( y / 10\
+    \ )</code></pre> To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>"
+contact:
+  Hengl-Tomislav:
+    individualname: Hengl, Tomislav
+    role: ''
+    organization: EnvirometriX
+    url: https://orcid.org/0000-0002-9921-5129
+  Miller-Matt:
+    individualname: Miller, Matt
+    role: ''
+    organization: Innovative Solutions for Decision Agriculture Ltd (iSDA)
+    url: https://orcid.org/0000-0002-1643-3076
+  "Kri\u017Ean-Josip":
+    individualname: "Kri\u017Ean, Josip"
+    role: ''
+    organization: MultiOne
+    url: https://orcid.org/0000-0002-4557-3537
+  Kilibarda-Milan:
+    individualname: Kilibarda, Milan
+    role: ''
+    organization: University of Belgrade
+    url: https://orcid.org/0000-0002-2930-3596
+  Acquah-Gifty:
+    individualname: Acquah, Gifty
+    role: ''
+    organization: Rothamsted Research
+    url: https://orcid.org/0000-0003-4269-0903
+  Sila-Andrew-M.:
+    individualname: Sila, Andrew M.
+    role: ''
+    organization: World Agroforestry (ICRAF)
+    url: https://orcid.org/0000-0002-3991-8770

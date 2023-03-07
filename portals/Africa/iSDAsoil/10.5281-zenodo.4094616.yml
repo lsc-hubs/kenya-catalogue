@@ -1,0 +1,74 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.5281-zenodo.4094616
+  dataseturi: https://doi.org/10.5281/zenodo.4094616
+  dates:
+    creation: '2020-10-16T12:39:31.000Z'
+    publication: '2020'
+distribution:
+  10.5281/zenodo.4094606:
+    url: https://doi.org/10.5281/zenodo.4094606
+    type: IsSupplementedBy
+  10.5281/zenodo.4094609:
+    url: https://doi.org/10.5281/zenodo.4094609
+    type: IsSupplementedBy
+  10.5281/zenodo.4085159:
+    url: https://doi.org/10.5281/zenodo.4085159
+    type: IsSupplementedBy
+  10.5281/zenodo.4094615:
+    url: https://doi.org/10.5281/zenodo.4094615
+    type: IsVersionOf
+identification:
+  title: 'iSDAsoil: soil texture class (USDA system) for Africa predicted at 30 m
+    resolution at 0-20 and 20-50 cm depths'
+  abstract: "iSDAsoil dataset soil texture classes derived from sand, silt and clay\
+    \ fractions at 30 m resolution for 0\u201320 and 20\u201350 cm depth intervals.\
+    \ Data has been projected in WGS84 coordinate system and compiled as COG. Predictions\
+    \ have been generated using multi-scale Ensemble Machine Learning with 250 m (MODIS,\
+    \ PROBA-V, climatic variables and similar) and 30 m (DTM derivatives, Landsat,\
+    \ Sentinel-2 and similar) resolution covariates. For model training we use a pan-African\
+    \ compilations of soil samples and profiles (iSDA points, AfSPDB, and other national\
+    \ and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Kri\u017Ean,\
+    \ J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial\
+    \ resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11,\
+    \ </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the\
+    \ maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized\
+    \ GeoTIFF version</strong>. Layer description: sol_texture.class_c_30m_*..*cm_2001..2017_v0.13_wgs84.tif\
+    \ = soil texture class, Classes: <pre><code>Code,Name,Value,Color Cl,clay,1,#d5c36b\
+    \ SiCl,silty clay,2,#b96947 SaCl,sandy clay,3,#9d3706 ClLo,clay loam,4,#ae868f\
+    \ SiClLo,silty clay loam,5,#f86714 SaClLo,sandy clay loam,6,#46d143 Lo,loam,7,#368f20\
+    \ SiLo,silt loam,8,#3e5a14 SaLo,sandy loam,9,#ffd557 Si,silt,10,#fff72e LoSa,loamy\
+    \ sand,11,#ff5a9d Sa,sand,12,#ff005b NODATA,,255,#ffffff </code></pre> To submit\
+    \ an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>"
+contact:
+  Hengl-Tomislav:
+    individualname: Hengl, Tomislav
+    role: ''
+    organization: EnvirometriX
+    url: https://orcid.org/0000-0002-9921-5129
+  Miller-Matt:
+    individualname: Miller, Matt
+    role: ''
+    organization: Innovative Solutions for Decision Agriculture Ltd (iSDA)
+    url: https://orcid.org/0000-0002-1643-3076
+  "Kri\u017Ean-Josip":
+    individualname: "Kri\u017Ean, Josip"
+    role: ''
+    organization: MultiOne
+    url: https://orcid.org/0000-0002-4557-3537
+  Kilibarda-Milan:
+    individualname: Kilibarda, Milan
+    role: ''
+    organization: University of Belgrade
+    url: https://orcid.org/0000-0002-2930-3596
+  Acquah-Gifty:
+    individualname: Acquah, Gifty
+    role: ''
+    organization: Rothamsted Research
+    url: https://orcid.org/0000-0003-4269-0903
+  Sila-Andrew-M.:
+    individualname: Sila, Andrew M.
+    role: ''
+    organization: World Agroforestry (ICRAF)
+    url: https://orcid.org/0000-0002-3991-8770

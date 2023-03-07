@@ -1,0 +1,31 @@
+mcf:
+   version: 1.0
+
+metadata:
+   identification: tiger
+   hierarchylevel: project
+
+identification:
+   title: Tiger initiative; Looking after water in Africa
+   abstract: The declared aim of the TIGER initiative is to develop EO services in collaboration with African stakeholders and transfer them to mandated national and trans-boundary water authorities for operations under their leadership. Such a transfer is long-term process involving R&D activities, capacity building and local adaptations of EO services and information systems.
+   
+contact:
+   pointOfContact:
+      email: walli@geoville.com
+      organisation: GeoVille GmbH
+      name: Andreas Walli
+      address: Sparkassenplatz 2, 3rd floor
+      postalcode: 6020 
+      city: Innsbruck 
+      country: Austria
+      url: http://tiger-net.org/
+
+distribution:
+   www: 
+      url: https://www.tiger.esa.int
+      type: www-link
+      name: Website
+   github:
+      url: https://github.com/TIGER-NET
+      type: www-link
+      name: Github

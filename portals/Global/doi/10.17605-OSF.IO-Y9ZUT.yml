@@ -1,0 +1,44 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.17605-OSF.IO-Y9ZUT
+  dataseturi: https://doi.org/10.17605/OSF.IO/Y9ZUT
+  dates:
+    creation: '2020-07-11T14:28:25.000Z'
+    publication: '2022'
+distribution: {}
+identification:
+  title: Rwanda Soil Information Service
+  abstract: This project develops soil and cropland information and the associated
+    services for Rwanda.
+contact:
+  Walsh-Markus:
+    individualname: Walsh, Markus
+    role: ''
+    organization: ''
+    url: https://osf.io/bjtcq/
+  Vanlauwe-Bernard:
+    individualname: Vanlauwe, Bernard
+    role: ''
+    organization: ''
+    url: https://osf.io/xn9a8/
+  Walsh-Barbara:
+    individualname: Walsh, Barbara
+    role: ''
+    organization: ''
+    url: https://osf.io/28m4c/
+  Manners-Rhys:
+    individualname: Manners, Rhys
+    role: ''
+    organization: ''
+    url: https://osf.io/usxn5/
+  RUTEBUKA-Jules:
+    individualname: RUTEBUKA, Jules
+    role: ''
+    organization: ''
+    url: https://osf.io/9c7xr/
+  Open-Science-Framework:
+    individualname: Open Science Framework
+    role: HostingInstitution
+    organization: ''
+    url: https://ror.org/05d5mza29/

@@ -1,0 +1,18 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: 10.7910-DVN-YKDWJD
+  dataseturi: https://doi.org/10.7910/DVN/YKDWJD
+  dates:
+    creation: '2016-01-29T21:35:37.000Z'
+    publication: '2016'
+distribution: {}
+identification:
+  title: Travel Time to Markets in Africa South of the Sahara
+  abstract: ''
+contact:
+  HarvestChoice;-International-Food-Policy-Research-Institute-IFPRI:
+    individualname: HarvestChoice; International Food Policy Research Institute (IFPRI)
+    role: ''
+    organization: ''
+    url: ''

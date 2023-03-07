@@ -29,6 +29,14 @@ Metadata follows the [mcf](https://github.com/geopython/pygeometa/blob/master/sa
 
 the [pygeometa](https://github.com/geopython/pygeometa) library is used to generate iso19139 metadata from the mcf files.
 
+The pyGeoDataCrawler scripts facilitates to work with pygeometa on folders of files
+
+Run the import-csv script for a folder
+
+```
+
+```
+
 ## Identification and interlinking
 
 Portals are identified by there domain name. A limitation is that multiple portals at a single domain can not be distinguished. Consider that search engines apply a similar convention. The portal folder name is considered the identification of the portal.
