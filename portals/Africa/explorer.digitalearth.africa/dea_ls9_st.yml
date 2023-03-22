@@ -6,6 +6,19 @@ metadata:
 identification:
   title: ls9_st
   abstract: USGS Landsat 9 Collection 2 Level-2 Surface Temperature
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ls9_st

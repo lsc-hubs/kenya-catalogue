@@ -6,6 +6,19 @@ metadata:
 identification:
   title: rainfall_chirps_daily
   abstract: Rainfall Estimates from Rain Gauge and Satellite Observations
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - climatic data
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily

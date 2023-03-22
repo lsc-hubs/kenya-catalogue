@@ -7,6 +7,19 @@ identification:
   title: gm_ls8_annual_lowres
   abstract: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
     Landsat 8. Low resolution version used for visualisations.
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gm_ls8_annual_lowres

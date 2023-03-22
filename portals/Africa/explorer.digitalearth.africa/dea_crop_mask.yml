@@ -6,6 +6,19 @@ metadata:
 identification:
   title: crop_mask
   abstract: Annual cropland extent map produced by Digital Earth Africa.
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - land use
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/crop_mask

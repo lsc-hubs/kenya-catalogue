@@ -6,6 +6,19 @@ metadata:
 identification:
   title: dem_srtm_deriv
   abstract: 1 second elevation model derivatives
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - topography
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/dem_srtm_deriv

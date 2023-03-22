@@ -3,7 +3,7 @@ mcf:
 
 identification:
   topiccategory:
-  - geoscientificInformation
+  - imageryBaseMapsEarthCover
   extents:
     spatial:
     - bbox:
