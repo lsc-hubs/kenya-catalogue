@@ -7,6 +7,19 @@ identification:
   title: gmw
   abstract: Global Mangrove Watch data sourced from the UN Environment Program at
     https://data.unep-wcmc.org/datasets/45
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - land use
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gmw

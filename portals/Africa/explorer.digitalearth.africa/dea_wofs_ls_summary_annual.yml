@@ -6,6 +6,19 @@ metadata:
 identification:
   title: wofs_ls_summary_annual
   abstract: Water Observations from Space Annual Statistics
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - climatic data
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual

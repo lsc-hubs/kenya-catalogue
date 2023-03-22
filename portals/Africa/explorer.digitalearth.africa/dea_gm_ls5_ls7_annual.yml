@@ -7,6 +7,19 @@ identification:
   title: gm_ls5_ls7_annual
   abstract: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
     Landsat 5 and Landsat 7
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gm_ls5_ls7_annual

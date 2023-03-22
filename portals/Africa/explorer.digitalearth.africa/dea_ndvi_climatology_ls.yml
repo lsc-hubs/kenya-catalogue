@@ -6,6 +6,19 @@ metadata:
 identification:
   title: ndvi_climatology_ls
   abstract: Monthly NDVI Climatologies produced by Digital Earth Africa.
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ndvi_climatology_ls

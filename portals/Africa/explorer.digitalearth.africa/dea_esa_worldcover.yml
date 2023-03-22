@@ -6,6 +6,19 @@ metadata:
 identification:
   title: esa_worldcover
   abstract: ESA World Cover, global 10 m land use/land cover data from 2020.
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - land cover
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/esa_worldcover

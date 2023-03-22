@@ -7,6 +7,19 @@ identification:
   title: crop_mask_central
   abstract: Annual cropland extent map for Central Africa produced by Digital Earth
     Africa.
+  keywords:
+    lsc:
+      keywords:
+      - crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - land use
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/crop_mask_central

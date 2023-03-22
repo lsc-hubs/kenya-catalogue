@@ -6,6 +6,19 @@ metadata:
 identification:
   title: s1_rtc
   abstract: Sentinel 1 Gamma0 normalised radar backscatter
+  keywords:
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/s1_rtc
