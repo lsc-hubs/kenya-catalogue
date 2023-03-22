@@ -1,0 +1,53 @@
+mcf:
+   version: 1.0
+
+metadata:
+   identification: africultures
+   hierarchylevel: project
+
+identification:
+   title: Enhancing Food Security in AFRIcan AgriCULTUral Systems (H2020)
+   abstract: Enhancing Food Security in AFRIcan AgriCULTUral Systems with the Support of REmote Sensing - aims to design, implement and demonstrate an integrated agricultural monitoring and early warning system that will support decision making in the field of food security. AfriCultuReS will deliver a broad range of climatic, production, biophysical and economic information, for various regions in Africa. AfriCultuReS will apply geospatial science to sustainable agricultural development, natural resource management, biodiversity conservation, and poverty alleviation in Africa. AfriCultuReS, supported by the GEO Secretariat, will involve all key players of AfriGEOSS, GEOGLAM, SIGMA, ARTEMIS, African Drought Observatory and other initiatives as well as partners representing the diversity of African agricultural systems, in an effort to push forward the services provided by current systems, with innovative fusion of data from multiple sources (EO, in-situ, citizen-based crowdsourcing, climate services and weather, crop models) in a vertical manner. Crop yield and biomass prediction models will be enhanced through the fusion of EO data and climate models, emphasizing the use of the complementary sensors of the EU Sentinels constellation. Geospatial products will be combined in a spatial Decision Support System (DSS) to enrich decision making and risk assessment. The geo component of the DSS will be compliant with the GEO’s interoperability standards, allowing its integration with the current services of the GEOSS Common Infrastructure. The African partners and collaborating networks will be essential for local training and promoting further use of the project tools. Social innovation will be used to increase the number of involved stakeholders and to boost the flow of information in a user-friendly manner. The final target will be to produce a web tool that will support early decision making for the stakeholders of African food production.
+   topiccategory:
+      - imageryBaseMapsEarthCover
+   keywords:
+      lsc:
+        keywords:
+        - Crop
+        - Land
+        - Climate
+        vocabulary:
+            name: LSC categories
+            url: https://lsc-hubs.org/categories/
+      
+contact:
+   pointOfContact:
+      email: info@africultures.eu
+      organisation: GMV AEROSPACE AND DEFENCE SA
+      address: Calle Isaac Newton Parque Tecnologico De Madrid
+      postalcode: "28760" 
+      city: Tres Cantos
+      country: Spain
+      url: https://www.gmv.com/en
+
+distribution:
+   www: 
+      url: https://africultures-platform.eu/
+      type: www-link
+      name: Website
+   github:
+      url: https://map.africultures-platform.eu/
+      type: www-link
+      name: WebGIS based on TerriaJS
+   geoserver-wms:
+      url: http://18.159.85.240:8083/geoserver/wms
+      type: OGC:WMS
+      name: Various regional data layers
+   geoserver-wcs:
+      url: http://18.159.85.240:8083/geoserver/wcs
+      type: OGC:WCS
+      name: Various regional grids
+   cordis:
+      url: https://cordis.europa.eu/project/id/774652/results
+      type: www-link
+      name: Project details
