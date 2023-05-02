@@ -1,0 +1,95 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-NMYOFA
+  dataseturi: https://doi.org/10.34725/DVN/NMYOFA
+  hierarchylevel: Dataset
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/NMYOFA
+    type: WWW:LINK
+    title: Link
+identification:
+  title: Biophysical baseline assessment in eastern Rwanda using the LDSF
+  abstract: 'The LDSF was developed by World Agroforestry (ICRAF) in response to the
+    need for consistent field methods and indicator frameworks to assess ecosystem
+    health across landscapes. The LDSF measures multiple key indicators of land and
+    soil health in order to understand drivers of degradation, as well as monitor
+    changes over time (http://landscapeportal.org/blog/2015/03/25/the-land-degradation-surveillance-framework-ldsf/).
+    The framework was applied within the Regreening Africa project: https://regreeningafrica.org/
+    and has been applied in projects across the global tropics. This project will
+    benefit from existing data in the LDSF database, while at the same time contributing
+    to these critically important global datasets through on-going data collection.
+    This project contains data collected from two 100-km2 LDSF sites in eastern Rwanda
+    in September and November 2018. Read the blog here: https://regreeningafrica.org/project-updates/using-the-land-degradation-surveillance-framework-to-assess-land-health-in-rwanda/'
+  dates:
+    issued: '2021'
+    publication: '2021'
+contact:
+  Winowiecki-Leigh-Ann:
+    individualname: Winowiecki, Leigh Ann
+    role: ContactPerson
+    organization: (ICRAF)
+    url: ''
+  "Bargu\xE9s-Tobella-Aida":
+    individualname: "Bargu\xE9s-Tobella, Aida"
+    role: ''
+    organization: (SLU)
+    url: https://orcid.org/0000-0001-5632-4061
+  Mukuralinda-Athanase:
+    individualname: Mukuralinda, Athanase
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0001-8775-1787
+  Mujawamariya-Providence:
+    individualname: Mujawamariya, Providence
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0001-9717-8531
+  Mugayi-Alex-Billy:
+    individualname: Mugayi, Alex Billy
+    role: ''
+    organization: (World Vision)
+    url: ''
+  Vedaste-Minani:
+    individualname: Vedaste, Minani
+    role: ''
+    organization: (Forestry Centre)
+    url: https://orcid.org/0000-0002-9364-466X
+  Musengimana-Lambert:
+    individualname: Musengimana, Lambert
+    role: ''
+    organization: ''
+    url: ''
+  Maina-John-Thiongo:
+    individualname: Maina, John Thiongo
+    role: ''
+    organization: ''
+    url: ''
+  "V\xE5gen-Tor-Gunnar":
+    individualname: "V\xE5gen, Tor-Gunnar"
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0002-8699-731X
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: ''
+    url: ''
+  European-Commission:
+    individualname: European Commission
+    role: Producer
+    organization: ''
+    url: ''
+  Research-Program-On-Water-Land:
+    individualname: Research Program On Water, Land
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Research-Program-On-Forests-Trees:
+    individualname: Research Program On Forests, Trees
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+spatial:
+  type: ''

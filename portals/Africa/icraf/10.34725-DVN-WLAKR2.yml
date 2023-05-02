@@ -1,0 +1,176 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-WLAKR2
+  dataseturi: https://doi.org/10.34725/DVN/WLAKR2
+  hierarchylevel: Dataset
+distribution:
+  r0:
+    url: https://doi.org/10.34725/dvn/wlakr2/wbgh1h
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/wlakr2/peanku
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/wlakr2/x1zaft
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.34725/dvn/wlakr2/op3thd
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.34725/dvn/wlakr2/jdpqw8
+    type: WWW:LINK
+    title: HasPart
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/WLAKR2
+    type: WWW:LINK
+    title: Link
+identification:
+  title: 'Soil Spectra and Wet Chemistry Measurements from ICRAF Soil-Plant Spectral
+    Diagnostics Laboratory and Rothamsted Research: Africa Soil Information Service
+    (AfSIS) Phase 2 Project Data 2014-2018 - NiSIS'
+  abstract: "AfSIS Phase 2 was a collaborative project funded by the Bill and Melinda\
+    \ Gates Foundation (BMGF). Partners included, Ahmadu Bello University, Columbia\
+    \ Global Center Africa (CGCA), Earth Institute (EI), Institute of Agricultural\
+    \ Research and Training (IAR)/Obafemi Awolowo University, International Soil Reference\
+    \ and Information Centre (ISRIC), Rothamsted Research (RRes) and World Agroforestry\
+    \ (ICRAF). The project aimed to assist national programs in four African countries\
+    \ (Ethiopia, Ghana, Nigeria and Tanzania) to transition to modern agricultural\
+    \ research and data collection practices that were expected to result in faster\
+    \ agricultural development cycles. In Nigeria, 1,491 soil samples were collected\
+    \ at two sampling depths (0-20cm, 20-50cm) from two states \u2013 Kebbi and Ebonyi.\
+    \ The samples were shipped to ICRAF Soil-Plant Spectral Diagnostics Laboratory\
+    \ and scanned on two spectrometers (HTS-xt and ZnSe Alpha I). A subset of 149\
+    \ soil samples was selected for wet chemistry analysis at RRes. Both the spectra\
+    \ data (scanned at ICRAF) and wetchem data (analyzed at RRes) are available on\
+    \ Dataverse here."
+  dates:
+    issued: '2021'
+    publication: '2021'
+contact:
+  Vincent-Aduramigba-Modupe:
+    individualname: Vincent, Aduramigba-Modupe
+    role: ''
+    organization: (Obafemi Awolowo University)
+    url: https://orcid.org/0000-0002-5349-1662
+  Ishaku-Amapu:
+    individualname: Ishaku, Amapu
+    role: ''
+    organization: (Ahmadu Bello University)
+    url: ''
+  Weullow-Elvis:
+    individualname: Weullow, Elvis
+    role: ''
+    organization: (ICRAF)
+    url: ''
+  Dickens-Ateku:
+    individualname: Dickens, Ateku
+    role: ''
+    organization: (ICRAF)
+    url: ''
+  Karari-Valentine:
+    individualname: Karari, Valentine
+    role: ''
+    organization: (ICRAF)
+    url: ''
+  Markus-Walsh-G.:
+    individualname: Markus, Walsh G.
+    role: ''
+    organization: (Earth Institute)
+    url: https://orcid.org/0000-0001-5442-1482
+  McGrath-Steve-P.:
+    individualname: McGrath, Steve P.
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0003-0952-8947
+  Acquah-Gifty-E.:
+    individualname: Acquah, Gifty E.
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0003-4269-0903
+  Haefele-Stephan-M.:
+    individualname: Haefele, Stephan M.
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0003-0389-8373
+  Gregory-Wendy:
+    individualname: Gregory, Wendy
+    role: ''
+    organization: (Rothamsted Research)
+    url: ''
+  Durenkamp-Mark:
+    individualname: Durenkamp, Mark
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0002-2195-1855
+  Skilton-Ruth:
+    individualname: Skilton, Ruth
+    role: ''
+    organization: (Rothamsted Research)
+    url: ''
+  Brookman-Melanie:
+    individualname: Brookman, Melanie
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0001-6085-9288
+  Garwood-Chloe:
+    individualname: Garwood, Chloe
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0002-2831-6854
+  Dobermann-Achim:
+    individualname: Dobermann, Achim
+    role: ''
+    organization: (Rothamsted Research)
+    url: https://orcid.org/0000-0001-5728-5594
+  Sila-Andrew:
+    individualname: Sila, Andrew
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0002-3991-8770
+  Shepherd-Keith:
+    individualname: Shepherd, Keith
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0001-7144-3915
+  Leigh-Winowiecki:
+    individualname: Leigh, Winowiecki
+    role: ContactPerson
+    organization: (ICRAF)
+    url: ''
+  Haefele-Stephan-M:
+    individualname: Haefele, Stephan M
+    role: ContactPerson
+    organization: (Rothamsted Research)
+    url: ''
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Ahmadu-Bello-University:
+    individualname: Ahmadu Bello University
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Obafemi-Awolowo-University:
+    individualname: Obafemi Awolowo University
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Rothamsted-Research:
+    individualname: Rothamsted Research
+    role: Producer
+    organization: (BBSRC)
+    url: ''
+  -Bill:
+    individualname: ', Bill'
+    role: Producer
+    organization: (Funding Agency)
+    url: ''
+spatial:
+  type: ''

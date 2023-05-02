@@ -1,0 +1,183 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-YTJTZQ
+  dataseturi: https://doi.org/10.34725/DVN/YTJTZQ
+  hierarchylevel: Dataset
+distribution:
+  r0:
+    url: https://doi.org/10.34725/dvn/ytjtzq/efkebj
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/ytjtzq/esxdal
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/ytjtzq/vvweho
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.34725/dvn/ytjtzq/yhcqmm
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.34725/dvn/ytjtzq/oc1kw8
+    type: WWW:LINK
+    title: HasPart
+  r5:
+    url: https://doi.org/10.34725/dvn/ytjtzq/vqwxlk
+    type: WWW:LINK
+    title: HasPart
+  r6:
+    url: https://doi.org/10.34725/dvn/ytjtzq/r6bivb
+    type: WWW:LINK
+    title: HasPart
+  r7:
+    url: https://doi.org/10.34725/dvn/ytjtzq/h6zyms
+    type: WWW:LINK
+    title: HasPart
+  r8:
+    url: https://doi.org/10.34725/dvn/ytjtzq/mm2w30
+    type: WWW:LINK
+    title: HasPart
+  r9:
+    url: https://doi.org/10.34725/dvn/ytjtzq/lzextv
+    type: WWW:LINK
+    title: HasPart
+  r10:
+    url: https://doi.org/10.34725/dvn/ytjtzq/eafhqx
+    type: WWW:LINK
+    title: HasPart
+  r11:
+    url: https://doi.org/10.34725/dvn/ytjtzq/1zcpqa
+    type: WWW:LINK
+    title: HasPart
+  r12:
+    url: https://doi.org/10.34725/dvn/ytjtzq/why00x
+    type: WWW:LINK
+    title: HasPart
+  r13:
+    url: https://doi.org/10.34725/dvn/ytjtzq/zpekk1
+    type: WWW:LINK
+    title: HasPart
+  r14:
+    url: https://doi.org/10.34725/dvn/ytjtzq/wrhnos
+    type: WWW:LINK
+    title: HasPart
+  r15:
+    url: https://doi.org/10.34725/dvn/ytjtzq/py7avb
+    type: WWW:LINK
+    title: HasPart
+  r16:
+    url: https://doi.org/10.34725/dvn/ytjtzq/70osiq
+    type: WWW:LINK
+    title: HasPart
+  r17:
+    url: https://doi.org/10.34725/dvn/ytjtzq/cespwo
+    type: WWW:LINK
+    title: HasPart
+  r18:
+    url: https://doi.org/10.34725/dvn/ytjtzq/qh5rxb
+    type: WWW:LINK
+    title: HasPart
+  r19:
+    url: https://doi.org/10.34725/dvn/ytjtzq/ugnd4q
+    type: WWW:LINK
+    title: HasPart
+  r20:
+    url: https://doi.org/10.34725/dvn/ytjtzq/na4rre
+    type: WWW:LINK
+    title: HasPart
+  r21:
+    url: https://doi.org/10.34725/dvn/ytjtzq/29egod
+    type: WWW:LINK
+    title: HasPart
+  r22:
+    url: https://doi.org/10.34725/dvn/ytjtzq/kuiok4
+    type: WWW:LINK
+    title: HasPart
+  r23:
+    url: https://doi.org/10.34725/dvn/ytjtzq/vqzgsh
+    type: WWW:LINK
+    title: HasPart
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/YTJTZQ
+    type: WWW:LINK
+    title: Link
+identification:
+  title: 'Replication Data for: Comprehensive Nutrient Analysis in Agricultural Organic
+    Amendments Through Non-Destructive Assays Using Machine Learning'
+  abstract: Portable X-ray fluorescence (pXRF) and Diffuse Reflectance Fourier Transformed
+    Mid-Infrared (DRIFT-MIR) spectroscopy are rapid and cost-effective analytical
+    tools for material characterization. We developed machine learning methods to
+    rapidly quantify the concentrations of macro- and micronutrient elements present
+    in the samples and propose a novel system for the quality assessment of organic
+    amendments. Two types of machine learning methods, forest regression and extreme
+    gradient boosting, were used with data from both pXRF and DRIFT-MIR spectroscopy.
+    Cross-validation trials were run to evaluate generalizability of models produced
+    on each instrument. Both methods demonstrated similar broad capabilities in estimating
+    nutrients using machine learning, with pXRF being suitable for nutrients and contaminants.
+    The results make portable spectrometry in combination with machine learning a
+    scalable solution to provide comprehensive nutrient analysis for organic amendments.
+  dates:
+    issued: '2020'
+    publication: '2020'
+contact:
+  Towett-Erick-K.:
+    individualname: Towett, Erick K.
+    role: ''
+    organization: (World Agroforestry Centre)
+    url: ''
+  Drake-Lee-B.:
+    individualname: Drake, Lee B.
+    role: ''
+    organization: (University of New Mexico, Albuquerque, NM, USA)
+    url: ''
+  Acquah-Gifty-E.:
+    individualname: Acquah, Gifty E.
+    role: ''
+    organization: (Rothamsted Research, Harpenden, AL5 2JQ, UK)
+    url: ''
+  Haefele-Stephan-M.:
+    individualname: Haefele, Stephan M.
+    role: ''
+    organization: (Rothamsted Research, Harpenden, AL5 2JQ, UK)
+    url: ''
+  McGrath-Steve-P.:
+    individualname: McGrath, Steve P.
+    role: ''
+    organization: (Rothamsted Research, Harpenden, AL5 2JQ, UK)
+    url: ''
+  Shepherd-Keith-D.:
+    individualname: Shepherd Keith, D.
+    role: ''
+    organization: (World Agroforestry Centre)
+    url: ''
+  Towett-Erick:
+    individualname: Towett, Erick
+    role: ContactPerson
+    organization: (World Agroforestry Centre)
+    url: ''
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Rothamsted-Research:
+    individualname: Rothamsted Research
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  -Bill:
+    individualname: ', Bill'
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  UK-Biotechnology-And-Biological-Sciences-Research-Council:
+    individualname: UK Biotechnology And Biological Sciences Research Council
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+spatial:
+  type: ''

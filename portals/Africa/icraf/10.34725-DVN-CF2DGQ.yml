@@ -1,0 +1,59 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-CF2DGQ
+  dataseturi: https://doi.org/10.34725/DVN/CF2DGQ
+  hierarchylevel: Dataset
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/CF2DGQ
+    type: WWW:LINK
+    title: Link
+identification:
+  title: Spatial Assessments of Changes in Soil Health Indicators in Benin
+  abstract: The Land Degradation Surveillance Framework (LDSF) (http://landscapeportal.org/blog/2015/03/25/the-land-degradation-surveillance-framework-ldsf/)
+    was developed by the World Agroforestry (ICRAF) in response to the need for consistent
+    field methods and indicator frameworks to assess land and soil health across landscapes,
+    including quantifying SOC and understanding land degradation dynamics and other
+    factors that drive changes in SOC.
+  dates:
+    issued: '2022'
+    publication: '2022'
+contact:
+  Winowiecki-Leigh-Ann:
+    individualname: Winowiecki, Leigh Ann
+    role: ContactPerson
+    organization: (ICRAF)
+    url: ''
+  Arinloye-Ademola-Djalal:
+    individualname: Arinloye Ademola, Djalal
+    role: ''
+    organization: ''
+    url: ''
+  Adeyemi-Chabi:
+    individualname: Adeyemi, Chabi
+    role: ''
+    organization: ''
+    url: ''
+  Takoutsing-Bertin:
+    individualname: Takoutsing, Bertin
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0002-2822-6453
+  "N\u2019YABA-Ez\xE9chiel-T.":
+    individualname: "N\u2019YABA, Ez\xE9chiel T."
+    role: ''
+    organization: (GIZ)
+    url: ''
+  Smytzek-Patrick:
+    individualname: Smytzek, Patrick
+    role: ''
+    organization: (GIZ)
+    url: ''
+  "V\xE5gen-Tor-Gunnar":
+    individualname: "V\xE5gen, Tor-Gunnar"
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0002-8699-731X
+spatial:
+  type: ''

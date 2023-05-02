@@ -1,0 +1,96 @@
+mcf:
+  version: "1.0"
+metadata:
+  dataseturi: https://www.landportal.org/
+  hierarchylevel: service
+  identifier: landportal
+  language: en
+  language_alternate: ""
+  charset: ""
+  parentidentifier: ""
+  datestamp: ""
+distribution:
+  i0:
+    url: https://www.landportal.org/
+    type: WWW:LINK
+    name: Website
+contact:
+  i0:
+    organization: Land Portal Foundation
+    url: https://landportal.org
+    address: Keppelerdijk 87
+    city: Enschede
+    postalcode: 7534 PA
+    country: the Netherlands
+    email: info@landportal.org
+identification:
+  title: landportal.org
+  abstract: "The Land Portal Foundation believes that access to information is
+    crucial for achieving good land governance and securing land rights for
+    landless and vulnerable people. Improving access to land-related data and
+    information is our mission. This is what we do:     Provide a platform for
+    land data, publications, news, blogs, multimedia content and much more from
+    an international network of organizations and institutions. Aggregating
+    diverse and highly dispersed content helps to make hidden data available to
+    everyone.  Nurture the information ecosystem by linking land databases,
+    bringing fragmented data collections together and enriching content with
+    metadata that complies with Open Data standards and principles. Fostering a
+    healthy and diverse ecosystem of land-related information helps to improve
+    the potential impact of data and ensures information is easily searchable
+    and discoverable.  Stimulate debate among those working on land-related
+    issues around the world through events, discussions and webinars. Online and
+    offline dialogues help raise awareness of hidden issues (e.g. sexual
+    extortion in the land sector) and provide opportunities for collaboration
+    between diverse groups and organizations.  Visualize and synthesize data
+    from diverse sources into unique portfolios of contextualized and actionable
+    land governance information. Our thematic and country portfolios provide
+    free virtual repositories of bibliographic and multimedia resources, helping
+    to reveal new trends and expose existing gaps in the information
+    landscape.  Support information providers from the land sector to utilize
+    Open Data standards and encourage the creation and uptake of a
+    standards-based data infrastructure based upon FAIR (Findable, Accessible,
+    Interoperable and Reusable) principles. The increased adoption of commonly
+    agreed data standards is helping information derived from local groups,
+    national organizations and international institutions to coexist within the
+    wider information ecosystem.  Explain and monitor indicators on land
+    governance including the Sustainable Development Goals, the Voluntary
+    Guidelines on the Responsible Governance of Tenure (VGGTs) and other
+    international/regional frameworks for land monitoring. Showcasing and
+    examining land monitoring instruments is helping to raise awareness and
+    increase uptake of key indicators."
+  keywords:
+    default:
+      keywords:
+        - Forest Landscape Restoration
+        - Forest Tenure
+        - Indigenous Communities
+        - Land & Climate Change
+        - Land Conflicts
+        - Land Degradation & Tenure
+        - Land in Post-Conflict Settings
+        - Land & Corruption
+        - Land & Food Security
+        - Land & Gender
+        - Land & Investments
+        - Rangelands, Drylands & Pastoralism
+        - Urban Tenure
+        - Land Monitoring
+      keywords_type: theme
+  language: en
+  status: completed
+  maintenancefrequency: continual
+  accessconstraints: otherRestrictions
+  extents:
+    temporal:
+      begin: null
+      end: null
+    spatial:
+      crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+      bbox:
+        - -180
+        - -90
+        - 180
+        - 90
+  topiccategory:
+    - society
+
