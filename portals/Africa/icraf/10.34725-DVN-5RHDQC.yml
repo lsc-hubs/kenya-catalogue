@@ -1,0 +1,113 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-5RHDQC
+  dataseturi: https://doi.org/10.34725/DVN/5RHDQC
+  hierarchylevel: Dataset
+distribution:
+  r0:
+    url: https://doi.org/10.34725/dvn/5rhdqc/lfjonr
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/5rhdqc/pczqdj
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/5rhdqc/kndppk
+    type: WWW:LINK
+    title: HasPart
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/5RHDQC
+    type: WWW:LINK
+    title: Link
+identification:
+  title: No changes in soil organic carbon and nitrogen following long term prescribed
+    burning and livestock exclusion in the Sudan savanna woodlands of Burkina Faso
+  abstract: This study was done to study the impact of grazing and fire on soil Carbon
+    stocks. It was part of a long-term split-plot experiment established in 1992 to
+    explore the ecological impacts of prescribed fire and grazing intensity. It analyzed
+    the effects of 19 years of prescribed annual burning and livestock exclusion on
+    tree density, SOC and TN concentrations in the Sudanian savanna ecoregion at two
+    sites (Tiogo and Laba) in Burkina Faso. The study was conducted in partnership
+    with Environmental Institute for Agricultural Research (INERA) and International
+    Livestock Research Institute (ILRI). It was supported by the GIZ/BEAF International
+    Agricultural Research Grants Programme; and Water Land and Ecosystems program
+    of the CGIAR. The study contributed to the Carbon sequestration options in pastoral
+    agro-pastoral systems in Africa project.
+  dates:
+    issued: '2022'
+    publication: '2022'
+contact:
+  Ermias-Aynekulu:
+    individualname: Ermias, Aynekulu
+    role: ContactPerson
+    organization: ((World Agroforestry) ICRAF)
+    url: ''
+  Gudeta-W.-Sileshi:
+    individualname: Gudeta W. Sileshi
+    role: ''
+    organization: (University of KwaZulu-Natal)
+    url: ''
+  Rosenstock-Todd-S.:
+    individualname: Rosenstock, Todd S.
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: https://orcid.org/0000-0002-1958-9500
+  Van-Noordwijk-Meine:
+    individualname: Van Noordwijk, Meine
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: https://orcid.org/0000-0002-7791-4703
+  Tsegaye-Diress:
+    individualname: Tsegaye, Diress
+    role: ''
+    organization: (University of Oslo)
+    url: https://orcid.org/0000-0002-6854-5977
+  Jonas-Koala:
+    individualname: Jonas, Koala
+    role: ''
+    organization: (Environmental Institute for Agricultural Research (INERA))
+    url: https://orcid.org/0000-0001-5367-6846
+  Louis-Sawadogo:
+    individualname: Louis, Sawadogo
+    role: ''
+    organization: (Environmental Institute for Agricultural Research (INERA))
+    url: ''
+  Milne-Eleanor:
+    individualname: Milne, Eleanor
+    role: ''
+    organization: (NREL)
+    url: https://orcid.org/0000-0001-6496-4245
+  De-Leeuw-Jan:
+    individualname: De Leeuw, Jan
+    role: ''
+    organization: (World Soil Information (ISRIC))
+    url: https://orcid.org/0000-0001-7020-2503
+  Keith-Shepherd:
+    individualname: Keith, Shepherd
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: https://orcid.org/0000-0001-7144-3915
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Environmental-Institute-For-Agricultural-Research:
+    individualname: Environmental Institute For Agricultural Research
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  International-Livestock-Research-Institute:
+    individualname: International Livestock Research Institute
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  Cooperation-German-Federal-Ministry-For-Economic:
+    individualname: Cooperation, German Federal Ministry For Economic
+    role: Producer
+    organization: (Funding Agency)
+    url: ''
+spatial:
+  type: ''

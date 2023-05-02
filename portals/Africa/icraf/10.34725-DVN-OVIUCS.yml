@@ -1,0 +1,26 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-OVIUCS
+  dataseturi: https://doi.org/10.34725/DVN/OVIUCS
+  hierarchylevel: Dataset
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/OVIUCS
+    type: WWW:LINK
+    title: Link
+identification:
+  title: Improved Agricultural Measurement for Evidence-based Investments in Improved
+    Crop Production in Kenya, ICRAF-Technoserve project
+  abstract: soil, maize tissue, grain and yield data for a project site in Machakos
+    County.
+  dates:
+    publication: '2018'
+contact:
+  Aynekulu-Ermias:
+    individualname: Aynekulu, Ermias
+    role: ''
+    organization: ''
+    url: ''
+spatial:
+  type: ''

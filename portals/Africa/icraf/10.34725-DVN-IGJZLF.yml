@@ -1,0 +1,100 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-IGJZLF
+  dataseturi: https://doi.org/10.34725/DVN/IGJZLF
+  hierarchylevel: Dataset
+distribution:
+  r0:
+    url: https://doi.org/10.34725/dvn/igjzlf/tgl20n
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/igjzlf/ukw1cf
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/igjzlf/cjoiex
+    type: WWW:LINK
+    title: HasPart
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/IGJZLF
+    type: WWW:LINK
+    title: Link
+identification:
+  title: Biophysical Soil and Land Health Assessment in the Gambia
+  abstract: "The Land Degradation Surveillance Framework (LDSF) survey was a collaborative\
+    \ effort among a number of national universities, government technical services,\
+    \ national soil and forestry departments, research institutions and soil laboratories.\
+    \ Field teams spent about five weeks in the field observing vegetation conditions,\
+    \ land use, and visible erosion and taking soil samples. Soil samples were analyzed\
+    \ for a suite of physical and chemical properties. Analyses of these data were\
+    \ designed to provide an understanding of the landscape status based on easily\
+    \ discernible characteristics, particularly by site. The analysis also provides\
+    \ spatially explicit analysis of these findings as digital maps that can be used\
+    \ to provide very site-specific information on the health of soil and vegetation\
+    \ throughout the three LDSF sites. The aim was to provide some generalizable key\
+    \ problems and straightforward management recommendations. The field surveys took\
+    \ place in February 2021, with three field team working simultaneously. These\
+    \ surveys were led by the ICRAF team in Gambia in collaboration with the soil\
+    \ and forestry departments. The LDSF field training and data collection was led\
+    \ by ICRAF national team in Gambia, while the soil and forest departments of Gambia\
+    \ provided logistics support during the field work and data collection. This activity\
+    \ was conducted by World Agroforestry (ICRAF) as an output of the project, \u2018\
+    Large-Scale Ecosystem-Based Adaptation in The Gambia River Basin: Developing a\
+    \ Climate Resilient, Natural Resource-Based Economy\u2019. The project is funded\
+    \ by the Green Climate Fund and implemented by the Government of The Gambia with\
+    \ the support of United Nations Environment Programme (UNEP). In total, 474 plots\
+    \ of 1000 m2 were sampled: 160 plots in Changai, 158 plots in Dumboto and 156\
+    \ plots in Gambisarra."
+  dates:
+    issued: '2022'
+    publication: '2022'
+contact:
+  Takoutsing-Bertin:
+    individualname: Takoutsing, Bertin
+    role: ContactPerson
+    organization: (ICRAF)
+    url: ''
+  Tobella-Aida:
+    individualname: Tobella, Aida
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0001-5632-4061
+  Bah-Alagie:
+    individualname: Bah, Alagie
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0001-7786-8631
+  Winowiecki-Leigh-Ann:
+    individualname: Winowiecki, Leigh Ann
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0001-5572-1284
+  "V\xE5gen-Tor-Gunnar":
+    individualname: "V\xE5gen, Tor-Gunnar"
+    role: ''
+    organization: (ICRAF)
+    url: https://orcid.org/0000-0002-8699-731X
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: ''
+    url: ''
+  Green-Climate-Fund:
+    individualname: Green Climate Fund
+    role: Producer
+    organization: ''
+    url: ''
+  Ministry-Of-Environment-Climate-Change-And-Natural-Resources:
+    individualname: Ministry Of Environment Climate Change And Natural Resources
+    role: Producer
+    organization: (Government of The Gambia)
+    url: ''
+  United-Nations-Environment-Programme:
+    individualname: United Nations Environment Programme
+    role: Producer
+    organization: (United Nations)
+    url: ''
+spatial:
+  type: ''

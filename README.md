@@ -31,11 +31,38 @@ the [pygeometa](https://github.com/geopython/pygeometa) library is used to gener
 
 The pyGeoDataCrawler scripts facilitates to work with pygeometa on folders of files
 
-Run the import-csv script for a folder
+Run the import-csv script for a folder, if no yml file exists, the script will create a yml file (using properties of the data file) for each data file.
+
+```
+crawl-metadata --mode=init --dir="/Projects/desira/dataset-inventarisation/portals/Africa/*"
+```
+
+## MDME
+
+Alternatively you can create the file manually. An online tool exists to create mcf files at https://osgeo.github.io/mdme. Populate the form and save the yml file to the relevant folder.
+
+## Import CSV
+
+Import metadata from a {file}.csv, make sure a {file}.j2 exists mapping the sheet colums to a mcf property.
+
+```
+crawl-metadata --mode=import-csv --dir="/Projects/desira/dataset-inventarisation/portals/Africa/*"  --sep=";"
 
 ```
 
+## Import from DOI or CSW
+
+The above approach can be comibed with an option to import existing metadata from an online location. Provide the records to be imported as url in a csv. The url is mapped to the datasetuir field in mcf, which is used to import external metadata by the `update` method.
+
 ```
+crawl-metadata --mode=import-csv --dir="/Projects/desira/dataset-inventarisation/portals/Africa/*"  --sep=";"
+crawl-metadata --mode=update --dir="/Projects/desira/dataset-inventarisation/portals/Africa/*" 
+
+```
+## Export to ISO and import to pycsw
+
+A ci-cd process has been set up to export mcf to iso19139 and load the iso19139 records into pycsw (or any other catalogue).
+
 
 ## Identification and interlinking
 
@@ -53,3 +80,4 @@ Linking from a dataset to another dataset (or other described resource) within t
 
 Mind that the crwaler currently does not have a mechanism to prevent overwriting of manual contributions. 
 One idea could be to use GIT branches to rebase manual contributions to the latest crawler results.
+

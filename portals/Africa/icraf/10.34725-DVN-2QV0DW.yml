@@ -1,0 +1,62 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-2QV0DW
+  dataseturi: https://doi.org/10.34725/DVN/2QV0DW
+  hierarchylevel: Dataset
+distribution:
+  r0:
+    url: https://doi.org/10.34725/dvn/2qv0dw/xzq1ui
+    type: WWW:LINK
+    title: HasPart
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/2QV0DW
+    type: WWW:LINK
+    title: Link
+identification:
+  title: Meta-analysis of peer-reviewed agricultural research data from Africa
+  abstract: "The ERAg r-package provides access to the ERA dataset, bibliographic\
+    \ information, associated biophysical data, analytical functions and vignettes.\
+    \ See the package vignettes for how to use the package and access the data contained\
+    \ within. Version: 0.0.1.0000 Evidence for Resilient Agriculture (ERA) was principally\
+    \ supported by CGIAR Consortium Research Program on Climate Change, Agriculture\
+    \ and Food Security (CCAFS) Flagship on Climate-Smart Practices and Technologies\
+    \ (FP2) under the Partnerships for Scaling Climate-Smart Agriculture (P4S) Project\
+    \ (Phase I: P159, Phase II: P1593). Supplemental support was provided by European\
+    \ Union-International Fund for Agricultural Development (EU-IFAD) as part of the\
+    \ Building Livelihoods and Resilience to Climate Change in East and West Africa\
+    \ project (CIAT: C-102-19); Food and Agriculture Organization of the United Nations\
+    \ (FAO); United States Department of Agriculture Foreign Agricultural Service\
+    \ project Operationalizing Climate-Smart Agriculture in Kenya and Malawi (USDA-FAS:\
+    \ FX18TA-10960C017); World Bank for Climate-Smart Agriculture Investment Plans\
+    \ (CSAIPs) (CIAT: C-109-19); EU-IFAD under the CCAFS-IFAD project Increasing food\
+    \ security and farming system resilience in East Africa through wide-scale adoption\
+    \ of climate-smart agricultural practices (CIAT: C-082-14); CCAFS Flagship on\
+    \ Low-Emissions Development (FP3); Center for International Forestry Research\u2019\
+    s Evidence-based Forestry (CIFOR-EBF)"
+  dates:
+    issued: '2022'
+    publication: '2022'
+contact:
+  Rosenstock-Todd:
+    individualname: Rosenstock, Todd
+    role: ContactPerson
+    organization: (Alliance of CIAT and Bioversity)
+    url: ''
+  Steward-Peter:
+    individualname: Steward, Peter
+    role: ''
+    organization: (Alliance of CIAT and Bioversity)
+    url: https://orcid.org/0000-0003-3985-4911
+  Lamanna-Christine:
+    individualname: Lamanna, Christine
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: https://orcid.org/0000-0002-6773-7352
+  World-Agroforestry-Center:
+    individualname: World Agroforestry Center
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+spatial:
+  type: ''

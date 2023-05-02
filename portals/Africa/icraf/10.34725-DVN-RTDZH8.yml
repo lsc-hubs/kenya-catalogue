@@ -1,0 +1,106 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-RTDZH8
+  dataseturi: https://doi.org/10.34725/DVN/RTDZH8
+  hierarchylevel: Dataset
+distribution:
+  r0:
+    url: https://doi.org/10.34725/dvn/rtdzh8/wzonei
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/rtdzh8/szdzrf
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/rtdzh8/tlkaoz
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.34725/dvn/rtdzh8/6tedvo
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.34725/dvn/rtdzh8/7ibhke
+    type: WWW:LINK
+    title: HasPart
+  r5:
+    url: https://doi.org/10.34725/dvn/rtdzh8/zucph1
+    type: WWW:LINK
+    title: HasPart
+  r6:
+    url: https://doi.org/10.34725/dvn/rtdzh8/osmbqt
+    type: WWW:LINK
+    title: HasPart
+  r7:
+    url: https://doi.org/10.34725/dvn/rtdzh8/6ksaxo
+    type: WWW:LINK
+    title: HasPart
+  r8:
+    url: https://doi.org/10.34725/dvn/rtdzh8/mf1pbl
+    type: WWW:LINK
+    title: HasPart
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/RTDZH8
+    type: WWW:LINK
+    title: Link
+identification:
+  title: Evidence-based Soils Agronomy for Sustainable Crop Production in Muranga
+    County, Kenya
+  abstract: "The project \u2018Improved Agricultural Measurement for Evidence-based\
+    \ Investments in Improved Crop Production in Kenya\u2019 was funded by The Nature\
+    \ Conservancy. The project used soil-plant diagnostic method developed at the\
+    \ World Agroforestry (ICRAF) to quantify soil health constraints for maize production\
+    \ and targeting interventions to improve soil health for agronomic gain. We tested\
+    \ soil and maize plant tissues to estimate macro and micronutrients and compared\
+    \ it with optimum plant nutrient requirements. The project was piloted in in Muranga\
+    \ County, Kenya.The Nature Conservancy (TNC) project dataset contains laboratory\
+    \ results of 524 top (0-20 cm) and sub soil (20-50 cm) soil and 206 plant tissue\
+    \ properties. The samples are from targeted 170 farms in Nginda, Kambiti in Maragua\
+    \ sub county and Kangema and Kigumo sub-counties in Muranga county of Kenya in\
+    \ East Africa. The datasets include MIR spectra, plant macronutrients and micronutrients\
+    \ measured at the World Agroforestry (ICRAF) Soil and Plant Spectral Diagnostic\
+    \ Laboratory and extracatable nutrients results from Crop Nutrition Laboratory\
+    \ Services."
+  dates:
+    issued: '2021'
+    publication: '2021'
+contact:
+  Aynekulu-Ermias:
+    individualname: Aynekulu, Ermias
+    role: ContactPerson
+    organization: (World Agroforestry)
+    url: ''
+  Sitienei-Ruth:
+    individualname: Sitienei, Ruth
+    role: ''
+    organization: (The Nature Conservancy)
+    url: ''
+  Wood-Stephen:
+    individualname: Wood, Stephen
+    role: ''
+    organization: (The Nature Conservancy)
+    url: ''
+  Shepherd-Keith:
+    individualname: Shepherd, Keith
+    role: ContactPerson
+    organization: (World Agroforestry)
+    url: ''
+  Sila-Andrew:
+    individualname: Sila, Andrew
+    role: ContactPerson
+    organization: (World Agroforestry)
+    url: ''
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: ''
+    url: ''
+  Conservancy-The-Nature:
+    individualname: Conservancy, The Nature
+    role: Producer
+    organization: ''
+    url: ''
+spatial:
+  type: ''
