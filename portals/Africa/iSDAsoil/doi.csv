@@ -1,20 +1,20 @@
-id;doi
-1;https://doi.org/10.5281/zenodo.4094616
-2;https://doi.org/10.5281/zenodo.4087905
-3;https://doi.org/10.5281/zenodo.4094610
-4;https://doi.org/10.5281/zenodo.4090927
-5;https://doi.org/10.5281/zenodo.4090298
-6;https://doi.org/10.5281/zenodo.4091142
-7;https://doi.org/10.5281/zenodo.4220290
-8;https://doi.org/10.5281/zenodo.4088113
-9;https://doi.org/10.5281/zenodo.4088064
-10;https://doi.org/10.5281/zenodo.4085160
-11;https://doi.org/10.5281/zenodo.4091154
-12;https://doi.org/10.5281/zenodo.4094607
-13;https://doi.org/10.5281/zenodo.4090981
-14;https://doi.org/10.5281/zenodo.4088216
-15;https://doi.org/10.5281/zenodo.4091171
-16;https://doi.org/10.5281/zenodo.4090374
-17;https://doi.org/10.5281/zenodo.4090386
-18;https://doi.org/10.5281/zenodo.4087972
-19;https://doi.org/10.5281/zenodo.4090917
+id;doi;category;lsc-tag;theme
+1;https://doi.org/10.5281/zenodo.4094616;soil;soil chemicophysical properties;texture
+2;https://doi.org/10.5281/zenodo.4087905;soil;soil chemicophysical properties;bulk density
+3;https://doi.org/10.5281/zenodo.4094610;soil;soil chemicophysical properties;silt
+4;https://doi.org/10.5281/zenodo.4090927;soil;soil chemicophysical properties;organic carbon
+5;https://doi.org/10.5281/zenodo.4090298;soil;soil chemicophysical properties;extractable Potassium
+6;https://doi.org/10.5281/zenodo.4091142;soil;soil chemicophysical properties;extractable Sulphur
+7;https://doi.org/10.5281/zenodo.4220290;soil;soil chemicophysical properties;pH
+8;https://doi.org/10.5281/zenodo.4088113;soil;soil chemicophysical properties;Cation Exchange Capacity
+9;https://doi.org/10.5281/zenodo.4088064;soil;soil chemicophysical properties;total carbon
+10;https://doi.org/10.5281/zenodo.4085160;soil;soil chemicophysical properties;clay
+11;https://doi.org/10.5281/zenodo.4091154;soil;soil chemicophysical properties;stone content
+12;https://doi.org/10.5281/zenodo.4094607;soil;soil chemicophysical properties;sand content
+13;https://doi.org/10.5281/zenodo.4090981;soil;soil chemicophysical properties;Phosphorus
+14;https://doi.org/10.5281/zenodo.4088216;soil;soil chemicophysical properties;Iron
+15;https://doi.org/10.5281/zenodo.4091171;soil;soil chemicophysical properties;Zinc
+16;https://doi.org/10.5281/zenodo.4090374;soil;soil chemicophysical properties;Magnesium
+17;https://doi.org/10.5281/zenodo.4090386;soil;soil chemicophysical properties;Nitrogen
+18;https://doi.org/10.5281/zenodo.4087972;soil;soil chemicophysical properties;Calcium
+19;https://doi.org/10.5281/zenodo.4090917;soil;soil chemicophysical properties;Aluminium
