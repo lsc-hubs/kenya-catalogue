@@ -108,8 +108,8 @@ contact:
     postalcode: null
     country: null
     email: ulan.turdukulov@isric.org
-  ? ''
-  : organization: ISRIC - World Soil Information
+  publisher:
+    organization: ISRIC - World Soil Information
     individualname: null
     positionname: null
     phone: null
