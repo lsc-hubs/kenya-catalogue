@@ -4,7 +4,7 @@ metadata:
   identifier: dea_dem_cop_90
   dataseturi: https://explorer.digitalearth.africa/products/dem_cop_90
 identification:
-  title: dem_cop_90
+  title: Digital Elevation Model Copernicus at 90m
   abstract: Copernicus DEM 90 m
   keywords:
     lsc:
