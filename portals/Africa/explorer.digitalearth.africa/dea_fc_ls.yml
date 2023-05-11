@@ -4,7 +4,7 @@ metadata:
   identifier: dea_fc_ls
   dataseturi: https://explorer.digitalearth.africa/products/fc_ls
 identification:
-  title: fc_ls
+  title: Landsat Fractional Cover Observations from Space
   abstract: Landsat Fractional Cover Observations from Space
   keywords:
     lsc:
