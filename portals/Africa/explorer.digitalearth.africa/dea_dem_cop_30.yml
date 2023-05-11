@@ -4,7 +4,7 @@ metadata:
   identifier: dea_dem_cop_30
   dataseturi: https://explorer.digitalearth.africa/products/dem_cop_30
 identification:
-  title: dem_cop_30
+  title: Digital Elevation Model Copernicus at 30m
   abstract: Copernicus DEM 30 m
   keywords:
     lsc:
