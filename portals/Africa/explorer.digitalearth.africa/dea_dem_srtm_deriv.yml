@@ -4,7 +4,7 @@ metadata:
   identifier: dea_dem_srtm_deriv
   dataseturi: https://explorer.digitalearth.africa/products/dem_srtm_deriv
 identification:
-  title: dem_srtm_deriv
+  title: Digital Elevation Model_srtm_derivatives
   abstract: 1 second elevation model derivatives
   keywords:
     lsc:
