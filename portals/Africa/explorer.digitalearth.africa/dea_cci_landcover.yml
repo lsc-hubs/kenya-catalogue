@@ -4,7 +4,7 @@ metadata:
   identifier: dea_cci_landcover
   dataseturi: https://explorer.digitalearth.africa/products/cci_landcover
 identification:
-  title: cci_landcover
+  title:  Climate Change Initiative landcover 
   abstract: ESA Climate Change Initiative Land Cover
   keywords:
     lsc:
