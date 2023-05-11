@@ -4,7 +4,7 @@ metadata:
   identifier: dea_gm_ls5_ls7_annual
   dataseturi: https://explorer.digitalearth.africa/products/gm_ls5_ls7_annual
 identification:
-  title: gm_ls5_ls7_annual
+  title: Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7
   abstract: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
     Landsat 5 and Landsat 7
   keywords:
