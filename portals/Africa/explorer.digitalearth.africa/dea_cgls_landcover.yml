@@ -4,7 +4,7 @@ metadata:
   identifier: dea_cgls_landcover
   dataseturi: https://explorer.digitalearth.africa/products/cgls_landcover
 identification:
-  title: cgls_landcover
+  title: land use landcover
   abstract: Copernicus Global Land Service, Land Use/Land Cover at 100 m
   keywords:
     lsc:
@@ -19,6 +19,10 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-1:
+      type: place
+      keywords:
+      - Africa    
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/cgls_landcover
