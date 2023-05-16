@@ -2,6 +2,7 @@ mcf:
   version: 1.0
 metadata:
   identifier: 10.17605-OSF.IO-Y9ZUT
+  hierarchyleve: portal
   dataseturi: https://doi.org/10.17605/OSF.IO/Y9ZUT
   dates:
     creation: '2020-07-11T14:28:25.000Z'
