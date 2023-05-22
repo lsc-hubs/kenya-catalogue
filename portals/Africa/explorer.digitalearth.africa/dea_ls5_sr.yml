@@ -4,7 +4,7 @@ metadata:
   identifier: dea_ls5_sr
   dataseturi: https://explorer.digitalearth.africa/products/ls5_sr
 identification:
-  title: ls5_sr
+  title: level 2 surface reflectance(ls5_sr)
   abstract: USGS Landsat 5 Collection 2 Level-2 Surface Reflectance
   keywords:
     lsc:
@@ -19,6 +19,10 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Regional
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ls5_sr
