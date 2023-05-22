@@ -54,7 +54,28 @@ identification:
     \ 9.629 on 122269 degrees of freedom Multiple R-squared: 0.7458, Adjusted R-squared:\
     \ 0.7458 F-statistic: 7.175e+04 on 5 and 122269 DF, p-value: &lt; 2.2e-16</code></pre>\
     \ To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>"
-contact:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - Soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    keywords-0:
+      type: theme
+      keywords:
+      - clay 
+    keywords-2:
+      type: place
+      keywords:
+      - Africa     
+  contact:
   Hengl-Tomislav:
     individualname: Hengl, Tomislav
     role: ''
