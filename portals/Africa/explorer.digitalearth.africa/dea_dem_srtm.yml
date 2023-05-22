@@ -5,6 +5,13 @@ metadata:
   dataseturi: https://explorer.digitalearth.africa/products/dem_srtm
 identification:
   title: dem_srtm
+  extents:
+    spatial:
+    - bbox:
+      - -32.000138888
+      - -52.683550891
+      - 61.000138888
+      - 47.00013888 
   abstract: 1 second elevation model
   keywords:
     lsc:
