@@ -1,20 +1,20 @@
-id;doi
-CBHCKS;https://doi.org/10.34725/DVN/CBHCKS
-CF2DGQ;https://doi.org/10.34725/DVN/CF2DGQ
-MR2COM;https://doi.org/10.34725/DVN/MR2COM
-IGJZLF;https://doi.org/10.34725/DVN/IGJZLF
-KKHVOF;https://doi.org/10.34725/DVN/KKHVOF
-ZUK436;https://doi.org/10.34725/DVN/ZUK436
-5RHDQC;https://doi.org/10.34725/DVN/5RHDQC
-2QV0DW;https://doi.org/10.34725/DVN/2QV0DW
-SPRSFN;https://doi.org/10.34725/DVN/SPRSFN
-WLAKR2;https://doi.org/10.34725/DVN/WLAKR2
-XUDGJY;https://doi.org/10.34725/DVN/XUDGJY
-NMYOFA;https://doi.org/10.34725/DVN/NMYOFA
-RTDZH8;https://doi.org/10.34725/DVN/RTDZH8
-MFHA9C;https://doi.org/10.34725/DVN/MFHA9C
-YTJTZQ;https://doi.org/10.34725/DVN/YTJTZQ
-66BFOB;https://doi.org/10.34725/DVN/66BFOB
-QXCWP1;https://doi.org/10.34725/DVN/QXCWP1
-URYP1I;https://doi.org/10.34725/DVN/URYP1I
-OVIUCS;https://doi.org/10.34725/DVN/OVIUCS
+id;doi;place
+CBHCKS;https://doi.org/10.34725/DVN/CBHCKS;Kenya
+CF2DGQ;https://doi.org/10.34725/DVN/CF2DGQ;Kenya
+MR2COM;https://doi.org/10.34725/DVN/MR2COM;Kenya
+IGJZLF;https://doi.org/10.34725/DVN/IGJZLF;Gambia
+KKHVOF;https://doi.org/10.34725/DVN/KKHVOF;Kenya
+ZUK436;https://doi.org/10.34725/DVN/ZUK436;Ethiopia
+5RHDQC;https://doi.org/10.34725/DVN/5RHDQC;Burkina Faso, Sudan
+2QV0DW;https://doi.org/10.34725/DVN/2QV0DW;Africa
+SPRSFN;https://doi.org/10.34725/DVN/SPRSFN;Ghana
+WLAKR2;https://doi.org/10.34725/DVN/WLAKR2;Nigeria
+XUDGJY;https://doi.org/10.34725/DVN/XUDGJY;Tanzania
+NMYOFA;https://doi.org/10.34725/DVN/NMYOFA;Rwanda
+RTDZH8;https://doi.org/10.34725/DVN/RTDZH8;Kenya
+MFHA9C;https://doi.org/10.34725/DVN/MFHA9C;Global,Kenya, Rwanda
+YTJTZQ;https://doi.org/10.34725/DVN/YTJTZQ;Kenya,United Kingdom
+66BFOB;https://doi.org/10.34725/DVN/66BFOB;Africa,Ethiopia,Kenya
+QXCWP1;https://doi.org/10.34725/DVN/QXCWP1;Africa,Ethiopia,Kenya
+URYP1I;https://doi.org/10.34725/DVN/URYP1I;Ethiopia
+OVIUCS;https://doi.org/10.34725/DVN/OVIUCS;Kenya
