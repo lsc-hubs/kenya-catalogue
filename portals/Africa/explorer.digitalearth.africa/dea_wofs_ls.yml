@@ -4,7 +4,7 @@ metadata:
   identifier: dea_wofs_ls
   dataseturi: https://explorer.digitalearth.africa/products/wofs_ls
 identification:
-  title: wofs_ls
+  title: Flood mapping (wofs_ls)
   abstract: Historic Flood Mapping Water Observations from Space
   keywords:
     lsc:
@@ -19,6 +19,11 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/wofs_ls
