@@ -4,7 +4,7 @@ metadata:
   identifier: dea_pc_s2_annual
   dataseturi: https://explorer.digitalearth.africa/products/pc_s2_annual
 identification:
-  title: pc_s2_annual
+  title: Surface reflectance (pc_s2_annual)
   abstract: Surface Reflectance Annual Clear Pixel Count, Sentinel-2
   keywords:
     lsc:
