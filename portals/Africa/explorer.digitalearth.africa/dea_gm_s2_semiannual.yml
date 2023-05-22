@@ -20,6 +20,11 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gm_s2_semiannual
