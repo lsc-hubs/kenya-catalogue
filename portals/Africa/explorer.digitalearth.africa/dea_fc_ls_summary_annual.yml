@@ -4,7 +4,7 @@ metadata:
   identifier: dea_fc_ls_summary_annual
   dataseturi: https://explorer.digitalearth.africa/products/fc_ls_summary_annual
 identification:
-  title: fc_ls_summary_annual
+  title: Fractional Cover Percentiles (fc_ls_summary_annual)
   abstract: DE Africa Landsat Fractional Cover Percentiles
   keywords:
     lsc:
