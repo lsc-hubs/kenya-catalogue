@@ -20,6 +20,10 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/crop_mask_indian_ocean
