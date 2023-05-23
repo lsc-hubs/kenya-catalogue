@@ -2,7 +2,7 @@ mcf:
   version: "1.0"
 metadata:
   dataseturi: https://www.landportal.org/
-  hierarchylevel: service
+  hierarchylevel: portal
   identifier: landportal
   language: en
   language_alternate: ""
