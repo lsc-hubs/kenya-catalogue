@@ -59,9 +59,11 @@ identification:
       - extractable potassium
       - extractable sulphur
       - zinc
- 
-
-
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      
   topiccategory:
   - geoscientificInformation
   extents:
