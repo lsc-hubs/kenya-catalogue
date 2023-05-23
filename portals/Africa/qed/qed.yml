@@ -1,14 +1,19 @@
-
 mcf:
    version: 1.0
 
 metadata:
    identification: qed
    hierarchylevel: portal
+   language: en
 
 identification:
    title: "Portal of maps of Africa"
    abstract: "QED builds data systems and AI for human health and agriculture, the two fields we believe are most relevant to the security of humankind. We are a fully mission-driven technology company. We have regional expertise in development and humanitarian projects in Sub-Saharan Africa, South Asia, and Latin America."
+   keywords:
+      keywords-2:
+         type: place
+         keywords:
+         - Africa   
 
 contact:
    pointOfContact:
