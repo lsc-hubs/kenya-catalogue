@@ -50,6 +50,20 @@ identification:
     allows policymakers and donors to better target agricultural and rural development
     policies and investments, increasing food security and growth with minimal environmental
     impacts.
+  keywords:
+    keywords-1:
+      type: stratum
+      keywords:
+      - Earth and Environmental Sciences
+      - Computer and Information Science
+      - Agricutural Sciences
+    default:
+      keywords:
+      - statistics
+      - plant production 
+      vocabulary:
+        name: Agrovoc
+        url: https://agrovoc.fao.org/browse/agrovoc/en/
 contact:
   International-Food-Policy-Research-Institute:
     individualname: International Food Policy Research Institute
