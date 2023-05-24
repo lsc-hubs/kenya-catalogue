@@ -16,6 +16,21 @@ identification:
     season. The resulting AEZ classifications for Africa have three dimensions: major
     climate zone (tropics or subtropics), moisture zones (water availability) and
     highland/lowland (warm or cool based on elevation).'
+  keywords:
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      - Continental
+    default:
+      keywords:
+      - climate
+      - altitude
+      - rainfall
+      - temperature
+      - agriculture
+      - suitability
+      - agroecological zones
 contact:
   Sebastian-Kate:
     individualname: Sebastian, Kate
