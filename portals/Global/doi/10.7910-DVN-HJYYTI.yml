@@ -22,16 +22,7 @@ identification:
       keywords:
       - Africa
       - Continental
-    default:
-      keywords:
-      - climate
-      - altitude
-      - rainfall
-      - temperature
-      - agriculture
-      - suitability
-      - agroecological zones
-contact:
+  contact:
   Sebastian-Kate:
     individualname: Sebastian, Kate
     role: ''
