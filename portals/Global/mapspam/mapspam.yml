@@ -29,9 +29,13 @@ identification:
       - Crop
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
-  topiccategory:
-  - geoscientificInformation
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil fertility management
+      - soil water conservation
+    topiccategory:  
+    - geoscientificInformation
   extents:
     spatial:
     - bbox:
