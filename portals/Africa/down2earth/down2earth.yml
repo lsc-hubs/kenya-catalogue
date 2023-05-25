@@ -20,7 +20,12 @@ identification:
       - Land
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - climatic data
+      - soil fertility management
+      - soil water conservation
   topiccategory:
   - geoscientificInformation
   extents:
