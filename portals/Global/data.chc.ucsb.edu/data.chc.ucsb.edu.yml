@@ -9,12 +9,15 @@ identification:
     lsc:
       keywords:
       - meteo
+      - water/hydrology
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
       - precipitation
+      - soil fertility
+      - soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
