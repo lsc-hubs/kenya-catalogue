@@ -21,7 +21,7 @@ identification:
       - land
     lsc:
       keywords:
-      - Weather
+      - Weather/Climate
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
