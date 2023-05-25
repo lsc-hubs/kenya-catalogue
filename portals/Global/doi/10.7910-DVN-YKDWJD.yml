@@ -13,10 +13,10 @@ identification:
   keywords:
     lsc:
       keywords:
-      - market access
+      - Market access
     vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
 contact:
   HarvestChoice;-International-Food-Policy-Research-Institute-IFPRI:
     individualname: HarvestChoice; International Food Policy Research Institute (IFPRI)
