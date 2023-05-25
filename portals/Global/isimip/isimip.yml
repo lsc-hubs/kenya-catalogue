@@ -5,7 +5,7 @@ metadata:
   identifier: isimip
   language: english
   charset: utf8
-  hierarchylevel: dataset
+  hierarchylevel: portal
   datestamp: 
 
 identification:
@@ -21,9 +21,16 @@ identification:
       - land
     lsc:
       keywords:
-      - Wheater
+      - Weather
       vocabulary:
         name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil fertility management
+      - soil water conservation
+      vocabulary:
+        name: LSC tags
         url: https://lsc-hubs.org/tags/
   topiccategory:
   - geoscientificInformation
