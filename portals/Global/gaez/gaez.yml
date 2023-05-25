@@ -20,6 +20,12 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      - Continental
+
   extents:
     spatial:
     - bbox:
