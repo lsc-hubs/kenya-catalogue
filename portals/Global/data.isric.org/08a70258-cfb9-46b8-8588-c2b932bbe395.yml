@@ -15,7 +15,10 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties 
+      - soil fertility
+      - soil water conservation
+
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
