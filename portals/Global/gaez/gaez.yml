@@ -1,4 +1,4 @@
-metadata:
+mmetadata:
   identifier: gaez
   datasetuuid: "doi:10.7910/DVN/HJYYTI"
 identification:
@@ -9,16 +9,22 @@ identification:
       keywords: [Climate, Altitude, Rainfall, Temperature, Agroecology, Agriculture, Suitability, Agroecological zones]
     lsc:
       keywords:
-      - land
+      - Land
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
       - land suitability
+      - soil fertility management
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - continental
+
   extents:
     spatial:
     - bbox:
