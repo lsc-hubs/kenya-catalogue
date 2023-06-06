@@ -9,7 +9,7 @@ identification:
       keywords: [Climate, Altitude, Rainfall, Temperature, Agroecology, Agriculture, Suitability, Agroecological zones]
     lsc:
       keywords:
-      - land
+      - Land
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
@@ -23,8 +23,7 @@ identification:
     keywords-2:
       type: place
       keywords:
-      - Africa
-      - Continental
+      - continental
 
   extents:
     spatial:
