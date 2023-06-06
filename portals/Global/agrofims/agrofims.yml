@@ -25,6 +25,19 @@ identification:
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/tags/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      - land cover
+      - soil fertility management
+      - soil water conservation
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - continental
   topiccategory:
   - geoscientificInformation
   extents:
@@ -60,7 +73,7 @@ distribution:
     url: https://www.isda-africa.com/isdasoil
     type: WWW:Link
   citation:
-    name: iSDAsoil: The first continent-scale soil property map at 30 m resolution provides a soil information revolution for Africa. 
+    name: iSDAsoil: The first continent-scale soil property map at 30 m resolution provides a soil information revolution for Africa.
     description: Miller, M.A.E., Shepherd, K.D., Kisitu, B., Collinson, J. 2021.  PLOS Biology 19: e3001441.
     url: https://doi.org/10.1371/journal.pbio.3001441
     type: citation
