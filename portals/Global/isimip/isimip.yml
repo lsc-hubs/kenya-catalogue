@@ -5,7 +5,7 @@ metadata:
   identifier: isimip
   language: english
   charset: utf8
-  hierarchylevel: portal
+  hierarchylevel: service
   datestamp: 
 
 identification:
@@ -18,10 +18,10 @@ identification:
   keywords:
     default:
       keywords: 
-      - land
+      - Land
     lsc:
       keywords:
-      - Weather/Climate
+      - climate
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
@@ -53,6 +53,5 @@ distribution:
     name: Catalogue
     url: https://data.isimip.org
     type: www
-
 
 
