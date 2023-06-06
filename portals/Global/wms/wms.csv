@@ -1,4 +1,4 @@
 id;url;layers;protocol;LSC category;Data category
-yieldgap;https://www.yieldgap.org/geoserver/gyga/wms;IrrigatedRiceYieldsByClimateZone,RainfedMaizeYieldsByClimateZone,WaterLimitedYieldPotential,RainfedMilletArea;OGC:WMS;crop;crop yield
-aquamaps;https://io.apps.fao.org/geoserver/wms;AQUAMAPS:gmia_v5;OGC:WMS;land;land management
-digitalearth;https://ows.digitalearth.africa/;ls9_sr,s2_l2a,gm_s2_annual;OGC:WMS;land;remote sensing
+yieldgap;https://www.yieldgap.org/geoserver/gyga/wms;IrrigatedRiceYieldsByClimateZone,RainfedMaizeYieldsByClimateZone,WaterLimitedYieldPotential,RainfedMilletArea;OGC:WMS;Crop;crop yield,soil fertility management,soil water conservation 
+aquamaps;https://io.apps.fao.org/geoserver/wms;AQUAMAPS:gmia_v5;OGC:WMS;Land;land management,soil fertility management,soil water conservation 
+digitalearth;https://ows.digitalearth.africa/;ls9_sr,s2_l2a,gm_s2_annual;OGC:WMS;Land;remote sensing
