@@ -5,7 +5,7 @@ metadata:
   identifier: down2earth
   language: english
   charset: utf8
-  hierarchylevel: project
+  hierarchylevel: portal
   datestamp: 2023-03-06
 
 identification:
@@ -26,6 +26,10 @@ identification:
       - climatic data
       - soil fertility management
       - soil water conservation
+    keywords-2:
+      type: place
+      keywords:
+        regional
   topiccategory:
   - geoscientificInformation
   extents:
