@@ -8,20 +8,22 @@ identification:
   keywords:
     lsc:
       keywords:
-      - meteo
+      - Climate
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
       - precipitation
+      - soil fertility management
+      - soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     keywords:
       type: place
       keywords:
-      - Africa
+      - continental
   title: African satellite and observation based precipitation estimates over land, 1981 to near-real time
   abstract: "The Climate Hazards Group InfraRed Precipitation with Station (CHIRPS) data archive is a quasi-global (50S-50N), gridded 0.05 degree resolution, 1981 to near-real time precipitation time series. The terrestrial preciptation estimates, are available in daily to annual time intervals. Africa is available. Data is available in several formats (NetCDF, TIFF, BIL, PNG) and are located in separate subdirectories. Two CHIRPS products are produced operationally: a rapid preliminary version, and a later final version. The preliminary CHIRPS product is available, for the entire domain, two days after the end of a pentad (2nd, 7th, 12th, 17th, 22nd and 27th). The preliminary CHIRPS uses only Global Telecommunications System (GTS) and Conagua (Mexico) data. The final CHIRPS product takes advantage of several other stations sources and is complete sometime in the third week of the following month. Final products for all times/domains/formats are calculated at that time."
   dates:
