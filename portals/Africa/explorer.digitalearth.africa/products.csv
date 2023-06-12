@@ -1,27 +1,20 @@
-name;description;LSC category;Data category;hierarchylevel
-alos_palsar_mosaic;ALOS/PALSAR and ALOS-2/PALSAR-2 annual mosaic tiles generated for use in the Data Cube - 25m pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with conversion to GeoTIFF.;Land;topography;dataset
-cci_landcover;ESA Climate Change Initiative Land Cover;Land;land cover;dataset
-cgls_landcover;Copernicus Global Land Service, Land Use/Land Cover at 100 m;Land;land cover;dataset
-crop_mask;Annual cropland extent map produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_central;Annual cropland extent map for Central Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_eastern;Annual cropland extent map for Eastern Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_indian_ocean;Annual cropland extent map for Indian Ocean Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_northern;Annual cropland extent map for Northern Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_sahel;Annual cropland extent map for Sahel Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_southeast;Annual cropland extent map for Southeast Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_southern;Annual cropland extent map for Southern Africa produced by Digital Earth Africa.;Crop;land use;dataset
-crop_mask_western;Annual cropland extent map for Western Africa produced by Digital Earth Africa.;Crop;land use;dataset
-dem_cop_30;Copernicus DEM 30 m;Land;topography;dataset
-dem_cop_90;Copernicus DEM 90 m;Land;topography;dataset
-dem_srtm;1 second elevation model;Land;topography;dataset
-dem_srtm_deriv;1 second elevation model derivatives;Land;topography;dataset
-esa_worldcover;ESA World Cover, global 10 m land use/land cover data from 2020.;Land;land cover;dataset
-fc_ls;Landsat Fractional Cover Observations from Space;Land;land cover;dataset
-fc_ls_summary_annual;DE Africa Landsat Fractional Cover Percentiles;Land;land cover;dataset
-gm_ls5_ls7_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7;Land;remote sensing;dataset
-gm_ls5_ls7_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7. Low resolution version used for visualisations.;Land;remote sensing;dataset
-gm_ls8_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8;Land;remote sensing;dataset
-gm_ls8_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8. Low resolution version used for visualisations.;Land;remote sensing;dataset
+name;description;LSC category;Data category;hierarchylevel;title;place
+alos_palsar_mosaic;ALOS/PALSAR and ALOS-2/PALSAR-2 annual mosaic tiles generated for use in the Data Cube - 25m pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with conversion to GeoTIFF.;Land;topography;dataset;alos palsar mosaic;;
+cci_landcover;ESA Climate Change Initiative Land Cover;Land;land cover;dataset;landcover(ClimateChange Initiative);continental
+cgls_landcover;Copernicus Global Land Service, Land Use/Land Cover at 100 m;Land;land cover;dataset;Land Use/Land Cover at 100m(Copernicus);continental
+crop_mask;Annual cropland extent map produced by Digital Earth Africa.;Crop;land use;dataset;Annual cropland extent;continental
+crop_mask_central;Annual cropland extent map for Central Africa produced by Digital Earth Africa.;Crop;land use;dataset;Annual cropland extent map for Central Africa;regional
+crop_mask_eastern;Annual cropland extent map for Eastern Africa produced by Digital Earth Africa.;Crop;land use;dataset;Annual cropland extent map for Eastern Africa;regional
+dem_cop_30;Copernicus DEM 30 m;Land;topography;dataset;DEM 30 m(Copernicus);continental
+dem_cop_90;Copernicus DEM 90 m;Land;topography;dataset;DEM 90 m(Copernicus);continental
+dem_srtm;1 second elevation model;Land;topography;dataset;1 second elevation mode;continental
+dem_srtm_deriv;1 second elevation model derivatives;Land;topography;dataset;1 second elevation model derivatives;continental
+fc_ls;Landsat Fractional Cover Observations from Space;Land;land cover;dataset;Fractional Cover;continental
+fc_ls_summary_annual;DE Africa Landsat Fractional Cover Percentiles;Land;land cover;dataset;Fractional Cover Percentiles;continental
+gm_ls5_ls7_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviation(Landsat);continental
+gm_ls5_ls7_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7. Low resolution version used for visualisations.;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviation,lowresolution(Landsat);continental
+gm_ls8_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviations(Landsat8);continental
+gm_ls8_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8. Low resolution version used for visualisations.;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, lowresolution(Landsat8);continental
 gm_ls8_ls9_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9;Land;remote sensing;dataset
 gm_ls8_ls9_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9. Low resolution version used for visualisations.;Land;remote sensing;dataset
 gm_s2_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Sentinel-2;Land;remote sensing;dataset
