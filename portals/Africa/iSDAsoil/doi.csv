@@ -1,20 +1,20 @@
-id;doi
-1;https://doi.org/10.5281/zenodo.4094616
-2;https://doi.org/10.5281/zenodo.4087905
-3;https://doi.org/10.5281/zenodo.4094610
-4;https://doi.org/10.5281/zenodo.4090927
-5;https://doi.org/10.5281/zenodo.4090298
-6;https://doi.org/10.5281/zenodo.4091142
-7;https://doi.org/10.5281/zenodo.4220290
-8;https://doi.org/10.5281/zenodo.4088113
-9;https://doi.org/10.5281/zenodo.4088064
-10;https://doi.org/10.5281/zenodo.4085160
-11;https://doi.org/10.5281/zenodo.4091154
-12;https://doi.org/10.5281/zenodo.4094607
-13;https://doi.org/10.5281/zenodo.4090981
-14;https://doi.org/10.5281/zenodo.4088216
-15;https://doi.org/10.5281/zenodo.4091171
-16;https://doi.org/10.5281/zenodo.4090374
-17;https://doi.org/10.5281/zenodo.4090386
-18;https://doi.org/10.5281/zenodo.4087972
-19;https://doi.org/10.5281/zenodo.4090917
+id;doi;category;lsc-tag;theme;place;hierarchylevel
+1;https://doi.org/10.5281/zenodo.4094616;Soil;soil chemicophysical properties;texture;continental;dataset
+2;https://doi.org/10.5281/zenodo.4087905;Soil;soil chemicophysical properties;bulk density;continental;dataset
+3;https://doi.org/10.5281/zenodo.4094610;Soil;soil chemicophysical properties;silt;continental;dataset
+4;https://doi.org/10.5281/zenodo.4090927;Soil;soil chemicophysical properties;organic carbon;continental;dataset
+5;https://doi.org/10.5281/zenodo.4090298;Soil;soil chemicophysical properties;extractable Potassium;continental;dataset
+6;https://doi.org/10.5281/zenodo.4091142;Soil;soil chemicophysical properties;extractable Sulphur;continental;dataset
+7;https://doi.org/10.5281/zenodo.4220290;Soil;soil chemicophysical properties;pH;continental;dataset
+8;https://doi.org/10.5281/zenodo.4088113;Soil;soil chemicophysical properties;Cation Exchange Capacity;continental;dataset
+9;https://doi.org/10.5281/zenodo.4088064;Soil;soil chemicophysical properties;total carbon;continental;dataset
+10;https://doi.org/10.5281/zenodo.4085160;Soil;soil chemicophysical properties;clay;continental;dataset
+11;https://doi.org/10.5281/zenodo.4091154;Soil;soil chemicophysical properties;stone content;continental;dataset
+12;https://doi.org/10.5281/zenodo.4094607;Soil;soil chemicophysical properties;sand content;continental;dataset
+13;https://doi.org/10.5281/zenodo.4090981;Soil;soil chemicophysical properties;Phosphorus;continental;dataset
+14;https://doi.org/10.5281/zenodo.4088216;Soil;soil chemicophysical properties;Iron;continental;dataset
+15;https://doi.org/10.5281/zenodo.4091171;Soil;soil chemicophysical properties;Zinc;continental;dataset
+16;https://doi.org/10.5281/zenodo.4090374;Soil;soil chemicophysical properties;Magnesium;continental;dataset
+17;https://doi.org/10.5281/zenodo.4090386;Soil;soil chemicophysical properties;Nitrogen;continental;dataset
+18;https://doi.org/10.5281/zenodo.4087972;Soil;soil chemicophysical properties;Calcium;continental;dataset
+19;https://doi.org/10.5281/zenodo.4090917;Soil;soil chemicophysical properties;Aluminium;continental;dataset
