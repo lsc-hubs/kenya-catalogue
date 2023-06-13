@@ -15,31 +15,31 @@ gm_ls5_ls7_annual;Surface Reflectance Annual Geometric Median and Median Absolut
 gm_ls5_ls7_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 5 and Landsat 7. Low resolution version used for visualisations.;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviation,lowresolution(Landsat);continental
 gm_ls8_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviations(Landsat8);continental
 gm_ls8_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8. Low resolution version used for visualisations.;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, lowresolution(Landsat8);continental
-gm_ls8_ls9_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9;Land;remote sensing;dataset
-gm_ls8_ls9_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9. Low resolution version used for visualisations.;Land;remote sensing;dataset
-gm_s2_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Sentinel-2;Land;remote sensing;dataset
-gm_s2_annual_lowres;Annual Geometric Median, Sentinel-2 - Low Resolution mosaic;Land;remote sensing;dataset
-gm_s2_semiannual;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations, Sentinel-2;Land;remote sensing;dataset
-gm_s2_semiannual_lowres;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations, Sentinel-2. Low resolution version used for visualisations.;Land;remote sensing;dataset
-gmw;Global Mangrove Watch data sourced from the UN Environment Program at https://data.unep-wcmc.org/datasets/45;Land;land use;dataset
-io_lulc;Impact Observatory (ESRI) Landcover Classification 9 Class;Land;land cover;dataset
-jers_sar_mosaic;JERS-1 SAR annual mosaic tiles generated for use in the Data Cube 25m pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with conversion to GeoTIFF.;Land;remote sensing;dataset
-ls5_sr;USGS Landsat 5 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset
-ls5_st;USGS Landsat 5 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset
-ls7_sr;USGS Landsat 7 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset
-ls7_st;USGS Landsat 7 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset
-ls8_sr;USGS Landsat 8 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset
-ls8_st;USGS Landsat 8 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset
-ls9_sr;USGS Landsat 9 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset
-ls9_st;USGS Landsat 9 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset
-nasadem;NASADEM from Microsoft's Planetary Computer;Land;topography;dataset
-ndvi_anomaly;Monthly NDVI Anomalies produced by Digital Earth Africa.;Land;remote sensing;dataset
-ndvi_climatology_ls;Monthly NDVI Climatologies produced by Digital Earth Africa.;Land;remote sensing;dataset
-pc_s2_annual;Surface Reflectance Annual Clear Pixel Count, Sentinel-2;Land;remote sensing;dataset
-rainfall_chirps_daily;Rainfall Estimates from Rain Gauge and Satellite Observations;Crop;climatic data;dataset
-rainfall_chirps_monthly;Rainfall Estimates from Rain Gauge and Satellite Observations;Crop;climatic data;dataset
-s1_rtc;Sentinel 1 Gamma0 normalised radar backscatter;Land;remote sensing;dataset
-s2_l2a;Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface Reflectance) and converted to Cloud Optimized GeoTIFFs;Land;remote sensing;dataset
-wofs_ls;Historic Flood Mapping Water Observations from Space;Land;hydrology;dataset
-wofs_ls_summary_alltime;Water Observations from Space Alltime Statistics;Crop;climatic data;dataset
-wofs_ls_summary_annual;Water Observations from Space Annual Statistics;Crop;climatic data;dataset
+gm_ls8_ls9_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviations(landsat 8,9);continental
+gm_ls8_ls9_annual_lowres;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Landsat 8 and Landsat 9. Low resolution version used for visualisations.;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviations low resolution (landsat 8,9);continental
+gm_s2_annual;Surface Reflectance Annual Geometric Median and Median Absolute Deviations, Sentinel-2;Land;remote sensing;dataset;Surface Reflectance Annual Geometric Median and Median Absolute Deviation(Sentinel-2);continental
+gm_s2_annual_lowres;Annual Geometric Median, Sentinel-2 - Low Resolution mosaic;Land;remote sensing;dataset;Annual Geometric Median low resolution (Sentinel-2);continental
+gm_s2_semiannual;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations, Sentinel-2;Land;remote sensing;dataset;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations(Sentinel-2); continental
+gm_s2_semiannual_lowres;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations, Sentinel-2. Low resolution version used for visualisations.;Land;remote sensing;dataset;Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations low resolution(Sentinel-2); continental
+gmw;Global Mangrove Watch data sourced from the UN Environment Program at https://data.unep-wcmc.org/datasets/45;Land;land use;dataset;Global Mangrove Watch;continental
+io_lulc;Impact Observatory (ESRI) Landcover Classification 9 Class;Land;land cover;dataset;Landcover Classification 9 (ESRI);continental
+jers_sar_mosaic;JERS-1 SAR annual mosaic tiles generated for use in the Data Cube 25m pixel spacing, WGS84. These tiles are derived from the orignal JAXA mosaics with conversion to GeoTIFF.;Land;remote sensing;dataset;annual mosaic tiles (SAR);continental
+ls5_sr;USGS Landsat 5 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset;Surface Reflectance(Landsat5);continental
+ls5_st;USGS Landsat 5 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset;Surface Temperature (Landsat5);continental
+ls7_sr;USGS Landsat 7 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset;Surface Reflectance(Landsat7);continental
+ls7_st;USGS Landsat 7 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset;Surface Temperature (Landsat7);continental
+ls8_sr;USGS Landsat 8 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset;Surface Reflectance(Landsat8);continental
+ls8_st;USGS Landsat 8 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset;Surface Temperature (Landsat8);continental
+ls9_sr;USGS Landsat 9 Collection 2 Level-2 Surface Reflectance;Land;remote sensing;dataset;Surface Reflectance(Landsat9);continental
+ls9_st;USGS Landsat 9 Collection 2 Level-2 Surface Temperature;Land;remote sensing;dataset;Surface Temperature (Landsat9);continental
+nasadem;NASADEM from Microsoft's Planetary Computer;Land;topography;dataset;NASA DEM;continental
+ndvi_anomaly;Monthly NDVI Anomalies produced by Digital Earth Africa.;Land;remote sensing;dataset;Monthly NDVI Anomalies;continental
+ndvi_climatology_ls;Monthly NDVI Climatologies produced by Digital Earth Africa.;Land;remote sensing;dataset;Monthly NDVI Climatologies;continental
+pc_s2_annual;Surface Reflectance Annual Clear Pixel Count, Sentinel-2;Land;remote sensing;dataset;Surface Reflectance Annual (Sentinel2);continental
+rainfall_chirps_daily;Rainfall Estimates from Rain Gauge and Satellite Observations;Crop;climatic data;dataset;rainfall estimates (daily);continental
+rainfall_chirps_monthly;Rainfall Estimates from Rain Gauge and Satellite Observations;Crop;climatic data;dataset;rainfall estimates (monthly);continental
+s1_rtc;Sentinel 1 Gamma0 normalised radar backscatter;Land;remote sensing;dataset;Gamma0 (Sentinel1);continental
+s2_l2a;Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface Reflectance) and converted to Cloud Optimized GeoTIFFs;Land;remote sensing;dataset;Surface Reflectance (Sentinel2a and 2b);continental
+wofs_ls;Historic Flood Mapping Water Observations from Space;Land;hydrology;dataset;Flood Mapping;continental
+wofs_ls_summary_alltime;Water Observations from Space Alltime Statistics;Crop;climatic data;dataset;water observations statistics;continental
+wofs_ls_summary_annual;Water Observations from Space Annual Statistics;Crop;climatic data;dataset;water observations annual statistics;continental
