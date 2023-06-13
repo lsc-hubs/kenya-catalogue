@@ -3,7 +3,7 @@ mcf:
 
 metadata:
    identification: qed
-   hierarchylevel: portal
+   hierarchylevel: service
    language: en
 
 identification:
@@ -13,7 +13,7 @@ identification:
       keywords-2:
          type: place
          keywords:
-         - Africa   
+         - continental   
 
 contact:
    pointOfContact:
