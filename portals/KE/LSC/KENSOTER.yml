@@ -1,0 +1,70 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: KENSOTER
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: 1:1,000,000
+  datatype: Vector - Polygon
+identification:
+  language: english
+  charset: utf8
+  title: KENSOTER
+  abstract: 'soil and terrain database
+
+    '
+  dates:
+    creation: '2007-01-01'
+  keywords:
+    default:
+      keywords:
+      - soils; soil types; soil class; soil profiles
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil types
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2007'
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Rwanda
+    email: Soils.Survey@kalro.org
+distribution:
+  citation:
+    name: Citation
+    description: Green Water Credit (GWC) programme in the Upper Tana River Valley
+    url: Exploratory Soil Survey Report. No. E1
+  shapefile:
+    url: KENSOTER
+    type: application/shapefile
+    name: shapefile
+    description: KENSOTER

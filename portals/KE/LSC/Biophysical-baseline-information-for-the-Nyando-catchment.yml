@@ -1,0 +1,71 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Biophysical baseline information for the Nyando catchment
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: 1:100,000
+  datatype: Vector - Polygon
+identification:
+  language: english
+  charset: utf8
+  title: Biophysical baseline information for the Nyando catchment
+  abstract: 'Major soil types, their extent and distribution, the distribution of
+    organic carbon on topsoil and the current erosion status and erosion hazard with
+    Nyando catchment
+
+    '
+  dates:
+    creation: '2003-01-01'
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - catchment
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil types
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2003'
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Rwanda
+    email: Soils.Survey@kalro.org
+distribution:
+  citation:
+    name: Citation
+    description: ''
+    url: Reconnaissance Soil Survey Report No. R21
+  shapefile:
+    url: Biophysical baseline information for the Nyando catchment
+    type: application/shapefile
+    name: shapefile
+    description: Biophysical baseline information for the Nyando catchment

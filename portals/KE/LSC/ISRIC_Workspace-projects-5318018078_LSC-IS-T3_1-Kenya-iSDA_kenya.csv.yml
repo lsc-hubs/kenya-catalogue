@@ -1,0 +1,79 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/iSDA_kenya.csv
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: point data
+  datatype: Vector - Point
+identification:
+  language: english
+  charset: utf8
+  title: iSDA soil samples chemical properties
+  abstract: 'iSDA''s open access soil data for Africa. profiles with 1 or 2 layers
+    (0-20cm, 20-50cm). chemical properties
+
+    '
+  dates:
+    creation: '2023-01-01'
+  keywords:
+    default:
+      keywords:
+      - aluminium extractable; calcium extractacble; carbon organic; carbon total;
+        copper extractable; iron extractable
+      - magnesium extractable
+      - manganese extractable; pH; potassium extractable;
+    spatialscope:
+      keywords: []
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2023'
+  status: Completed
+  source: https://doi.org/10.17605/OSF.IO/A69R5.
+contact:
+  pointOfContact:
+    organization: iSDA
+    individualname: ''
+    country: Rwanda
+    email: info@isda-africa.com.
+distribution:
+  citation:
+    name: Citation
+    description: '@article{Miller_2021, doi = {10.1371/journal.pbio.3001441}, url
+      = {https://doi.org/10.1371%2Fjournal.pbio.3001441}, year = 2021, month = {nov},
+      publisher = {Public Library of Science ({PLoS})}, volume = {19}, number = {11},
+      pages = {e3001441}, author = {Matthew A. E. Miller and Keith D. Shepherd and
+      Bruce Kisitu and Jamie Collinson}, title = {{iSDAsoil}: The first continent-scale
+      soil property map at 30 m resolution provides a soil information revolution
+      for Africa}, journal = {{PLOS} Biology} }'
+    url: https://doi.org/10.17605/OSF.IO/A69R5
+  csv:
+    url: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/iSDA_kenya.csv
+    type: application/csv
+    name: csv
+    description: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/iSDA_kenya.csv

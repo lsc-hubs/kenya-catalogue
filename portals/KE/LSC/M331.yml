@@ -1,0 +1,66 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: M331
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: null
+  datatype: null
+identification:
+  language: english
+  charset: utf8
+  title: Soil Sampling, Analysis and Interpretation services for Maize Production
+    in 141 Districts
+  abstract: 'This report describes the Soil Sampling, Analysis and Interpretation
+    services for Maize Production in 141 Districts
+
+    '
+  dates:
+    creation: '2013-01-01'
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2013'
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Rwanda
+    email: Soils.Survey@kalro.org
+distribution:
+  citation:
+    name: Citation
+    description: ''
+    url: Report

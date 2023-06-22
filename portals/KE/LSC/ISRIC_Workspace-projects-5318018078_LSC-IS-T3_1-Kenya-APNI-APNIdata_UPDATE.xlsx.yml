@@ -1,0 +1,79 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/APNI/APNIdata_UPDATE.xlsx
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: point data
+  datatype: Vector - Point
+identification:
+  language: english
+  charset: utf8
+  title: Feed the crop, not the soil! Explaining variability in maize yield responses
+    to nutrient applications in smallholder farms of western Kenya
+  abstract: 'This file contains soil data from the African Plant Nutrition Institute
+    (APNI), collected by Samuel Njoroge and provided to ISRIC (see data sharing agreement).
+    Sampling locations are in Western Kenya (Siaya country), sampling depth was 0-20
+    cm. Data are described in:  S Njoroge Kinyanjui (2019) Feed the crop, not the
+    soil! Explaining variability in maize yield responses to nutrient applications
+    in smallholder farms of western Kenya. PhD thesis, Wageningen University. Day
+    0: Data collected before field trials were implemented, Day 7: Soil data belong
+    to control treatments (no application of nutrients)
+
+    '
+  dates:
+    creation: 2013;2016-01-01
+  keywords:
+    default:
+      keywords:
+      - pH water; Organic matter; Texture; Nutrients in Mehlich 3; Cation Exchange
+        Capacity; Organic carbon; P-Olsen; Exchangeable bases; Total N
+    spatialscope:
+      keywords:
+      - catchment
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: 2013;2016
+  status: Completed
+  source: null
+contact:
+  Researcher:
+    organization: APNI
+    individualname: Samuel Njoroge
+    country: Rwanda
+    email: s.njoroge@apni.net
+distribution:
+  citation:
+    name: Citation
+    description: ''
+    url: https://doi.org/10.18174/503185
+  xlsx:
+    url: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/APNI/APNIdata_UPDATE.xlsx
+    type: application/xlsx
+    name: xlsx
+    description: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/APNI/APNIdata_UPDATE.xlsx

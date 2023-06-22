@@ -1,0 +1,66 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: http://data.europa.eu/89h/5b6245d3-e561-4f6c-8c09-627888063d11
+  dataseturi: http://data.europa.eu/89h/5b6245d3-e561-4f6c-8c09-627888063d11
+  language: null
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: null
+  datatype: null
+identification:
+  language: null
+  charset: utf8
+  title: Kenya AOI
+  abstract: '
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - crops
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: ''
+  status: Completed
+  source: null
+contact:
+  pointOfContact:
+    organization: ''
+    individualname: ''
+    country: Rwanda
+    email: null
+distribution:
+  geotiff:
+    url: http://data.europa.eu/89h/5b6245d3-e561-4f6c-8c09-627888063d11
+    type: application/geotiff
+    name: GeoTiff
+    description: http://data.europa.eu/89h/5b6245d3-e561-4f6c-8c09-627888063d11

@@ -1,0 +1,66 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: M370
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: null
+  datatype: null
+identification:
+  language: english
+  charset: utf8
+  title: Characteristics and fertility status of the soils of Trans Nzoia East & Kwanza
+    Sub-counties, Trans Nzoia County
+  abstract: 'This report describes the characteristics and fertility status of the
+    soils of Trans Nzoia East & Kwanza Sub-counties, Trans Nzoia County
+
+    '
+  dates:
+    creation: '2016-01-01'
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - county
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil fertility
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2016'
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Rwanda
+    email: Soils.Survey@kalro.org
+distribution:
+  citation:
+    name: Citation
+    description: ''
+    url: Report

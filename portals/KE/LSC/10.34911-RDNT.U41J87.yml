@@ -1,0 +1,84 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: doi.org-10.34911-RDNT.U41J87
+  dataseturi: https://doi.org/10.34911/RDNT.U41J87
+  language: null
+  charset: utf8
+  hierarchylevel: Dataset
+spatial:
+  resolution: null
+  datatype: null
+  type: ''
+identification:
+  language: null
+  charset: utf8
+  title: PlantVillage Kenya Ground Reference Crop Type Dataset
+  abstract: '
+
+    '
+  dates:
+    creation: -01-01
+    collected: 2019
+    publication: '2019'
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - catchment
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - crops
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: ''
+  status: Completed
+  source: null
+  rights: ''
+contact:
+  pointOfContact:
+    organization: ''
+    individualname: ''
+    country: Rwanda
+    email: null
+  PlantVillage:
+    individualname: PlantVillage
+    role: ''
+    organization: ''
+    url: ''
+  Radiant-Earth-Foundation:
+    individualname: Radiant Earth Foundation
+    role: DataCurator
+    organization: ''
+    url: ''
+distribution:
+  geotiff:
+    url: https://doi.org/10.34911/RDNT.U41J87
+    type: application/geotiff
+    name: GeoTiff
+    description: https://doi.org/10.34911/RDNT.U41J87
+  contentUrl:
+    url: https://doi.org/10.34911/RDNT.U41J87
+    type: WWW:LINK
+    title: Link

@@ -1,0 +1,72 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/Bruere_MicronutrientProject/kenya.csv
+    (Dataset='WUR-SBL')
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: null
+  datatype: Vector - Point
+identification:
+  language: english
+  charset: utf8
+  title: 'Soil data collected  by Mirjam Breure (Micronutrient omission trials) for
+    the NWO project ''Micronutrients for better yields'',. various chemical and physical
+    soil properties recorded with various extraction methods. '
+  abstract: 'Soil samples collected by WUR-SBL (Mirjam Breure) for the NWO project
+    ''Micronutrients for better yields''
+
+    '
+  dates:
+    creation: '2018-01-01'
+  keywords:
+    default:
+      keywords:
+      - Extraction methods; texture; pH; Magnesium; Iron; Organic Carbon
+    spatialscope:
+      keywords:
+      - plot
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2018'
+  status: Completed
+  source: null
+contact:
+  pointOfContact:
+    organization: 'WUR-SBL '
+    individualname: Mirjam Bruere
+    country: Rwanda
+    email: mirjam.breure@wur.nl
+distribution:
+  csv:
+    url: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/Bruere_MicronutrientProject/kenya.csv
+      (Dataset='WUR-SBL')
+    type: application/csv
+    name: csv
+    description: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/Bruere_MicronutrientProject/kenya.csv
+      (Dataset='WUR-SBL')

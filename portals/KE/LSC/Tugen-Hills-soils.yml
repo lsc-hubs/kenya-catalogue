@@ -1,0 +1,64 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Tugen Hills soils
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: null
+  datatype: Vector - Polygon
+identification:
+  language: english
+  charset: utf8
+  title: Tugen Hills soils
+  abstract: 'soil mapping units
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords: []
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil types
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: ''
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Rwanda
+    email: Soils.Survey@kalro.org
+distribution:
+  shapefile:
+    url: Tugen Hills soils
+    type: application/shapefile
+    name: shapefile
+    description: Tugen Hills soils

@@ -1,0 +1,74 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/wosis_latest.csv
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: null
+  datatype: Vector - Point
+identification:
+  language: english
+  charset: utf8
+  title: wosis soil samples chemical and physical properties
+  abstract: 'Wosis''s standardised soil profile data
+
+    '
+  dates:
+    creation: '2019-01-01'
+  keywords:
+    default:
+      keywords:
+      - Texture; pH h2o
+      - bulk density
+      - total nitrogen
+      - organic carbon
+    spatialscope:
+      keywords: []
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 33.046875
+      - 3.513421
+      - 48.515625
+      - 14.774883
+      crs: 4326
+    temporal:
+    - begin: '2019'
+  status: Completed
+  source: null
+contact:
+  Senior soil science expert and coordinator WDC-Soils:
+    organization: ISRIC
+    individualname: Niels Batjes
+    country: Rwanda
+    email: niels.batjes@wur.nl
+distribution:
+  citation:
+    name: Citation
+    description: 'Batjes NH, Ribeiro E, and van Oostrum Ad (2020). Standardised soil
+      profile data to support global mapping and modelling (WoSIS snapshot 2019).
+      Earth System Science Data doi: 10.5194/essd-12-299-2020'
+    url: https://doi.org/10.5194/essd-12-299-2020
+  csv, shp, gpkg, geojson,xml:
+    url: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/wosis_latest.csv
+    type: application/csv, shp, gpkg, geojson,xml
+    name: csv, shp, gpkg, geojson,xml
+    description: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/wosis_latest.csv
