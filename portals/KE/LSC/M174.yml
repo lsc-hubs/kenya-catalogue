@@ -52,12 +52,12 @@ identification:
     temporal:
     - begin: '2012'
   status: Completed
-  source: null
+  source: KALRO
 contact:
   Head, Kenya Soil Survey:
     organization: KALRO
     individualname: Dr. Kennedy Were
-    country: Rwanda
+    country: Kenya
     email: Soils.Survey@kalro.org
 distribution:
   citation:
