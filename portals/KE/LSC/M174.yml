@@ -42,17 +42,10 @@ identification:
   topiccategory:
   - geoscientificInformation
   extents:
-    spatial:
-    - bbox:
-      - 33.046875
-      - 3.513421
-      - 48.515625
-      - 14.774883
-      crs: 4326
     temporal:
     - begin: '2012'
   status: Completed
-  source: KALRO
+  source: null
 contact:
   Head, Kenya Soil Survey:
     organization: KALRO

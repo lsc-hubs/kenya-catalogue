@@ -43,13 +43,6 @@ identification:
   topiccategory:
   - geoscientificInformation
   extents:
-    spatial:
-    - bbox:
-      - 33.046875
-      - 3.513421
-      - 48.515625
-      - 14.774883
-      crs: 4326
     temporal:
     - begin: '2018'
   status: Completed
@@ -58,7 +51,7 @@ contact:
   Head, Kenya Soil Survey:
     organization: KALRO
     individualname: Dr. Kennedy Were
-    country: Rwanda
+    country: Kenya
     email: Soils.Survey@kalro.org
 distribution:
   citation:

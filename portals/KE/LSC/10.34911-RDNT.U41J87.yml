@@ -44,13 +44,6 @@ identification:
   topiccategory:
   - geoscientificInformation
   extents:
-    spatial:
-    - bbox:
-      - 33.046875
-      - 3.513421
-      - 48.515625
-      - 14.774883
-      crs: 4326
     temporal:
     - begin: ''
   status: Completed
@@ -60,7 +53,7 @@ contact:
   pointOfContact:
     organization: ''
     individualname: ''
-    country: Rwanda
+    country: Kenya
     email: null
   PlantVillage:
     individualname: PlantVillage

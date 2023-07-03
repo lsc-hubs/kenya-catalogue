@@ -50,13 +50,6 @@ identification:
   topiccategory:
   - geoscientificInformation
   extents:
-    spatial:
-    - bbox:
-      - 33.046875
-      - 3.513421
-      - 48.515625
-      - 14.774883
-      crs: 4326
     temporal:
     - begin: 2013;2016
   status: Completed
@@ -65,7 +58,7 @@ contact:
   Researcher:
     organization: APNI
     individualname: Samuel Njoroge
-    country: Rwanda
+    country: Kenya
     email: s.njoroge@apni.net
 distribution:
   citation:
