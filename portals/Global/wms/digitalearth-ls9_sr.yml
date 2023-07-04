@@ -1,28 +1,6 @@
-mcf:
-  version: 1.0
 metadata:
   identifier: digitalearth-ls9_sr
 identification:
-  keywords:
-    lsc:
-      keywords:
-      - land
-      vocabulary:
-        name: LSC categories
-        url: https://lsc-hubs.org/categories/
-    tags:
-      keywords:
-      - remote sensing
-      vocabulary:
-        name: LSC tags
-        url: https://lsc-hubs.org/tags/
-    default:
-      keywords:
-      - time-series
-      - africa
-      - landsat
-      - fractional-cover
-      - WOfS
   title: ls9_sr
   abstract: "Surface reflectance is the fraction of incoming solar radiation that\
     \ is reflected from Earth's surface. Variations in satellite measured radiance\
@@ -42,6 +20,26 @@ identification:
     \nThis product is accessible through OGC Web Service (https://ows.digitalearth.africa/),\
     \ for analysis in DE Africa Sandbox JupyterLab (https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/wiki)\
     \ and for direct download from AWS S3 (https://data.digitalearth.africa/)."
+  keywords:
+    default:
+      keywords:
+      - time-series
+      - africa
+      - landsat
+      - fractional-cover
+      - WOfS
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   extents:
     spatial:
     - bbox:
@@ -52,10 +50,20 @@ identification:
       crs: '4326'
   rights: ''
   fees: ''
+contact:
+  distributor:
+    organization: Digital Earth Africa
+    url: digitalearthafrica.org//
+    individualname: Digital Earth Africa
+    email: null
+    address: GPO Box 378
+    city: Canberra
+    administrativearea: ACT
+    postalcode: '2609'
+    country: Australia
+    positionname: null
 distribution:
   wms:
-    url: https://ows.digitalearth.africa/
-    type: OGC:WMS
     name: ls9_sr
     description: "Surface reflectance is the fraction of incoming solar radiation\
       \ that is reflected from Earth's surface. Variations in satellite measured radiance\
@@ -76,3 +84,7 @@ distribution:
       \nThis product is accessible through OGC Web Service (https://ows.digitalearth.africa/),\
       \ for analysis in DE Africa Sandbox JupyterLab (https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/wiki)\
       \ and for direct download from AWS S3 (https://data.digitalearth.africa/)."
+    url: https://ows.digitalearth.africa/
+    type: OGC:WMS
+mcf:
+  version: 1.0
