@@ -1,0 +1,217 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-MFHA9C
+  dataseturi: https://doi.org/10.34725/DVN/MFHA9C
+  hierarchylevel: Dataset
+identification:
+  keywords:
+    spatialscope:
+      keywords: global
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Soil
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords:
+      - chemicophysical properties
+      - remote sensing
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  title: ICRAF-ISRIC Soil VNIR Spectral Library
+  abstract: The ICRAF-ISRIC Soil VNIR Spectral Library contains visible near infrared
+    spectra of 785 soil profiles (4,438 samples) soils selected from the Soil Information
+    System of the International Soil Reference and Information Centre (ISRIC). The
+    samples consist of all physically archived samples at ISRIC in 2004 for which
+    soil attribute data was available. The spectra were measured at the World Agroforestry
+    Center (ICRAF) Soil and Plant Spectral Diagnostic Laboratory. The samples are
+    from 58 countries spanning Africa, Asia, Europe, North America, and South America.
+    Associated attribute data, such as geographical coordinates, horizon (depth),
+    and physical and chemical properties, are provided as separate tables. Using different
+    methods for linking related files as explained in the pdf document accompanying
+    this dataset (0ICRAF-ISRICSoilVNIRSpectralLibrary.pdf), the visNIR spectra can
+    be linked with all tables holding both physical and chemical properties.
+  dates:
+    issued: '2021'
+    publication: '2021'
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/MFHA9C
+    type: WWW:LINK
+    title: Link
+  r0:
+    url: https://doi.org/10.34725/dvn/mfha9c/18mt43
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/mfha9c/ywhdgz
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/mfha9c/wsmwog
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.34725/dvn/mfha9c/3sgqdk
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.34725/dvn/mfha9c/shrpte
+    type: WWW:LINK
+    title: HasPart
+  r5:
+    url: https://doi.org/10.34725/dvn/mfha9c/qrhmgb
+    type: WWW:LINK
+    title: HasPart
+  r6:
+    url: https://doi.org/10.34725/dvn/mfha9c/4eeqsy
+    type: WWW:LINK
+    title: HasPart
+  r7:
+    url: https://doi.org/10.34725/dvn/mfha9c/uilmlv
+    type: WWW:LINK
+    title: HasPart
+  r8:
+    url: https://doi.org/10.34725/dvn/mfha9c/vzgel6
+    type: WWW:LINK
+    title: HasPart
+  r9:
+    url: https://doi.org/10.34725/dvn/mfha9c/c5ofhk
+    type: WWW:LINK
+    title: HasPart
+  r10:
+    url: https://doi.org/10.34725/dvn/mfha9c/z0o3yn
+    type: WWW:LINK
+    title: HasPart
+  r11:
+    url: https://doi.org/10.34725/dvn/mfha9c/jahmat
+    type: WWW:LINK
+    title: HasPart
+  r12:
+    url: https://doi.org/10.34725/dvn/mfha9c/zemrpd
+    type: WWW:LINK
+    title: HasPart
+  r13:
+    url: https://doi.org/10.34725/dvn/mfha9c/hz0hfa
+    type: WWW:LINK
+    title: HasPart
+  r14:
+    url: https://doi.org/10.34725/dvn/mfha9c/1zhmek
+    type: WWW:LINK
+    title: HasPart
+  r15:
+    url: https://doi.org/10.34725/dvn/mfha9c/rhn4tq
+    type: WWW:LINK
+    title: HasPart
+  r16:
+    url: https://doi.org/10.34725/dvn/mfha9c/42qlvd
+    type: WWW:LINK
+    title: HasPart
+  r17:
+    url: https://doi.org/10.34725/dvn/mfha9c/tfsm04
+    type: WWW:LINK
+    title: HasPart
+  r18:
+    url: https://doi.org/10.34725/dvn/mfha9c/t7swmf
+    type: WWW:LINK
+    title: HasPart
+  r19:
+    url: https://doi.org/10.34725/dvn/mfha9c/z87fs6
+    type: WWW:LINK
+    title: HasPart
+  r20:
+    url: https://doi.org/10.34725/dvn/mfha9c/4bvrri
+    type: WWW:LINK
+    title: HasPart
+  r21:
+    url: https://doi.org/10.34725/dvn/mfha9c/sywylb
+    type: WWW:LINK
+    title: HasPart
+  r22:
+    url: https://doi.org/10.34725/dvn/mfha9c/x9efwg
+    type: WWW:LINK
+    title: HasPart
+  r23:
+    url: https://doi.org/10.34725/dvn/mfha9c/djxebz
+    type: WWW:LINK
+    title: HasPart
+  r24:
+    url: https://doi.org/10.34725/dvn/mfha9c/ab2slb
+    type: WWW:LINK
+    title: HasPart
+  r25:
+    url: https://doi.org/10.34725/dvn/mfha9c/0yjkvs
+    type: WWW:LINK
+    title: HasPart
+  r26:
+    url: https://doi.org/10.34725/dvn/mfha9c/buotnb
+    type: WWW:LINK
+    title: HasPart
+  r27:
+    url: https://doi.org/10.34725/dvn/mfha9c/f7sexw
+    type: WWW:LINK
+    title: HasPart
+  r28:
+    url: https://doi.org/10.34725/dvn/mfha9c/kmjli3
+    type: WWW:LINK
+    title: HasPart
+  r29:
+    url: https://doi.org/10.34725/dvn/mfha9c/krjt6b
+    type: WWW:LINK
+    title: HasPart
+  r30:
+    url: https://doi.org/10.34725/dvn/mfha9c/rsc1a4
+    type: WWW:LINK
+    title: HasPart
+  r31:
+    url: https://doi.org/10.34725/dvn/mfha9c/xtww33
+    type: WWW:LINK
+    title: HasPart
+  r32:
+    url: https://doi.org/10.34725/dvn/mfha9c/fpnbws
+    type: WWW:LINK
+    title: HasPart
+contact:
+  World-Agroforestry-ICRAF:
+    individualname: World Agroforestry (ICRAF)
+    role: ''
+    organization: ''
+    url: ''
+  International-Soil-Reference-And-Information-Centre-ISRIC:
+    individualname: International Soil Reference And Information Centre (ISRIC)
+    role: ''
+    organization: ''
+    url: ''
+  Shepherd-Keith:
+    individualname: Shepherd, Keith
+    role: ContactPerson
+    organization: (ICRAF)
+    url: ''
+  Leenaars-Johan:
+    individualname: Leenaars, Johan
+    role: ContactPerson
+    organization: (ISRIC)
+    url: ''
+  Sila-Andrew:
+    individualname: Sila, Andrew
+    role: ContactPerson
+    organization: (ICRAF)
+    url: ''
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+  International-Soil-Reference-And-Information-Centre:
+    individualname: International Soil Reference And Information Centre
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+spatial:
+  type: ''

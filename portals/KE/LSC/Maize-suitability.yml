@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Maize suitability
+  identifier: Maize-suitability
   language: english
   charset: utf8
   hierarchylevel: dataset

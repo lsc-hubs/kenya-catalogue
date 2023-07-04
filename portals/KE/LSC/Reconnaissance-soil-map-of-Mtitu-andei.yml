@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Reconnaissance soil map of Mtitu andei
+  identifier: Reconnaissance-soil-map-of-Mtitu-andei
   language: english
   charset: utf8
   hierarchylevel: dataset

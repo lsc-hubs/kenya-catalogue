@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Reconnaissance soil map of Lodwar
+  identifier: Reconnaissance-soil-map-of-Lodwar
   language: english
   charset: utf8
   hierarchylevel: dataset

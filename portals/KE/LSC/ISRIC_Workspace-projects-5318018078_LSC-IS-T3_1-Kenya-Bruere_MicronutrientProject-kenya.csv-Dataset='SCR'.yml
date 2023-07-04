@@ -1,8 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: ISRIC_Workspace/projects/5318018078_LSC-IS/T3_1/Kenya/Bruere_MicronutrientProject/kenya.csv
-    (Dataset='SCR')
+  identifier: ISRIC_Workspace-projects-5318018078_LSC-IS-T3_1-Kenya-Bruere_MicronutrientProject-kenya.csv-Dataset='SCR'
   language: english
   charset: utf8
   hierarchylevel: dataset

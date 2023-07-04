@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Soil fertility maps of TransNzoia
+  identifier: Soil-fertility-maps-of-TransNzoia
   language: english
   charset: utf8
   hierarchylevel: dataset

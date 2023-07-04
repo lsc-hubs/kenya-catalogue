@@ -1,0 +1,172 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-QXCWP1
+  dataseturi: https://doi.org/10.34725/DVN/QXCWP1
+  hierarchylevel: Dataset
+identification:
+  keywords:
+    spatialscope:
+      keywords: national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Soil
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords:
+      - spectroscopy
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  title: 'Mid-Infrared Spectra (MIRS) from ICRAF Soil and Plant Spectroscopy Laboratory:
+    Africa Soil Information Service (AfSIS) Phase I 2009-2013'
+  abstract: "AfSIS Phase I was a collaborative projective funded by the Bill and Melinda\
+    \ Gates Foundation (BMGF), which aimed to provide a consistent baseline of soil\
+    \ information for monitoring soil ecosystem services in sub-Saharan Africa (SSA).\
+    \ Partners included, CIAT-TSBF, ISRIC, CIESIN, The Earth Institute at Columbia\
+    \ University and World Agroforestry (ICRAF). The Land Degradation Surveillance\
+    \ Framework (LDSF), developed at ICRAF, was employed to systematically sample\
+    \ key biopshyical indicators of land and soil health, across landscapes. LDSF\
+    \ sites were randomized using spatial stratification based on Koeppen-Geiger Climate\
+    \ zones across 19 countries in SSA. Soil samples were collected using the LDSF\
+    \ at two depths, 0-20 cm and 20-50 cm. Mid-infrared diffuse refectance spectroscopy\
+    \ (MIR) was a key soil characterization and screening tool in AfSIS. MIR measurements\
+    \ of the ~18,500 samples were centralized at ICRAF\u2019s Soil-Plant Spectral\
+    \ Diagnostics Laboratory based in Nairobi Kenya using the Bruker Tensor 27/HTs\
+    \ -XT_FT-IR. The MIR dataset is provided here, organized by country."
+  dates:
+    issued: '2020'
+    publication: '2020'
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/QXCWP1
+    type: WWW:LINK
+    title: Link
+  r0:
+    url: https://doi.org/10.34725/dvn/qxcwp1/yaqhp1
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/qxcwp1/745zrt
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/qxcwp1/pqzgzh
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.34725/dvn/qxcwp1/jywuck
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.34725/dvn/qxcwp1/g2dzyb
+    type: WWW:LINK
+    title: HasPart
+  r5:
+    url: https://doi.org/10.34725/dvn/qxcwp1/ltbn1a
+    type: WWW:LINK
+    title: HasPart
+  r6:
+    url: https://doi.org/10.34725/dvn/qxcwp1/eauotq
+    type: WWW:LINK
+    title: HasPart
+  r7:
+    url: https://doi.org/10.34725/dvn/qxcwp1/qbrrdj
+    type: WWW:LINK
+    title: HasPart
+  r8:
+    url: https://doi.org/10.34725/dvn/qxcwp1/h9fhwm
+    type: WWW:LINK
+    title: HasPart
+  r9:
+    url: https://doi.org/10.34725/dvn/qxcwp1/yni03l
+    type: WWW:LINK
+    title: HasPart
+  r10:
+    url: https://doi.org/10.34725/dvn/qxcwp1/p2nh15
+    type: WWW:LINK
+    title: HasPart
+  r11:
+    url: https://doi.org/10.34725/dvn/qxcwp1/vkmoq4
+    type: WWW:LINK
+    title: HasPart
+  r12:
+    url: https://doi.org/10.34725/dvn/qxcwp1/ar2ozs
+    type: WWW:LINK
+    title: HasPart
+  r13:
+    url: https://doi.org/10.34725/dvn/qxcwp1/q2jbia
+    type: WWW:LINK
+    title: HasPart
+  r14:
+    url: https://doi.org/10.34725/dvn/qxcwp1/0irtgv
+    type: WWW:LINK
+    title: HasPart
+  r15:
+    url: https://doi.org/10.34725/dvn/qxcwp1/nmnwmo
+    type: WWW:LINK
+    title: HasPart
+  r16:
+    url: https://doi.org/10.34725/dvn/qxcwp1/ywjxho
+    type: WWW:LINK
+    title: HasPart
+  r17:
+    url: https://doi.org/10.34725/dvn/qxcwp1/h4egvr
+    type: WWW:LINK
+    title: HasPart
+  r18:
+    url: https://doi.org/10.34725/dvn/qxcwp1/gp5gjg
+    type: WWW:LINK
+    title: HasPart
+  r19:
+    url: https://doi.org/10.34725/dvn/qxcwp1/dxwycj
+    type: WWW:LINK
+    title: HasPart
+contact:
+  "V\xE5gen-Tor-Gunnar":
+    individualname: "V\xE5gen, Tor-Gunnar"
+    role: ''
+    organization: (World Agroforestry)
+    url: ''
+  Winowiecki-Leigh-Ann:
+    individualname: Winowiecki, Leigh Ann
+    role: ContactPerson
+    organization: (World Agroforestry)
+    url: ''
+  Desta-Luseged:
+    individualname: Desta, Luseged
+    role: ''
+    organization: ''
+    url: ''
+  "Tondoh-Ebagnerin-J\xE9r\xF4me":
+    individualname: "Tondoh, Ebagnerin J\xE9r\xF4me"
+    role: ''
+    organization: (Nangui Abrogoua University)
+    url: ''
+  Weullow-Elvis:
+    individualname: Weullow, Elvis
+    role: ''
+    organization: (World Agroforestry)
+    url: ''
+  Shepherd-Keith:
+    individualname: Shepherd, Keith
+    role: ''
+    organization: (World Agroforestry)
+    url: ''
+  Sila-Andrew:
+    individualname: Sila, Andrew
+    role: ContactPerson
+    organization: (World Agroforestry)
+    url: ''
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: (CGIAR)
+    url: ''
+spatial:
+  type: ''

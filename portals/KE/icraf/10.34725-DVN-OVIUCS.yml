@@ -1,0 +1,44 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-OVIUCS
+  dataseturi: https://doi.org/10.34725/DVN/OVIUCS
+  hierarchylevel: Dataset
+identification:
+  keywords:
+    spatialscope:
+      keywords: district
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords:
+      - crop yield
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  title: Improved Agricultural Measurement for Evidence-based Investments in Improved
+    Crop Production in Kenya, ICRAF-Technoserve project
+  abstract: soil, maize tissue, grain and yield data for a project site in Machakos
+    County.
+  dates:
+    publication: '2018'
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/OVIUCS
+    type: WWW:LINK
+    title: Link
+contact:
+  Aynekulu-Ermias:
+    individualname: Aynekulu, Ermias
+    role: ''
+    organization: ''
+    url: ''
+spatial:
+  type: ''

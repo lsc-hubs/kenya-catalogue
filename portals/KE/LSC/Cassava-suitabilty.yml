@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Cassava suitabilty
+  identifier: Cassava-suitabilty
   language: english
   charset: utf8
   hierarchylevel: dataset

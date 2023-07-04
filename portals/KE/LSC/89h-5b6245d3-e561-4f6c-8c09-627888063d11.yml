@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: http://data.europa.eu/89h/5b6245d3-e561-4f6c-8c09-627888063d11
+  identifier: 89h-5b6245d3-e561-4f6c-8c09-627888063d11
   dataseturi: http://data.europa.eu/89h/5b6245d3-e561-4f6c-8c09-627888063d11
   language: null
   charset: utf8

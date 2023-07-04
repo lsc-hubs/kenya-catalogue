@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Soil fertility maps of Taita Taveta
+  identifier: Soil-fertility-maps-of-Taita-Taveta
   language: english
   charset: utf8
   hierarchylevel: dataset

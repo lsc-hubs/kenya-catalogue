@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Soils of Nyandarua South
+  identifier: Soils-of-Nyandarua-South
   language: english
   charset: utf8
   hierarchylevel: dataset

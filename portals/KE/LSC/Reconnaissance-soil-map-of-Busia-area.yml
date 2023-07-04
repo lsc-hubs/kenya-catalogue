@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Reconnaissance soil map of Busia area
+  identifier: Reconnaissance-soil-map-of-Busia-area
   language: english
   charset: utf8
   hierarchylevel: dataset

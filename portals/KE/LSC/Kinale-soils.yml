@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Kinale soils
+  identifier: Kinale-soils
   language: english
   charset: utf8
   hierarchylevel: dataset

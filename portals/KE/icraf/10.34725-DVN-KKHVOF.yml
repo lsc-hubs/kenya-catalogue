@@ -1,0 +1,108 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: doi.org-10.34725-DVN-KKHVOF
+  dataseturi: https://doi.org/10.34725/DVN/KKHVOF
+  hierarchylevel: Dataset
+identification:
+  keywords:
+    spatialscope:
+      keywords: national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords:
+      - crop yield
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  title: Dataset for supporting the net agronomic assessment of yield limiting factors
+    in maize production in Machakos county, Kenya
+  abstract: This dataset is used for a holistic analysis of the costs, benefits, and
+    risks of on-farm soil and plant health management. The dataset was produced in
+    2017 by a combination of field measurements and farmer surveys. It was collected
+    for a research study aimed at identifying and testing accurate, consistent, and
+    cost-effective measurement tools and methodologies for evaluating the outcomes
+    of agricultural projects. Soils data was analysed by wet spectral methods to generate
+    estimates of the Nitrogen (N), Phosphorus (K), and Potassium (P) levels in the
+    soils which was then used as inputs for a stochastic crop production model. The
+    decision model consisted of two main sections targeting interactions between biotic
+    factors (rainfall variability, availability of soil nutrients, risk of drought
+    and temperature) and abiotic factors (farm management practices/intensity of farm
+    management). With the two datasets, we ran a risk-return model to project the
+    productivity of maize production and highlight yield-limiting factors. The project
+    was funded by Bill Melinda Gates Foundation and TechnoServe under the Innovation
+    in Outcome Measurement (IOM) program
+  dates:
+    issued: '2022'
+    publication: '2022'
+distribution:
+  contentUrl:
+    url: https://doi.org/10.34725/DVN/KKHVOF
+    type: WWW:LINK
+    title: Link
+  r0:
+    url: https://doi.org/10.34725/dvn/kkhvof/idz1gl
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.34725/dvn/kkhvof/qixwt5
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.34725/dvn/kkhvof/ak5hjb
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.34725/dvn/kkhvof/nfro2m
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.34725/dvn/kkhvof/tgnsci
+    type: WWW:LINK
+    title: HasPart
+contact:
+  Tamba-Yvonne:
+    individualname: Tamba, Yvonne
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: ''
+  Chacha-Robin:
+    individualname: Chacha, Robin
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: ''
+  Mboi-Damaris:
+    individualname: Mboi, Damaris
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: ''
+  Aynekulu-Ermias:
+    individualname: Aynekulu, Ermias
+    role: ContactPerson
+    organization: (World Agroforestry (ICRAF))
+    url: ''
+  Luedeling-Eike:
+    individualname: Luedeling, Eike
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: https://orcid.org/0000-0002-7316-3631
+  Shepherd-Keith:
+    individualname: Shepherd, Keith
+    role: ''
+    organization: (World Agroforestry (ICRAF))
+    url: https://orcid.org/0000-0001-7144-3915
+  World-Agroforestry:
+    individualname: World Agroforestry
+    role: Producer
+    organization: ''
+    url: ''
+spatial:
+  type: ''

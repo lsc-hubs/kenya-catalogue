@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Wheat suitability
+  identifier: Wheat-suitability
   language: english
   charset: utf8
   hierarchylevel: dataset

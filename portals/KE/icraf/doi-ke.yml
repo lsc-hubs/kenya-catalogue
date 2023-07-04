@@ -2,11 +2,11 @@ mcf:
   version: 1.0
 metadata:
   language: eng
-  identifier: data
-  datestamp: 2023-07-03
+  identifier: doi-ke
+  datestamp: 2023-07-04
 identification:
   language: eng
-  title: data
+  title: doi-ke
   abstract: ''
   keywords:
     default:
@@ -18,7 +18,7 @@ identification:
   topiccategory:
   - geoscientificInformation
   dates:
-    creation: Mon Jul  3 09:40:14 2023
+    creation: Tue Jul  4 12:22:21 2023
   extents:
     spatial:
     - bbox: []
@@ -32,7 +32,7 @@ spatial:
   geomtype: ''
 distribution:
   local:
-    url: ../../lsc/dataset-inventarisation/portals/KE/LSC/data.csv
+    url: ../../lsc/dataset-inventarisation/portals/KE/icraf/doi-ke.csv
     type: WWW:LINK
-    name: data.csv
+    name: doi-ke.csv
 content_info: {}

@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: Lucern suitability
+  identifier: Lucern-suitability
   language: english
   charset: utf8
   hierarchylevel: dataset
