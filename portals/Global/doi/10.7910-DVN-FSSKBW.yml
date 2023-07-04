@@ -50,7 +50,14 @@ identification:
     allows policymakers and donors to better target agricultural and rural development
     policies and investments, increasing food security and growth with minimal environmental
     impacts.
-contact:
+  keywords:
+    keywords-1:
+      type: stratum
+      keywords:
+      - Earth and Environmental Sciences
+      - Computer and Information Science
+      - Agricutural Sciences
+  contact:
   International-Food-Policy-Research-Institute:
     individualname: International Food Policy Research Institute
     role: Producer

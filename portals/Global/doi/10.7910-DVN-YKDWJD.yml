@@ -9,7 +9,14 @@ metadata:
 distribution: {}
 identification:
   title: Travel Time to Markets in Africa South of the Sahara
-  abstract: ''
+  abstract: 'Reliable market accessibility data is critical to develop agricultural policies and investment plans for ensuring smallholder farmers’ market participation and their profitable farming, yet this data is less frequently updated. Most of publicly available data benchmarks around the year 2000, not reflecting rapid development of transportation infrastructure in Africa South of the Sahara (SSA) in last decade. For this, using a newly available accessibility model input datasets, such as new land cover data from satellites, crowdsourced road network data, and updated population of major human settlements across SSA, HarvestChoice Project updated the existing market accessibility data and provides new market accessibility data layers benchmarking around the year 2010. The dataset includes five data layers representing travel time to the nearest market of five sizes (population of 20K, 50K, 100K, 250K, and 500K), respectively, on 5 arc-minute grids across SSA. (2016-01-29)'
+  keywords:
+    lsc:
+      keywords:
+      - Market access
+    vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
 contact:
   HarvestChoice;-International-Food-Policy-Research-Institute-IFPRI:
     individualname: HarvestChoice; International Food Policy Research Institute (IFPRI)

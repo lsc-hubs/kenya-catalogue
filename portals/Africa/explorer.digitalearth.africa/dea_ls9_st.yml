@@ -4,7 +4,7 @@ metadata:
   identifier: dea_ls9_st
   dataseturi: https://explorer.digitalearth.africa/products/ls9_st
 identification:
-  title: ls9_st
+  title: Surface Temperature (ls9_st)
   abstract: USGS Landsat 9 Collection 2 Level-2 Surface Temperature
   keywords:
     lsc:
@@ -19,6 +19,11 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Africa
+      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ls9_st

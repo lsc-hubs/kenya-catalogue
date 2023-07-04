@@ -4,9 +4,19 @@ metadata:
   identifier: dea_gmw
   dataseturi: https://explorer.digitalearth.africa/products/gmw
 identification:
-  title: gmw
+  title: Global Mangrove Watch data(gmw)
   abstract: Global Mangrove Watch data sourced from the UN Environment Program at
     https://data.unep-wcmc.org/datasets/45
+    The GMW aims to provide geospatial information about mangrove extent
+    and changes to the Ramsar Convention, national wetland practitioners,
+    decision makers and NGOs. It is part of the Ramsar Science and
+    Technical Review Panel (STRP) work plan for 2016-2018 and a Pilot
+    Project to the Ramsar Global Wetlands Observation System (GWOS),
+    which is implemented under the GEO-Wetlands Initiative. The primary
+    objective of the GMW has been to provide countries lacking a national
+    mangrove monitoring system with first cut mangrove extent and change
+    maps, to help safeguard against further mangrove forest loss and
+    degradation.
   keywords:
     lsc:
       keywords:
@@ -17,9 +27,23 @@ identification:
     tags:
       keywords:
       - land use
+      - remote sensing
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      type: place
+      keywords:
+      - Global
+    default:
+      keywords:
+      - coastal
+      - blue carbon
+      - satellite
+      - mangrove
+      - forest
+      - habitat
+      - ecosystem
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gmw

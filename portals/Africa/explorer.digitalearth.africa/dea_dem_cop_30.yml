@@ -6,6 +6,13 @@ metadata:
 identification:
   title: Digital Elevation Model Copernicus at 30m
   abstract: Copernicus DEM 30 m
+  extents:
+    spatial:
+    - bbox:
+      - -26.000138888
+      - -47.00645814
+      - 64.999861111
+      - 39.00013888 
   keywords:
     lsc:
       keywords:
