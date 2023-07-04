@@ -1,43 +1,22 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.7910-DVN-FSSKBW
+  identifier: doi.org-10.7910-DVN-FSSKBW
   dataseturi: https://doi.org/10.7910/DVN/FSSKBW
-  dates:
-    creation: '2020-07-14T02:39:50.000Z'
-    publication: '2020'
-distribution:
-  10.7910/dvn/fsskbw/a0r4iw:
-    url: https://doi.org/10.7910/dvn/fsskbw/a0r4iw
-    type: HasPart
-  10.7910/dvn/fsskbw/uhkmbn:
-    url: https://doi.org/10.7910/dvn/fsskbw/uhkmbn
-    type: HasPart
-  10.7910/dvn/fsskbw/v4d3cp:
-    url: https://doi.org/10.7910/dvn/fsskbw/v4d3cp
-    type: HasPart
-  10.7910/dvn/fsskbw/99xufd:
-    url: https://doi.org/10.7910/dvn/fsskbw/99xufd
-    type: HasPart
-  10.7910/dvn/fsskbw/zbr8kv:
-    url: https://doi.org/10.7910/dvn/fsskbw/zbr8kv
-    type: HasPart
-  10.7910/dvn/fsskbw/5h0tvm:
-    url: https://doi.org/10.7910/dvn/fsskbw/5h0tvm
-    type: HasPart
-  10.7910/dvn/fsskbw/sx0zqc:
-    url: https://doi.org/10.7910/dvn/fsskbw/sx0zqc
-    type: HasPart
-  10.7910/dvn/fsskbw/ps1mri:
-    url: https://doi.org/10.7910/dvn/fsskbw/ps1mri
-    type: HasPart
-  10.7910/dvn/fsskbw/k6liai:
-    url: https://doi.org/10.7910/dvn/fsskbw/k6liai
-    type: HasPart
-  10.7910/dvn/fsskbw/xq2xz1:
-    url: https://doi.org/10.7910/dvn/fsskbw/xq2xz1
-    type: HasPart
+  hierarchylevel: Dataset
 identification:
+  keywords:
+    spatialscope:
+      keywords: null
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   title: Spatially-Disaggregated Crop Production Statistics Data in Africa South of
     the Sahara for 2017
   abstract: Using a variety of inputs, IFPRI's Spatial Production Allocation Model
@@ -50,14 +29,55 @@ identification:
     allows policymakers and donors to better target agricultural and rural development
     policies and investments, increasing food security and growth with minimal environmental
     impacts.
-  keywords:
-    keywords-1:
-      type: stratum
-      keywords:
-      - Earth and Environmental Sciences
-      - Computer and Information Science
-      - Agricutural Sciences
-  contact:
+  dates:
+    issued: '2020'
+    publication: '2020'
+distribution:
+  contentUrl:
+    url: https://doi.org/10.7910/DVN/FSSKBW
+    type: WWW:LINK
+    title: Link
+  r0:
+    url: https://doi.org/10.7910/dvn/fsskbw/a0r4iw
+    type: WWW:LINK
+    title: HasPart
+  r1:
+    url: https://doi.org/10.7910/dvn/fsskbw/uhkmbn
+    type: WWW:LINK
+    title: HasPart
+  r2:
+    url: https://doi.org/10.7910/dvn/fsskbw/v4d3cp
+    type: WWW:LINK
+    title: HasPart
+  r3:
+    url: https://doi.org/10.7910/dvn/fsskbw/99xufd
+    type: WWW:LINK
+    title: HasPart
+  r4:
+    url: https://doi.org/10.7910/dvn/fsskbw/zbr8kv
+    type: WWW:LINK
+    title: HasPart
+  r5:
+    url: https://doi.org/10.7910/dvn/fsskbw/5h0tvm
+    type: WWW:LINK
+    title: HasPart
+  r6:
+    url: https://doi.org/10.7910/dvn/fsskbw/sx0zqc
+    type: WWW:LINK
+    title: HasPart
+  r7:
+    url: https://doi.org/10.7910/dvn/fsskbw/ps1mri
+    type: WWW:LINK
+    title: HasPart
+  r8:
+    url: https://doi.org/10.7910/dvn/fsskbw/k6liai
+    type: WWW:LINK
+    title: HasPart
+  r9:
+    url: https://doi.org/10.7910/dvn/fsskbw/xq2xz1
+    type: WWW:LINK
+    title: HasPart
+contact:
   International-Food-Policy-Research-Institute:
     individualname: International Food Policy Research Institute
     role: Producer
@@ -78,3 +98,5 @@ identification:
     role: ContactPerson
     organization: (IFPRI)
     url: ''
+spatial:
+  type: ''

@@ -1,13 +1,22 @@
 mcf:
   version: 1.0
 metadata:
-  identifier: 10.7910-DVN-HJYYTI
+  identifier: doi.org-10.7910-DVN-HJYYTI
   dataseturi: https://doi.org/10.7910/DVN/HJYYTI
-  dates:
-    creation: '2019-02-13T04:13:42.000Z'
-    publication: '2013'
-distribution: {}
+  hierarchylevel: Dataset
 identification:
+  keywords:
+    spatialscope:
+      keywords: null
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Climate
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   title: Agro-ecological Zones of Africa
   abstract: 'Agroecological zones (AEZs) are geographical areas exhibiting similar
     climatic conditions that determine their ability to support rainfed agriculture.
@@ -16,12 +25,15 @@ identification:
     season. The resulting AEZ classifications for Africa have three dimensions: major
     climate zone (tropics or subtropics), moisture zones (water availability) and
     highland/lowland (warm or cool based on elevation).'
-  keywords:
-    keywords-2:
-      type: place
-      keywords:
-      - continental
-  contact:
+  dates:
+    issued: '2013'
+    publication: '2013'
+distribution:
+  contentUrl:
+    url: https://doi.org/10.7910/DVN/HJYYTI
+    type: WWW:LINK
+    title: Link
+contact:
   Sebastian-Kate:
     individualname: Sebastian, Kate
     role: ''
@@ -37,3 +49,5 @@ identification:
     role: Producer
     organization: (International Food Policy Research Institute)
     url: ''
+spatial:
+  type: ''

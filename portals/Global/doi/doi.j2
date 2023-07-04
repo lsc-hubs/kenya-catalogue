@@ -2,5 +2,19 @@ mcf:
     version: 1.0
 
 metadata:
-    identifier: {{ md['doi'].split('doi.org/') | last }} 
+    identifier: {{ md['doi'] }} 
     dataseturi: {{ md['doi'] }} 
+    hierarchylevel: {{ md['hierarchylevel'] }}
+
+identification:
+    keywords:
+        spatialscope:
+            keywords: {{ md['place'] }} 
+            vocabulary:
+                    name: Spatial scope
+                    url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+        theme:
+            keywords: [{{ md['LSC Category'] }}]
+            vocabulary:
+                name: LSC tags
+                url: https://lsc-hubs.org/tags/
