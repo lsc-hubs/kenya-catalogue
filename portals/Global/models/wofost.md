@@ -35,9 +35,17 @@ contact:
 
 distribution:
   d:
-    name: 
-    url: 
-    type: 
+    name: Sources
+    url: https://github.com/ajwdewit/WOFOST
+    type: Git repository
+  d: 
+    name: Python Crop Simulation Environment
+    url: https://pcse.readthedocs.io/en/stable/
+    type: Website
+  d3:
+    name: WOFOST Control Centre
+    url: https://www.wur.nl/nl/show/wofost-control-centre-2014.htm
+    type: Microsoft Windows installer
 
 
 

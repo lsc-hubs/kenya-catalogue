@@ -16,7 +16,7 @@ identification:
   keywords:
     default:
       keywords: 
-      - 
+      - model
     lsc:
       keywords:
       - Crop
@@ -34,9 +34,13 @@ contact:
 
 distribution:
   d:
-    name: 
-    url: 
-    type: 
+    name: CRAN R package
+    url: https://CRAN.R-project.org/package=Rquefts
+    type: R package
+  d2:
+    name: Sources
+    url: https://github.com/cropmodels/Rquefts
+    type: Git Repository
 
 
 
