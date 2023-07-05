@@ -34,10 +34,14 @@ contact:
     url: 
 
 distribution:
-  d:
-    name: 
-    url: 
-    type: 
+  d1: 
+    name: Releases
+    url: https://www.fao.org/aquacrop/software
+    type: Website
+  d2:
+    name: Sources
+    url: https://github.com/KUL-RSDA/AquaCrop
+    type: Git repository
 
 
 

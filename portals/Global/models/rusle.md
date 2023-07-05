@@ -34,9 +34,9 @@ contact:
 
 distribution:
   d:
-    name: 
-    url: 
-    type: 
+    name: R package
+    url: https://CRAN.R-project.org/package=RainfallErosivityFactor 
+    type: R package
 
 
 

@@ -33,9 +33,9 @@ contact:
 
 distribution:
   d:
-    name: 
-    url: 
-    type: 
+    name: Releases
+    url: https://www.ars.usda.gov/midwest-area/west-lafayette-in/national-soil-erosion-research/docs/wepp/wepp-downloads/
+    type: Website
 
 
 

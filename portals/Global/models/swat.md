@@ -35,9 +35,12 @@ contact:
 
 distribution:
   d:
-    name: 
-    url: 
-    type: 
-
+    name: Releases
+    url: https://swat.tamu.edu/software/swat-executables/
+    type: Website
+  d2:
+    name: Sources
+    url: https://bitbucket.org/blacklandgrasslandmodels/swat_development
+    type: Git repository
 
 

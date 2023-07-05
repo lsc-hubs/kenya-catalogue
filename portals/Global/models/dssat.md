@@ -49,10 +49,13 @@ contact:
     url: 
 
 distribution:
-  d:
-    name: 
-    url: 
-    type: 
-
+  d1:
+    name: Releases
+    url: https://dssat.net/main-download/
+    type: Website
+  d2:
+    name: Sources
+    url: https://github.com/DSSAT/dssat-csm-os
+    type: Git repository
 
 

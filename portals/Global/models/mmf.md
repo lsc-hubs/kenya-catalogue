@@ -35,9 +35,9 @@ contact:
 
 distribution:
   d:
-    name: 
-    url: 
-    type: 
+    name: CRAN R Package
+    url: https://CRAN.R-project.org/package=DMMF 
+    type: R package
 
 
 
