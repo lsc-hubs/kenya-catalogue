@@ -31,6 +31,18 @@ identification:
       crs: '4326'
   rights: ''
   fees: ''
+contact:
+  distributor:
+    organization: null
+    url: http://geoserver.org
+    individualname: null
+    email: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    positionname: null
 distribution:
   wms:
     name: AQUAMAPS:gmia_v5

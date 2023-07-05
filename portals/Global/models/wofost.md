@@ -1,0 +1,43 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: 10.1111-j.1475-2743.1989.tb00755.x
+  dataseturi: https://doi.org/10.1111/j.1475-2743.1989.tb00755.x
+  language: english
+  charset: utf8
+  hierarchylevel: application
+  datestamp: 1989-03-01
+
+identification:
+
+  title: WOFOST: a simulation model of crop production
+  abstract:|
+   The WOFOST simulation model is a tool for analysing the growth and production of field crops under a wide range of weather and soil conditions. Such an analysis is important first to assess to what extent crop production is limited by the factors of light, moisture and macro-nutrients, and second to estimate what improvements are possible. The theoretical concept of a production situation, as modelled by WOFOST, is explained, as is the hierarchy of potential production and water-limited and nutrient-limited production situations in the analysis. The organization of the computer files in the model, the structure of the FORTRAN source program and the available standard sets of data are described briefly.
+  keywords:
+    default:
+      keywords: 
+      - 
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:  
+    - geoscientificInformation
+contact:
+  author: 
+    name: C.A. van Diepen, J. Wolf, H. van Keulen, C. Rappoldt
+    organization: Wageningen Environmental Research
+    email:
+    url: 
+
+distribution:
+  d:
+    name: 
+    url: 
+    type: 
+
+
+

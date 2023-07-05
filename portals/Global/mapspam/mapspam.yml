@@ -3,7 +3,7 @@ mcf:
 
 metadata:
   identifier: 10.7910/DVN/FSSKBW
-  datasetuuid: https://doi.org/10.7910/DVN/FSSKBW
+  dataseturi: https://doi.org/10.7910/DVN/FSSKBW
   language: english
   charset: utf8
   hierarchylevel: dataset

@@ -1,28 +1,6 @@
-mcf:
-  version: 1.0
 metadata:
   identifier: digitalearth-gm_s2_annual
 identification:
-  keywords:
-    lsc:
-      keywords:
-      - land
-      vocabulary:
-        name: LSC categories
-        url: https://lsc-hubs.org/categories/
-    tags:
-      keywords:
-      - remote sensing
-      vocabulary:
-        name: LSC tags
-        url: https://lsc-hubs.org/tags/
-    default:
-      keywords:
-      - time-series
-      - africa
-      - landsat
-      - fractional-cover
-      - WOfS
   title: gm_s2_annual
   abstract: 'Individual remote sensing images can be affected by noisy data, such
     as clouds, cloud shadows, and haze. To produce cleaner images that can be compared
@@ -79,6 +57,26 @@ identification:
 
     For more information on the algorithm, see https://doi.org/10.1109/TGRS.2017.2723896
     and https://doi.org/10.1109/IGARSS.2018.8518312'
+  keywords:
+    default:
+      keywords:
+      - time-series
+      - africa
+      - landsat
+      - fractional-cover
+      - WOfS
+    lsc:
+      keywords:
+      - land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - remote sensing
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
   extents:
     spatial:
     - bbox:
@@ -89,10 +87,20 @@ identification:
       crs: '4326'
   rights: ''
   fees: ''
+contact:
+  distributor:
+    organization: Digital Earth Africa
+    url: digitalearthafrica.org//
+    individualname: Digital Earth Africa
+    email: null
+    address: GPO Box 378
+    city: Canberra
+    administrativearea: ACT
+    postalcode: '2609'
+    country: Australia
+    positionname: null
 distribution:
   wms:
-    url: https://ows.digitalearth.africa/
-    type: OGC:WMS
     name: gm_s2_annual
     description: 'Individual remote sensing images can be affected by noisy data,
       such as clouds, cloud shadows, and haze. To produce cleaner images that can
@@ -150,3 +158,7 @@ distribution:
 
       For more information on the algorithm, see https://doi.org/10.1109/TGRS.2017.2723896
       and https://doi.org/10.1109/IGARSS.2018.8518312'
+    url: https://ows.digitalearth.africa/
+    type: OGC:WMS
+mcf:
+  version: 1.0
