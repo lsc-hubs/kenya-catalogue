@@ -8,8 +8,14 @@ metadata:
   hierarchylevel: application
   datestamp: 2023-07-07
 identification:
-  title: null
-  abstract: null
+  title: A system for quantitative evaluation of the fertility of tropical soils (QUEFTS)
+  abstract: |
+    A system is described for a quantitative evaluation of the native fertility of tropical soils, 
+    using calculated yields of unfertilized maize as a yardstick. The system is applicable to well 
+    drained, deep soils, that have a pH(H20) in the range 4.5–7.0, and values for organic carbon, 
+    P-Olsen and exchangeable potassium below 70 g/kg, 30 mg/kg and 30 mmol/kg, respectively (0–20 cm). 
+    Soil fertility is interpreted as the capacity of a soil to provide plants with nitrogen, phosphorus 
+    and potassium, but the methodology allows for including other nutrients.
   keywords:
     default:
       keywords:
@@ -24,7 +30,7 @@ identification:
   - geoscientificInformation
 contact:
   pointOfContact:
-    name: Bert Janssen, Mink Zijlstra (R-version)
+    name: Bert Janssen, Mink Zijlstra
     organization: WUR
     email: mink.zijlstra@wur.nl
     url: null
@@ -37,3 +43,7 @@ distribution:
     name: Sources
     url: https://github.com/cropmodels/Rquefts
     type: Git Repository
+  d3: 
+    name: Releases
+    url: https://models.pps.wur.nl/index.php/original-version-3
+    type: Website
