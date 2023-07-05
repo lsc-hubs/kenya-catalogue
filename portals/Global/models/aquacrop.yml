@@ -10,14 +10,13 @@ metadata:
   datestamp: 2023-07-07
 
 identification:
-
-  title: AquaCrop—The FAO Crop Model to Simulate Yield Response to Water: I. Concepts and Underlying Principles
-  abstract:|
+  title: "AquaCrop—The FAO Crop Model to Simulate Yield Response to Water, I. Concepts and Underlying Principles"
+  abstract: |
     This article introduces the FAO crop model AquaCrop. It simulates attainable yields of major herbaceous crops as a function of water consumption under rainfed, supplemental, deficit, and full irrigation conditions. The growth engine of AquaCrop is water-driven, in that transpiration is calculated first and translated into biomass using a conservative, crop-specific parameter: the biomass water productivity, normalized for atmospheric evaporative demand and air CO2 concentration. The normalization is to make AquaCrop applicable to diverse locations and seasons. Simulations are performed on thermal time, but can be on calendar time, in daily time-steps. The model uses canopy ground cover instead of leaf area index (LAI) as the basis to calculate transpiration and to separate out soil evaporation from transpiration. Crop yield is calculated as the product of biomass and harvest index (HI). At the start of yield formation period, HI increases linearly with time after a lag phase, until near physiological maturity. Other than for the yield, there is no biomass partitioning into the various organs. Crop responses to water deficits are simulated with four modifiers that are functions of fractional available soil water modulated by evaporative demand, based on the differential sensitivity to water stress of four key plant processes: canopy expansion, stomatal control of transpiration, canopy senescence, and HI. The HI can be modified negatively or positively, depending on stress level, timing, and canopy duration. AquaCrop uses a relatively small number of parameters (explicit and mostly intuitive) and attempts to balance simplicity, accuracy, and robustness. The model is aimed mainly at practitioner-type end-users such as those working for extension services, consulting engineers, governmental agencies, nongovernmental organizations, and various kinds of farmers associations. It is also designed to fit the need of economists and policy specialists who use simple models for planning and scenario analysis.
   keywords:
     default:
       keywords: 
-      - 
+      - model
     lsc:
       keywords:
       - Crop
@@ -28,7 +27,7 @@ identification:
     - geoscientificInformation
 contact:
   author: 
-    name: Pasquale Steduto, Theodore C. Hsiao, Dirk Raes, Elias Fereres
+    individualname: Pasquale Steduto, Theodore C. Hsiao, Dirk Raes, Elias Fereres
     organization: FAO
     email:
     url: 

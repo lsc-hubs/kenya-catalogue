@@ -11,13 +11,13 @@ metadata:
 
 identification:
 
-  title: WOFOST: a simulation model of crop production
-  abstract:|
+  title: WOFOST, a simulation model of crop production
+  abstract: |
    The WOFOST simulation model is a tool for analysing the growth and production of field crops under a wide range of weather and soil conditions. Such an analysis is important first to assess to what extent crop production is limited by the factors of light, moisture and macro-nutrients, and second to estimate what improvements are possible. The theoretical concept of a production situation, as modelled by WOFOST, is explained, as is the hierarchy of potential production and water-limited and nutrient-limited production situations in the analysis. The organization of the computer files in the model, the structure of the FORTRAN source program and the available standard sets of data are described briefly.
   keywords:
     default:
       keywords: 
-      - 
+      - model
     lsc:
       keywords:
       - Crop
@@ -28,7 +28,7 @@ identification:
     - geoscientificInformation
 contact:
   author: 
-    name: C.A. van Diepen, J. Wolf, H. van Keulen, C. Rappoldt
+    individualname: C.A. van Diepen, J. Wolf, H. van Keulen, C. Rappoldt
     organization: Wageningen Environmental Research
     email:
     url: 
@@ -38,7 +38,7 @@ distribution:
     name: Sources
     url: https://github.com/ajwdewit/WOFOST
     type: Git repository
-  d: 
+  d2: 
     name: Python Crop Simulation Environment
     url: https://pcse.readthedocs.io/en/stable/
     type: Website

@@ -10,8 +10,8 @@ metadata:
   datestamp: 2023-07-07
 
 identification:
-  title: Decision support system for agrotechnology transfer: DSSAT v3
-  abstract:|
+  title: Decision support system for agrotechnology transfer (DSSAT v3)
+  abstract: |
    Agricultural decision makers at all levels need an increasing amount of information to better understand the possible outcomes of their decisions to help them develop plans and policies that meet their goals. An international team of scientists developed a decision support system for agrotechnology transfer (DSSAT) to estimate production, resource use, and risks associated with different crop production practices. The DSSAT is a microcomputer software package that contains crop-soil simulation models, data bases for weather, soil, and crops, and strategy evaluation programs integrated with a ‘shell’ program which is the main user interface. In this paper, an overview of the DSSAT is given along with rationale for its design and its main limitations. Concepts for using the DSSAT in spatial decision support systems (for site-specific farming, farm planning, and regional policy) are presented. DSSAT provides a framework for scientific cooperation through research to enhance its capabilities and apply it to research questions. It also has considerable potential to help decision makers by reducing the time and human resources required for analyzing complex alternative decisions.
   keywords:
     default:
@@ -43,7 +43,7 @@ identification:
       end: 2018-12-31
 contact:
   pointOfContact: 
-    name: 
+    individualname: 
     organization: 
     email:
     url: 
