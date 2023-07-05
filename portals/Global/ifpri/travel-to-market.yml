@@ -3,7 +3,7 @@ mcf:
 
 metadata:
   identifier: 10.7910/DVN/YKDWJD,
-  datasetuuid: https://doi.org/10.7910/DVN/YKDWJD,
+  dataseturi: https://doi.org/10.7910/DVN/YKDWJD,
   language: english
   charset: utf8
   hierarchylevel: dataset

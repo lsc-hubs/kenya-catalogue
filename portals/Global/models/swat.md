@@ -1,0 +1,43 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier:  10.1111-j.1752-1688.1998.tb05961.x
+  dataseturi:  https://doi.org/10.1111/j.1752-1688.1998.tb05961.x
+  language: english
+  charset: utf8
+  hierarchylevel: application
+  datestamp: 2023-07-07
+
+identification:
+
+  title: LARGE AREA HYDROLOGIC MODELING AND ASSESSMENT PART I: MODEL DEVELOPMENT
+  abstract:|
+     A conceptual, continuous time model called SWAT (Soil and Water Assessment Tool) was developed to assist water resource managers in assessing the impact of management on water supplies and nonpoint source pollution in watersheds and large river basins. The model is currently being utilized in several large area projects by EPA, NOAA, NRCS and others to estimate the off-site impacts of climate and management on water use, non-point source loadings, and pesticide contamination. Model development, operation, limitations, and assumptions are discussed and components of the model are described. In Part II, a GIS input/output interface is presented along with model validation on three basins within the Upper Trinity basin in Texas.
+  keywords:
+    default:
+      keywords: 
+      - 
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:  
+    - geoscientificInformation
+contact:
+  pointOfContact: 
+    name: J. G. Arnold, R. Srinivasan, R. S. Muttiah, J. R. Williams
+    organization: 
+    email:
+    url: 
+
+distribution:
+  d:
+    name: 
+    url: 
+    type: 
+
+
+

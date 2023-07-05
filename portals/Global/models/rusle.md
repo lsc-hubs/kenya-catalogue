@@ -1,0 +1,42 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier:  10.1002-9781444328455.ch8
+  dataseturi:  https://doi.org/10.1002/9781444328455.ch8
+  language: english
+  charset: utf8
+  hierarchylevel: application
+  datestamp: 2023-07-07
+
+identification:
+
+  title: Universal Soil Loss Equation and Revised Universal Soil Loss Equation
+  abstract:
+  keywords:
+    default:
+      keywords: 
+      - 
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:  
+    - geoscientificInformation
+contact:
+  pointOfContact: 
+    name: K. G. Renard, D. C. Yoder, D. T. Lightle, S. M. Dabney
+    organization: 
+    email:
+    url: 
+
+distribution:
+  d:
+    name: 
+    url: 
+    type: 
+
+
+

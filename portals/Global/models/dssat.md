@@ -1,0 +1,58 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: 10.1007-978-94-017-3624-4_8
+  dataseturi: https://doi.org/10.1007/978-94-017-3624-4_8
+  language: english
+  charset: utf8
+  hierarchylevel: application
+  datestamp: 2023-07-07
+
+identification:
+  title: Decision support system for agrotechnology transfer: DSSAT v3
+  abstract:|
+   Agricultural decision makers at all levels need an increasing amount of information to better understand the possible outcomes of their decisions to help them develop plans and policies that meet their goals. An international team of scientists developed a decision support system for agrotechnology transfer (DSSAT) to estimate production, resource use, and risks associated with different crop production practices. The DSSAT is a microcomputer software package that contains crop-soil simulation models, data bases for weather, soil, and crops, and strategy evaluation programs integrated with a ‘shell’ program which is the main user interface. In this paper, an overview of the DSSAT is given along with rationale for its design and its main limitations. Concepts for using the DSSAT in spatial decision support systems (for site-specific farming, farm planning, and regional policy) are presented. DSSAT provides a framework for scientific cooperation through research to enhance its capabilities and apply it to research questions. It also has considerable potential to help decision makers by reducing the time and human resources required for analyzing complex alternative decisions.
+  keywords:
+    default:
+      keywords: 
+      - models
+      - decision support system
+      - DSSAT
+      - sustainability
+      - technology transfer
+      - risk management
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:  
+    - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - 18
+      - 36
+      - 60
+      - 36
+      crs: 4326
+    temporal:
+    - begin: 2016-01-01
+      end: 2018-12-31
+contact:
+  pointOfContact: 
+    name: 
+    organization: 
+    email:
+    url: 
+
+distribution:
+  d:
+    name: 
+    url: 
+    type: 
+
+
+
