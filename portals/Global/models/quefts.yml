@@ -1,6 +1,5 @@
 mcf:
-    version: 1.0
-
+  version: 1.0
 metadata:
   identifier: 10.1016-0016-7061(90)90021-Z
   dataseturi: https://doi.org/10.1016/0016-7061(90)90021-Z
@@ -8,14 +7,12 @@ metadata:
   charset: utf8
   hierarchylevel: application
   datestamp: 2023-07-07
-
 identification:
-
-  title: 
-  abstract:
+  title: null
+  abstract: null
   keywords:
     default:
-      keywords: 
+      keywords:
       - model
     lsc:
       keywords:
@@ -23,15 +20,14 @@ identification:
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
-  topiccategory:  
-    - geoscientificInformation
+  topiccategory:
+  - geoscientificInformation
 contact:
-  pointOfContact: 
-    name: 
-    organization: 
-    email:
-    url: 
-
+  pointOfContact:
+    name: Bert Janssen, Mink Zijlstra (R-version)
+    organization: WUR
+    email: mink.zijlstra@wur.nl
+    url: null
 distribution:
   d:
     name: CRAN R package
@@ -41,6 +37,3 @@ distribution:
     name: Sources
     url: https://github.com/cropmodels/Rquefts
     type: Git Repository
-
-
-
