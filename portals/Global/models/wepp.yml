@@ -1,6 +1,5 @@
 mcf:
-    version: 1.0
-
+  version: 1.0
 metadata:
   identifier: 10.1007-978-1-4615-0575-4_7
   dataseturi: https://doi.org/10.1007/978-1-4615-0575-4_7
@@ -8,13 +7,12 @@ metadata:
   charset: utf8
   hierarchylevel: application
   datestamp: 2023-07-07
-
 identification:
   title: The Water Erosion Prediction Project (WEPP) Model
-  abstract:
+  abstract: null
   keywords:
     default:
-      keywords: 
+      keywords:
       - model
     lsc:
       keywords:
@@ -22,20 +20,18 @@ identification:
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/categories/
-  topiccategory:  
-    - geoscientificInformation
+  topiccategory:
+  - geoscientificInformation
 contact:
-  author: 
-    individualname: Dennis C. Flanagan, James C. Ascough II, Mark A. Nearing & John M. Laflen 
-    organization:  United States Department of Agriculture - Agricultural Research Service; 2 Purdue University
-    email:
-    url: 
-
+  author:
+    individualname: Dennis C. Flanagan, James C. Ascough II, Mark A. Nearing & John
+      M. Laflen
+    organization: United States Department of Agriculture - Agricultural Research
+      Service; 2 Purdue University
+    email: null
+    url: null
 distribution:
   d:
     name: Releases
     url: https://www.ars.usda.gov/midwest-area/west-lafayette-in/national-soil-erosion-research/docs/wepp/wepp-downloads/
     type: Website
-
-
-
