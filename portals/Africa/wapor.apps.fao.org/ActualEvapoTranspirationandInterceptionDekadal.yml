@@ -30,6 +30,20 @@ identification:
       - 65.0044644
       - 40.0044643
       crs: '4326'
+  rights: ''
+  fees: ''
+contact:
+  distributor:
+    organization: FAO
+    url: https://wapor.apps.fao.org/
+    individualname: null
+    email: wapor@fao.org
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    positionname: null
 distribution:
   wms:
     name: WAPOR_2:l1_aeti_d
