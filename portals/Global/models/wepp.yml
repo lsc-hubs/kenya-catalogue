@@ -15,7 +15,7 @@ identification:
   keywords:
     default:
       keywords: 
-      - 
+      - model
     lsc:
       keywords:
       - Crop
@@ -26,7 +26,7 @@ identification:
     - geoscientificInformation
 contact:
   author: 
-    name: Dennis C. Flanagan, James C. Ascough II, Mark A. Nearing & John M. Laflen 
+    individualname: Dennis C. Flanagan, James C. Ascough II, Mark A. Nearing & John M. Laflen 
     organization:  United States Department of Agriculture - Agricultural Research Service; 2 Purdue University
     email:
     url: 

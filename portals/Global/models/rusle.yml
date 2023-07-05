@@ -10,13 +10,12 @@ metadata:
   datestamp: 2023-07-07
 
 identification:
-
   title: Universal Soil Loss Equation and Revised Universal Soil Loss Equation
   abstract:
   keywords:
     default:
       keywords: 
-      - 
+      - model
     lsc:
       keywords:
       - Crop
@@ -34,7 +33,7 @@ contact:
 
 distribution:
   d:
-    name: R package
+    individualname: R package
     url: https://CRAN.R-project.org/package=RainfallErosivityFactor 
     type: R package
 
