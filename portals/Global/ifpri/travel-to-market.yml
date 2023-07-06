@@ -31,14 +31,6 @@ identification:
         url: https://lsc-hubs.org/tags/
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - 18
-      - 36
-      - 60
-      - 36
-      crs: 4326
 contact:
   pointOfContact: 
     name: Guo, Zhe

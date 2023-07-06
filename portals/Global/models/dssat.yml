@@ -43,13 +43,6 @@ identification:
   topiccategory:
   - geoscientificInformation
   extents:
-    spatial:
-    - bbox:
-      - 18
-      - 36
-      - 60
-      - 36
-      crs: 4326
     temporal:
     - begin: 2016-01-01
       end: 2018-12-31
