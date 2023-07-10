@@ -5,7 +5,7 @@ metadata:
   identifier: agrica
   language: english
   charset: utf8
-  hierarchylevel: project
+  hierarchylevel: service
   datestamp: 2018-09-01
 
 identification:
@@ -38,7 +38,7 @@ identification:
 contact:
   pointOfContact: 
     email: gornott@pik-potsdam.de
-    name: Dr. Christoph Gornott (Project Lead at PIK)
+    individualname: Dr. Christoph Gornott (Project Lead at PIK)
     organization: PIK Pottsdam
     address: P.O. Box 60 12 03
     url: https://www.pik-potsdam.de/en

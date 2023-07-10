@@ -2,7 +2,7 @@ mcf:
    version: 1.0
 
 metadata:
-   identification: qed
+   identifier: qed
    hierarchylevel: service
    language: en
 
@@ -18,7 +18,7 @@ identification:
 contact:
    pointOfContact:
       email: info@qed.ai
-      organisation: QED
+      organization: QED
       country: Poland
       url: https://qed.ai/
 

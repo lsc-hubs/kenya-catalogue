@@ -3,7 +3,7 @@ mcf:
    version: 1.0
 
 metadata:
-   identification: meta-population-density
+   identifier: meta-population-density
    hierarchylevel: dataset
 
 identification:
@@ -13,7 +13,7 @@ identification:
 contact:
    pointOfContact:
       email: hdx@un.org
-      organisation: Centre for humdata
+      organization: Centre for humdata
       address: Fluwelen Burgwal 58
       postalcode: 2511 CJ
       city: The Hague

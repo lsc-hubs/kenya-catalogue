@@ -2,7 +2,7 @@ mcf:
    version: 1.0
 
 metadata:
-   identification: leap3fnssa
+   identifier: leap3fnssa
 
 identification:
    title: LEAP4FNSSA Project Database

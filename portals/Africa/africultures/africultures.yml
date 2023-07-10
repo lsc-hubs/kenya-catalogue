@@ -2,8 +2,8 @@ mcf:
    version: 1.0
 
 metadata:
-   identification: 10.3030-774652
-   hierarchylevel: project
+   identifier: 10.3030-774652
+   hierarchylevel: service
    dataseturi: https://doi.org/10.3030/774652
 
 identification:
@@ -28,7 +28,7 @@ identification:
 contact:
    pointOfContact:
       email: info@africultures.eu
-      organisation: GMV AEROSPACE AND DEFENCE SA
+      organization: GMV AEROSPACE AND DEFENCE SA
       address: Calle Isaac Newton Parque Tecnologico De Madrid
       postalcode: "28760" 
       city: Tres Cantos

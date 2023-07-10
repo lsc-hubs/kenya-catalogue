@@ -138,7 +138,7 @@ distribution:
 contact:
   pointOfContact:
     organization: UC Santa Barbara
-    name: Pete Peterson
+    individualname: Pete Peterson
     city: Santa Barbara
     administrativearea: California
     postalcode: 93106
@@ -147,7 +147,7 @@ contact:
     url: https://chg.geog.ucsb.edu/data/chirps
   author: 
     organization: UC Santa Barbara
-    name: Chris Funk
+    individualname: Chris Funk
     city: Santa Barbara 
     administrativearea: California
     postalcode: 93106

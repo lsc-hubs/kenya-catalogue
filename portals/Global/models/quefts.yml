@@ -30,7 +30,7 @@ identification:
   - geoscientificInformation
 contact:
   pointOfContact:
-    name: Bert Janssen, Mink Zijlstra
+    individualname: Bert Janssen, Mink Zijlstra
     organization: WUR
     email: mink.zijlstra@wur.nl
     url: null

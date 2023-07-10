@@ -25,9 +25,9 @@ identification:
 contact:
   pointOfContact:
     name: K. G. Renard, D. C. Yoder, D. T. Lightle, S. M. Dabney
-    organization: null
-    email: null
-    url: null
+    organization: USDA-ARS
+    city: Tucson, AZ
+    country: USA
 distribution:
   d:
     individualname: R package
