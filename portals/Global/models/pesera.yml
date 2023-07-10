@@ -122,10 +122,8 @@ identification:
   - geoscientificInformation
 contact:
   author:
-    name: Mike Kirkby
+    individualname: Mike Kirkby
     organization: University of Leeds
-    email: null
-    url: null
 distribution:
   d:
     name: Releases

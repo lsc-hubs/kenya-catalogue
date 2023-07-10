@@ -33,7 +33,7 @@ identification:
   fees: ''
 contact:
   distributor:
-    organization: null
+    organization: FAO
     url: http://geoserver.org
     individualname: null
     email: null

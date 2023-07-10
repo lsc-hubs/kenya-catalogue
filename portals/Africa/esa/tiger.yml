@@ -2,8 +2,8 @@ mcf:
    version: 1.0
 
 metadata:
-   identification: tiger
-   hierarchylevel: project
+   identifier: tiger
+   hierarchylevel: service
 
 identification:
    title: Tiger initiative; Looking after water in Africa
@@ -12,8 +12,8 @@ identification:
 contact:
    pointOfContact:
       email: walli@geoville.com
-      organisation: GeoVille GmbH
-      name: Andreas Walli
+      organization: GeoVille GmbH
+      individualname: Andreas Walli
       address: Sparkassenplatz 2, 3rd floor
       postalcode: 6020 
       city: Innsbruck 
