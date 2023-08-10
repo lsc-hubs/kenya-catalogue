@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.kalro.omfp
+  dataseturi: https://play.google.com/store/apps/details?id=com.kalro.omfp
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: OMFP Dashboard
+  abstract: 'The application is used to consolidate Data from Different Sources into
+    centralized Dashboard , for informed Decision making by stakeholder of interest,
+    under Kenya Climate Smart Agriculture Project.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.kalro.omfp
+    type: software
+    name: null

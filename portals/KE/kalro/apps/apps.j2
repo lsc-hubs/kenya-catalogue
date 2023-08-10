@@ -1,0 +1,52 @@
+mcf:
+    version: "1.0"
+
+metadata:
+    identifier: {{ md.get('Identification','').split('?id=').pop() }}
+    {% if md['Identification'].startswith('http') %}
+    dataseturi: {{ md['Identification'] }}
+    {% endif %}
+    language: {{ md['Language'] }}
+    charset: utf8
+    hierarchylevel: software
+
+identification:
+    title: "{{ md['Title'] }}"
+    abstract: |+
+        {{ md['Abstract'] }}
+    dates:
+       'creation': '{{ md['Year'] }}-01-01'
+    keywords:
+        default:
+            keywords: [{{ md['Keywords'] }}]
+        spatialscope:
+            keywords: 
+              - national
+            vocabulary:
+                    name: Spatial scope
+                    url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+        lsc:
+            keywords: [{{ md['LSC category'] }}]
+            vocabulary:
+                name: LSC categories
+                url: https://lsc-hubs.org/categories/
+    topiccategory:
+        - geoscientificInformation
+    extents:
+        temporal:
+            - begin: "{{ md['Year'] }}"
+    status: Completed
+
+
+contact:
+    {{ md['Contact - Role'] or "pointOfContact" }}: 
+        organization: "{{ md['Contact - Organization'] }}"
+        individualname: "{{ md['Contact - Name'] }}"
+        country: Kenya
+        email: {{ md['Contact - Email'] }}
+
+distribution:
+    app:
+        url: {{ md['Identification'] }}
+        type: software
+        name: {{ md['Operative System']}}

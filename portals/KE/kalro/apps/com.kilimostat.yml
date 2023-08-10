@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.kilimostat
+  dataseturi: https://play.google.com/store/apps/details?id=com.kilimostat
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KilimoSTAT
+  abstract: 'KilimoSTAT provides data and statistics on Kenyas agricultural sector
+    covering crops, livestock, fisheries, agroforestry, climate change and food &
+    nutrition.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.kilimostat
+    type: software
+    name: null

@@ -1,0 +1,50 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app862457
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app862457
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Gooseberry
+  abstract: 'In 2010, Kenya Agricultural Research Institute (now Kenya Agricultural
+    & Livestock Research Organization (KALRO)) classified cape gooseberry as an underutilized
+    fruit in Kenya. It was ranked by stakeholders as the 7th most important underutilized
+    fruit.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app862457
+    type: software
+    name: null

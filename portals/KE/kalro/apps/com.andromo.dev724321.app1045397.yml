@@ -1,0 +1,51 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app1045397
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app1045397
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Rice Production Guidelines
+  abstract: 'Guidelines for Rice Production in East Africa including Agronomic practices
+    and Rice Varieties, Rice Diseases in East Africa, Rice Pests in East Africa, Rice
+    Weeds in East Africa, Physiological Disorders in Rice in East Africa, Pre-harvest,
+    Post-harvest and Value Addition of Rice in East Africa and Rice Gross Margins
+    in East Africa.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app1045397
+    type: software
+    name: null

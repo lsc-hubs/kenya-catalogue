@@ -1,0 +1,49 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app803320
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app803320
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO GLS Maize Varieties
+  abstract: 'GLS is a foliar fungal disease that affects maize. There are two fungal
+    pathogens that cause GLS, which are Cercospora zeae-maydis and Cercospora zeina.
+    The Symptoms include leaf lesions, discoloration (chlorosis), and foliar blight.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app803320
+    type: software
+    name: null

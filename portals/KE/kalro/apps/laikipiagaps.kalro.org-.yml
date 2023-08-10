@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: laikipiagaps.kalro.org-
+  dataseturi: https://laikipiagaps.kalro.org/
+  language: english
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Laikipia GAPs
+  abstract: 'Laikipia GAPS is both a web and mobile application that gives advice
+    to farmers and extension officers on Good Agricultural Practices
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://laikipiagaps.kalro.org/
+    type: software
+    name: null

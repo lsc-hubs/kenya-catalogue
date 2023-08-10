@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.digitaldairy
+  dataseturi: https://play.google.com/store/apps/details?id=com.digitaldairy
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Digital Dairy
+  abstract: 'Digital Dairy is a farm management mobile app that relies on the farmers
+    input so as to generate an advisory. Our goal is to provide timely advisory and
+    training to dairy farmers on improved forages and pastures using Big Data Analytics.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.digitaldairy
+    type: software
+    name: null

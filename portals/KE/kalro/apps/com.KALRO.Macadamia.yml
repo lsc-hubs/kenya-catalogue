@@ -1,0 +1,50 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.KALRO.Macadamia
+  dataseturi: https://play.google.com/store/apps/details?id=com.KALRO.Macadamia
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Macadamia Nut
+  abstract: 'Macadamia belongs to the family Proteaceae and is native to south-eastern
+    Queensland, Australia where it grows in the wild. Although there are ten species
+    only two (Macadamia integrifolia [smooth-shelled type) and Macadamia tetraphylla
+    [rough-shelled type]) are edible.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.KALRO.Macadamia
+    type: software
+    name: null

@@ -1,0 +1,50 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app873537
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app873537
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Mahindi Bora for Coastal and L
+  abstract: 'Geographically, Kenya is a diverse country with many agro-ecological
+    zones (AEZs). Maize (Zea mays L.) provides basic diet to millions of people in
+    Kenya. Total land area under maize production is about 1.5 million hectares, with
+    an annual average production estimated at 3.0 million metric tons.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app873537
+    type: software
+    name: null

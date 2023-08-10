@@ -1,0 +1,50 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app803971
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app803971
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Avocado Varieties
+  abstract: 'Out of the 40 varieties of Avocado, Hass is the main export variety and
+    Fuerte is preferred for processing. Other commercial varieties are Keitt, Reed,
+    Booth 8, Simmonds, Pinkerton, Nabal, Puebla, Tonnage, Ettinger, Hayes, G6 and
+    G7. Varieties used as rootstocks include Puebla, Fuerte, Duke, G6, and G7.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app803971
+    type: software
+    name: null

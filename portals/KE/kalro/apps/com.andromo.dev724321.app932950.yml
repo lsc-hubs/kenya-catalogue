@@ -1,0 +1,51 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app932950
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app932950
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Tea Seedling
+  abstract: 'Establishing a tea nursery whether for sale or for own plantings requires
+    meticulous planning so that the plants are ready for transplanting or sale at
+    the right time. Lack of planning may result in plants being ready for transplanting
+    in the off planting season, causing losses where transplants die or there are
+    no customers to purchase the plants.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app932950
+    type: software
+    name: null

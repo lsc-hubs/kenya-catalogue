@@ -1,0 +1,49 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app799012
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app799012
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Potato Cyst Nematode Control
+  abstract: 'PCN nematodes are very small, slender, eel-shaped, worm-like organisms
+    that are parasitic on or within plant tissues. PCN forms survival structures called
+    cysts.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app799012
+    type: software
+    name: null
