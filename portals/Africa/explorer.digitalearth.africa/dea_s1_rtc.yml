@@ -22,7 +22,7 @@ identification:
     keywords-2:
       type: place
       keywords:
-      - Africa      
+      - Africa
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/s1_rtc

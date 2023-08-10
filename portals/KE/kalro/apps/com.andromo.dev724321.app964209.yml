@@ -1,0 +1,49 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app964209
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app964209
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Total Mixed Ration (TMR) For M
+  abstract: 'In Kenya, the demand for quality animal products such as milk, meat,
+    and eggs is ever increasing mainly due to human population growth, further urbanization,
+    increased disposable incomes, greater diversity of food products to meet nutritional
+    needs, and increased opportunities for domestic and external trade.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app964209
+    type: software
+    name: null

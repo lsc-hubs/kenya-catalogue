@@ -1,0 +1,50 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app805047
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app805047
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Production of Pomegranate
+  abstract: 'Pomogranate is in the Punicaceae family and originated in South East
+    Asia. Its production in Kenya remains obscure since it is not documented. It favours
+    semi-arid climate and is extremely drought tolerant. It is eaten fresh and processed
+    into juice.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app805047
+    type: software
+    name: null

@@ -23,7 +23,7 @@ identification:
       type: place
       keywords:
       - Africa
-      - Continental 
+      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ndvi_climatology_ls

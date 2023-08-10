@@ -1,0 +1,47 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.kalro.kalrotimps
+  dataseturi: https://play.google.com/store/apps/details?id=com.kalro.kalrotimps
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO TIMPs
+  abstract: "This App presents Manuals as step-by- step procedures of implementing\
+    \ CSA innovations for each of the value chains being addressed. The training content\
+    \ is drawn from the TIMPs that support respective value chains. \n"
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.kalro.kalrotimps
+    type: software
+    name: null

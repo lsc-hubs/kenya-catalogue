@@ -1,0 +1,52 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: selector.kalro.org
+  dataseturi: https://selector.kalro.org
+  language: english
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Selector
+  abstract: 'The Selector is a Big Data service developed by Kenya Agricultural and
+    Livestock Research Organisation with the aim of providing advice to farmers on
+    what is the best to grow or keep on their land.
+
+    '
+  dates:
+    creation: 2020.0-01-01
+  keywords:
+    default:
+      keywords:
+      - Big Data
+      - Variety
+      - Breed
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2020.0'
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://selector.kalro.org
+    type: software
+    name: Android | Linux

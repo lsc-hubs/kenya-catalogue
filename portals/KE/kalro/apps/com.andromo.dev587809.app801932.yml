@@ -1,0 +1,47 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app801932
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app801932
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO New Cassava Varieties
+  abstract: "Cassava (Manihot esculenta Crantz), is the world\u2019s most widely grown\
+    \ starch storage root crop and accounts for a third of the total production of\
+    \ staple food crops in sub Saharan Africa.\n"
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app801932
+    type: software
+    name: null

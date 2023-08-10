@@ -1,0 +1,49 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app978186
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app978186
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Kenya Poultry Consultancy Plat
+  abstract: 'Generally, poultry is a key livestock sub-sector in many of the rural
+    households and thus deserve a lot of focus to enhance its productivity. As is
+    true with the consumption of other livestock products, that of poultry meat has
+    also been increasing over time.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app978186
+    type: software
+    name: null

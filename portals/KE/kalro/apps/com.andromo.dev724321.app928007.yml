@@ -1,0 +1,47 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app928007
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app928007
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Cashew Nut
+  abstract: "Cashew nut is scientifically known as Anacardium occidentale, and locally\
+    \ known as Mkorosho, or Mkanju (Swahili). The crop originated from the Northern\
+    \ part of South America. \n"
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app928007
+    type: software
+    name: null

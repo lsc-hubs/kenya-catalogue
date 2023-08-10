@@ -1,0 +1,51 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: www.kaop.co.ke-
+  dataseturi: http://www.kaop.co.ke/
+  language: english
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Kenya Agricultural Observatory Platform
+  abstract: 'KAOP (Kenya Agricultural Advisory Platform) is an integrated online platform
+    that uses geo-data from satellites to generate real-time and location specific
+    agro- advisories to farmers and other stakeholders.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords:
+      - Agronomic
+      - realtime
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: http://www.kaop.co.ke/
+    type: software
+    name: null

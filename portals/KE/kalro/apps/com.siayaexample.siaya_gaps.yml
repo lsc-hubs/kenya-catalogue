@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.siayaexample.siaya_gaps
+  dataseturi: https://play.google.com/store/apps/details?id=com.siayaexample.siaya_gaps
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Siaya GAPs
+  abstract: 'Siaya GAPs is a mobile application developed by KALRO that gives extension
+    services to both farmers and Extension officers on some Good Agricultural Practices
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.siayaexample.siaya_gaps
+    type: software
+    name: null

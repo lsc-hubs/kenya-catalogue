@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_nasadem
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/nasadem
 identification:
-  title: nasadem
+  title: NASA DEM
   abstract: NASADEM from Microsoft's Planetary Computer
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/nasadem
-    type: stac
+    type: stac item
     name: nasadem
-    description: description in English
+    description: NASADEM from Microsoft's Planetary Computer

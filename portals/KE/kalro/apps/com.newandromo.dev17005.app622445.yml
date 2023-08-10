@@ -1,0 +1,50 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.newandromo.dev17005.app622445
+  dataseturi: https://play.google.com/store/apps/details?id=com.newandromo.dev17005.app622445
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO GAPs App
+  abstract: 'Good Agricultural Practices (GAP) for android phones is intended for
+    growers/producers, producer organizations, agricultural experts and extension
+    service providers both public and private, agricultural cooperatives, researchers,
+    academia, universities.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.newandromo.dev17005.app622445
+    type: software
+    name: null

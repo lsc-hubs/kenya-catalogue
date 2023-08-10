@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app861366
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app861366
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KMFRI AQUACULTURE FARMING
+  abstract: "Kenya is endowed with a vast network of aquatic resources comprising\
+    \ freshwater lakes and rivers and an extensive ocean resource base. The physical\
+    \ potential is virtually unlimited\u2014inland water resources cover an area of\
+    \ 18,029 km2, marine water area (including the EEZ) 142,400 km2 and a continental\
+    \ coastline 640 km\u2014that supports diverse fish production.\n"
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app861366
+    type: software
+    name: null

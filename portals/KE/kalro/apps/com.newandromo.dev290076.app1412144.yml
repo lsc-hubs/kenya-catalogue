@@ -1,0 +1,49 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.newandromo.dev290076.app1412144
+  dataseturi: https://play.google.com/store/apps/details?id=com.newandromo.dev290076.app1412144
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: Beans Platform
+  abstract: 'The platform was developed to enable beans farmers and buyers to directly
+    meet online to buy and sell beans by negotiating prices, volumes and varieties
+    of beans they want.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.newandromo.dev290076.app1412144
+    type: software
+    name: null

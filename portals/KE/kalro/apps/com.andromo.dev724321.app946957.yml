@@ -1,0 +1,51 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev724321.app946957
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app946957
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Mango Propagation
+  abstract: 'Mango (Mangifera indica L.) belongs to the family Anacardiaceae with
+    75 genera and 700 species. Mangifera consists of 69 species. The centre of origin
+    of mango is southern Asia (Burma, Eastern India and Andaman Islands). The mango
+    has been cultivated, praised and even revered in its native lands since ancient
+    times.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev724321.app946957
+    type: software
+    name: null

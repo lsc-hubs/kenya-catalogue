@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: com.andromo.dev587809.app804527
+  dataseturi: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app804527
+  language: null
+  charset: utf8
+  hierarchylevel: software
+identification:
+  title: KALRO Guava Production
+  abstract: 'Guava is in the family Mytaceae, with its origin in central to South
+    America. In East Africa, guava grows well from sea level to an altitude of about
+    2,300 m. It is drought tolerant and grows well in marginal areas.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    individualname: Salim Kinyimu
+    country: Kenya
+    email: Salim.Kinyimu@kalro.org
+distribution:
+  app:
+    url: https://play.google.com/store/apps/details?id=com.andromo.dev587809.app804527
+    type: software
+    name: null

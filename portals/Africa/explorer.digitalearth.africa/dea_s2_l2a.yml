@@ -24,7 +24,7 @@ identification:
       type: place
       keywords:
       - Africa
-      - Continental      
+      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/s2_l2a
