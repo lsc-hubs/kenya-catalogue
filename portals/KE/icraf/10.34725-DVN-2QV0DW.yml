@@ -7,7 +7,8 @@ metadata:
 identification:
   keywords:
     spatialscope:
-      keywords: continental
+      keywords:
+      - continental
       vocabulary:
         name: Spatial scope
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
