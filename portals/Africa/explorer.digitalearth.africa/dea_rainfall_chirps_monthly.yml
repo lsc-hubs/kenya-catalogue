@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_rainfall_chirps_monthly
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/rainfall_chirps_monthly
 identification:
-  title: rainfall_chirps_monthly
+  title: rainfall estimates (monthly)
   abstract: Rainfall Estimates from Rain Gauge and Satellite Observations
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_monthly
-    type: stac
+    type: stac item
     name: rainfall_chirps_monthly
-    description: description in English
+    description: Rainfall Estimates from Rain Gauge and Satellite Observations

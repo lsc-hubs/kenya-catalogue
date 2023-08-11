@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://doi.org/10.2134/agronj2008.0139s
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 2023-07-07
 identification:
   title: "AquaCrop\u2014The FAO Crop Model to Simulate Yield Response to Water, I.\

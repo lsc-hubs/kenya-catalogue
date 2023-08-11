@@ -4,11 +4,7 @@ metadata:
   dataseturi: https://www.landportal.org/
   hierarchylevel: service
   identifier: landportal
-  language: en
-  language_alternate: ""
-  charset: ""
-  parentidentifier: ""
-  datestamp: ""
+
 distribution:
   i0:
     url: https://www.landportal.org/
@@ -75,7 +71,18 @@ identification:
         - Rangelands, Drylands & Pastoralism
         - Urban Tenure
         - Land Monitoring
-      keywords_type: theme
+    lsc:
+      keywords:
+      - Land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    spatialscope:
+      keywords: 
+         - Global
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
   language: en
   status: completed
   maintenancefrequency: continual

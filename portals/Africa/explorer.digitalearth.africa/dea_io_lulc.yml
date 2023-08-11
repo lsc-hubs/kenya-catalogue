@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_io_lulc
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/io_lulc
 identification:
-  title: Land Cover classification (io_lulc)
+  title: Landcover Classification 9 (ESRI)
   abstract: Impact Observatory (ESRI) Landcover Classification 9 Class
   keywords:
     lsc:
@@ -19,19 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-  extents:
-    spatial:
-    - bbox:
-      - -29.326934
-      - -47.9026241
-      - 73.055200157
-      - 40.64581141
-    temporal:
-    - begin: 2017-06-01
-    - end: 2021-01-01  
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/io_lulc
-    type: stac
+    type: stac item
     name: io_lulc
-    description: description in English
+    description: Impact Observatory (ESRI) Landcover Classification 9 Class

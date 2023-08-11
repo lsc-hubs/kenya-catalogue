@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_ndvi_climatology_ls
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/ndvi_climatology_ls
 identification:
-  title: ndvi_climatology_ls
+  title: Monthly NDVI Climatologies
   abstract: Monthly NDVI Climatologies produced by Digital Earth Africa.
   keywords:
     lsc:
@@ -19,14 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ndvi_climatology_ls
-    type: stac
+    type: stac item
     name: ndvi_climatology_ls
-    description: description in English
+    description: Monthly NDVI Climatologies produced by Digital Earth Africa.

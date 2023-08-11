@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_crop_mask
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/crop_mask
 identification:
-  title: crop_mask
+  title: Annual cropland extent
   abstract: Annual cropland extent map produced by Digital Earth Africa.
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/crop_mask
-    type: stac
+    type: stac item
     name: crop_mask
-    description: description in English
+    description: Annual cropland extent map produced by Digital Earth Africa.

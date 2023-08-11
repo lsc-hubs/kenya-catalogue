@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://www.researchgate.net/publication/265357850_Pan-European_soil_erosion_risk_assessment_the_PESERA_Map_Version_1_October_2003
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 2004-01-01
 identification:
   title: Pan-European soil erosion risk assessment, The PESERA map

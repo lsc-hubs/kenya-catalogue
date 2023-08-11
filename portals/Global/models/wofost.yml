@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://doi.org/10.1111/j.1475-2743.1989.tb00755.x
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 1989-03-01
 identification:
   title: WOFOST, a simulation model of crop production

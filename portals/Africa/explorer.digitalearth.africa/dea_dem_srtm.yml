@@ -2,16 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_dem_srtm
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/dem_srtm
 identification:
-  title: dem_srtm
-  extents:
-    spatial:
-    - bbox:
-      - -32.000138888
-      - -52.683550891
-      - 61.000138888
-      - 47.00013888 
+  title: 1 second elevation mode
   abstract: 1 second elevation model
   keywords:
     lsc:
@@ -29,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/dem_srtm
-    type: stac
+    type: stac item
     name: dem_srtm
-    description: description in English
+    description: 1 second elevation model

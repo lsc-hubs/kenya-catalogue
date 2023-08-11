@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_gm_s2_semiannual
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/gm_s2_semiannual
 identification:
-  title: gm_s2_semiannual
+  title: Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations(Sentinel-2)
   abstract: Surface Reflectance Semiannual Geometric Median and Median Absolute Deviations,
     Sentinel-2
   keywords:
@@ -20,14 +21,10 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gm_s2_semiannual
-    type: stac
+    type: stac item
     name: gm_s2_semiannual
-    description: description in English
+    description: Surface Reflectance Semiannual Geometric Median and Median Absolute
+      Deviations, Sentinel-2

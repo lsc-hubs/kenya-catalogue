@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_ls8_sr
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/ls8_sr
 identification:
-  title: ls8_sr
+  title: Surface Reflectance(Landsat8)
   abstract: USGS Landsat 8 Collection 2 Level-2 Surface Reflectance
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ls8_sr
-    type: stac
+    type: stac item
     name: ls8_sr
-    description: description in English
+    description: USGS Landsat 8 Collection 2 Level-2 Surface Reflectance

@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://doi.org/10.1002/esp.1530
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 2023-07-07
 identification:
   title: "Modified MMF (Morgan\u2013Morgan\u2013Finney) model for evaluating effects\

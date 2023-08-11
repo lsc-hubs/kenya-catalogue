@@ -29,6 +29,12 @@ identification:
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/tags/
+    keywords-2:
+      keywords:
+      - continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
   topiccategory:
   - geoscientificInformation
 contact:

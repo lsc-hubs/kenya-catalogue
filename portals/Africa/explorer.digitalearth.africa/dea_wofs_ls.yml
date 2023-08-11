@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_wofs_ls
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/wofs_ls
 identification:
-  title: Flood mapping (wofs_ls)
+  title: Flood Mapping
   abstract: Historic Flood Mapping Water Observations from Space
   keywords:
     lsc:
@@ -19,14 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/wofs_ls
-    type: stac
+    type: stac item
     name: wofs_ls
-    description: description in English
+    description: Historic Flood Mapping Water Observations from Space

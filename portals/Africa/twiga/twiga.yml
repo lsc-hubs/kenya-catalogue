@@ -5,7 +5,7 @@ metadata:
   identifier: twiga
   language: english
   charset: utf8
-  hierarchylevel: dataset
+  hierarchylevel: service
   datestamp: 2022-12-13
 
 identification:
@@ -18,10 +18,16 @@ identification:
   keywords:
     lsc:
       keywords:
-      - Land
+      - Weather
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
+    spatialscope:
+      keywords: 
+         - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
   topiccategory:
   - geoscientificInformation
   extents:

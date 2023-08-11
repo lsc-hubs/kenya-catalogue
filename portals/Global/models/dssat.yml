@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://doi.org/10.1007/978-94-017-3624-4_8
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 2023-07-07
 identification:
   title: Decision support system for agrotechnology transfer (DSSAT v3)

@@ -10,10 +10,18 @@ identification:
    title: "Portal of maps of Africa"
    abstract: "QED builds data systems and AI for human health and agriculture, the two fields we believe are most relevant to the security of humankind. We are a fully mission-driven technology company. We have regional expertise in development and humanitarian projects in Sub-Saharan Africa, South Asia, and Latin America."
    keywords:
-      keywords-2:
-         type: place
+      lsc:
          keywords:
-         - continental   
+         - Crop
+         vocabulary:
+            name: LSC categories
+            url: https://lsc-hubs.org/categories/
+      spatialscope:
+         keywords: 
+            - Continental
+         vocabulary:
+            name: Spatial scope
+            url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope   
 
 contact:
    pointOfContact:

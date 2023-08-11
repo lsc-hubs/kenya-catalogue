@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_s2_l2a
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/s2_l2a
 identification:
-  title: s2_l2a
+  title: Surface Reflectance (Sentinel2a and 2b)
   abstract: Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface Reflectance)
     and converted to Cloud Optimized GeoTIFFs
   keywords:
@@ -20,14 +21,10 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/s2_l2a
-    type: stac
+    type: stac item
     name: s2_l2a
-    description: description in English
+    description: Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface
+      Reflectance) and converted to Cloud Optimized GeoTIFFs

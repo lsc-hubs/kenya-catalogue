@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://doi.org/10.1007/978-1-4615-0575-4_7
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 2023-07-07
 identification:
   title: The Water Erosion Prediction Project (WEPP) Model

@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_ls9_sr
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/ls9_sr
 identification:
-  title: ls9_sr
+  title: Surface Reflectance(Landsat9)
   abstract: USGS Landsat 9 Collection 2 Level-2 Surface Reflectance
   keywords:
     lsc:
@@ -19,14 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ls9_sr
-    type: stac
+    type: stac item
     name: ls9_sr
-    description: description in English
+    description: USGS Landsat 9 Collection 2 Level-2 Surface Reflectance
