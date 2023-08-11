@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_fc_ls
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/fc_ls
 identification:
-  title: Fractional Cover Observations (fc_ls)
+  title: Fractional Cover
   abstract: Landsat Fractional Cover Observations from Space
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/fc_ls
-    type: stac
+    type: stac item
     name: fc_ls
-    description: description in English
+    description: Landsat Fractional Cover Observations from Space

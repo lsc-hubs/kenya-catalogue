@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_wofs_ls_summary_annual
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/wofs_ls_summary_annual
 identification:
-  title: Water observations(wofs_ls_summary_annual)
+  title: water observations annual statistics
   abstract: Water Observations from Space Annual Statistics
   keywords:
     lsc:
@@ -19,14 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual
-    type: stac
+    type: stac item
     name: wofs_ls_summary_annual
-    description: description in English
+    description: Water Observations from Space Annual Statistics

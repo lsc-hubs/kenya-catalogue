@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_rainfall_chirps_daily
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/rainfall_chirps_daily
 identification:
-  title: rainfall_chirps_daily
+  title: rainfall estimates (daily)
   abstract: Rainfall Estimates from Rain Gauge and Satellite Observations
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily
-    type: stac
+    type: stac item
     name: rainfall_chirps_daily
-    description: description in English
+    description: Rainfall Estimates from Rain Gauge and Satellite Observations

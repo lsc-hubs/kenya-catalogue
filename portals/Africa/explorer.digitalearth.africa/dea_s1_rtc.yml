@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_s1_rtc
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/s1_rtc
 identification:
-  title: radar backscatter (s1_rtc)
+  title: Gamma0 (Sentinel1)
   abstract: Sentinel 1 Gamma0 normalised radar backscatter
   keywords:
     lsc:
@@ -19,13 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa      
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/s1_rtc
-    type: stac
+    type: stac item
     name: s1_rtc
-    description: description in English
+    description: Sentinel 1 Gamma0 normalised radar backscatter

@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_fc_ls_summary_annual
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/fc_ls_summary_annual
 identification:
-  title: Fractional Cover Percentiles (fc_ls_summary_annual)
+  title: Fractional Cover Percentiles
   abstract: DE Africa Landsat Fractional Cover Percentiles
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/fc_ls_summary_annual
-    type: stac
+    type: stac item
     name: fc_ls_summary_annual
-    description: description in English
+    description: DE Africa Landsat Fractional Cover Percentiles

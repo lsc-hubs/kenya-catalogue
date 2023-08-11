@@ -2,9 +2,11 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_gm_ls8_annual_lowres
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/gm_ls8_annual_lowres
 identification:
-  title: gm_ls8_annual_lowres
+  title: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
+    lowresolution(Landsat8)
   abstract: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
     Landsat 8. Low resolution version used for visualisations.
   keywords:
@@ -23,6 +25,7 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/gm_ls8_annual_lowres
-    type: stac
+    type: stac item
     name: gm_ls8_annual_lowres
-    description: description in English
+    description: Surface Reflectance Annual Geometric Median and Median Absolute Deviations,
+      Landsat 8. Low resolution version used for visualisations.

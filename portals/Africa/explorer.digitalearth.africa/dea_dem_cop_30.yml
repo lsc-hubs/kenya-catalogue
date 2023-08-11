@@ -2,17 +2,11 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_dem_cop_30
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/dem_cop_30
 identification:
-  title: dem_cop_30
+  title: DEM 30 m(Copernicus)
   abstract: Copernicus DEM 30 m
-  extents:
-    spatial:
-    - bbox:
-      - -26.000138888
-      - -47.00645814
-      - 64.999861111
-      - 39.00013888 
   keywords:
     lsc:
       keywords:
@@ -29,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/dem_cop_30
-    type: stac
+    type: stac item
     name: dem_cop_30
-    description: description in English
+    description: Copernicus DEM 30 m

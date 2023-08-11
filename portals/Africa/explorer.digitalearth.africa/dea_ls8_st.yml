@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_ls8_st
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/ls8_st
 identification:
-  title: ls8_st
+  title: Surface Temperature (Landsat8)
   abstract: USGS Landsat 8 Collection 2 Level-2 Surface Temperature
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ls8_st
-    type: stac
+    type: stac item
     name: ls8_st
-    description: description in English
+    description: USGS Landsat 8 Collection 2 Level-2 Surface Temperature

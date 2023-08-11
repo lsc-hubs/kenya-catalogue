@@ -2,12 +2,12 @@ mcf:
     version: 1.0
 
 metadata:
-    identifier: dea_{{ md['name'] }}
+    identifier: dea_{{ md['id'] }}
     hierarchylevel: dataset
-    dataseturi: https://explorer.digitalearth.africa/products/{{ md['name'] }}
+    dataseturi: https://explorer.digitalearth.africa/products/{{ md['id'] }}
 
 identification:
-    title: {{ md['name'] }}
+    title: {{ md['title'] }}
     abstract: {{ md['description'] }}
     keywords:
       lsc:
@@ -25,7 +25,7 @@ identification:
 
 distribution:
     stac:
-        url: https://explorer.digitalearth.africa/stac/collections/{{ md['name'] }}
-        type: stac
-        name: {{ md['name'] }}
-        description: description in English
+        url: https://explorer.digitalearth.africa/stac/collections/{{ md['id'] }}
+        type: stac item
+        name: {{ md['id'] }}
+        description: {{ md['description'] }}

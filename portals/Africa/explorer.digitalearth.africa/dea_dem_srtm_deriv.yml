@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_dem_srtm_deriv
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/dem_srtm_deriv
 identification:
-  title: dem_srtm_deriv
+  title: 1 second elevation model derivatives
   abstract: 1 second elevation model derivatives
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/dem_srtm_deriv
-    type: stac
+    type: stac item
     name: dem_srtm_deriv
-    description: description in English
+    description: 1 second elevation model derivatives

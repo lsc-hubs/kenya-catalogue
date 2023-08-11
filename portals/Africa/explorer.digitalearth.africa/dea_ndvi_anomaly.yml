@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_ndvi_anomaly
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/ndvi_anomaly
 identification:
-  title: ndvi_anomaly
+  title: Monthly NDVI Anomalies
   abstract: Monthly NDVI Anomalies produced by Digital Earth Africa.
   keywords:
     lsc:
@@ -19,14 +20,9 @@ identification:
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
-    keywords-2:
-      type: place
-      keywords:
-      - Africa
-      - Continental
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/ndvi_anomaly
-    type: stac
+    type: stac item
     name: ndvi_anomaly
-    description: description in English
+    description: Monthly NDVI Anomalies produced by Digital Earth Africa.

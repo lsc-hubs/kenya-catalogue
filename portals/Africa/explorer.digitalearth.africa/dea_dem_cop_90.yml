@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_dem_cop_90
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/dem_cop_90
 identification:
-  title: dem_cop_90
+  title: DEM 90 m(Copernicus)
   abstract: Copernicus DEM 90 m
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/dem_cop_90
-    type: stac
+    type: stac item
     name: dem_cop_90
-    description: description in English
+    description: Copernicus DEM 90 m

@@ -2,9 +2,10 @@ mcf:
   version: 1.0
 metadata:
   identifier: dea_cgls_landcover
+  hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/cgls_landcover
 identification:
-  title: cgls_landcover
+  title: Land Use/Land Cover at 100m(Copernicus)
   abstract: Copernicus Global Land Service, Land Use/Land Cover at 100 m
   keywords:
     lsc:
@@ -22,6 +23,6 @@ identification:
 distribution:
   stac:
     url: https://explorer.digitalearth.africa/stac/collections/cgls_landcover
-    type: stac
+    type: stac item
     name: cgls_landcover
-    description: description in English
+    description: Copernicus Global Land Service, Land Use/Land Cover at 100 m
