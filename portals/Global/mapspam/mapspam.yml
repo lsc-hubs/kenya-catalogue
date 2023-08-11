@@ -4,17 +4,14 @@ mcf:
 metadata:
   identifier: 10.7910/DVN/FSSKBW
   dataseturi: https://doi.org/10.7910/DVN/FSSKBW
-  language: english
   charset: utf8
   hierarchylevel: dataset
   datestamp: 2020-07-13
-
+  
 spatial:
   datatype: Grid
 
 identification:
-  language: english
-  charset: utf8
   title: Spatially-Disaggregated Crop Production Statistics Data in Africa South of the Sahara for 2017
   abstract: "Using a variety of inputs, IFPRI's Spatial Production Allocation Model (SPAM, also known as MapSPAM) uses a cross-entropy approach to make plausible estimates of crop distribution within disaggregated units. Moving the data from coarser units such as countries and sub-national provinces, to finer units such as grid cells, reveals spatial patterns of crop performance, creating Africa South of the Sahara-wide grid-scape at the confluence between geography and agricultural production systems. Improving spatial understanding of crop production systems allows policymakers and donors to better target agricultural and rural development policies and investments, increasing food security and growth with minimal environmental impacts. (2020-12-21)"
   dates:

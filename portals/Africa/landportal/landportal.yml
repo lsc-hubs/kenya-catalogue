@@ -88,16 +88,13 @@ identification:
   maintenancefrequency: continual
   accessconstraints: otherRestrictions
   extents:
-    temporal:
-      begin: null
-      end: null
     spatial:
-      crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
-      bbox:
-        - -180
-        - -90
-        - 180
-        - 90
+      - crs: 4326
+        bbox:
+          - -180
+          - -90
+          - 180
+          - 90
   topiccategory:
     - society
 
