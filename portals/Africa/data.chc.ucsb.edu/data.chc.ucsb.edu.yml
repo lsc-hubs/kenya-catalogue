@@ -51,7 +51,7 @@ identification:
   status: ongoing
 distribution:
   link-0:
-    url: http://chg.geog.ucsb.edu/data/chirps
+    url: https://www.chc.ucsb.edu/data/chirps
     type: WWW:LINK
     name: Website
     function: information
