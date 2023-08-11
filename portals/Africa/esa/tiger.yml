@@ -8,7 +8,19 @@ metadata:
 identification:
    title: Tiger initiative; Looking after water in Africa
    abstract: The declared aim of the TIGER initiative is to develop EO services in collaboration with African stakeholders and transfer them to mandated national and trans-boundary water authorities for operations under their leadership. Such a transfer is long-term process involving R&D activities, capacity building and local adaptations of EO services and information systems.
-   
+   keywords:
+    lsc:
+      keywords:
+      - Water
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    spatialscope:
+      keywords: 
+         - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
 contact:
    pointOfContact:
       email: walli@geoville.com

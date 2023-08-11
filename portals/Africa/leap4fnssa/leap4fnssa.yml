@@ -3,10 +3,30 @@ mcf:
 
 metadata:
    identifier: leap3fnssa
+   hierarchylevel: service
 
 identification:
    title: LEAP4FNSSA Project Database
    abstract: LEAP4FNSSA is a Coordination and Support Action (CSA) whose main objective is to engage European and African institutions in a Sustainable Partnership Platform for research and innovation on Food and Nutrition Security, and Sustainable Agriculture (FNSSA). Work Package 3 will provide the core information system for the Platform. The FNSSA project database is part of the task to map and cluster ongoing and recently finished projects contributing to the FNSSA Roadmap. The database is a work in progress, and contains projects in the area of FNSSA, funded by the European Commission (EC) framework programmes such as Horizon 2020, as well as the African Union Research Grants. In addition, the database also contains a number of relevant projects from other EU DGs, and from various national funders within the EU. The projects all have participants from countries in Africa and Europe in cooperation. Information included in the database is collected from external sources and curated with care, but minor inaccuracies may occur.
+   keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - soil chemicophysical properties
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    spatialscope:
+      keywords: 
+         - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
 
 contact:
    pointOfContact:

@@ -26,6 +26,15 @@ identification:
       - climatic data
       - soil fertility management
       - soil water conservation
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    spatialscope:
+      keywords: 
+         - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     keywords-2:
       type: place
       keywords:

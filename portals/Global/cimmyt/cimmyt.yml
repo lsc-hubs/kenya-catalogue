@@ -1,0 +1,43 @@
+
+mcf:
+   version: 1.0
+
+metadata:
+   identifier: cimmyt
+   hierarchylevel: service
+
+identification:
+   title: CIMMYT institutional network of scientific datasets and software repositories.
+   abstract: Giving open access to CIMMYT’s wealth of knowledge is critical to our mission.
+   keywords:
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    spatialscope:
+      keywords: 
+         - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+contact:
+   pointOfContact:
+      email: CIMMYT@cgiar.org
+      organization: CIMMYT
+      address: Carretera México-Veracruz, Km. 45, El Batán
+      postalcode: 56237 
+      city: Texcoco
+      country: Mexico
+      url: https://www.cimmyt.org/
+
+distribution:
+   www: 
+      url: https://data.cimmyt.org/dataverse/root?q=&types=dataverses&sort=dateSort&order=asc&page=1
+      type: www-link
+      name: CIMMYT Dataverse
+
+
+
+

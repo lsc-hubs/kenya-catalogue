@@ -1,0 +1,54 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: cropnuts
+  hierarchylevel: service
+  datestamp: '2023-08-08'
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - Soil
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    keywords:
+      keywords:
+      - Continental
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+  title: Laboratory and Farm Advisory Services
+  abstract: Cropnuts was established in 1998 and started out as a small analytical laboratory in Kenya. In the last 20 years we have grown to become Africa’s leading laboratory for agricultural and environmental testing, providing a wide range of analytical services to farmers, businesses and smallholders. These include laboratory tests for soil, water, crops, hydroponic systems, animal feeds and fertiliser quality, as well as food safety assessments and industrial effluent waste monitoring.
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    spatial:
+    - bbox:
+      - -180
+      - -50
+      - 180
+      - 50
+      crs: 4326  
+    temporal:
+    - begin: '1998'
+  status: ongoing
+distribution:
+  link-0:
+    url: https://cropnuts.com/
+    type: WWW:LINK
+    name: Website
+    function: information
+  
+contact:
+  pointOfContact:
+    organization: Crop Nutrition Laboratory Services
+    address: Limuru, off Limuru road, P.O. Box 66437
+    city: Nairobi
+    postalcode: 00800
+    country: Kenya
+    email: support@cropnuts.com
+    url: https://cropnuts.com/
+
+   

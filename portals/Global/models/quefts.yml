@@ -5,7 +5,7 @@ metadata:
   dataseturi: https://doi.org/10.1016/0016-7061(90)90021-Z
   language: english
   charset: utf8
-  hierarchylevel: application
+  hierarchylevel: model
   datestamp: 2023-07-07
 identification:
   title: A system for quantitative evaluation of the fertility of tropical soils (QUEFTS)

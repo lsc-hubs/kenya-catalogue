@@ -1,5 +1,6 @@
 metadata:
   identifier: ActualEvapoTranspirationandInterceptionDekadal
+  hierarchylevel: dataset
 identification:
   title: Actual EvapoTranspiration and Interception (Dekadal)
   abstract: The FAO Water Productivity Open-access portal (WaPOR) uses remote sensing
