@@ -13,7 +13,8 @@ metadata:
     # - pycsw-admin.py setup-db -c ./pycsw.cfg
     # covert yml to iso (only changed?)
     - export pgdc_schema_path=/pyGeoDataCrawler/geodatacrawler/schemas
-    - export pgdc_canonical_url=https://git.wur.nl/isric/lsc-hubs/kenya-hub/-/blob/kenya/portals/
+    #- export pgdc_canonical_url=https://git.wur.nl/isric/lsc-hubs/kenya-hub/-/blob/kenya/portals/
+    - export pgdc_canonical_url=https://github.com/lsc-hubs/kenya-catalogue/tree/main/portals/
     - export PYCSW_REPOSITORY_DATABASE_URI=$PYCSW_REPOSITORY_DATABASE_URI
     - cd /pyGeoDataCrawler
     - poetry run crawl-metadata --dir=$CI_PROJECT_DIR/portals --mode=export --dir-out=/tmp
