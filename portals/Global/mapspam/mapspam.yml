@@ -7,7 +7,7 @@ metadata:
   charset: utf8
   hierarchylevel: dataset
   datestamp: 2020-07-13
-  
+
 spatial:
   datatype: Grid
 
@@ -31,8 +31,8 @@ identification:
       keywords:
       - soil fertility management
       - soil water conservation
-    topiccategory:  
-    - geoscientificInformation
+  topiccategory:  
+  - geoscientificInformation
   extents:
     temporal:
     - begin: 2016-01-01
