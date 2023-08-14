@@ -1,20 +1,23 @@
-# Desira dataset inventarisation
+# Kenya Land Soil Crop Catalogue
 
-At this repo we keep a listing of relevant portals and datasets for the desira project
+A catalogue for Kenyan LSC datasets, services and applications. The content of this catalogue is published at intervals at https://kenya.lsc-hubs.org.
 
-The original [list](portals.csv) has been imported from an excel sheet created by Johan.
+## Work in progress
+The [DESIRA LSC](https://lsc-hubs.org/) project is a work in progress. This repository is an experimental setup to research participatory content management in the land soil crop domain.
 
-A crawl.py script is available which takes this list as a source and extracts as much info as possible from remote sources.
+## Contribute to this repository
 
-Users can then move into the generated metadata files to add relevant content.
+You can participate in [discussions](https://github.com/lsc-hubs/kenya-catalogue/discussions), or fork this repository and create [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to suggest content updates directly.
 
-Finally this content will be exported to a set of iso19139 xml files which are loaded in a catalog to provide a searchable interface
+## Metadata control file
+Records on this repository are stored in the [metadata control file](https://geopython.github.io/pygeometa/reference/mcf/) format (MCF). MCF is a subset of [ISO19139:2007](https://www.iso.org/standard/32557.html), encoded in [YAML](https://www.yaml.io/spec/). 
+
+## LSC Hubs
+The objective of this project is to develop sustainable land, soil, crop information hubs in national agricultural research organizations in East Africa to enhance the effectiveness of national Agricultural Knowledge and Innovation Systems (AKIS) and contribute to rural transformation and climate-smart agriculture. Read more on the [lsc-hubs website](https://lsc-hubs.org)
 
 ## File structure
 
-Each portal is listed as a folder in [portals](portals) folder
-
-Each dataset available via that portal is listed as a folder within the relevant portal folder
+Datasets are clustered by source (portal) in a [portals](portals) folder.
 
 Metadata about other types such as scientific articles/reports, software applications/models is still unclear, I suggest to place them in 
 
@@ -23,13 +26,11 @@ Metadata about other types such as scientific articles/reports, software applica
 
 ## Metadata generation
 
-Dataset metadata inherits from portal metadata, so you can for example describe a contact organisation at the portal level, you then don't need to specify it anymore at the dataset level
+Dataset metadata inherits from portal metadata, so you can for example describe a contact organisation at the portal level (index.yml), you then don't need to specify it anymore at the dataset level
 
-Metadata follows the [mcf](https://github.com/geopython/pygeometa/blob/master/sample.yml) syntax, a yaml based flavour of iso19139
+The [pygeometa](https://github.com/geopython/pygeometa) library is used to generate iso19139 metadata from the mcf files.
 
-the [pygeometa](https://github.com/geopython/pygeometa) library is used to generate iso19139 metadata from the mcf files.
-
-The pyGeoDataCrawler scripts facilitates to work with pygeometa on folders of files
+The [pyGeoDataCrawler](https://www.piwheels.org/project/geodatacrawler/) scripts facilitates to work with pygeometa on folders of files
 
 Run the import-csv script for a folder, if no yml file exists, the script will create a yml file (using properties of the data file) for each data file.
 
@@ -63,7 +64,6 @@ crawl-metadata --mode=update --dir="/Projects/desira/dataset-inventarisation/por
 
 A ci-cd process has been set up to export mcf to iso19139 and load the iso19139 records into pycsw (or any other catalogue).
 
-
 ## Identification and interlinking
 
 Portals are identified by there domain name. A limitation is that multiple portals at a single domain can not be distinguished. Consider that search engines apply a similar convention. The portal folder name is considered the identification of the portal.
@@ -80,4 +80,10 @@ Linking from a dataset to another dataset (or other described resource) within t
 
 Mind that the crwaler currently does not have a mechanism to prevent overwriting of manual contributions. 
 One idea could be to use GIT branches to rebase manual contributions to the latest crawler results.
+
+## Catalogue publication
+
+The process of catalogue publication is triggered at pushes to github using github actions.
+
+Github actions pushes the changes to a remote repository at Wageningen University, which is the location where the catalogue is currently hosted. 
 

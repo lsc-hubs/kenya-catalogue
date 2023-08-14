@@ -25,4 +25,4 @@ metadata:
     - pycsw-admin.py load-records --config=$CI_PROJECT_DIR/pycsw.cfg  --path=$CI_PROJECT_DIR/portals -r
   when: on_success
   only:
-    - kenya
+    - main
