@@ -4,11 +4,19 @@ A catalogue for Kenyan LSC datasets, services and applications. The content of t
 
 ## Land Soil Crop Hubs project
 
-The [DESIRA LSC](https://lsc-hubs.org/) project is a work in progress. The objective of this project is to develop sustainable land, soil, crop information hubs in national agricultural research organizations in East Africa to enhance the effectiveness of national Agricultural Knowledge and Innovation Systems (AKIS) and contribute to rural transformation and climate-smart agriculture. Read more on the [lsc-hubs website](https://lsc-hubs.org)
+The [DESIRA LSC](https://lsc-hubs.org/) project is a work in progress. The objective of this project is to develop sustainable land, soil, crop information hubs in national agricultural research organizations in East Africa to enhance the effectiveness of national Agricultural Knowledge and Innovation Systems (AKIS) and contribute to rural transformation and climate-smart agriculture. Read more on the [lsc-hubs website](https://lsc-hubs.org).
 
 ## Contribute to this repository
 
-You can participate in [discussions](https://github.com/lsc-hubs/kenya-catalogue/discussions), or fork this repository and create [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to suggest content updates directly.
+You can suggest new content, content modifications and participate in [discussions](https://github.com/lsc-hubs/kenya-catalogue/discussions), or fork this repository and create [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to suggest new content or content updates directly.
+
+An initial inventarisation for the content of this repository has been made by content experts as well as a questionaire to stakeholders.
+
+Guidelines for inclusion:
+
+- Relavant to the topic of land soil crop (agronomy)
+- Data available at a common location in an accessible format (access constraints may apply, but if so, should be documented)
+- Dataset documentation (metadata) available
 
 ## Metadata as files
 
@@ -32,7 +40,7 @@ The Github action pushes the changes to a remote repository at Wageningen Univer
 
 ## pygeodatacrawler
 
-[pygeodatacrawler](https://www.piwheels.org/project/geodatacrawler/) facilitates to work with pygeometa within a repository of mcf files.
+[pygeodatacrawler](https://pypi.org/project/geodatacrawler/) facilitates to work with pygeometa within a repository of mcf files.
 
 ### Generate MCF from data files
 
@@ -67,6 +75,15 @@ Export a repository to a series of iso documents
 crawl-metadata --mode=export --dir="/Projects/desira/dataset-inventarisation/portals/*" --dir-out=/temp
 ```
 
+### pycsw
+
+[pycsw](https://pycsw.org) is a python catalogue implementation providing dataset access via common api's, such as: Catalog Service for the Web, OGCAPI-Records, STAC, OAI-PMH and Opensearch. [Loading iso19139 records into pycsw](https://docs.pycsw.org/en/latest/administration.html#loading-records) using:
+
+```
+pycsw-admin.py load-records --config default.cfg --path /path/to/records
+```
+
+[Layout customisation](https://github.com/pvgenuchten/pycsw-skin) of the catalogue using jinja2 templates.
 
 
 
