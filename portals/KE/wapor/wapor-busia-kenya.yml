@@ -1,0 +1,66 @@
+metadata:
+  identifier: wapor-busia-kenya
+  hierarchylevel: service
+identification:
+  title: Wapor datasets for Busia, Kenya
+  abstract: The seasonal Gross Biomass Water Productivity expresses the quantity of output (above ground biomass production) in relation to the total volume of water consumed (actual EvapoTranspiration) during the growing cycle of the vegetation. By relating biomass production to total EvapoTranspiration (sum of soil evaporation, canopy transpiration and interception), this indicator provides insights on the impact of vegetation development on consumptive water use and thus on water balance in a given domain. When the focus is on monitoring performance of irrigated agriculture in relation to water consumption, it is more appropriate to use transpiration alone as a denominator, as a measure of water beneficially consumed by the plant. This latter indicator, for which we use the term \"net water productivity\", provides useful information on how effectively vegetation (and particularly crops) uses water to develop its biomass (and thus yield).
+  keywords:
+    default:
+      keywords:
+      - wapor
+    lsc:
+      keywords:
+      - crop
+      - land
+      - water
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    tags:
+      keywords:
+      - evapotranspiration
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+  extents:
+    spatial:
+    - bbox:
+      - 34.05
+      - 0.33
+      - 34.25
+      - 0.53
+      crs: '4326'
+    temporal:
+      start: 2010
+      end: 2019
+  rights: ''
+  fees: ''
+content_info:
+    type: image
+    resolution: "30m"
+    dimensions:
+        - units: kg/m³
+dataquality:
+    scope:
+        level: dataset
+    lineage:
+        statement: "The following data is used for calculating it: Seasonal TBP, Dekadal ETIa, Phenology (start of season and end of season)"
+contact:
+  distributor:
+    organization: FAO
+    url: https://wapor.apps.fao.org/
+    individualname: null
+    email: wapor@fao.org
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    positionname: null
+distribution:
+  datasets:
+    type: www:link
+    description: Catalogue
+    url: https://wapor.apps.fao.org/catalog/WAPOR_2/3?area=BUS
+mcf:
+  version: 1.0
