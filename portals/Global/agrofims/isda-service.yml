@@ -2,10 +2,11 @@ mcf:
     version: 1.0
 
 metadata:
-  identifier: isda-soil
+  identifier: isda-service
   language: english
   charset: utf8
-  hierarchylevel: dataset
+  hierarchylevel: service
+  parentidentifier: isda-soil
   datestamp: 2022-12-13
 
 spatial:

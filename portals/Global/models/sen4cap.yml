@@ -1,0 +1,48 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: sen4cap
+  language: english
+  charset: utf8
+  hierarchylevel: model
+  datestamp: 2023-08-30
+identification:
+  title: Sen4CAP - Sentinels for Common Agriculture Policy
+  abstract: 'The Sen4CAP system is an operational standalone processing chain which generates a set of products 
+    for agriculture monitoring from Sentinel-2 (S2) L1C and Landsat 8 (L8) L1T time series along the growing season. These different products consist of;
+    monthly cloud-free composites of surface reflectance at 10 – 20 m resolution;
+    monthly dynamic cropland masks, delivered from the agricultural mid-season onwards;
+    cultivated crop type maps at 10 m resolution for main crop groups, delivered twice along agricultural seasons;
+    daily vegetation status maps, Normalized Difference Vegetation Index (NDVI) and Leaf Area Index (LAI), describing the vegetative development of crops on a 10-day basis.'
+  keywords:
+    default:
+      keywords:
+      - model
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+contact:
+  pointOfContact:
+    organization: European Space Agency
+distribution:
+  d:
+    name: Sources
+    url: https://github.com/Sen4CAP
+    type: Git repository
+  d2:
+    name: User manual v3.2
+    url: http://esa-sen4cap.org/sites/default/files/Sen4CAP_SUM_v3.2.pdf
+    type: Website
+  d3:
+    name: Download
+    url: http://esa-sen4cap.org/content/system-download-0?
+    type: download
+  d4:
+    name: Project Website
+    url: http://esa-sen4cap.org
+    type: Website
