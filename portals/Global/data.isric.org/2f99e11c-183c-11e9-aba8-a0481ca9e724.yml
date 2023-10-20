@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 2f99e11c-183c-11e9-aba8-a0481ca9e724
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/2f99e11c-183c-11e9-aba8-a0481ca9e724/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-06-28T12:58:32'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil water content
+      - soil water content, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - Water retention volumetric - 100 kPa
   abstract: "Soil moisture content by volume, at tension 100 kPa (pF 3.0) (cm\xB3\
     /100cm\xB3).\n       \nISRIC is developing a centralized and user\u2013focused\
@@ -51,16 +61,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -94,6 +94,7 @@ distribution:
     name: wosis_latest_wg0100
     description: WoSIS latest - Water retention gravimetric - 100 kPa
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 2f99e116-183c-11e9-aba8-a0481ca9e724
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/2f99e116-183c-11e9-aba8-a0481ca9e724/formatters/xml
+  datestamp: '2023-09-22T14:24:26'
   hierarchylevel: dataset
-  datestamp: '2022-06-28T13:04:00'
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -33,25 +33,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: WoSIS latest - Phosphorus (P) - total
-  abstract: "Determined with a very strong acid (aqua regia and sulfuric acid/nitric\
-    \ acid) (mg/kg).\n       \nISRIC is developing a centralized and user\u2013focused\
-    \ server database, known as ISRIC World Soil Information Service (WoSIS). The\
-    \ aims are to: \n\u2022 Safeguard world soil data \"as is\" \n\u2022 Share soil\
-    \ point (i.e. profile) data upon their standardization, and ultimately harmonization\
-    \ \n\u2022 Provide quality-assessed, geo-referenced soil data for a growing range\
-    \ of environmental applications (e.g. SoilGrids250m). \n\nAt present, wosis_latest\
-    \ contains standardized data for 217,000 profiles. The number of measured data\
-    \ for each property varies between pro\uFB01les and with depth, generally depending\
-    \ on the purpose of the initial studies. Further, in most source data sets, there\
-    \ are fewer data for soil physical as opposed to soil chemical attributes and\
-    \ there are fewer measurements for deeper than for superficial horizons. Generally,\
-    \ limited quality information is associated with the various source data. Further\
-    \ information is provided in https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf."
-  dates:
-    publication: '2020-05-01'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -62,6 +43,24 @@ identification:
     temporal:
     - begin: '1918-01-01'
       end: '2013-02-12'
+  title: WoSIS latest - Phosphorus (P) - total
+  abstract: "Determined with a very strong acid (aqua regia and sulfuric acid/nitric\
+    \ acid) (mg/kg).\n       \nISRIC is developing a centralized and user\u2013focused\
+    \ server database, known as ISRIC World Soil Information Service (WoSIS). The\
+    \ aims are to: \n\u2022 Safeguard world soil data \"as is\" \n\u2022 Share soil\
+    \ point (i.e. profile) data upon their standardization, and ultimately harmonization\
+    \ \n\u2022 Provide quality-assessed, geo-referenced soil data for a growing range\
+    \ of environmental applications (e.g. SoilGrids250m). \n\n The number of measured\
+    \ data for each property varies between pro\uFB01les and with depth, generally\
+    \ depending on the purpose of the initial studies. Further, in most source data\
+    \ sets, there are fewer data for soil physical as opposed to soil chemical attributes\
+    \ and there are fewer measurements for deeper than for superficial horizons. Generally,\
+    \ limited quality information is associated with the various source data. Further\
+    \ information is provided in https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf."
+  dates:
+    publication: '2020-05-01'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: On going
 distribution:
@@ -78,23 +77,18 @@ distribution:
     description: null
     function: information
   link-2:
-    url: https://isric.org/explore/wosis
+    url: https://www.isric.org/explore/soilgrids/faq-soilgrids
     type: WWW:LINK-1.0-http--related
     name: Project webpage
     description: null
     function: information
   link-3:
-    url: https://www.isric.online/sites/default/files/isric_report_2018_01.pdf#page=57
-    type: WWW:LINK-1.0-http--related
-    name: Procedures manual 2018
-    description: null
-    function: information
-  link-4:
     url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
     type: OGC:WMS
     name: wosis_latest_phptot
     description: WoSIS latest - Phosphorus (P) - total
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

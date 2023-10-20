@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: df664518-3b23-43e8-b77b-fd4c8ebac5fd
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/df664518-3b23-43e8-b77b-fd4c8ebac5fd/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-03-04T08:35:46'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,16 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: SoilGrids250m 2.0 - Soil organic carbon density aggregated 1000m
-  abstract: "Soil organic carbon density in hg/m\xB3 at 6 standard depths. Predictions\
-    \ were derived using a digital soil mapping approach based on Quantile Random\
-    \ Forest, drawing on a global compilation of soil profile data and environmental\
-    \ layers. This map is the result of resampling the mean SoilGrids 250 m predictions\
-    \ (Poggio et al. 2021) for each 1000 m cell."
-  dates:
-    publication: '2020-05-04'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -52,6 +42,16 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2016-07-05'
+  title: SoilGrids250m 2.0 - Soil organic carbon density aggregated 1000m
+  abstract: "Soil organic carbon density in hg/m\xC2\xB3 at 6 standard depths. Predictions\
+    \ were derived using a digital soil mapping approach based on Quantile Random\
+    \ Forest, drawing on a global compilation of soil profile data and environmental\
+    \ layers. This map is the result of resampling the mean SoilGrids 250 m predictions\
+    \ (Poggio et al. 2021) for each 1000 m cell."
+  dates:
+    publication: '2020-05-04'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: Completed
 distribution:
@@ -73,6 +73,7 @@ distribution:
     name: FAQ
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 1a8f1290-f75a-4c86-bf7a-7b44d03089c3
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/1a8f1290-f75a-4c86-bf7a-7b44d03089c3/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-06-28T12:54:09'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - Silt total
   abstract: "X to Y mm fraction of the fine earth fraction*; Y as specified in the\
     \ analytical method description (e.g. Y = 0.05 mm) (g/100g).\n       \nISRIC is\
@@ -55,16 +65,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -98,6 +98,7 @@ distribution:
     name: wosis_latest_silt
     description: WoSIS latest - Silt total
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

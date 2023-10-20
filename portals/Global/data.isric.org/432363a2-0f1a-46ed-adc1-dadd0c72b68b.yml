@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 432363a2-0f1a-46ed-adc1-dadd0c72b68b
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/432363a2-0f1a-46ed-adc1-dadd0c72b68b/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-06-28T12:47:53'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - pH KCl
   abstract: "A measure of the acidity or alkalinity in soils, defined as the negative\
     \ logarithm (base 10) of the activity of hydronium ions (H+) in a KCl solution,\
@@ -53,16 +63,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -96,6 +96,7 @@ distribution:
     name: wosis_latest_phkc
     description: WoSIS latest - pH KCl
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

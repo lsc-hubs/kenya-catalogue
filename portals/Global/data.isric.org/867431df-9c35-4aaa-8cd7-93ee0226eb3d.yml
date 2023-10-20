@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 867431df-9c35-4aaa-8cd7-93ee0226eb3d
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/867431df-9c35-4aaa-8cd7-93ee0226eb3d/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-03-01T10:18:07'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,16 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: SoilGrids250m 2.0 - Cation exchange capacity at ph7 aggregated 5000m
-  abstract: Cation exchange capacity (buffered at pH 7) of fine earth fraction in
-    mmol(c)/kg at 6 standard depths. Predictions were derived using a digital soil
-    mapping approach based on Quantile Random Forest, drawing on a global compilation
-    of soil profile data and environmental layers. This map is the result of resampling
-    the mean SoilGrids 250 m predictions (Poggio et al. 2021) for each 5000 m cell.
-  dates:
-    publication: '2020-05-04'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -52,6 +42,16 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2016-07-05'
+  title: SoilGrids250m 2.0 - Cation exchange capacity at ph7 aggregated 5000m
+  abstract: Cation exchange capacity (buffered at pH 7) of fine earth fraction in
+    mmol(c)/kg at 6 standard depths. Predictions were derived using a digital soil
+    mapping approach based on Quantile Random Forest, drawing on a global compilation
+    of soil profile data and environmental layers. This map is the result of resampling
+    the mean SoilGrids 250 m predictions (Poggio et al. 2021) for each 5000 m cell.
+  dates:
+    publication: '2020-05-04'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: Completed
 distribution:
@@ -79,6 +79,7 @@ distribution:
     name: Scientific Paper
     description: null
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

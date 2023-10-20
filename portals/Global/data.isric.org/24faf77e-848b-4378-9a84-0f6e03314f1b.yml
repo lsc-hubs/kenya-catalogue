@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 24faf77e-848b-4378-9a84-0f6e03314f1b
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/24faf77e-848b-4378-9a84-0f6e03314f1b/formatters/xml
+  datestamp: '2023-09-22T13:42:42'
   hierarchylevel: dataset
-  datestamp: '2022-06-28T12:54:58'
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil porosity
+      - soil porosity, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - Bulk density whole soil - 33 kPa
   abstract: "Bulk density of the whole soil including coarse fragments, equilibrated\
     \ at 33 kPa (kg/dm\xB3).\n       \nISRIC is developing a centralized and user\u2013\
@@ -52,16 +62,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -72,29 +72,24 @@ distribution:
     description: WoSIS latest - Bulk density whole soil - 33 kPa
     function: download
   link-1:
-    url: https://doi.org/10.5194/essd-9-1-2017
+    url: https://doi.org/10.5194/essd-12-299-2020
     type: WWW:LINK-1.0-http--related
     name: Scientific paper
     description: null
     function: information
   link-2:
-    url: https://isric.org/explore/wosis
+    url: https://www.isric.org/explore/wosis/faq-wosis
     type: WWW:LINK-1.0-http--related
     name: Project webpage
     description: null
     function: information
   link-3:
-    url: https://www.isric.online/sites/default/files/isric_report_2018_01.pdf#page=57
-    type: WWW:LINK-1.0-http--related
-    name: Procedures manual 2018
-    description: null
-    function: information
-  link-4:
     url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
     type: OGC:WMS
     name: wosis_latest_bdws33
     description: WoSIS latest - Bulk density whole soil - 33 kPa
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information
