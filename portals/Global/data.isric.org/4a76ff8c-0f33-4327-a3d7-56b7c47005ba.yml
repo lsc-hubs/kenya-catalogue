@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 4a76ff8c-0f33-4327-a3d7-56b7c47005ba
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/4a76ff8c-0f33-4327-a3d7-56b7c47005ba/formatters/xml
+  datestamp: '2023-09-22T14:37:41'
   hierarchylevel: dataset
-  datestamp: '2022-06-28T13:14:33'
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,28 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: WoSIS latest - Total carbon (C)
-  abstract: "Gravimetric content of organic carbon and inorganic carbon in the fine\
-    \ earth fraction* (g/kg).\n       \nISRIC is developing a centralized and user\u2013\
-    focused server database, known as ISRIC World Soil Information Service (WoSIS).\
-    \ The aims are to: \n\u2022 Safeguard world soil data \"as is\" \n\u2022 Share\
-    \ soil point (i.e. profile) data upon their standardization, and ultimately harmonization\
-    \ \n\u2022 Provide quality-assessed, geo-referenced soil data for a growing range\
-    \ of environmental applications (e.g. SoilGrids250m). \n\nAt present, wosis_latest\
-    \ contains standardized data for 217,000 profiles. The number of measured data\
-    \ for each property varies between pro\uFB01les and with depth, generally depending\
-    \ on the purpose of the initial studies. Further, in most source data sets, there\
-    \ are fewer data for soil physical as opposed to soil chemical attributes and\
-    \ there are fewer measurements for deeper than for superficial horizons. Generally,\
-    \ limited quality information is associated with the various source data. Further\
-    \ information is provided in  https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf.\n\
-    \n* The fine earth fraction is generally defined as being less than 2 mm. However,\
-    \ an upper limit of 1 mm was used in the former Soviet Union  and its sateltite\
-    \ states (Katchynsky scheme). This has been indicated in the database."
-  dates:
-    publication: '2020-05-01'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -64,6 +42,27 @@ identification:
     temporal:
     - begin: '1918-01-01'
       end: '2013-02-12'
+  title: WoSIS latest - Total carbon (C)
+  abstract: "Gravimetric content of organic carbon and inorganic carbon in the fine\
+    \ earth fraction* (g/kg).\n       \nISRIC is developing a centralized and user\u2013\
+    focused server database, known as ISRIC World Soil Information Service (WoSIS).\
+    \ The aims are to: \n\u2022 Safeguard world soil data \"as is\" \n\u2022 Share\
+    \ soil point (i.e. profile) data upon their standardization, and ultimately harmonization\
+    \ \n\u2022 Provide quality-assessed, geo-referenced soil data for a growing range\
+    \ of environmental applications (e.g. SoilGrids250m). \n\nThe number of measured\
+    \ data for each property varies between pro\uFB01les and with depth, generally\
+    \ depending on the purpose of the initial studies. Further, in most source data\
+    \ sets, there are fewer data for soil physical as opposed to soil chemical attributes\
+    \ and there are fewer measurements for deeper than for superficial horizons. Generally,\
+    \ limited quality information is associated with the various source data. Further\
+    \ information is provided in  https://doi.org/10.5194/essd-12-299-2020 and https://www.isric.org/sites/default/files/WOSISprocedureManual_2020nov17web.pdf.\n\
+    \n* The fine earth fraction is generally defined as being less than 2 mm. However,\
+    \ an upper limit of 1 mm was used in the former Soviet Union  and its satelitte\
+    \ states (Katchynsky scheme). This has been indicated in the database."
+  dates:
+    publication: '2020-05-01'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: On going
 distribution:
@@ -74,29 +73,24 @@ distribution:
     description: WoSIS latest - Total carbon (C)
     function: download
   link-1:
-    url: https://doi.org/10.5194/essd-9-1-2017
+    url: https://doi.org/10.5194/essd-12-299-2020
     type: WWW:LINK-1.0-http--related
     name: Scientific paper
     description: null
     function: information
   link-2:
-    url: https://isric.org/explore/wosis
+    url: https://www.isric.org/explore/wosis/faq-wosis
     type: WWW:LINK-1.0-http--related
     name: Project webpage
     description: null
     function: information
   link-3:
-    url: https://www.isric.online/sites/default/files/isric_report_2018_01.pdf#page=57
-    type: WWW:LINK-1.0-http--related
-    name: Procedures manual 2018
-    description: null
-    function: information
-  link-4:
     url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
     type: OGC:WMS
     name: wosis_latest_totc
     description: WoSIS latest - Total carbon (C)
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

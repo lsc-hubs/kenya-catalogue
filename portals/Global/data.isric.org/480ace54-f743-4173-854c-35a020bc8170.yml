@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 480ace54-f743-4173-854c-35a020bc8170
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/480ace54-f743-4173-854c-35a020bc8170/formatters/xml
+  datestamp: '2023-09-22T14:02:13'
   hierarchylevel: dataset
-  datestamp: '2022-06-28T13:21:09'
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - Calcium carbonate equivalent total
   abstract: "The content of carbonate in a liming material or calcareous soil calculated\
     \ as if all of the carbonate is in the form of CaCO3 (in the fine earth fraction*);\
@@ -56,16 +66,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -82,23 +82,18 @@ distribution:
     description: null
     function: information
   link-2:
-    url: https://isric.org/explore/wosis
+    url: https://www.isric.org/explore/wosis/faq-wosis
     type: WWW:LINK-1.0-http--related
     name: Project webpage
     description: null
     function: information
   link-3:
-    url: https://www.isric.online/sites/default/files/isric_report_2018_01.pdf#page=57
-    type: WWW:LINK-1.0-http--related
-    name: Procedures manual 2018
-    description: null
-    function: information
-  link-4:
     url: https://maps.isric.org/mapserv?map=/map/wosis_latest.map
     type: OGC:WMS
     name: wosis_latest_tceq
     description: WoSIS latest - Calcium carbonate equivalent total
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

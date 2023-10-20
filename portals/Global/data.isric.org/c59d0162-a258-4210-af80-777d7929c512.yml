@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: c59d0162-a258-4210-af80-777d7929c512
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/c59d0162-a258-4210-af80-777d7929c512/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-02-08T10:51:27'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -39,22 +39,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: Global Soil Salinity Map
-  abstract: "This dataset includes global soil salinity layers for the years 1986,\
-    \ 1992, 2000, 2002, 2005, 2009 and 2016. The maps were generated with a random\
-    \ forest classifier that was trained using seven soil properties maps, thermal\
-    \ infrared imagery and the ECe point data from the WoSIS database. The validation\
-    \ accuracy of the resulting maps was in the range of 67\u201370%. The total area\
-    \ of salt affected lands by our assessment is around 1 billion hectares, with\
-    \ a clear increasing trend. Further details are provided in a peer-reviewed journal\
-    \ article (https://doi.org/10.1016/j.rse.2019.111260). The code and data used\
-    \ to produce the global soil salinity maps can be accessed by registered Google\
-    \ Earth Engine users at https://code.earthengine.google.com/d43e5a92ae1deed32a0929f57b572756."
-  dates:
-    creation: '2019-01-01'
-  topiccategory:
-  - geoscientificInformation
-  - environment
   extents:
     spatial:
     - bbox:
@@ -65,6 +49,22 @@ identification:
     temporal:
     - begin: '1986-01-01'
       end: '2016-12-31'
+  title: Global Soil Salinity Map
+  abstract: "This dataset includes global soil salinity layers for the years 1986,\
+    \ 1992, 2000, 2002, 2005, 2009 and 2016. The maps were generated with a random\
+    \ forest classifier that was trained using seven soil properties maps, thermal\
+    \ infrared imagery and the ECe point data from the WoSIS database. The validation\
+    \ accuracy of the resulting maps was in the range of 67\xE2\u20AC\u201C70%. The\
+    \ total area of salt affected lands by our assessment is around 1 billion hectares,\
+    \ with a clear increasing trend. Further details are provided in a peer-reviewed\
+    \ journal article (https://doi.org/10.1016/j.rse.2019.111260). The code and data\
+    \ used to produce the global soil salinity maps can be accessed by registered\
+    \ Google Earth Engine users at https://code.earthengine.google.com/d43e5a92ae1deed32a0929f57b572756."
+  dates:
+    creation: '2019-01-01'
+  topiccategory:
+  - geoscientificInformation
+  - environment
   accessconstraints: license
   status: Completed
 distribution:
@@ -128,6 +128,7 @@ distribution:
     name: Code on Earth Engine
     description: null
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: Wageningen University

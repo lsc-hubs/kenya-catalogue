@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 2fdf1a33-487f-4aa7-a6b6-b2b49483ad48
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/2fdf1a33-487f-4aa7-a6b6-b2b49483ad48/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-02-07T15:55:18'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,15 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: SoilGrids250m 2.0 - Soil pH in H2O aggregated 1000m
-  abstract: Soil pH x 10 in H2O at 6 standard depths (to convert to pH values divide
-    by 10). Predictions were derived using a digital soil mapping approach based on
-    Quantile Random Forest, drawing on a global compilation of soil profile data and
-    environmental layers. This map is the result of resampling the mean SoilGrids
-    250 m predictions (Poggio et al. 2021) for each 1000 m cell.
-  dates:
-    publication: '2020-05-04'
-  topiccategory: []
   extents:
     spatial:
     - bbox:
@@ -51,6 +42,15 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2016-07-05'
+  title: SoilGrids250m 2.0 - Soil pH in H2O aggregated 1000m
+  abstract: Soil pH x 10 in H2O at 6 standard depths (to convert to pH values divide
+    by 10). Predictions were derived using a digital soil mapping approach based on
+    Quantile Random Forest, drawing on a global compilation of soil profile data and
+    environmental layers. This map is the result of resampling the mean SoilGrids
+    250 m predictions (Poggio et al. 2021) for each 1000 m cell.
+  dates:
+    publication: '2020-05-04'
+  topiccategory: []
   accessconstraints: license
   status: Completed
 distribution:
@@ -78,6 +78,7 @@ distribution:
     name: Scientific paper
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: f5a1188a-09f8-4ef6-b841-93f08e3903f4
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/f5a1188a-09f8-4ef6-b841-93f08e3903f4/formatters/xml
+  datestamp: '2023-09-22T15:14:29'
   hierarchylevel: dataset
-  datestamp: '2022-11-18T16:59:32'
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil water content
+      - soil water content, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,15 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: SoilGrids250m 2.0 - Volumetric Water Content at 1500kPa
-  abstract: Volumetric Water Content at 1500kPa in 10-3 cm3cm-3 (0.1 v% or 1 mm/m)
-    at 6 standard depths. Predictions were derived using a digital soil mapping approach
-    based on Quantile Random Forest, drawing on a global compilation of soil profile
-    data and environmental layers.
-  dates:
-    publication: '2021-11-05'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -51,6 +42,14 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2016-07-05'
+  title: SoilGrids250m 2.0 - Volumetric Water Content at 1500kPa
+  abstract: Volumetric Water Content at 1500kPa in 10-3 cm3cm-3 (0.1 v% or 1 mm/m)
+    at 6 standard depths. Predictions were derived using a digital soil mapping approach
+    based on Quantile Random Forest, drawing on a global compilation of soil profile
+    data and environmental layers.
+  dates:
+    publication: '2021-11-05'
+  topiccategory: []
   accessconstraints: license
   status: Completed
 distribution:
@@ -199,7 +198,7 @@ distribution:
     description: null
     function: information
   link-24:
-    url: https://isric.org/explore/soilgrids
+    url: https://www.isric.org/explore/soilgrids/faq-soilgrids
     type: WWW:LINK-1.0-http--related
     name: Project webpage
     description: null
@@ -216,6 +215,7 @@ distribution:
     name: Scientific Paper
     description: null
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information
@@ -229,3 +229,15 @@ contact:
     postalcode: null
     country: null
     email: ulan.turdukulov@isric.org
+  originator:
+    organization: ISRIC - World Soil Information
+    individualname: null
+    positionname: null
+    phone: null
+    fax: null
+    address: null
+    city: null
+    administrativearea: null
+    postalcode: null
+    country: null
+    email: null

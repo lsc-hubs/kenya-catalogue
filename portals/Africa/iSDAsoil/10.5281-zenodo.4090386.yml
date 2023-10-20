@@ -1,5 +1,5 @@
 mcf:
-  version: 1.0
+  version: 1.0 
 metadata:
   identifier: 10.5281-zenodo.4090386
   dataseturi: https://doi.org/10.5281/zenodo.4090386
@@ -79,7 +79,7 @@ contact:
     role: ''
     organization: Rothamsted Research
     url: https://orcid.org/0000-0003-4269-0903
-  Sila-Andrew-M.:
+  Sila-Andrew-M:
     individualname: Sila, Andrew M.
     role: ''
     organization: World Agroforestry (ICRAF)

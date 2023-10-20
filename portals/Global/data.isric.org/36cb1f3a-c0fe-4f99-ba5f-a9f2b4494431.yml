@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 36cb1f3a-c0fe-4f99-ba5f-a9f2b4494431
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/36cb1f3a-c0fe-4f99-ba5f-a9f2b4494431/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2021-07-14T11:51:42'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -90.0
+      - 180.0
+      - 100.0
+    temporal:
+    - begin: '2001-06-01'
+      end: '2011-06-01'
   title: Global distribution of soil phosphorus retention potential
   abstract: "Limited availability of P in soils to crops may be due to deficiency\
     \ and/or severe P retention. Earlier studies that drew on large soil profile databases\
@@ -60,16 +70,6 @@ identification:
     publication: '2011-06-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -180.0
-      - -90.0
-      - 180.0
-      - 100.0
-    temporal:
-    - begin: '2001-06-01'
-      end: '2011-06-01'
   accessconstraints: license
   status: Completed
 distribution:
@@ -91,6 +91,7 @@ distribution:
     name: Report
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 0df59382-8b09-419c-80c2-96ee41971fe0
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/0df59382-8b09-419c-80c2-96ee41971fe0/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-02-07T15:32:59'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,16 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: SoilGrids250m 2.0 - Sand content aggregated 5000m
-  abstract: "Sand content (50/63-2000 micro meter) mass fraction in \u2030 at 6 standard\
-    \ depths. Predictions were derived using a digital soil mapping approach based\
-    \ on Quantile Random Forest, drawing on a global compilation of soil profile data\
-    \ and environmental layers. This map is the result of resampling the mean SoilGrids\
-    \ 250 m predictions (Poggio et al. 2021) for each 5000 m cell."
-  dates:
-    publication: '2020-05-04'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -52,6 +42,16 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2016-07-05'
+  title: SoilGrids250m 2.0 - Sand content aggregated 5000m
+  abstract: "Sand content (50/63-2000 micro meter) mass fraction in \xE2\u20AC\xB0\
+    \ at 6 standard depths. Predictions were derived using a digital soil mapping\
+    \ approach based on Quantile Random Forest, drawing on a global compilation of\
+    \ soil profile data and environmental layers. This map is the result of resampling\
+    \ the mean SoilGrids 250 m predictions (Poggio et al. 2021) for each 5000 m cell."
+  dates:
+    publication: '2020-05-04'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: Completed
 distribution:
@@ -79,6 +79,7 @@ distribution:
     name: Scientific paper
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

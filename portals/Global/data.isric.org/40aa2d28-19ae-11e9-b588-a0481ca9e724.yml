@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 40aa2d28-19ae-11e9-b588-a0481ca9e724
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/40aa2d28-19ae-11e9-b588-a0481ca9e724/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2021-07-14T11:52:09'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - null
+      - soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,15 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: International Soil Carbon Network (ISCN)
-  abstract: The International Soil Carbon Network (ISCN) is a science-based network
-    that facilitates data sharing, assembles databases, identifies gaps in data coverage,
-    and enables spatially explicit assessments of soil carbon in context of landscape,
-    climate, land use, and biotic variables.
-  dates:
-    publication: '2017-12-04'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -51,6 +42,15 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2013-09-09'
+  title: International Soil Carbon Network (ISCN)
+  abstract: The International Soil Carbon Network (ISCN) is a science-based network
+    that facilitates data sharing, assembles databases, identifies gaps in data coverage,
+    and enables spatially explicit assessments of soil carbon in context of landscape,
+    climate, land use, and biotic variables.
+  dates:
+    publication: '2017-12-04'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: Completed
 distribution:
@@ -78,6 +78,7 @@ distribution:
     name: Scientific paper
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information
