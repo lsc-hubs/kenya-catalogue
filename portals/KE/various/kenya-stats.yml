@@ -1,0 +1,42 @@
+mcf:
+    version: 1.0
+metadata:
+  identifier: kenya-stats
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2023-11-15
+identification:
+  language: english
+  charset: utf8
+  title: Population data of Kenya
+  abstract: To provide, manage and promote quality statistical services through utilization of best practices for evidence-based decision making
+  dates:
+    creation: 2014-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Land
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+
+contact:
+  pointOfContact: 
+    organization: Kenya National Bureau of Statistics
+    url: https://www.knbs.or.ke/
+    city: Nairobi
+    country: Kenya
+
+distribution:
+  knbs:
+    name: knbs
+    url: https://www.knbs.or.ke/data-tables
+    type: www
+  opendataforafrica:
+    name: opendataforafrica
+    url: https://kenya.opendataforafrica.org/
+    type: www
+
