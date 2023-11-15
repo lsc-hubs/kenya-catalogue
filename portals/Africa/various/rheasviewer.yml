@@ -1,0 +1,50 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: rheasviewer
+  language: english
+  charset: utf8
+  hierarchylevel: service
+  datestamp: 2023-11-15
+identification:
+  language: english
+  charset: utf8
+  title: "RHEAS Viewer: A tool for analysis and dissemination of hydrological and crop modeling data"
+  abstract: "RHEAS Viewer was developed for Eastern and Southern Africa and is used by multiple government organizations for drought and crop yield analysis. The web application uses outputs from two models namely Variable Infiltration Capacity (VIC) and Decision Support system for Agro-Technology Transfer (DSSAT) from the RHEAS framework. SERVIR integrates NASA’s world class science and data with USAID’s development expertise and network of partners and relationships around the world. SERVIR harnesses the power of satellite data and science collaboration to support healthy, sustainable communities, livelihoods, and environments."
+  dates:
+    creation: 2021-12-01
+  keywords:
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+
+contact:
+  author:
+    name: Tondapu, Githika; Mishra, Vikalp; Ellenberg, Walter; Ndungu, Lilian; Miller, Sara; Adams, Emily; Delgado, Francisco
+  pointOfContact: 
+    organization: Bixal
+    email: info@bixal.com
+    url: https://bixal.com
+    address: 3050 Chain Bridge Rd., Suite 305
+    city: Fairfax, VA 22030
+    country: United States
+distribution:
+  servirglobal:
+    name: servirglobal
+    url: https://servirglobal.net
+    type: www
+  rheasviewer:
+    name: rheas viewer
+    url: https://rheasviewer.servirglobal.net/analysis/ 
+    type: www
+  2021AGUFM:
+    name: 2021AGUFM
+    url: https://ui.adsabs.harvard.edu/abs/2021AGUFM.B35C1442T/abstract 
+    type: www
+  
+

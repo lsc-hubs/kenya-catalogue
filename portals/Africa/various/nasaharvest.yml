@@ -1,0 +1,46 @@
+mcf:
+    version: 1.0
+metadata:
+  identifier: nasaharvest
+  language: english
+  charset: utf8
+  hierarchylevel: service
+  datestamp: 2023-11-15
+identification:
+  language: english
+  charset: utf8
+  title: "Harvest, NASA's food security and agriculture program"
+  abstract: "Open, timely, and science-driven information on crop conditions in support of market transparency and early warning of production shortfalls. NASA Harvest’s mission is to enable and advance adoption of satellite Earth observations by public and private organizations to benefit food security, agriculture, and human and environmental resiliency in the US and worldwide."
+  dates:
+    creation: 2014-01-01
+  keywords:
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+
+contact:
+  pointOfContact: 
+    organization: NASA Food Security
+    url: https://nasaharvest.org
+    city: MD 20771, Greenbelt 
+    country: United States
+
+distribution:
+  nasaharvest:
+    name: national-crop-monitors
+    url: https://nasaharvest.org 
+    type: www
+  geoglam:
+    name: geoglam cropmonitor
+    url: http://www.geoglam.org
+    type: www
+  cropmonitor:
+    name: cropmonitor
+    url: https://cropmonitor.org
+    type: www
+
