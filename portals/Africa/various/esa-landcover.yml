@@ -1,0 +1,43 @@
+mcf:
+    version: 1.0
+metadata:
+  identifier: esa-worldcover
+  language: english
+  charset: utf8
+  hierarchylevel: service
+  datestamp: 2023-11-15
+  datasetidentifier: https://doi.org/10.5281/zenodo.7254221
+identification:
+  language: english
+  charset: utf8
+  title: "ESA Worldcover 2021"
+  abstract: "The WorldCover products are delivered in a regular latitude/longitude grid (EPSG:4326) with the ellipsoid WGS 1984 (Terrestrial radius=6378 km). The legend includes 11 generic classes that appropriately describe the land surface at 10m: Tree cover, Shrubland, Grassland, Cropland, Built-up, Bare / sparse vegetation, Snow and Ice, Permanent water bodies, Herbaceous Wetland, Mangrove and Moss and lichen."
+  dates:
+    creation: 2021-01-01
+  rights: Commons Attribution 4.0 International License
+  keywords:
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+
+contact:
+  pointOfContact: 
+    organization: ESA
+    url: https://worldcover2021.esa.int/
+
+distribution:
+  nasaharvest:
+    name: ESA Worldcover
+    url: https://worldcover2021.esa.int/ 
+    type: www
+  geoglam:
+    name: esa_worldcover2021:esa_worldcover2021
+    url: https://worldcover2020.esa.int/geoserver/gwc/service/wms?SERVICE=WMS&VERSION=1.1.1
+    type: OGC:WMS
+
+
