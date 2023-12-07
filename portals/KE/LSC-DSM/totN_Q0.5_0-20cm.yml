@@ -1,0 +1,121 @@
+mcf:
+  version: 1.0
+metadata:
+  language: eng
+  identifier: totN_Q0.5_0-20cm
+  datestamp: 2023-11-28
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  language: ''
+  title: Total N [g/kg * 10] median of predictions
+  abstract: 'Spatial distribution of total N content for soils in Kenya. The units
+    are expressed in g/kg mutiplied by 10. The following datasets were used as input
+    for this map: AF-AfSP, AF-OeAcreFund, APNI (2016), US-NCSS, WD-ISIS, WD-WISE'
+  keywords:
+    default:
+      keywords:
+      - ''
+      - ''
+      - ''
+  fees: None
+  accessconstraints: otherRestrictions
+  rights: null
+  topiccategory:
+  - geoscientificInformation
+  status: ''
+  dates:
+    creation: Tue Oct 24 14:58:35 2023
+  extents:
+    spatial:
+    - bbox:
+      - 33.957436713734154
+      - -4.72425885273442
+      - 41.92039938668312
+      - 4.6200167326768415
+      crs: epsg:4326
+contact:
+  pointOfContact: null
+  '17507527':
+    individualname: '17507527'
+    role: creator
+distribution:
+  local:
+    url: totN/totN_Q0.5_0-20cm.tif
+    type: WWW:LINK
+    name: totN_Q0.5_0-20cm.tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/totN?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: totN_Q0.5_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/totN?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: totN_Q0.5_0-20cm
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: totN_Q0.5_0-20cm
+    min: 90.0
+    max: 4.0
+    nodata: 65535
+    units: ''
+  meta:
+    accuracy.ccc: '0.32612208716196'
+    accuracy.mae: '0.550514581080151'
+    accuracy.mec: '0.195030274791458'
+    accuracy.rmse: '1.52641029311545'
+    accuracy.rsq: '0.194357042236419'
+    AREA_OR_POINT: Area
+    depth_name: 0-20
+    do_tune: tune
+    model_name: rangerquantreg
+    model_options.levels_regular_search: '7'
+    model_options.ntree_default: '500'
+    model_options.parsnip_engine: ranger
+    model_options.parsnip_importance: impurity
+    model_options.parsnip_mode: regression
+    model_options.parsnip_mtry_range_max_multiplier: '3'
+    model_options.parsnip_mtry_range_min_multiplier: '0.5'
+    model_options.parsnip_quantreg: 'TRUE'
+    model_options.parsnip_trees_range: c(500, 1000)
+    model_options.search_type: regular
+    model_options.size_random_search: '50'
+    model_options.stats: c("mean", "Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_exp: c("Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_log_backtansform: mean
+    nrow_regression_matrix: '1170'
+    transformation: notransform
+    use_rfe: dorfe
+    variable_importance: "c(CLM_GEE.ERA5_Runoff = 58.5035483784776, CLM_GEE.ERA5_Temperature2m\
+      \ = 129.706940686186, CLM_GEE.ERA5_TotalEvaporation = 46.9596951960712, CLM_GEE.ERA5_TotalPrecipitation\
+      \ = 65.1512469795392, CLM_GEE.GPM_MeanMonthTotPrecipitations01 = 61.3051437599701,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations02 = 76.0479830674458, CLM_GEE.GPM_MeanMonthTotPrecipitations03\
+      \ = 72.4456678700782, CLM_GEE.GPM_MeanMonthTotPrecipitations04 = 59.5902836630496,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations05 = 74.0627756957351, CLM_GEE.GPM_MeanMonthTotPrecipitations06\
+      \ = 75.9768559596582, \nCLM_GEE.GPM_MeanMonthTotPrecipitations07 = 65.7974524492784,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations08 = 64.5968425301157, CLM_GEE.GPM_MeanMonthTotPrecipitations09\
+      \ = 77.0023717670215, CLM_GEE.GPM_MeanMonthTotPrecipitations10 = 70.6070414590706,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations11 = 80.0918473534134, CLM_GEE.GPM_MeanMonthTotPrecipitations12\
+      \ = 108.101749825586, CLM_GEE.GPM_MeanYearTotPrecipitations = 70.0736884233702,\
+      \ LUC_GEE.ESA_bare.coverfraction = 16.0981945687363, LUC_GEE.ESA_crops.coverfraction\
+      \ = 62.4820597611568, \nLUC_GEE.ESA_grass.coverfraction = 83.0245533926833,\
+      \ LUC_GEE.ESA_moss.coverfraction = 0, LUC_GEE.ESA_shrub.coverfraction = 62.5033661637777,\
+      \ LUC_GEE.ESA_snow.coverfraction = 0, LUC_GEE.ESA_tree.coverfraction = 56.9747316703195,\
+      \ LUC_GEE.ESA_urban.coverfraction = 0.885606122826623, LUC_GEE.ESA_water.permanent.coverfraction\
+      \ = 0, LUC_GEE.ESA_water.seasonal.coverfraction = 0, MOR_GEE_CHILI = 46.8826553861102,\
+      \ MOR_GEE_elevation = 169.133781445383, MOR_GEE_flacc = 21.5888362406621, MOR_GEE_gaussianCurvature\
+      \ = 101.468231736468, \nMOR_GEE_gradient = 0.525661560875687, MOR_GEE_LandForms\
+      \ = 29.2176347585148, MOR_GEE_mTPI = 65.2999663580113, MOR_GEE_ShapeIndex =\
+      \ 71.8319776080092, MOR_GEE_slope = 67.7166874379679, MOR_GEE_topoDiversity\
+      \ = 109.639839907522, MOR_GEE_tpi = 60.9635135773084, SAT_GEE.S1_VH = 52.4127693839676,\
+      \ SAT_GEE.S1_VV = 49.5609147118635, SAT_GEE.S1_YRdop = 46.5665265623097, SAT_GEE.S1_YRm\
+      \ = 61.1307343800123, SAT_GEE.S1_YRrt = 6.2981776257055, SAT_GEE.S1_YRv = 22.4767865195933,\
+      \ VEG_GEE.S2_nbr = 82.8932161089258, \nVEG_GEE.S2_ndsi = 73.9776971409208, VEG_GEE.S2_ndvi\
+      \ = 86.3969185164561, VEG_GEE.S2_ndwi = 87.2088747681538)"
+    voi: totN
+    voi_max_value: Inf
+    voi_min_value: '0'

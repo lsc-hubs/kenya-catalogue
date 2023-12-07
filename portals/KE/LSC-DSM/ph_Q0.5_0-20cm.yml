@@ -1,0 +1,112 @@
+mcf:
+  version: 1.0
+metadata:
+  language: eng
+  identifier: ph_Q0.5_0-20cm
+  datestamp: 2023-11-28
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  language: ''
+  title: pH [pH * 10] median of predictions
+  abstract: 'Spatial distribution of pH for soils in Kenya. The units are expressed
+    in pH mutiplied by 10. The following datasets were used as input for this map:
+    AD-AfSP, APNI (2016), ISDA, KE-SOTER, US-NCSS, WD-ISIS, WD-WISE'
+  keywords:
+    default:
+      keywords:
+      - ''
+      - ''
+      - ''
+  fees: None
+  accessconstraints: otherRestrictions
+  rights: null
+  topiccategory:
+  - geoscientificInformation
+  status: ''
+  dates:
+    creation: Thu Oct 26 15:11:17 2023
+  extents:
+    spatial:
+    - bbox:
+      - 33.95796023501561
+      - -4.724182703585706
+      - 41.920024399576626
+      - 4.620092881825555
+      crs: epsg:4326
+contact:
+  pointOfContact: null
+  '17507527':
+    individualname: '17507527'
+    role: creator
+distribution:
+  local:
+    url: ph/ph_Q0.5_0-20cm.tif
+    type: WWW:LINK
+    name: ph_Q0.5_0-20cm.tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/ph?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: ph_Q0.5_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/ph?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: ph_Q0.5_0-20cm
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: ph_Q0.5_0-20cm
+    min: 92.0
+    max: 44.0
+    nodata: 65535
+    units: ''
+  meta:
+    accuracy.ccc: '0.870963607393922'
+    accuracy.mae: '0.439011753920126'
+    accuracy.mec: '0.776360114773196'
+    accuracy.rmse: '0.600506512712091'
+    accuracy.rsq: '0.776714665935379'
+    AREA_OR_POINT: Area
+    depth_name: 0-20
+    do_tune: tune
+    model_name: rangerquantreg
+    model_options.levels_regular_search: '7'
+    model_options.ntree_default: '500'
+    model_options.parsnip_engine: ranger
+    model_options.parsnip_importance: impurity
+    model_options.parsnip_mode: regression
+    model_options.parsnip_mtry_range_max_multiplier: '3'
+    model_options.parsnip_mtry_range_min_multiplier: '0.5'
+    model_options.parsnip_quantreg: 'TRUE'
+    model_options.parsnip_trees_range: c(500, 1000)
+    model_options.search_type: regular
+    model_options.size_random_search: '50'
+    model_options.stats: c("mean", "Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_exp: c("Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_log_backtansform: mean
+    nrow_regression_matrix: '905'
+    transformation: notransform
+    use_rfe: dorfe
+    variable_importance: "c(CLM_GEE.ERA5_Temperature2m = 101.709922875539, CLM_GEE.ERA5_TotalEvaporation\
+      \ = 74.6125896409824, CLM_GEE.ERA5_TotalPrecipitation = 58.3353421851098, CLM_GEE.GPM_MeanMonthTotPrecipitations01\
+      \ = 130.038538181878, CLM_GEE.GPM_MeanMonthTotPrecipitations02 = 127.165751856128,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations03 = 58.8719883497, CLM_GEE.GPM_MeanMonthTotPrecipitations04\
+      \ = 44.4861766509112, CLM_GEE.GPM_MeanMonthTotPrecipitations05 = 52.7248073504252,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations06 = 14.6810999371834, \nCLM_GEE.GPM_MeanMonthTotPrecipitations07\
+      \ = 17.0128933635057, CLM_GEE.GPM_MeanMonthTotPrecipitations08 = 23.588008601848,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations09 = 46.4462557824823, CLM_GEE.GPM_MeanMonthTotPrecipitations10\
+      \ = 53.0689218268866, CLM_GEE.GPM_MeanMonthTotPrecipitations11 = 17.2991037154478,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations12 = 16.7460115027649, CLM_GEE.GPM_MeanYearTotPrecipitations\
+      \ = 27.2120814493054, LUC_GEE.ESA_grass.coverfraction = 22.684965266012, LUC_GEE.ESA_tree.coverfraction\
+      \ = 25.7019330602945, \nMOR_GEE_elevation = 40.7763359375965, MOR_GEE_mTPI =\
+      \ 17.4313627504403, MOR_GEE_slope = 24.8714438368752, MOR_GEE_topoDiversity\
+      \ = 60.6883734694979, SAT_GEE.S1_VH = 20.7592366778772, SAT_GEE.S1_VV = 22.8705859684963,\
+      \ SAT_GEE.S1_YRdop = 17.9890131330691, SAT_GEE.S1_YRm = 18.9910165925738, VEG_GEE.S2_nbr\
+      \ = 20.8642597658913, VEG_GEE.S2_ndsi = 37.8384544941522, VEG_GEE.S2_ndvi =\
+      \ 183.92677040104, VEG_GEE.S2_ndwi = 46.2712342934572)"
+    voi: ph
+    voi_max_value: Inf
+    voi_min_value: '0'

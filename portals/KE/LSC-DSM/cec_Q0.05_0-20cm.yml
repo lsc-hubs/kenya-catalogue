@@ -1,0 +1,112 @@
+mcf:
+  version: 1.0
+metadata:
+  language: eng
+  identifier: cec_Q0.05_0-20cm
+  datestamp: 2023-11-28
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  language: ''
+  title: Cation Exchange Capacity [cmolc/kg * 10] 0.05 quantile of predictions
+  abstract: 'Spatial distribution of Cation Exchange Capacity content for soils in
+    Kenya. The units are expressed in cmolc/kg mutiplied by 10. The following datasets
+    were used as input for this map: APNI (2013), US-NCSS, WD-ISIS, WD-WISE'
+  keywords:
+    default:
+      keywords:
+      - ''
+      - ''
+      - ''
+  fees: None
+  accessconstraints: otherRestrictions
+  rights: null
+  topiccategory:
+  - geoscientificInformation
+  status: ''
+  dates:
+    creation: Thu Oct 26 13:33:02 2023
+  extents:
+    spatial:
+    - bbox:
+      - 33.95796023501561
+      - -4.724182703585706
+      - 41.920024399576626
+      - 4.620092881825555
+      crs: epsg:4326
+contact:
+  pointOfContact: null
+  '17507527':
+    individualname: '17507527'
+    role: creator
+distribution:
+  local:
+    url: cec/cec_Q0.05_0-20cm.tif
+    type: WWW:LINK
+    name: cec_Q0.05_0-20cm.tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/cec?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: cec_Q0.05_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/cec?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: cec_Q0.05_0-20cm
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: cec_Q0.05_0-20cm
+    min: 184.0
+    max: 8.0
+    nodata: 65535
+    units: ''
+  meta:
+    accuracy.ccc: '0.483914727453955'
+    accuracy.mae: '8.38067233813553'
+    accuracy.mec: '0.351245776147887'
+    accuracy.rmse: '11.4462019027614'
+    accuracy.rsq: '0.356102050070495'
+    AREA_OR_POINT: Area
+    depth_name: 0-20
+    do_tune: tune
+    model_name: rangerquantreg
+    model_options.levels_regular_search: '7'
+    model_options.ntree_default: '500'
+    model_options.parsnip_engine: ranger
+    model_options.parsnip_importance: impurity
+    model_options.parsnip_mode: regression
+    model_options.parsnip_mtry_range_max_multiplier: '3'
+    model_options.parsnip_mtry_range_min_multiplier: '0.5'
+    model_options.parsnip_quantreg: 'TRUE'
+    model_options.parsnip_trees_range: c(500, 1000)
+    model_options.search_type: regular
+    model_options.size_random_search: '50'
+    model_options.stats: c("mean", "Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_exp: c("Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_log_backtansform: mean
+    nrow_regression_matrix: '271'
+    transformation: notransform
+    use_rfe: dorfe
+    variable_importance: "c(CLM_GEE.ERA5_Temperature2m = 3734.08564377861, CLM_GEE.GPM_MeanMonthTotPrecipitations01\
+      \ = 2330.75433106276, CLM_GEE.GPM_MeanMonthTotPrecipitations02 = 1781.27949472794,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations03 = 1834.44825961739, CLM_GEE.GPM_MeanMonthTotPrecipitations04\
+      \ = 1787.66509382956, CLM_GEE.GPM_MeanMonthTotPrecipitations05 = 1553.01737760411,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations06 = 1249.4313519371, CLM_GEE.GPM_MeanMonthTotPrecipitations07\
+      \ = 1197.9734637974, CLM_GEE.GPM_MeanMonthTotPrecipitations08 = 1550.93902469582,\
+      \ \nCLM_GEE.GPM_MeanMonthTotPrecipitations09 = 1608.57299356696, CLM_GEE.GPM_MeanMonthTotPrecipitations10\
+      \ = 1632.34659243837, CLM_GEE.GPM_MeanMonthTotPrecipitations11 = 2467.43268920446,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations12 = 1353.05676629228, CLM_GEE.GPM_MeanYearTotPrecipitations\
+      \ = 1574.01842586225, LUC_GEE.ESA_bare.coverfraction = 666.848246256504, LUC_GEE.ESA_grass.coverfraction\
+      \ = 1975.2253626831, LUC_GEE.ESA_shrub.coverfraction = 1600.15130908936, LUC_GEE.ESA_tree.coverfraction\
+      \ = 1041.28334885834, \nMOR_GEE_CHILI = 692.835999979509, MOR_GEE_elevation\
+      \ = 3878.52429171515, MOR_GEE_mTPI = 1106.94700467531, MOR_GEE_ShapeIndex =\
+      \ 974.843626395493, MOR_GEE_slope = 1615.45417618427, MOR_GEE_topoDiversity\
+      \ = 1797.20293025917, MOR_GEE_tpi = 1196.27780163819, SAT_GEE.S1_VH = 1067.98493536446,\
+      \ VEG_GEE.S2_nbr = 2309.5761237628, VEG_GEE.S2_ndsi = 1467.75633665725, VEG_GEE.S2_ndvi\
+      \ = 2070.50915760145, VEG_GEE.S2_ndwi = 1540.22801440746)"
+    voi: cec
+    voi_max_value: Inf
+    voi_min_value: '0'

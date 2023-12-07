@@ -1,0 +1,112 @@
+mcf:
+  version: 1.0
+metadata:
+  language: eng
+  identifier: soc_Q0.5_0-20cm
+  datestamp: 2023-11-28
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  language: ''
+  title: Oranic Carbon [g/kg * 10] median of predictions
+  abstract: 'Spatial distribution of organic carbon content for soils in Kenya. The
+    units are expressed in g/kg mutiplied by 10. The following datasets were used
+    as input for this map: AF-AfSP, APNI_16, ISDA, SLEEK, WUR_SBL'
+  keywords:
+    default:
+      keywords:
+      - ''
+      - ''
+      - ''
+  fees: None
+  accessconstraints: otherRestrictions
+  rights: null
+  topiccategory:
+  - geoscientificInformation
+  status: ''
+  dates:
+    creation: Thu Oct 26 17:59:01 2023
+  extents:
+    spatial:
+    - bbox:
+      - 33.95796023501561
+      - -4.724182703585706
+      - 41.920024399576626
+      - 4.620092881825555
+      crs: epsg:4326
+contact:
+  pointOfContact: null
+  '17507527':
+    individualname: '17507527'
+    role: creator
+distribution:
+  local:
+    url: soc/soc_Q0.5_0-20cm.tif
+    type: WWW:LINK
+    name: soc_Q0.5_0-20cm.tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/soc?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: soc_Q0.5_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/soc?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: soc_Q0.5_0-20cm
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: soc_Q0.5_0-20cm
+    min: 1208.0
+    max: 8.0
+    nodata: 65535
+    units: ''
+  meta:
+    accuracy.ccc: '0.524914108669245'
+    accuracy.mae: '5.13445786462118'
+    accuracy.mec: '0.373143350083941'
+    accuracy.rmse: '10.63311130107'
+    accuracy.rsq: '0.375103966790626'
+    AREA_OR_POINT: Area
+    depth_name: 0-20
+    do_tune: tune
+    model_name: rangerquantreg
+    model_options.levels_regular_search: '7'
+    model_options.ntree_default: '500'
+    model_options.parsnip_engine: ranger
+    model_options.parsnip_importance: impurity
+    model_options.parsnip_mode: regression
+    model_options.parsnip_mtry_range_max_multiplier: '3'
+    model_options.parsnip_mtry_range_min_multiplier: '0.5'
+    model_options.parsnip_quantreg: 'TRUE'
+    model_options.parsnip_trees_range: c(500, 1000)
+    model_options.search_type: regular
+    model_options.size_random_search: '50'
+    model_options.stats: c("mean", "Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_exp: c("Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_log_backtansform: mean
+    nrow_regression_matrix: '2694'
+    transformation: notransform
+    use_rfe: dorfe
+    variable_importance: "c(CLM_GEE.ERA5_Temperature2m = 24897.0224826926, CLM_GEE.ERA5_TotalEvaporation\
+      \ = 12019.6030082401, CLM_GEE.ERA5_TotalPrecipitation = 15582.0794854408, CLM_GEE.GPM_MeanMonthTotPrecipitations01\
+      \ = 14937.6322675185, CLM_GEE.GPM_MeanMonthTotPrecipitations02 = 12034.4399036835,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations04 = 17598.6750706072, CLM_GEE.GPM_MeanMonthTotPrecipitations05\
+      \ = 10370.8148285963, CLM_GEE.GPM_MeanMonthTotPrecipitations06 = 9425.63506586094,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations07 = 12885.2988088992, \nCLM_GEE.GPM_MeanMonthTotPrecipitations08\
+      \ = 17159.5049301622, CLM_GEE.GPM_MeanMonthTotPrecipitations09 = 14342.3813197176,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations10 = 11138.9320613997, CLM_GEE.GPM_MeanMonthTotPrecipitations11\
+      \ = 12843.305217638, CLM_GEE.GPM_MeanMonthTotPrecipitations12 = 10479.4278585964,\
+      \ CLM_GEE.GPM_MeanYearTotPrecipitations = 16266.0875602388, LUC_GEE.ESA_tree.coverfraction\
+      \ = 9171.00351173836, MOR_GEE_elevation = 44629.2971566257, MOR_GEE_gaussianCurvature\
+      \ = 8726.2787449284, MOR_GEE_mTPI = 11797.8703000154, \nMOR_GEE_slope = 10633.2407149029,\
+      \ MOR_GEE_topoDiversity = 13616.6365462881, MOR_GEE_tpi = 14249.9937155442,\
+      \ SAT_GEE.S1_VH = 10663.8809466223, SAT_GEE.S1_VV = 14145.609488944, SAT_GEE.S1_YRdop\
+      \ = 14861.1454386733, SAT_GEE.S1_YRm = 12604.7094565234, VEG_GEE.S2_nbr = 14729.5894483047,\
+      \ VEG_GEE.S2_ndsi = 14753.5062756686, VEG_GEE.S2_ndvi = 14600.8502516522, VEG_GEE.S2_ndwi\
+      \ = 15998.565023071)"
+    voi: soc
+    voi_max_value: Inf
+    voi_min_value: '0'

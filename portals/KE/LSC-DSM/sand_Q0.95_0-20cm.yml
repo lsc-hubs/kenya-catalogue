@@ -1,0 +1,124 @@
+mcf:
+  version: 1.0
+metadata:
+  language: eng
+  identifier: sand_Q0.95_0-20cm
+  datestamp: 2023-11-28
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  language: ''
+  title: Sand content [% * 100] 0.95 quantile of predictions
+  abstract: 'Spatial distribution of Sand content for soils in Kenya. The units are
+    expressed in % mutiplied by 100. The following datasets were used as input for
+    this map: AD-AfSP, APNI (2016), KE-SOTER, US-NCSS, WD-ISIS, WD-WISE, WUR-SBL'
+  keywords:
+    default:
+      keywords:
+      - ''
+      - ''
+      - ''
+  fees: None
+  accessconstraints: otherRestrictions
+  rights: null
+  topiccategory:
+  - geoscientificInformation
+  status: ''
+  dates:
+    creation: Tue Nov 21 17:59:28 2023
+  extents:
+    spatial:
+    - bbox:
+      - 33.95796023501561
+      - -4.7241827035856305
+      - 41.92002439957575
+      - 4.620092881825555
+      crs: epsg:4326
+contact:
+  pointOfContact: null
+  '17507527':
+    individualname: '17507527'
+    role: creator
+distribution:
+  local:
+    url: sand/sand_Q0.95_0-20cm.tif
+    type: WWW:LINK
+    name: sand_Q0.95_0-20cm.tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/sand?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: sand_Q0.95_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/sand?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: sand_Q0.95_0-20cm
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: sand_Q0.95_0-20cm
+    min: 9477.0
+    max: 1435.0
+    nodata: -32768
+    units: ''
+  meta:
+    accuracy.ccc: '0.625396329560907'
+    accuracy.mae: '13.2615105065688'
+    accuracy.mec: '0.447220263845724'
+    accuracy.rmse: '16.77498292886'
+    accuracy.rsq: '0.446628269165083'
+    AREA_OR_POINT: Area
+    depth_name: 0-20
+    do_tune: tune
+    model_name: comprangerquantreg
+    model_options.levels_regular_search: '7'
+    model_options.ntree_default: '500'
+    model_options.parsnip_engine: ranger
+    model_options.parsnip_importance: impurity
+    model_options.parsnip_minn_range: c(2, 10)
+    model_options.parsnip_mode: regression
+    model_options.parsnip_mtry_range_max_multiplier: '3'
+    model_options.parsnip_mtry_range_min_multiplier: '0.5'
+    model_options.parsnip_quantreg: 'TRUE'
+    model_options.parsnip_trees_range: c(500, 1000)
+    model_options.pred_num.trees: '100'
+    model_options.search_type: regular
+    model_options.size_random_search: '50'
+    model_options.stats: c("mean", "Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_exp: c("Q0.5", "Q0.05", "Q0.95")
+    model_options.stats_to_log_backtansform: mean
+    nrow_regression_matrix: '412'
+    transformation: notransform
+    use_rfe: dorfe
+    variable_importance1: "c(CLM_GEE.ERA5_Runoff = 15.7966909376275, CLM_GEE.ERA5_Temperature2m\
+      \ = 45.9546755533572, CLM_GEE.ERA5_TotalPrecipitation = 23.3675452959987, CLM_GEE.GPM_MeanMonthTotPrecipitations01\
+      \ = 42.3716351865538, CLM_GEE.GPM_MeanMonthTotPrecipitations02 = 26.4104795334402,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations03 = 32.3110214367389, CLM_GEE.GPM_MeanMonthTotPrecipitations04\
+      \ = 33.4160858256124, CLM_GEE.GPM_MeanMonthTotPrecipitations05 = 22.5540099739665,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations10 = 26.7411883011551, \nCLM_GEE.GPM_MeanMonthTotPrecipitations12\
+      \ = 19.826137262083, CLM_GEE.GPM_MeanYearTotPrecipitations = 27.8469873964232,\
+      \ LUC_GEE.ESA_shrub.coverfraction = 20.4170910319926, LUC_GEE.ESA_tree.coverfraction\
+      \ = 20.1264896992747, MOR_GEE_elevation = 43.4077692999243, SAT_GEE.S1_YRdop\
+      \ = 23.167490761436, SAT_GEE.S1_YRm = 22.2859498607474, VEG_GEE.S2_nbr = 22.5242003945195,\
+      \ VEG_GEE.S2_ndsi = 25.0547476684947, VEG_GEE.S2_ndvi = 24.940110875826, VEG_GEE.S2_ndwi\
+      \ = 26.5881961568726)"
+    variable_importance2: "c(CLM_GEE.ERA5_Temperature2m = 42.1556247814022, CLM_GEE.GPM_MeanMonthTotPrecipitations01\
+      \ = 37.9456035780649, CLM_GEE.GPM_MeanMonthTotPrecipitations02 = 15.7176029399498,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations03 = 38.212139527219, CLM_GEE.GPM_MeanMonthTotPrecipitations04\
+      \ = 31.3421711696371, CLM_GEE.GPM_MeanMonthTotPrecipitations05 = 15.7988267553268,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations06 = 15.9035538399023, CLM_GEE.GPM_MeanMonthTotPrecipitations07\
+      \ = 15.6187378683695, CLM_GEE.GPM_MeanMonthTotPrecipitations08 = 15.4274085233322,\
+      \ \nCLM_GEE.GPM_MeanMonthTotPrecipitations09 = 16.8215436770392, CLM_GEE.GPM_MeanMonthTotPrecipitations10\
+      \ = 13.7008686258525, CLM_GEE.GPM_MeanMonthTotPrecipitations11 = 30.2976580517164,\
+      \ CLM_GEE.GPM_MeanMonthTotPrecipitations12 = 17.8526486769891, CLM_GEE.GPM_MeanYearTotPrecipitations\
+      \ = 14.9421272365761, LUC_GEE.ESA_grass.coverfraction = 17.1432177703254, LUC_GEE.ESA_shrub.coverfraction\
+      \ = 19.6677936869428, MOR_GEE_elevation = 91.9764970289219, MOR_GEE_slope =\
+      \ 30.3663779844297, SAT_GEE.S1_VV = 21.0012811613947, \nSAT_GEE.S1_YRdop = 26.5167979738323,\
+      \ SAT_GEE.S1_YRm = 22.0410853110277, VEG_GEE.S2_nbr = 32.6760787845361, VEG_GEE.S2_ndsi\
+      \ = 21.7421725069643, VEG_GEE.S2_ndvi = 20.5201719925547, VEG_GEE.S2_ndwi =\
+      \ 19.7595422246516)"
+    voi: sand
+    voi_max_value: Inf
+    voi_min_value: '0'
