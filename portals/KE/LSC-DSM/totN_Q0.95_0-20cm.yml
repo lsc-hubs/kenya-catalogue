@@ -46,12 +46,12 @@ distribution:
     type: WWW:LINK
     name: totN_Q0.95_0-20cm.tif
   WMS:
-    url: https://maps.lsc-hubs.org/ows/totN?service=WMS&amp;request=GetCapabilities
+    url: https://maps.lsc-hubs.org/ows/kenya/totN?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: totN_Q0.95_0-20cm
     description: ''
   WCS:
-    url: https://maps.lsc-hubs.org/ows/totN?service=WCS&amp;request=GetCapabilities
+    url: https://maps.lsc-hubs.org/ows/kenya/totN?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: totN_Q0.95_0-20cm
     description: ''
