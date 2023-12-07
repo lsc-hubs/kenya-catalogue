@@ -15,10 +15,7 @@ identification:
     were used as input for this map: APNI (2013), US-NCSS, WD-ISIS, WD-WISE'
   keywords:
     default:
-      keywords:
-      - ''
-      - ''
-      - ''
+
   fees: None
   accessconstraints: otherRestrictions
   rights: null

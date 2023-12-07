@@ -15,10 +15,7 @@ identification:
     for this map: AF-AfSP, AF-OeAcreFund, APNI (2016), US-NCSS, WD-ISIS, WD-WISE'
   keywords:
     default:
-      keywords:
-      - ''
-      - ''
-      - ''
+
   fees: None
   accessconstraints: otherRestrictions
   rights: null

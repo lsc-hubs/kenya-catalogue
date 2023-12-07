@@ -15,10 +15,7 @@ identification:
     as input for this map: AF-AfSP, APNI_16, ISDA, SLEEK, WUR_SBL'
   keywords:
     default:
-      keywords:
-      - ''
-      - ''
-      - ''
+
   fees: None
   accessconstraints: otherRestrictions
   rights: null

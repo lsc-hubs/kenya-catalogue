@@ -15,10 +15,7 @@ identification:
     AD-AfSP, APNI (2016), ISDA, KE-SOTER, US-NCSS, WD-ISIS, WD-WISE'
   keywords:
     default:
-      keywords:
-      - ''
-      - ''
-      - ''
+
   fees: None
   accessconstraints: otherRestrictions
   rights: null
