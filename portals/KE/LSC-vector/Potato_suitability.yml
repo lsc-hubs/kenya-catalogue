@@ -1,0 +1,143 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Potato_suitability
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2024-01-12
+spatial:
+  resolution: 100m
+  datatype: Grid
+identification:
+  language: english
+  charset: utf8
+  title: Sweet potato suitability
+  abstract: 'Dataset showing the suitable areas for rainfed sweet potato production
+    based on the land qualities and the requirements for growing sweet potato
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+    spatial:
+    - bbox:
+      - 33.93497360783096
+      - -4.680480778766242
+      - 41.579637479904775
+      - 5.164420998679679
+      crs: 4326
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution:
+  local:
+    url: Potato_suitability.shp
+    name: Potato suitability
+    type: shp
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: Potato_suitability
+    description: ''
+  WFS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WFS&amp;request=GetCapabilities
+    type: OGC:WFS
+    name: Potato_suitability
+    description: ''
+content_info:
+  attributes:
+    AREA: Real
+    PERIMETER: Real
+    ALL4ELIM_: Real
+    ALL4ELIM_I: Real
+    RAINCLN_: Real
+    RAINCLN_ID: Real
+    RAIN: String
+    RANRATE: Integer
+    TEMCLN_: Real
+    TEMCLN_ID: Real
+    TEM: String
+    TEMRATE: Integer
+    KEN2_: Real
+    SUID: Real
+    TCDC: String
+    SCDL: Integer64
+    SCFM: String
+    TEXT: String
+    BEDR: Real
+    SDRA: String
+    TCID: Integer
+    SCID: Integer
+    PROP: Integer
+    PRID: String
+    PHAQ: Real
+    PHKC: Real
+    EXMG: Real
+    EXNA: Real
+    EXCK: Real
+    CECS: Real
+    CLAY: String
+    PDID: String
+    DRAI: String
+    DRARATE: Integer
+    RKSC: String
+    ERTY: String
+    ERAA: String
+    ERDE: String
+    SCAP: String
+    RDEP: String
+    DEPRATE: Integer
+    SLOP: Integer
+    RELI: Integer
+    LNDF: String
+    RSLO: String
+    LITH: String
+    SOIL: String
+    LUSE: String
+    SID: Integer
+    PHASE: String
+    SOCLSS: String
+    SLOPE: String
+    SLOPRATE: Real
+    FERT: Integer
+    SOILCLSS: String
+    ACRES: Real
+    HECTARES: Real
+    ALL4ELIM_1: Real
+    RANRATE_1: Real
+    TEMRATE_1: Integer64
+    DRARATE_1: Real
+    DEPRATE_1: Real
+    SOILCLSS_1: String
+    E_POTATO_S: String
+    SOURCETHM: String

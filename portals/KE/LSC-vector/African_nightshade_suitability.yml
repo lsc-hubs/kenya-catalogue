@@ -1,0 +1,54 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: African_nightshade_suitability
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: 100m
+  datatype: Grid
+identification:
+  language: english
+  charset: utf8
+  title: African nightshade suitability
+  abstract: 'Dataset showing the suitable areas for rainfed African nightshade production
+    based on the land qualities and the requirements for growing African nightshade
+
+    '
+  dates:
+    creation: 2023.0-01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2023.0'
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution: {}

@@ -1,0 +1,58 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: KE-SOTER-UT
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: 1:250,000
+  datatype: Vector - Polygon
+identification:
+  language: english
+  charset: utf8
+  title: 'Soil and Terrain database - Upper Tana River Catchment '
+  abstract: 'soil and terrain database
+
+    '
+  dates:
+    creation: 2007.0-01-01
+  keywords:
+    default:
+      keywords:
+      - soils; soil types; soil class; soil profiles
+    spatialscope:
+      keywords:
+      - catchment
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - soil types
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2007.0'
+  status: Completed
+  source: Exploratory Soil map of Kenya
+contact:
+  Head, Kenya Soil Survey:
+    organization: 'KALRO '
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution:
+  citation:
+    name: Citation
+    description: ''
+    url: Exploratory Soil Survey Report. No. E1

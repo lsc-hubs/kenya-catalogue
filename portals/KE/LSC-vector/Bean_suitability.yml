@@ -1,0 +1,88 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Bean_suitability
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2024-01-12
+spatial:
+  resolution: 100m
+  datatype: Grid
+identification:
+  language: english
+  charset: utf8
+  title: Bean suitability
+  abstract: 'Dataset showing the suitable areas for rainfed bean production based
+    on the land qualities and the requirements for growing beans
+
+    '
+  dates:
+    creation: 2012.0-01-01
+  keywords:
+    default:
+      keywords:
+      - beans; suitabulity; land evaluation; land use
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2012.0'
+    spatial:
+    - bbox:
+      - 33.84587106841701
+      - -4.701557597636068
+      - 42.01666079704875
+      - 5.425755908948474
+      crs: 4326
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution:
+  local:
+    url: Bean_suitability.tif
+    name: Bean suitability
+    type: tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: Bean_suitability
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: Bean_suitability
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: ''
+    min: 1.0
+    max: 4.0
+    nodata: 15
+    units: ''
+  meta:
+    AREA_OR_POINT: Area
+    DataType: Generic

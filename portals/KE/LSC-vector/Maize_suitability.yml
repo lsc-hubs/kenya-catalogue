@@ -1,0 +1,84 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Maize_suitability
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2024-01-12
+spatial:
+  resolution: 100m
+  datatype: Grid
+identification:
+  language: english
+  charset: utf8
+  title: Maize suitability
+  abstract: 'Dataset showing the suitable areas for rainfed maize production based
+    on the land qualities and the requirements for growing maize
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+    spatial:
+    - bbox:
+      - 33.93497360783889
+      - -4.680480777666249
+      - 41.894190977073116
+      - 5.387451421576653
+      crs: 4326
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution:
+  local:
+    url: Maize_suitability.shp
+    name: Maize suitability
+    type: shp
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: Maize_suitability
+    description: ''
+  WFS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WFS&amp;request=GetCapabilities
+    type: OGC:WFS
+    name: Maize_suitability
+    description: ''
+content_info:
+  attributes:
+    SUIT: String
+    COUNT: Real
+    AREA: Real
+    PERIMETER: Real
+    ACRES: Real
+    HECTARES: Real

@@ -1,0 +1,87 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Pigeon_pea
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2024-01-12
+spatial:
+  resolution: 100m
+  datatype: Grid
+identification:
+  language: english
+  charset: utf8
+  title: Pigeon pea suitability
+  abstract: 'Dataset showing the suitable areas for rainfed irish pigeon pea production
+    based on the land qualities and the requirements for growing pigeon pea
+
+    '
+  dates:
+    creation: 2023.0-01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2023.0'
+    spatial:
+    - bbox:
+      - 33.84587106841701
+      - -4.701557597636068
+      - 42.01666079704875
+      - 5.425755908948474
+      crs: 4326
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution:
+  local:
+    url: Pigeon_pea.tif
+    name: Pigeon pea
+    type: tif
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: Pigeon_pea
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: Pigeon_pea
+    description: ''
+content_info:
+  type: image
+  dimensions:
+  - name: ''
+    min: 1.0
+    max: 4.0
+    nodata: 15
+    units: ''
+  meta:
+    AREA_OR_POINT: Area
+    DataType: Generic

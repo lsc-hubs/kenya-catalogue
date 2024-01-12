@@ -1,0 +1,86 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Agro_ecological_zones
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2024-01-12
+spatial:
+  resolution: 1:1,000,000
+  datatype: Vector - Polygon
+identification:
+  language: english
+  charset: utf8
+  title: Agroecological zones of Kenya
+  abstract: 'land units defined on the basis of combinations of soil, land form and
+    climatic characteristics.
+
+    '
+  dates:
+    creation: -01-01
+  keywords:
+    default:
+      keywords:
+      - AEZCODE; AEZ; AEZv1_DES; aezones_AE
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - land suitability
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: ''
+    spatial:
+    - bbox:
+      - 33.94042006138567
+      - -4.698666734646603
+      - 41.877078482780334
+      - 5.3831215826080605
+      crs: 4326
+  status: Completed
+  source: Agroecological zones map of Kenya
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution:
+  local:
+    url: Agro_ecological_zones.shp
+    name: Agro ecological zones
+    type: shp
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: Agro_ecological_zones
+    description: ''
+  WFS:
+    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WFS&amp;request=GetCapabilities
+    type: OGC:WFS
+    name: Agro_ecological_zones
+    description: ''
+content_info:
+  attributes:
+    AREA: Real
+    PERIMETER: Real
+    KENAEZ_: Integer64
+    KENAEZ_ID: Integer64
+    AEZCODE: String
+    AEZ: String
+    Area_ha: Integer64

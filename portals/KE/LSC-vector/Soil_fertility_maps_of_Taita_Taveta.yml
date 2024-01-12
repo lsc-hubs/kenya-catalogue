@@ -1,0 +1,53 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: Soil_fertility_maps_of_Taita_Taveta
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+spatial:
+  resolution: 100m
+  datatype: Grid
+identification:
+  language: english
+  charset: utf8
+  title: Soil fertility maps of Taita Taveta
+  abstract: 'Dataset showing the spatial patterns of soil fertility parameters
+
+    '
+  dates:
+    creation: 2016.0-01-01
+  keywords:
+    default:
+      keywords: []
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    theme:
+      keywords:
+      - Soil fertility
+      vocabulary:
+        name: LSC tags
+        url: https://lsc-hubs.org/tags/
+    lsc:
+      keywords: []
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2016.0'
+  status: Completed
+  source: null
+contact:
+  Head, Kenya Soil Survey:
+    organization: KALRO
+    individualname: Dr. Kennedy Were
+    country: Kenya
+    email: Soils.Survey@kalro.org
+distribution: {}
