@@ -9,7 +9,7 @@ spatial:
   geomtype: raster
 identification:
   language: ''
-  title: Oranic Carbon [g/kg * 10] 0.05 quantile of predictions
+  title: Organic Carbon [g/kg * 10] 0.05 quantile of predictions
   abstract: 'Spatial distribution of organic carbon content for soils in Kenya. The
     units are expressed in g/kg mutiplied by 10. The following datasets were used
     as input for this map: AF-AfSP, APNI_16, ISDA, SLEEK, WUR_SBL'

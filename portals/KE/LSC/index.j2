@@ -2,7 +2,7 @@ mcf:
     version: "1.0"
 
 metadata:
-    identifier: {{ md['Identification'] }}
+    identifier: {{ md['Identification'].replace(' ','_') }}
     {% if md['Identification'].startswith('http') %}
     dataseturi: {{ md['Identification'] }}
     {% endif %}
