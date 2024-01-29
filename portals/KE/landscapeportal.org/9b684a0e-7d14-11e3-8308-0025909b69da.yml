@@ -39,6 +39,7 @@ identification:
       - -1.225308328
       - 38.738407303
       - 1.888011723
+      crs: 4326
     temporal:
     - begin: Jan. 1, 2011
       end: Dec. 31, 2011

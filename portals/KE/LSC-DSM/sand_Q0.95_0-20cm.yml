@@ -31,7 +31,7 @@ identification:
       - -4.7241827035856305
       - 41.92002439957575
       - 4.620092881825555
-      crs: epsg:4326
+      crs: 4326
 contact:
   pointOfContact: null
   '17507527':

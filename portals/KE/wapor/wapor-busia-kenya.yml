@@ -29,7 +29,7 @@ identification:
       - 0.33
       - 34.25
       - 0.53
-      crs: '4326'
+      crs: 4326
     temporal:
       start: 2010
       end: 2019

@@ -40,8 +40,7 @@ identification:
       - -11.74569511
       - 51.41551330000024
       - 23.142871801000183
-    temporal:
-    - {}
+      crs: 4326
   status: completed
 metadata:
   identifier: de811536-eaf8-11ec-80b2-0242ac170007
