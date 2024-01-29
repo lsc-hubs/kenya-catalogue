@@ -30,7 +30,7 @@ identification:
       - -40.0044644
       - 65.0044644
       - 40.0044643
-      crs: '4326'
+      crs: 4326
   rights: ''
   fees: ''
 contact:
