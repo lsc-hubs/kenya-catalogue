@@ -1,0 +1,112 @@
+# SubmissionDate 
+# Identification 
+# Title 
+# LCSCategory
+# AGROVOCeMoreInfo 
+# Category 
+# Category_label_dyn 
+# Category_label1 Category_label2 Category_label3 Category_label4 
+# Abstract 
+# Keywords 
+# Authors 
+# Year 
+# ExtentGeographic 
+# ExtentCategory 
+# licenseMoreInfo 
+# UsageConstraints 
+# UsageConstraintsOther 
+# ContactName 
+# DataContactOrganization 
+# ContactRole 
+# ContactEmail 
+# PARENT_KEY 
+# Citations_position_1 
+# CitationTitle_1 CitationAuthor_1 CitationDate_1 CitationDOI_1 EnteredCitation_1 
+# Citations_position_2 
+# CitationTitle_2 CitationAuthor_2 CitationDate_2 CitationDOI_2 EnteredCitation_2 
+# Sources_position_1 
+# SourceTitle_1 SourceDate_1 SourceDOI_1 EnteredSource_1 
+# Language_1 ReferenceSystem_1 
+# Sources_position_2 
+# SourceTitle_2 SourceDate_2 SourceDOI_2 EnteredSource_2 
+# Language_2 ReferenceSystem_2 
+# PaperTitle_1 PaperDate_1 PaperDOI_1 EnteredPaper_1 
+# SpatialFormat_1 SpatialProjection_1 SpatialGrid2 FormatChoice_1 
+# PaperTitle_2 PaperDate_2 PaperDOI_2 EnteredPaper_2 SpatialFormat_2 
+# SpatialProjection_2 SpatialVector FormatChoice_2
+
+mcf:
+    version: "1.0"
+
+metadata:
+    identifier: {{ md['Identification'] }}
+    {% if md['Identification'].startswith('http') %}
+    dataseturi: {{ md['Identification'] }}
+    {% endif %}
+    language: {{ md['Language_1'] }}
+    charset: utf8
+    date: {{ md['SubmissionDate'] }}
+    hierarchylevel: dataset
+
+spatial:
+    resolution:  {{ md[''] }}
+    datatype: {{ md[''] }}
+
+identification:
+    language: {{ md['Language_1'] }}
+    charset: utf8
+    title: "{{ md['Title'] }}"
+    abstract: |+
+        {{ md[''] }}
+    dates:
+       'creation': '{{ md[''] }}-01-01'
+    keywords:
+        default:
+            keywords: [{{ md[''] }}]
+        spatialscope:
+            keywords: [{{ md[''] }}]
+            vocabulary:
+                    name: Spatial scope
+                    url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+        theme:
+            keywords: [{{ md[''] }}]
+            vocabulary:
+                name: LSC tags
+                url: https://lsc-hubs.org/tags/
+        lsc:
+            keywords: [{{ md['LCSCategory'] }}]
+            vocabulary:
+                name: LSC categories
+                url: https://lsc-hubs.org/tags/
+    topiccategory:
+        - geoscientificInformation
+    extents:
+        temporal:
+            - begin: "{{ md[''] }}"
+    status: Completed
+    source: {{ md[''] }}
+
+contact:
+    {{ md[''] or "pointOfContact" }}: 
+        organization: "{{ md[''] }}"
+        individualname: "{{ md[''] }}"
+        country: '' 
+        email: {{ md[''] }}
+
+distribution:
+{% if md['Paper or Report'] %}
+    citation:
+        name: Citation
+        description: "{{ md[''] }}"
+        url: "{{ md[''] }}"
+{% endif %}
+{% if md[''] %}
+    {{md[''] | lower or 'dl1'}}:
+        url: {{ md[''] }}
+        type: {% if md[''].upper() in ['WMS','WFS','WCS'] 
+                %}ogc:{% elif md[''].upper() in ['HTML'] 
+                %}text/{% elif md[''].upper() in ['PNG','TIF','JPG'] 
+                %}image/{% else %}application/{% endif %}{{ md[''] | lower }}
+        name: {{ md['']}}
+        description: {{ md[''] }}
+{% endif %}
