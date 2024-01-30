@@ -1,7 +1,4 @@
 identification:
-  extents:
-    spatial:
-      crs: 4326
   keywords:
     spatialscope:
       keywords:

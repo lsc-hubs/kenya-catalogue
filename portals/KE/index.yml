@@ -3,7 +3,6 @@ identification:
     spatial:
       - bbox: [33.894, -4.677, 41.855, 5.506]
         crs: 4326
-
   keywords:
     spatialscope:
       keywords:
