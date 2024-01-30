@@ -1,0 +1,48 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kalro.org/kalroknowlegdebank
+  dataseturi: https://www.kalro.org/kalroknowledgebank/
+  language: english
+  charset: utf8
+  hierarchylevel: service
+identification:
+  title: The KALRO Knowledge Bank
+  abstract: 'The KALRO Knowledge Hub is for sharing of Knowledge, Information and Technologies (KITs) with its stakeholders.'
+  dates:
+    creation: 2024.0-01-01
+  keywords:
+    default:
+      keywords:
+      - crops
+      - Livestock
+      - NRM
+      - socioeconomics
+    spatialscope:
+      keywords:
+      - national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+  topiccategory:
+  - geoscientificInformation
+  extents:
+    temporal:
+    - begin: '2024.0'
+  status: Completed
+contact:
+  Ag. Director ICT:
+    organization: KALRO
+    country: Kenya
+    email: info@kalro.org
+distribution:
+  app:
+    url: https://www.kalro.org/kalroknowledgebank/
+    type: Service
+    
