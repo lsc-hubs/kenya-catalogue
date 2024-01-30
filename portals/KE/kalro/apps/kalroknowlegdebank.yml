@@ -1,7 +1,7 @@
 mcf:
   version: '1.0'
 metadata:
-  identifier: kalro.org/kalroknowlegdebank
+  identifier: kalroknowlegdebank
   dataseturi: https://www.kalro.org/kalroknowledgebank/
   language: english
   charset: utf8
