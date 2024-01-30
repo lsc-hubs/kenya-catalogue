@@ -24,7 +24,7 @@ identification:
       keywords: []
     spatialscope:
       keywords:
-      - county
+      - Sub-national
       vocabulary:
         name: Spatial scope
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope

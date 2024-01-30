@@ -23,7 +23,7 @@ identification:
       - soils; soil mapping units; soil types; soil class
     spatialscope:
       keywords:
-      - province
+      - Sub-national
       vocabulary:
         name: Spatial scope
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
