@@ -1,0 +1,50 @@
+mcf:
+  version: "1.0"
+metadata:
+  dataseturi: ""
+  hierarchylevel: service
+  identifier: taitatavetadata
+  language: en
+  language_alternate: ""
+  charset: ""
+  parentidentifier: ""
+  datestamp: ""
+spatial: {}
+distribution:
+  i0:
+    url: https://www.taitatavetadata.or.ke/
+    type: WWW:LINK
+    name: Dashboard
+contact:
+  i0:
+    organization: TAITA-TAVETA COUNTY
+    url: http://www.taitataveta.go.ke
+    email: "info@taitataveta.go.ke "
+identification:
+  title: County Sectoral Indicators
+  abstract: a dashboard of county economic indicators
+  dates:
+    creation: 2017-01-01
+    publication: ""
+    revision: 2023-01-01
+  edition: ""
+  keywords: {}
+  language: en
+  status: onGoing
+  maintenancefrequency: annually
+  accessconstraints: otherRestrictions
+  extents:
+    temporal:
+      begin: 2017-01-01T00:00:00+01:00
+      end: 2023-01-01T00:00:00+01:00
+    spatial:
+      crs: "4326"
+      bbox:
+        - 37.5854
+        - -4.1417
+        - 39.2199
+        - -2.6848
+  topiccategory:
+    - economy
+  rights: Free to use
+
