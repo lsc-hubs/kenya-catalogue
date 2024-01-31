@@ -14,14 +14,13 @@ identification:
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     theme:
       keywords:
-      - Soil
+      - chemicophysical properties
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
       keywords:
-      - chemicophysical properties
-      - remote sensing
+      - Earth observation
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/tags/

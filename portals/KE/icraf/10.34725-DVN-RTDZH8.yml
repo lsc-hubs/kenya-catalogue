@@ -14,17 +14,17 @@ identification:
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     theme:
       keywords:
-      - Soil
+      - soil properties
+      - fertilizer
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
       keywords:
-      - soil properties
-      - fertilizer
+      - crop
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
   title: Evidence-based Soils Agronomy for Sustainable Crop Production in Muranga
     County, Kenya
   abstract: "The project \u2018Improved Agricultural Measurement for Evidence-based\

@@ -14,18 +14,18 @@ identification:
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     theme:
       keywords:
-      - Soil
+      - spectroscopy
+      - machine learning
+      - analysis
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
       keywords:
-      - spectroscopy
-      - machine learning
-      - analysis
+      - soil
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
   title: 'Replication Data for: Comprehensive Nutrient Analysis in Agricultural Organic
     Amendments Through Non-Destructive Assays Using Machine Learning'
   abstract: Portable X-ray fluorescence (pXRF) and Diffuse Reflectance Fourier Transformed

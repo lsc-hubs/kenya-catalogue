@@ -14,16 +14,16 @@ identification:
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     theme:
       keywords:
-      - Crop
+      - Crop yield
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
       keywords:
-      - crop yield
+      - crop
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
   title: Improved Agricultural Measurement for Evidence-based Investments in Improved
     Crop Production in Kenya, ICRAF-Technoserve project
   abstract: soil, maize tissue, grain and yield data for a project site in Machakos

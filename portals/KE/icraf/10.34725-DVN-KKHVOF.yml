@@ -14,13 +14,13 @@ identification:
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     theme:
       keywords:
-      - Crop
+      - Crop yield
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
       keywords:
-      - crop yield
+      - crop
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/tags/

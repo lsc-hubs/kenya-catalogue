@@ -34,10 +34,11 @@ identification:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
-      keywords: []
+      keywords: 
+      - crop
       vocabulary:
         name: LSC categories
-        url: https://lsc-hubs.org/tags/
+        url: https://lsc-hubs.org/categories/
   topiccategory:
   - geoscientificInformation
   extents:

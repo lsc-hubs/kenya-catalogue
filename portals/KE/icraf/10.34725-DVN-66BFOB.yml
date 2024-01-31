@@ -14,14 +14,13 @@ identification:
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
     theme:
       keywords:
-      - Soil
+      - Soil nutrients
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
     lsc:
       keywords:
-      - chemicophysical properties
-      - soil nutrients
+      - soil 
       vocabulary:
         name: LSC categories
         url: https://lsc-hubs.org/tags/
