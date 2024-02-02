@@ -1,0 +1,58 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: cec-cec_Q0.5_0-20cm
+  datestamp: ''
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  title: Cation Exchange Capacity [cmolc/kg * 10] median of predictions, Taita Taveta
+  abstract: 'Spatial distribution of Cation Exchange Capacity content for soils in Taveta Taita County,
+    Kenya. The units are expressed in cmolc/kg mutiplied by 10. The following datasets
+    were used as input for this map: APNI (2013), US-NCSS, WD-ISIS, WD-WISE'
+  keywords:
+    default:
+      keywords: []
+  status: ''
+  language: ''
+  dates:
+    creation: ''
+  rights: ''
+  extents:
+    spatial:
+    - bbox:
+      - 33.95796023501561
+      - -4.724182703585706
+      - 41.920024399576626
+      - 4.620092881825555
+      crs: 4326
+distribution:
+  www:
+    name: cec/cec_Q0.5_0-20cm.tif
+    url: cec/cec_Q0.5_0-20cm.tif
+    type: www
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/tt-cec?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: cec_Q0.5_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/kenya/tt-cec?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: cec_Q0.5_0-20cm
+    description: ''
+contact:
+  pointofcontact:
+    individualname: ''
+    role: creator
+content_info:
+  type: image
+  dimensions:
+  - name: cec_Q0.5_0-20cm
+    min: 76.0
+    max: 330.0
+    nodata: null
+    units: ''
+  meta:
+    AREA_OR_POINT: Area

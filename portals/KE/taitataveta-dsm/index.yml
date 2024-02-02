@@ -1,0 +1,44 @@
+mcf:
+  version: 1.0
+metadata:
+  hierarchylevel: dataset
+spatial:
+  datatype: grid
+  geomtype: surface
+identification:
+  keywords:
+    lsc:
+      keywords:
+      - soil
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/categories/
+    spatialscope:
+      keywords: 
+      - Sub-national
+      vocabulary:
+        name: Spatial scope
+        url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+  topiccategory:
+  - geoscientificInformation
+  fees: None
+  accessconstraints: otherRestrictions
+  license:
+      name: CC BY 4.0
+      url: https://creativecommons.org/licenses/by/4.0
+  rights: Copyright (c) ISRIC - World Soil Information
+  status: Preliminary
+contact:
+  pointOfContact:
+    organization: ISRIC - World Soil Information
+    address: PO Box 353
+    city: Wageningen
+    administrativearea: Gelderland
+    postalcode: 6700 AJ
+    country: the Netherlands
+    email: info@isric.org
+distribution:
+
+dataquality:
+    scope:
+        level: dataset

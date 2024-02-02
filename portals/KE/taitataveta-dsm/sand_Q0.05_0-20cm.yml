@@ -1,0 +1,58 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: sand-sand_Q0.05_0-20cm
+  datestamp: ''
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+  title: Sand content [% * 100] 0.05 quantile of predictions, Taita Taveta
+  abstract: 'Spatial distribution of Sand content for soils in Taita Taveta County, Kenya. The units are
+    expressed in % mutiplied by 100. The following datasets were used as input for
+    this map: AD-AfSP, APNI (2016), KE-SOTER, US-NCSS, WD-ISIS, WD-WISE, WUR-SBL'
+  keywords:
+    default:
+      keywords: []
+  status: ''
+  language: ''
+  dates:
+    creation: ''
+  rights: ''
+  extents:
+    spatial:
+    - bbox:
+      - 33.95796023501561
+      - -4.7241827035856305
+      - 41.92002439957575
+      - 4.620092881825555
+      crs: 4326
+distribution:
+  www:
+    name: sand/sand_Q0.05_0-20cm.tif
+    url: sand/sand_Q0.05_0-20cm.tif
+    type: www
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/tt-sand?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: sand_Q0.05_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/kenya/tt-sand?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: sand_Q0.05_0-20cm
+    description: ''
+contact:
+  pointofcontact:
+    individualname: ''
+    role: creator
+content_info:
+  type: image
+  dimensions:
+  - name: sand_Q0.05_0-20cm
+    min: 262.0
+    max: 5451.0
+    nodata: null
+    units: ''
+  meta:
+    AREA_OR_POINT: Area

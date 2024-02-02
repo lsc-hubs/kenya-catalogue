@@ -1,0 +1,58 @@
+mcf:
+  version: 1.0
+metadata:
+  identifier: totN-totN_Q0.95_0-20cm
+  datestamp: ''
+spatial:
+  datatype: raster
+  geomtype: raster
+identification:
+ title: Total N [g/kg * 10] 0.95 quantile of predictions, Taita Taveta
+  abstract: 'Spatial distribution of total N content for soils in Taita Taveta County, Kenya. The units
+    are expressed in g/kg mutiplied by 10. The following datasets were used as input
+    for this map: AF-AfSP, AF-OeAcreFund, APNI (2016), US-NCSS, WD-ISIS, WD-WISE'
+  keywords:
+    default:
+      keywords: []
+  status: ''
+  language: ''
+  dates:
+    creation: ''
+  rights: ''
+  extents:
+    spatial:
+    - bbox:
+      - 33.957436713734154
+      - -4.72425885273442
+      - 41.92039938668312
+      - 4.6200167326768415
+      crs: 4326
+distribution:
+  www:
+    name: totN/totN_Q0.95_0-20cm.tif
+    url: totN/totN_Q0.95_0-20cm.tif
+    type: www
+  WMS:
+    url: https://maps.lsc-hubs.org/ows/kenya/tt-totN?service=WMS&amp;request=GetCapabilities
+    type: OGC:WMS
+    name: totN_Q0.95_0-20cm
+    description: ''
+  WCS:
+    url: https://maps.lsc-hubs.org/ows/kenya/tt-totN?service=WCS&amp;request=GetCapabilities
+    type: OGC:WCS
+    name: totN_Q0.95_0-20cm
+    description: ''
+contact:
+  pointofcontact:
+    individualname: ''
+    role: creator
+content_info:
+  type: image
+  dimensions:
+  - name: totN_Q0.95_0-20cm
+    min: 11.0
+    max: 160.0
+    nodata: null
+    units: ''
+  meta:
+    AREA_OR_POINT: Area
