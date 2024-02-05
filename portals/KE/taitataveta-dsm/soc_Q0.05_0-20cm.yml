@@ -2,15 +2,15 @@ mcf:
   version: 1.0
 metadata:
   identifier: soc-soc_Q0.05_0-20cm
-  datestamp: ''
+  datestamp: 2024-02-05
 spatial:
   datatype: raster
   geomtype: raster
 identification:
   title: Oranic Carbon [g/kg * 10] 0.05 quantile of predictions, Taita Taveta
-  abstract: 'Spatial distribution of organic carbon content for soils in Taita Taveta County, Kenya. The
-    units are expressed in g/kg mutiplied by 10. The following datasets were used
-    as input for this map: AF-AfSP, APNI_16, ISDA, SLEEK, WUR_SBL'
+  abstract: 'Spatial distribution of organic carbon content for soils in Taita Taveta
+    County, Kenya. The units are expressed in g/kg mutiplied by 10. The following
+    datasets were used as input for this map: AF-AfSP, APNI_16, ISDA, SLEEK, WUR_SBL'
   keywords:
     default:
       keywords: []
@@ -22,10 +22,10 @@ identification:
   extents:
     spatial:
     - bbox:
-      - 33.95796023501561
-      - -4.724182703585706
-      - 41.920024399576626
-      - 4.620092881825555
+      - 37.59817787846701
+      - -4.137582823055658
+      - 39.2136437072156
+      - -2.6796171169296756
       crs: 4326
 distribution:
   www:
@@ -42,6 +42,10 @@ distribution:
     type: OGC:WCS
     name: soc_Q0.05_0-20cm
     description: ''
+  local:
+    url: soc/soc_Q0.05_0-20cm.tif
+    name: soc/soc Q0.05 0-20cm
+    type: tif
 contact:
   pointofcontact:
     individualname: ''

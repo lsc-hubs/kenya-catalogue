@@ -2,15 +2,16 @@ mcf:
   version: 1.0
 metadata:
   identifier: totN-totN_mean_0-20cm
-  datestamp: ''
+  datestamp: 2024-02-05
 spatial:
   datatype: raster
   geomtype: raster
 identification:
   title: Total N [g/kg * 10], Taita Taveta
-  abstract: 'Spatial distribution of total N content for soils in Taita Taveta County, Kenya. The units
-    are expressed in g/kg mutiplied by 10. The following datasets were used as input
-    for this map: AF-AfSP, AF-OeAcreFund, APNI (2016), US-NCSS, WD-ISIS, WD-WISE'
+  abstract: 'Spatial distribution of total N content for soils in Taita Taveta County,
+    Kenya. The units are expressed in g/kg mutiplied by 10. The following datasets
+    were used as input for this map: AF-AfSP, AF-OeAcreFund, APNI (2016), US-NCSS,
+    WD-ISIS, WD-WISE'
   keywords:
     default:
       keywords: []
@@ -22,10 +23,10 @@ identification:
   extents:
     spatial:
     - bbox:
-      - 33.957436713734154
-      - -4.72425885273442
-      - 41.92039938668312
-      - 4.6200167326768415
+      - 37.59855559528819
+      - -4.137658972204372
+      - 39.21312105903537
+      - -2.6796932660783894
       crs: 4326
 distribution:
   www:
@@ -42,6 +43,10 @@ distribution:
     type: OGC:WCS
     name: totN_mean_0-20cm
     description: ''
+  local:
+    url: totN/totN_mean_0-20cm.tif
+    name: totN/totN mean 0-20cm
+    type: tif
 contact:
   pointofcontact:
     individualname: ''

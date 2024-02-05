@@ -2,16 +2,15 @@ mcf:
   version: 1.0
 metadata:
   identifier: ph-ph_Q0.95_0-20cm
-  datestamp: ''
+  datestamp: 2024-02-05
 spatial:
   datatype: raster
   geomtype: raster
 identification:
   title: pH [pH * 10] 0.95 quantile of predictions, Taita Taveta
-  abstract: 'Spatial distribution of pH for soils in Taita Taveta County, Kenya. The units are expressed
-    in pH mutiplied by 10. The following datasets were used as input for this map:
-    AD-AfSP, APNI (2016), ISDA, KE-SOTER, US-NCSS, WD-ISIS, WD-WISE'
-  keywords:
+  abstract: 'Spatial distribution of pH for soils in Taita Taveta County, Kenya. The
+    units are expressed in pH mutiplied by 10. The following datasets were used as
+    input for this map: AD-AfSP, APNI (2016), ISDA, KE-SOTER, US-NCSS, WD-ISIS, WD-WISE'
   keywords:
     default:
       keywords: []
@@ -23,10 +22,10 @@ identification:
   extents:
     spatial:
     - bbox:
-      - 33.95796023501561
-      - -4.724182703585706
-      - 41.920024399576626
-      - 4.620092881825555
+      - 37.59817787846701
+      - -4.137582823055658
+      - 39.2136437072156
+      - -2.6796171169296756
       crs: 4326
 distribution:
   www:
@@ -43,6 +42,10 @@ distribution:
     type: OGC:WCS
     name: ph_Q0.95_0-20cm
     description: ''
+  local:
+    url: ph/ph_Q0.95_0-20cm.tif
+    name: ph/ph Q0.95 0-20cm
+    type: tif
 contact:
   pointofcontact:
     individualname: ''

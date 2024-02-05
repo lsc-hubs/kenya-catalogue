@@ -2,15 +2,16 @@ mcf:
   version: 1.0
 metadata:
   identifier: silt-silt_Q0.5_0-20cm
-  datestamp: ''
+  datestamp: 2024-02-05
 spatial:
   datatype: raster
   geomtype: raster
 identification:
   title: Silt content [% * 100] median of predictions, Taita Taveta
-  abstract: 'Spatial distribution of Silt content for soils in Taita Taveta County, Kenya. The units are
-    expressed in % mutiplied by 100. The following datasets were used as input for
-    this map: AD-AfSP, APNI (2016), KE-SOTER, US-NCSS, WD-ISIS, WD-WISE, WUR-SBL'
+  abstract: 'Spatial distribution of Silt content for soils in Taita Taveta County,
+    Kenya. The units are expressed in % mutiplied by 100. The following datasets were
+    used as input for this map: AD-AfSP, APNI (2016), KE-SOTER, US-NCSS, WD-ISIS,
+    WD-WISE, WUR-SBL'
   keywords:
     default:
       keywords: []
@@ -22,10 +23,10 @@ identification:
   extents:
     spatial:
     - bbox:
-      - 33.95796023501561
-      - -4.7241827035856305
-      - 41.92002439957575
-      - 4.620092881825555
+      - 37.59817787846661
+      - -4.137582823055587
+      - 39.21364370721501
+      - -2.679617116929616
       crs: 4326
 distribution:
   www:
@@ -42,6 +43,10 @@ distribution:
     type: OGC:WCS
     name: silt_Q0.5_0-20cm
     description: ''
+  local:
+    url: silt/silt_Q0.5_0-20cm.tif
+    name: silt/silt Q0.5 0-20cm
+    type: tif
 contact:
   pointofcontact:
     individualname: ''

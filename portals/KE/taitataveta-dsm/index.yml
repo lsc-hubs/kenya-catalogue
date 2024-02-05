@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     spatialscope:
       keywords: 
-      - Sub-national
+      - national
       vocabulary:
         name: Spatial scope
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
