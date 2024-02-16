@@ -43,12 +43,12 @@ distribution:
     type: WWW:LINK
     name: clay_Q0.05_0-20cm.tif
   WMS:
-    url: https://maps.lsc-hubs.org/ows/kenya/clay?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/clay?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: clay_Q0.05_0-20cm
     description: ''
   WCS:
-    url: https://maps.lsc-hubs.org/ows/kenya/clay?service=WCS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/clay?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: clay_Q0.05_0-20cm
     description: ''

@@ -65,12 +65,12 @@ distribution:
     name: Water melon suitability
     type: tif
   WMS:
-    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: Water_melon_suitability
     description: ''
   WCS:
-    url: https://maps.lsc-hubs.org/ows/kenya/vector?service=WCS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: Water_melon_suitability
     description: ''

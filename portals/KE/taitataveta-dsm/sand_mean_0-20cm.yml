@@ -34,12 +34,12 @@ distribution:
     url: sand/sand_mean_0-20cm.tif
     type: www
   WMS:
-    url: https://maps.lsc-hubs.org/ows/kenya/tt-sand?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/tt-sand?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: sand_mean_0-20cm
     description: ''
   WCS:
-    url: https://maps.lsc-hubs.org/ows/kenya/tt-sand?service=WCS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/tt-sand?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: sand_mean_0-20cm
     description: ''

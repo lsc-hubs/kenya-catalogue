@@ -35,12 +35,12 @@ distribution:
     url: cec/cec_Q0.05_0-20cm.tif
     type: www
   WMS:
-    url: https://maps.lsc-hubs.org/ows/kenya/tt-cec?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/tt-cec?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: cec_Q0.05_0-20cm
     description: ''
   WCS:
-    url: https://maps.lsc-hubs.org/ows/kenya/tt-cec?service=WCS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/kenya/tt-cec?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: cec_Q0.05_0-20cm
     description: ''
