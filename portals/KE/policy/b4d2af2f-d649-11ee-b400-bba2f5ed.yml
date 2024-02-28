@@ -1,0 +1,27 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af2f-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Crops Act No. 16
+
+    '
+  abstract: 'Accelerate the growth and development of agriculture, enhance productivity
+    and incomes of farmers and the rural population, improve investment climate and
+    efficiency of agribusiness and develop agricultural crops as export crops.
+
+
+    '
+  dates:
+    creation: '2013-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya

@@ -1,0 +1,21 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af1a-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'County Bill on Biodiversity Conservation Bill
+
+    '
+  abstract: "Emphasises the economic and health potential of local biodiversity, including\
+    \ soil biodiversity /soil health \n\n"
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: County Government Environment Department
+    country: Kenya

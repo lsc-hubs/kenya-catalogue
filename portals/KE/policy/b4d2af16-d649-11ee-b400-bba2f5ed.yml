@@ -1,0 +1,25 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af16-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Busia climate change Act of 2021
+
+    '
+  abstract: 'Sets in place structures to address impacts of climate change
+
+
+    '
+  dates:
+    creation: '2021-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: County Government
+    country: Kenya

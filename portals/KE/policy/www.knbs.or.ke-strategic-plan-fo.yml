@@ -1,0 +1,37 @@
+mcf:
+  version: '1.0'
+metadata:
+  dataseturi: https://www.knbs.or.ke/strategic-plan-for-agricultural-and-rural-statistics-2015-2022-2/
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: www.knbs.or.ke-strategic-plan-for-agricultural-and-rural-statistics-2015-2022-2-
+identification:
+  language: en
+  charset: utf8
+  title: 'Strategic plan for Agricultural and Rural Statistics
+
+    '
+  abstract: 'Support data generation and update data sharing for national Planning
+
+
+    '
+  dates:
+    creation: '2015-01-01'
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2015
+      end: 2022
+  status: Completed
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Co-operatives
+    country: Kenya
+distribution:
+  url:
+    url: https://www.knbs.or.ke/strategic-plan-for-agricultural-and-rural-statistics-2015-2022-2/
+    name: 'Strategic plan for Agricultural and Rural Statistics
+
+      '

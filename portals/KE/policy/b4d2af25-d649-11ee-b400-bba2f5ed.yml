@@ -1,0 +1,27 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af25-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Climate Change Act No. 11
+
+    '
+  abstract: 'Provide for a regulatory framework for enhanced response to climate change;
+    to provide for mechanism and measures to achieve low carbon climate development,
+    and for connected purposes
+
+
+    '
+  dates:
+    creation: '2016-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Environment and climate change
+    country: Kenya

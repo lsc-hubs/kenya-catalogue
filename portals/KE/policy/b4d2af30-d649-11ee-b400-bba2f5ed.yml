@@ -1,0 +1,26 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af30-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Wildlife Conservation and Management Act CAP 376
+
+    '
+  abstract: 'This Act provides for the protection, conservation and management of
+    wildlife in Kenya and related matters, including agriculture-wildlife conflicts
+
+
+    '
+  dates:
+    creation: '2013-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Environment and Climate Change
+    country: Kenya

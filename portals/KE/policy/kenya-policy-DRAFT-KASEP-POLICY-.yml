@@ -1,0 +1,36 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-DRAFT-KASEP-POLICY-14.3.2022.pdf
+  dataseturi: https://kilimo.go.ke/wp-content/uploads/2022/03/DRAFT-KASEP-POLICY-14.3.2022.pdf
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'KASEP - Draft Kenya Agricultural Sector Extension Policy
+
+    '
+  abstract: 'The policy will enable the extension service to realize its vision: -Kenyan
+    agricultural extension clientele demand and access appropriate quality extension
+    services from the best providers and attain higher productivity, increased incomes
+    and improved standard of living-. Recognizes that Information technology and digital
+    technologies for extension services - key in reshaping the agri-food
+
+
+    '
+  dates:
+    creation: '2022-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Co-operatives
+    country: Kenya
+distribution:
+  url:
+    url: https://kilimo.go.ke/wp-content/uploads/2022/03/DRAFT-KASEP-POLICY-14.3.2022.pdf
+    name: 'KASEP - Draft Kenya Agricultural Sector Extension Policy
+
+      '

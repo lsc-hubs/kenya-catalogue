@@ -1,0 +1,26 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af32-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Community Land Act No. 27
+
+    '
+  abstract: 'Aims at sustainable conservation of land based natural resources within
+    community land across counties
+
+
+    '
+  dates:
+    creation: '2016-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Lands
+    country: Kenya

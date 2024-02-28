@@ -1,0 +1,26 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af24-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Agricultural Policy 2021
+
+    '
+  abstract: 'Gives direction on how watershed development, agro-forestry, soil and
+    water management e.t.c. are to be managed for agricultural sustainability
+
+
+    '
+  dates:
+    creation: '2021-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya

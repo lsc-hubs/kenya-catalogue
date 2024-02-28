@@ -1,0 +1,31 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-2065
+  dataseturi: https://repository.kippra.or.ke/handle/123456789/2065
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'Kenya Climate Smart Agriculture Implementation Framework
+
+    '
+  abstract: 'The framework sets for strategies on how to increasing productivity,
+    enhance resilience and mitigate GHG in farming systems.
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: County Government (Department of Agriculture)
+    country: Kenya
+distribution:
+  url:
+    url: https://repository.kippra.or.ke/handle/123456789/2065
+    name: 'Kenya Climate Smart Agriculture Implementation Framework
+
+      '

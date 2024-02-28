@@ -1,0 +1,45 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-KSHC%20policy%20brief%204-FINAL-210115.pdf)
+  dataseturi: https://www.kalro.org/kalroknowledgebank/factsheets/KSHC%20policy%20brief%204-FINAL-210115.pdf)
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'Soil Health Research and Development in Kenya; Challenges, Opportunities
+    and Policy Options
+
+    '
+  abstract: 'Agricultural production has stagnated over the years in Kenya while food
+    consumption continues to increase with increasing population. The stagnation of
+    agricultural production is as a result of poor soil health, driven by inadequate
+    use of Integrated Soil Fertility Management (ISFM) inputs and innovations, poor
+    extension service and uncoordinated research and development programmes leading
+    to low adoption of ISFM innovations. While excellent progress has been made in
+    improved seeds and planting materials and crop pests and diseases control, limited
+    access to and low adoption of ISFM innovations has continued to hinder achievement
+    of optimal agricultural production. The analysis in this policy brief recommends:
+    Improvement of access to and adoption of ISFM innovations through appropriate
+    government policies that would ensure availability and affordability of ISFM inputs
+    through support of relevant supply markets
+
+
+    '
+  dates:
+    creation: '2014-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Kalro
+    country: Kenya
+distribution:
+  url:
+    url: https://www.kalro.org/kalroknowledgebank/factsheets/KSHC%20policy%20brief%204-FINAL-210115.pdf)
+    name: 'Soil Health Research and Development in Kenya; Challenges, Opportunities
+      and Policy Options
+
+      '

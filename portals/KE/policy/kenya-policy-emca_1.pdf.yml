@@ -1,0 +1,31 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-emca_1.pdf
+  dataseturi: https://eregulations.invest.go.ke/media/emca_1.pdf
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'Environment and Management and Coordination Act
+
+    '
+  abstract: 'Prevent pollution and ecological degradation
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: NEMA; Pest control service board (PCSB) Environment and natural
+      resource body
+    country: Kenya
+distribution:
+  url:
+    url: https://eregulations.invest.go.ke/media/emca_1.pdf
+    name: 'Environment and Management and Coordination Act
+
+      '

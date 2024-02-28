@@ -1,0 +1,32 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-sustainable-development-goals
+  dataseturi: https://www.undp.org/sustainable-development-goals
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'SDGs - Sustainable Development Goals
+
+    '
+  abstract: 'SDG 2 Hunger. SDG 13 Climate Action SDG 15 Life of Land and SDG 17 Partnership
+    They strive for the reduction of climate change and poverty, and the improvement
+    of health, and economic growth including agriculture
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Devolution
+    country: Kenya
+distribution:
+  url:
+    url: https://www.undp.org/sustainable-development-goals
+    name: 'SDGs - Sustainable Development Goals
+
+      '

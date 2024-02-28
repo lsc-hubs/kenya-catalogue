@@ -1,0 +1,24 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af2d-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'National Food and Nutrition Security Policy
+
+    '
+  abstract: "To advance the national food safety system to prevent, detect and manage\
+    \ food safety risks for protection of human health and promotion of food trade\
+    \ consistent with national, regional and international requirements \n\n"
+  dates:
+    creation: '2011-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya

@@ -1,0 +1,50 @@
+mcf:
+    version: "1.0"
+
+metadata:
+{% if 'url' in md %}
+    {% if md['url'].split('/').pop() not in [None,''] %}
+    identifier: kenya-policy-{{ md['url'].split('/').pop() }}
+    {% endif %}
+    {% if md['url'].startswith('http') %}
+    dataseturi: {{ md['url'] }}
+    {% endif %}
+{% endif %}
+    language: en
+    charset: utf8
+    hierarchylevel: policy
+
+identification:
+    language: en
+    charset: utf8
+    title: |+
+        {{ md['title'] }}
+    abstract: |+
+        {{ md['description'] }}
+    {% if 'year' in md %}
+    dates:
+       'creation': '{{ md['year'].split('-')[0] }}-01-01'
+    {% endif %}
+    topiccategory:
+        - Farming
+
+{% if 'year' in md and md['year'].split('-') | length == 2  %}    
+    extents:
+        temporal:
+            - begin: {{ md['year'].split('-')[0] }}
+              end: {{ md['year'].split('-')[1] }} 
+    status: Completed
+{% endif %}
+
+contact:
+    publisher: 
+        organization: "{{ md['organisation'] }}"
+        country: Kenya
+
+{% if 'url' in md and md['url'].startswith('http')  %}
+distribution:
+    url:
+        url: {{ md['url'] }}
+        name: |+
+            {{ md['title'] }}
+{% endif %}

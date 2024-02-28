@@ -1,0 +1,34 @@
+mcf:
+  version: '1.0'
+metadata:
+  dataseturi: https://www.odpc.go.ke/dpa-act/
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: www.odpc.go.ke-dpa-act-
+identification:
+  language: en
+  charset: utf8
+  title: 'Data protection Act
+
+    '
+  abstract: 'Provides for international and external data sharing guidelines. Gives
+    the process of safeguarding personal information, in accordance with a set of
+    principles laid down by law.
+
+
+    '
+  dates:
+    creation: '2019-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of ICT and affiliated County Departments
+    country: Kenya
+distribution:
+  url:
+    url: https://www.odpc.go.ke/dpa-act/
+    name: 'Data protection Act
+
+      '

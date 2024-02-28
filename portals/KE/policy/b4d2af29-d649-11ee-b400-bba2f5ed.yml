@@ -1,0 +1,23 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af29-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'National Agricultural Research Systems Policy
+
+    '
+  abstract: "To promote an innovative, commercially- oriented, and modern agricultural\
+    \ sector \n\n"
+  dates:
+    creation: '2012-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya

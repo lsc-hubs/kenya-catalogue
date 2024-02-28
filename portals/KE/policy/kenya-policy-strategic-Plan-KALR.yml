@@ -1,0 +1,51 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-strategic-Plan-KALRO-2017-2021.pdf
+  dataseturi: https://www.kalro.org/sites/default/files/strategic-Plan-KALRO-2017-2021.pdf
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'KALRO strategic plan
+
+    '
+  abstract: "Agriculture contributes about 26% directly to the Gross Domestic Product\
+    \ (GDP) and a further 25% indirectly through linkages with agro-based and associated\
+    \ industries. Thus the agricultural sector is a major driver of Kenya\u2019s economy\
+    \ and livelihood for the majority of the population. The sector accounts for 65%\
+    \ of the national total exports and provides more than 70% of informal employment\
+    \ in the rural areas. It is estimated that the sector on average contributed 1.17%\
+    \ GDP growth in the overall economy between 2010 and 2016. The country\u2019s\
+    \ Vision 2030 has set a target to increase growth in agricultural output by a\
+    \ sustained 7% and above per year in order to propel the national economic growth\
+    \ to 10% per annum. Improvements in total factor productivity are expected to\
+    \ contribute to about 3% of agricultural productivity, with the remainder coming\
+    \ from increased investments. The increase in productivity will not only ensure\
+    \ that the government achieves targets set by the Vision 2030 but also the East\
+    \ African Community (EAC) Vision 2050, Africa Union\u2019s Agenda 2063 and the\
+    \ Sustainable Development Goals (SDGs). The objective of the Strategic Plan is\
+    \ to ensure that through collaborative efforts, agricultural and livestock research\
+    \ contributes to accelerated growth in total factor productivity through generation\
+    \ of technologies, innovation and knowledge\n\n"
+  dates:
+    creation: '2017-01-01'
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2017
+      end: 2021
+  status: Completed
+contact:
+  publisher:
+    organization: Kalro
+    country: Kenya
+distribution:
+  url:
+    url: https://www.kalro.org/sites/default/files/strategic-Plan-KALRO-2017-2021.pdf
+    name: 'KALRO strategic plan
+
+      '

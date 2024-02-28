@@ -1,0 +1,24 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af2a-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Draft National Land Use Policy
+
+    '
+  abstract: "To provide legal, administrative, institutional and technological framework\
+    \ for optimal utilization and productivity of land related resources in a sustainable\
+    \ and desirable manner at national, county and community levels. \n\n"
+  dates:
+    creation: '2016-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Lands
+    country: Kenya

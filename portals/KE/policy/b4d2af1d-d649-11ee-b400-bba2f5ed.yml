@@ -1,0 +1,25 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af1d-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'KMD Data policy
+
+    '
+  abstract: 'Ensure quality and strengthen, collection, transmission, analysis, processing
+    archiving, exchange and application of national meteorological data using best
+    practices
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Kenya Meteorological Department
+    country: Kenya

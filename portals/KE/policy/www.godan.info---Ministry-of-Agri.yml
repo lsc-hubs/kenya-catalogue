@@ -1,0 +1,33 @@
+mcf:
+  version: '1.0'
+metadata:
+  dataseturi: https://www.godan.info/
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: www.godan.info-
+identification:
+  language: en
+  charset: utf8
+  title: 'Ministry of Agriculture - Global open data for agriculture and nutrition,
+    mandate (GODAN)
+
+    '
+  abstract: 'Facilitate or make available data collated or collected using public
+    funds
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Co-operatives
+    country: Kenya
+distribution:
+  url:
+    url: https://www.godan.info/
+    name: 'Ministry of Agriculture - Global open data for agriculture and nutrition,
+      mandate (GODAN)
+
+      '

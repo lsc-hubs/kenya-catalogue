@@ -1,0 +1,30 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af1c-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'County Integrated Development Plan (CIDP)
+
+    '
+  abstract: 'Guide for county development strategies and priority actions
+
+
+    '
+  dates:
+    creation: 2018 -01-01
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2018
+      end: 2022
+  status: Completed
+contact:
+  publisher:
+    organization: County Government
+    country: Kenya

@@ -1,0 +1,31 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af23-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'KEPHIS Strategic Plan
+
+    '
+  abstract: 'To protect agricultural crops from pests and diseases in order to contribute
+    towards improved levels of agricultural productivity.
+
+
+    '
+  dates:
+    creation: 2022 -01-01
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2022
+      end: 2027
+  status: Completed
+contact:
+  publisher:
+    organization: KEPHIS
+    country: Kenya

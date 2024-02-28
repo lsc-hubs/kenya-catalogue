@@ -1,0 +1,37 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-2800
+  dataseturi: https://repository.kippra.or.ke/handle/123456789/2800
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'Kenya Broadband Policy
+
+    '
+  abstract: 'Develop e-agriculture systems to improve food security
+
+
+    '
+  dates:
+    creation: '2018-01-01'
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2018
+      end: 2023
+  status: Completed
+contact:
+  publisher:
+    organization: Ministry of ICT
+    country: Kenya
+distribution:
+  url:
+    url: https://repository.kippra.or.ke/handle/123456789/2800
+    name: 'Kenya Broadband Policy
+
+      '

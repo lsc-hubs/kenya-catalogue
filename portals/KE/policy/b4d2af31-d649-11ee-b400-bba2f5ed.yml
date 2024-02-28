@@ -1,0 +1,27 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af31-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'National Wildlife Conservation andManagement Policy
+
+    '
+  abstract: 'Goal is the sustainable management of wildlife resources and their ecological
+    and land resources to contribute to the sustainable development of the country;
+    and enhance the quality of human life.
+
+
+    '
+  dates:
+    creation: '2017-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Environment and Climate Change
+    country: Kenya

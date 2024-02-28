@@ -1,0 +1,21 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af19-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'County Climate Service Plan
+
+    '
+  abstract: "Deliver, accessible, timely climate information which support county\
+    \ and sub-county develop decision process for the benefit of livelihoods \n\n"
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: County meteorological directorate
+    country: Kenya

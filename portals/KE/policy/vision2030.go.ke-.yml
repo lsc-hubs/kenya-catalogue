@@ -1,0 +1,32 @@
+mcf:
+  version: '1.0'
+metadata:
+  dataseturi: https://vision2030.go.ke/
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: vision2030.go.ke-
+identification:
+  language: en
+  charset: utf8
+  title: 'Public Service Code of Conduct
+
+    '
+  abstract: 'Guides on how civil servants needs to safeguard public information
+
+
+    '
+  dates:
+    creation: '2003-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: All government ministries
+    country: Kenya
+distribution:
+  url:
+    url: https://vision2030.go.ke/
+    name: 'Public Service Code of Conduct
+
+      '

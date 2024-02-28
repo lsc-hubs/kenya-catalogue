@@ -1,0 +1,25 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af0e-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Vision 2030 policy
+
+    '
+  abstract: 'Transform Kenya into a newly-industrialising, middle income country providing
+    a high quality of life to all its citizens in a clean and secure environment (one
+    of the areas of intervention is fertilizer subsidies)
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Devolution
+    country: Kenya

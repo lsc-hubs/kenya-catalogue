@@ -1,0 +1,30 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-county-integrated-development-plans
+  dataseturi: https://www.devolution.go.ke/county-integrated-development-plans
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'CIDP - County Integrated development Plans
+
+    '
+  abstract: 'Guide for county development strategies and priority actions
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: County Government
+    country: Kenya
+distribution:
+  url:
+    url: https://www.devolution.go.ke/county-integrated-development-plans
+    name: 'CIDP - County Integrated development Plans
+
+      '

@@ -1,0 +1,27 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af34-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Irrigation Policy
+
+    '
+  abstract: 'To transform the irrigation sector through accelerated development, modernization
+    and commercialization of sustainable irrigation systems and water storage for
+    attainment of food security
+
+
+    '
+  dates:
+    creation: '2015-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministery of agriculture
+    country: Kenya

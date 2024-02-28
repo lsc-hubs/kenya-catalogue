@@ -1,0 +1,25 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af2c-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'National Agriculture Policy, Fisheries and Ocean Policy
+
+    '
+  abstract: "Proposed the adoption of risk management measures in the sub-sector that\
+    \ will promote the development of appropriate Fisheries, Aquaculture and Blue\
+    \ Economy insurance packages as one of the safety nets available for the players\
+    \ in the industry \n\n"
+  dates:
+    creation: '2008-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya

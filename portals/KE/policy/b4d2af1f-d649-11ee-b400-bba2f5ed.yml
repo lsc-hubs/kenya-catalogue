@@ -1,0 +1,34 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af1f-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Agricultural sector transformation and growth strategy
+
+    '
+  abstract: 'A vibrant, commercial and modern agricultural sector that sustainably
+    supports Kenya-s development Strengthen research and innovation, and launch priority
+    digital and data use cases for better decision-making and performance management
+    Define data laws and set up open data platforms for agricultural data at national
+    and county levels
+
+
+    '
+  dates:
+    creation: 2019 -01-01
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2019
+      end: 2022
+  status: Completed
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya

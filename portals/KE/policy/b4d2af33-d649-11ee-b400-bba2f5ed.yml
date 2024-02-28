@@ -1,0 +1,27 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af33-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'Kenya Agricultural and Livestock Research Act No. 17
+
+    '
+  abstract: 'Provide for the establishment and functions of the Kenya Agricultural
+    and Livestock Research Organization; and to provide for the co-ordination of agricultural
+    research activities in Kenya, and for connected purposes
+
+
+    '
+  dates:
+    creation: '2013-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: KALRO
+    country: Kenya

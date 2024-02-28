@@ -1,0 +1,35 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-1728
+  dataseturi: https://repository.kippra.or.ke/handle/123456789/1728
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'National ICT Policy
+
+    '
+  abstract: 'Key sectors, including agriculture must converge towards a consistent,
+    coherent data-centric approach (informatisation) To facilitate universal access
+    to ICT infrastructure and services all over the country, with a focus on Mobile
+    First; Markets; Skills and Innovation; and Public Service Delivery
+
+
+    '
+  dates:
+    creation: '2019-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Information, Communications and Technology
+    country: Kenya
+distribution:
+  url:
+    url: https://repository.kippra.or.ke/handle/123456789/1728
+    name: 'National ICT Policy
+
+      '

@@ -1,0 +1,31 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-ASTGS-Full-Version-1.pdf
+  dataseturi: https://www.agck.or.ke/Downloads/ASTGS-Full-Version-1.pdf
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'ASTGS - Agricultural sector transformation growth strategy
+
+    '
+  abstract: 'Strengthen research and innovation - launch priority digital and data
+    use cases to better drive decision making and performance management
+
+
+    '
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture and Livestock
+    country: Kenya
+distribution:
+  url:
+    url: https://www.agck.or.ke/Downloads/ASTGS-Full-Version-1.pdf
+    name: 'ASTGS - Agricultural sector transformation growth strategy
+
+      '

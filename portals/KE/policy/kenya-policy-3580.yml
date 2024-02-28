@@ -1,0 +1,37 @@
+mcf:
+  version: '1.0'
+metadata:
+  identifier: kenya-policy-3580
+  dataseturi: https://repository.kippra.or.ke/handle/123456789/3580
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+identification:
+  language: en
+  charset: utf8
+  title: 'Kenya Digital Master Plan
+
+    '
+  abstract: 'Automation of critical Government services including agriculture
+
+
+    '
+  dates:
+    creation: '2022-01-01'
+  topiccategory:
+  - Farming
+  extents:
+    temporal:
+    - begin: 2022
+      end: 2032
+  status: Completed
+contact:
+  publisher:
+    organization: Ministry of ICT
+    country: Kenya
+distribution:
+  url:
+    url: https://repository.kippra.or.ke/handle/123456789/3580
+    name: 'Kenya Digital Master Plan
+
+      '

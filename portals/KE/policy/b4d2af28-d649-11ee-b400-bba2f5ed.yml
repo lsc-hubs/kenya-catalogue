@@ -1,0 +1,25 @@
+mcf:
+  version: '1.0'
+metadata:
+  language: en
+  charset: utf8
+  hierarchylevel: policy
+  identifier: b4d2af28-d649-11ee-b400-bba2f5ed55a3
+identification:
+  language: en
+  charset: utf8
+  title: 'National Agricultural Soil Management Policy
+
+    '
+  abstract: "Aims to facilitate restoration and maintenance of agricultural soils\
+    \ in order to increase productivity, improve food security and contribute to poverty\
+    \ reduction while conserving the soil and water resources for future generation.\
+    \ \n\n"
+  dates:
+    creation: '2022-01-01'
+  topiccategory:
+  - Farming
+contact:
+  publisher:
+    organization: Ministry of Agriculture, Livestock, Fisheries and Cooperatives
+    country: Kenya
