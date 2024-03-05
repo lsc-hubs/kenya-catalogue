@@ -5,7 +5,7 @@ metadata:
   hierarchylevel: dataset
   dataseturi: https://explorer.digitalearth.africa/products/cgls_landcover
 identification:
-  title: Land Use/Land Cover at 100m(Copernicus)
+  title: Land Use/Land Cover at 100m (Copernicus)
   abstract: Copernicus Global Land Service, Land Use/Land Cover at 100 m
   keywords:
     lsc:
