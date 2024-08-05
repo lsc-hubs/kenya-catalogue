@@ -74,15 +74,8 @@ distribution:
     function: download
   link-1:
     url: https://maps.isric.org/mapserv?map=/map/af250m_nutrient.map
-    type: OGC:WMS
-    name: af250m_nutrient_ncluster_m
-    description: null
-    function: information
-  link-1:
-    url: https://maps.isric.org/mapserv?map=/map/af250m_nutrient.map
     type: OGC:WCS
     name: af250m_nutrient_ncluster_m
-    description: null
     function: information
   link-2:
     url: https://isric.org/projects/africa-soilgrids-soil-nutrient-maps-sub-saharan-africa-250-m-resolution
