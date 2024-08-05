@@ -75,7 +75,7 @@ distribution:
   link-1:
     url: https://maps.isric.org/mapserv?map=/map/af250m_nutrient.map
     type: OGC:WMS
-    name: Add layer to map
+    name: 
     description: null
     function: information
   link-2:
