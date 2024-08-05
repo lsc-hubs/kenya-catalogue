@@ -1,0 +1,42 @@
+mcf:
+    version: 1.0
+
+metadata:
+  identifier: PlantwisePlus
+  language: english
+  charset: utf8
+  hierarchylevel: dataset
+  datestamp: 2024-08-01
+
+identification:
+  language: english
+  charset: utf8
+  title: PlantwisePlus Knowledge Bank
+  abstract: A database on global and country-specific advice on crop health and pest management. The PlantwisePlus Knowledge Bank links all actors in the plant health system to the information they need for timely action against crop pests and diseases.
+  keywords:
+    lsc:
+      keywords:
+      - Crop
+      vocabulary:
+        name: LSC categories
+        url: https://lsc-hubs.org/tags/
+  topiccategory:
+  - geoscientificInformation
+contact:
+  pointOfContact: 
+    email: cabieurope-uk@cabi.org
+    organization: CABI
+    address: Bakeham Lane
+    postalcode: TW20 9TY
+    url: https://cabi.org
+    phone: "+44 1491 829080"
+    city: Egham, Surrey
+    country: UK
+
+distribution:
+  cropnuts:
+    name: plantwise-knowledge-bank
+    description: plantwise-knowledge-bank
+    url: https://plantwiseplustoolkit.org/browse-tools/plantwise-knowledge-bank/
+    type: www
+
