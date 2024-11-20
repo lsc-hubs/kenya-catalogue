@@ -65,12 +65,12 @@ distribution:
     name: Agro climatic zones
     type: shp
   WMS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/vector?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: Agro_climatic_zones
     description: ''
   WFS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WFS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/vector?service=WFS&amp;request=GetCapabilities
     type: OGC:WFS
     name: Agro_climatic_zones
     description: ''

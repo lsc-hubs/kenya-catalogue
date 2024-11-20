@@ -43,12 +43,12 @@ distribution:
     type: WWW:LINK
     name: sand_Q0.05_0-20cm.tif
   WMS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/sand?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/sand?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: sand_Q0.05_0-20cm
     description: ''
   WCS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/sand?service=WCS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/sand?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: sand_Q0.05_0-20cm
     description: ''

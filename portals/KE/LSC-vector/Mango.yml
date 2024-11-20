@@ -65,12 +65,12 @@ distribution:
     name: Mango
     type: tif
   WMS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/vector?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: Mango
     description: ''
   WCS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WCS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/vector?service=WCS&amp;request=GetCapabilities
     type: OGC:WCS
     name: Mango
     description: ''

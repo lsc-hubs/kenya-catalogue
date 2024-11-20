@@ -65,12 +65,12 @@ distribution:
     name: Potato suitability
     type: shp
   WMS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WMS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/vector?service=WMS&amp;request=GetCapabilities
     type: OGC:WMS
     name: Potato_suitability
     description: ''
   WFS:
-    url: https://kenya.lsc-hubs.org/ows/kenya/vector?service=WFS&amp;request=GetCapabilities
+    url: https://kenya.lsc-hubs.org/ows/vector?service=WFS&amp;request=GetCapabilities
     type: OGC:WFS
     name: Potato_suitability
     description: ''
