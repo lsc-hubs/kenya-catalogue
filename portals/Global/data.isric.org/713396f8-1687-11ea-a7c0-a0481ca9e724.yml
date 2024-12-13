@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 713396f8-1687-11ea-a7c0-a0481ca9e724
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/713396f8-1687-11ea-a7c0-a0481ca9e724/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2021-11-18T14:59:37'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,15 +32,6 @@ identification:
       type: place
       keywords:
       - Global
-  title: SoilGrids250m 2.0 - Coarse fragments volumetric
-  abstract: "Coarse fragments volumetric in \u2031 at 6 standard depths. Predictions\
-    \ were derived using a digital soil mapping approach based on Quantile Random\
-    \ Forest, drawing on a global compilation of soil profile data and environmental\
-    \ layers. To visualize these layers please use www.soilgrids.org."
-  dates:
-    publication: '2020-05-04'
-  topiccategory:
-  - geoscientificInformation
   extents:
     spatial:
     - bbox:
@@ -51,6 +42,15 @@ identification:
     temporal:
     - begin: '1905-04-01'
       end: '2016-07-05'
+  title: SoilGrids250m 2.0 - Coarse fragments volumetric
+  abstract: "Coarse fragments volumetric in \xE2\u20AC\xB1 at 6 standard depths. Predictions\
+    \ were derived using a digital soil mapping approach based on Quantile Random\
+    \ Forest, drawing on a global compilation of soil profile data and environmental\
+    \ layers. To visualize these layers please use www.soilgrids.org."
+  dates:
+    publication: '2020-05-04'
+  topiccategory:
+  - geoscientificInformation
   accessconstraints: license
   status: Completed
 distribution:
@@ -222,6 +222,7 @@ distribution:
     name: Scientific paper
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

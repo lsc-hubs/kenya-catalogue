@@ -34,7 +34,7 @@ identification:
       - 6.000003
       - 92.67366
       - 26.631954
-      crs: '4326'
+      crs: 4326
   rights: ''
   fees: ''
 contact:

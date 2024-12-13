@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: 60e38d53-6958-408f-b674-8abbaf743fa8
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/60e38d53-6958-408f-b674-8abbaf743fa8/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-06-28T12:57:10'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - Clay total
   abstract: "Gravimetric content of less than X mm soil material in the fine earth\
     \ fraction* (e.g. X = 0.002 mm as specified in the analytical method description)\
@@ -55,16 +65,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -98,6 +98,7 @@ distribution:
     name: wosis_latest_clay
     description: WoSIS latest - Clay total
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

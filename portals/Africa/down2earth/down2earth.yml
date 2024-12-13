@@ -38,7 +38,7 @@ identification:
     keywords-2:
       type: place
       keywords:
-        regional
+        - Regional
   topiccategory:
   - geoscientificInformation
   extents:

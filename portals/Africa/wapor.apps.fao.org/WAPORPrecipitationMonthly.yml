@@ -29,7 +29,7 @@ identification:
       - -40.05
       - 65.05
       - 40.05
-      crs: '4326'
+      crs: 4326
   rights: ''
   fees: ''
 contact:

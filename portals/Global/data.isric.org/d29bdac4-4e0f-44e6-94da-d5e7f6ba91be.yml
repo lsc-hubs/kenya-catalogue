@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: d29bdac4-4e0f-44e6-94da-d5e7f6ba91be
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/d29bdac4-4e0f-44e6-94da-d5e7f6ba91be/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2022-06-28T12:35:20'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil chemicophysical properties
+      - soil chemicophysical properties, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -173.2
+      - -78.5
+      - 178.5
+      - 80.0
+    temporal:
+    - begin: '1918-01-01'
+      end: '2013-02-12'
   title: WoSIS latest - Coarse fragments gravimetric total
   abstract: "Gravimetric content of coarse fragments* in the whole soil (g/100g).\n\
     \       \nISRIC is developing a centralized and user\u2013focused server database,\
@@ -51,16 +61,6 @@ identification:
     publication: '2020-05-01'
   topiccategory:
   - geoscientificInformation
-  extents:
-    spatial:
-    - bbox:
-      - -173.2
-      - -78.5
-      - 178.5
-      - 80.0
-    temporal:
-    - begin: '1918-01-01'
-      end: '2013-02-12'
   accessconstraints: license
   status: On going
 distribution:
@@ -94,6 +94,7 @@ distribution:
     name: wosis_latest_cfgr
     description: WoSIS latest - Coarse fragments gravimetric total
     function: null
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information

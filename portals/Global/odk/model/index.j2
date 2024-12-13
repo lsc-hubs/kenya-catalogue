@@ -1,0 +1,74 @@
+mcf:
+    version: "1.0"
+
+metadata:
+    identifier: {{ md['Identification'] }}
+    {% if md['Identification'].startswith('http') %}
+    dataseturi: {{ md['Identification'] }}
+    {% endif %}
+    language: {{ md['Language'] }}
+    charset: utf8
+    hierarchylevel: model
+
+spatial:
+    resolution:  {{ md['Spatial resolution'] }}
+    datatype: {{ md['Spatial format'] }}
+
+identification:
+    language: {{ md['Language'] }}
+    charset: utf8
+    title: "{{ md['Title'] }}"
+    abstract: |+
+        {{ md['Abstract'] }}
+    dates:
+       'creation': '{{ md['Year'] }}-01-01'
+    keywords:
+        default:
+            keywords: [{{ md['Keywords'] }}]
+        spatialscope:
+            keywords: [{{ md['Extent (category)'] }}]
+            vocabulary:
+                    name: Spatial scope
+                    url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+        theme:
+            keywords: [{{ md['Data category'] }}]
+            vocabulary:
+                name: LSC tags
+                url: https://lsc-hubs.org/tags/
+        lsc:
+            keywords: [{{ md['LSC category'] }}]
+            vocabulary:
+                name: LSC categories
+                url: https://lsc-hubs.org/tags/
+    topiccategory:
+        - geoscientificInformation
+    extents:
+        temporal:
+            - begin: "{{ md['Year'] }}"
+    status: Completed
+    source: {{ md['Source'] }}
+
+contact:
+    {{ md['Contact - Role'] or "pointOfContact" }}: 
+        organization: "{{ md['Contact - Organization'] }}"
+        individualname: "{{ md['Contact - Name'] }}"
+        country: Kenya
+        email: {{ md['Contact - Email'] }}
+
+distribution:
+{% if md['Paper or Report'] %}
+    citation:
+        name: Citation
+        description: "{{ md['Citation'] }}"
+        url: "{{ md['Paper or Report'] }}"
+{% endif %}
+{% if md['Format'] %}
+    {{md['Format'] | lower or 'dl1'}}:
+        url: {{ md['Identification'] }}
+        type: {% if md['Format'].upper() in ['WMS','WFS','WCS'] 
+                %}ogc:{% elif md['Format'].upper() in ['HTML'] 
+                %}text/{% elif md['Format'].upper() in ['PNG','TIF','JPG'] 
+                %}image/{% else %}application/{% endif %}{{ md['Format'] | lower }}
+        name: {{ md['Format']}}
+        description: {{ md['Identification'] }}
+{% endif %}

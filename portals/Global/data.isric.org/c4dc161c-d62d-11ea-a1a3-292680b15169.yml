@@ -3,8 +3,8 @@ mcf:
 metadata:
   identifier: c4dc161c-d62d-11ea-a1a3-292680b15169
   dataseturi: https://data.isric.org/geonetwork/srv/metadata/c4dc161c-d62d-11ea-a1a3-292680b15169/formatters/xml
-  hierarchylevel: dataset
   datestamp: '2021-11-18T15:16:17'
+  hierarchylevel: dataset
 identification:
   keywords:
     lsc:
@@ -15,7 +15,7 @@ identification:
         url: https://lsc-hubs.org/categories/
     tags:
       keywords:
-      - soil types
+      - soil types, soil fertility, soil water conservation
       vocabulary:
         name: LSC tags
         url: https://lsc-hubs.org/tags/
@@ -32,6 +32,16 @@ identification:
       type: place
       keywords:
       - Global
+  extents:
+    spatial:
+    - bbox:
+      - -180.0
+      - -56.0
+      - 180.0
+      - 84.0
+    temporal:
+    - begin: '1905-04-01'
+      end: '2016-07-05'
   title: SoilGrids250m 2.0 - WRB classes and probabilites
   abstract: "WRB classes and probabilites. Predictions were derived using a digital\
     \ soil mapping approach based on Random Forest, drawing on a global compilation\
@@ -46,16 +56,6 @@ identification:
   dates:
     publication: '2020-05-04'
   topiccategory: []
-  extents:
-    spatial:
-    - bbox:
-      - -180.0
-      - -56.0
-      - 180.0
-      - 84.0
-    temporal:
-    - begin: '1905-04-01'
-      end: '2016-07-05'
   accessconstraints: license
   status: Completed
 distribution:
@@ -269,6 +269,7 @@ distribution:
     name: Scientific paper
     description: null
     function: information
+content_info: {}
 contact:
   pointOfContact:
     organization: ISRIC - World Soil Information
