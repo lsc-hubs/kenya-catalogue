@@ -6,3 +6,7 @@ identification:
       vocabulary:
         name: Spatial scope
         url: https://inspire.ec.europa.eu/metadata-codelist/SpatialScope
+  extents:
+    spatial:
+      - bbox: [-180,-90,180,90]
+        crs: 4326

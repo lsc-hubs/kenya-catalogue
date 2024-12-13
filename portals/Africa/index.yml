@@ -1,4 +1,8 @@
 identification:
+  extents:
+    spatial:
+      - bbox: [-23,-34,55.7,39.5]
+        crs: 4326
   keywords:
     spatialscope:
       keywords:
